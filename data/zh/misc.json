@@ -356,9 +356,9 @@
  {
   "id": "SacrificialFire",
   "group": null,
-  "zh": null,
+  "zh": "献祭之火",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "这是一个承载着献祭之火的祭坛。在此殒命的生物都将成为献给地牢幽魂的祭品。\\n\\n或许献祭够多，就能得到回报？",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -423,7 +423,7 @@
   "group": null,
   "zh": "觉察之井",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "知识的力量正在从这口井的水里涌出。饮下井中的水将会鉴定所有已装备的物品、探测背包中所有物品的诅咒并揭示本层所有物品的位置。",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -438,7 +438,7 @@
   "group": null,
   "zh": "治疗之井",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "生命的力量正在从这口井的水里涌出。饮下井中的水可以治疗伤口、解除饥饿并净化所有已装备物品的诅咒。",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {

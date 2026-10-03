@@ -288,9 +288,9 @@
   {
    "id": "Affection",
    "group": "护甲印记",
-   "zh": null,
+   "zh": "魅惑%s",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "这个强力的刻印能够操控攻击者的心智，暂时地魅惑他们。",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -335,9 +335,9 @@
   {
    "id": "AntiEntropy",
    "group": "护甲印记",
-   "zh": null,
+   "zh": "反熵%s",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "反熵诅咒与宇宙法则背道而驰，会抽离周遭的热量并汇集到穿戴者身上。这会使穿戴者短暂地燃烧，并冻结周围的一切！",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -414,7 +414,7 @@
   {
    "id": "Bag",
    "group": "容器",
-   "zh": null,
+   "zh": "背包",
    "en": null,
    "zhDesc": null,
    "enDesc": null,
@@ -671,9 +671,9 @@
   {
    "id": "Displacement",
    "group": "护甲印记",
-   "zh": null,
+   "zh": "定相%s",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "定相诅咒会在穿戴者受到攻击时试图将其传送到安全地带。不过，过强的威力反倒会导致使用者被随机传送到层内各处。",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -714,9 +714,9 @@
   {
    "id": "Entanglement",
    "group": "护甲印记",
-   "zh": null,
+   "zh": "缠绕%s",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "这个刻印会在使用者周围生出能吸收伤害的地根护甲。这种地根护甲会在使用者移动后散落失效。",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -748,9 +748,9 @@
   {
    "id": "Fire",
    "group": "武器附魔",
-   "zh": null,
+   "zh": "火焰",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "一团火焰正在这里肆虐。",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -811,7 +811,7 @@
    "group": null,
    "zh": "金币",
    "en": "gold",
-   "zhDesc": null,
+   "zhDesc": "一堆金币。收集金币以在随后的商店中消费。",
    "enDesc": null,
    "sprite": {
     "sheet": "items",
@@ -972,7 +972,7 @@
    "group": "钥匙",
    "zh": "铁钥匙",
    "en": "iron key",
-   "zhDesc": null,
+   "zhDesc": "这个铁钥匙的匙齿已经严重磨损；皮制系带也久经年岁摧残。它对应的是哪扇门呢?",
    "enDesc": null,
    "sprite": {
     "sheet": "items",
@@ -1254,9 +1254,9 @@
   {
    "id": "Metabolism",
    "group": "护甲印记",
-   "zh": null,
+   "zh": "代谢%s",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "代谢诅咒在穿戴者受伤时能直接将饱腹度转化为生命值，提供额外的治疗，但你会很快陷入饥饿之中。",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -1290,9 +1290,9 @@
   {
    "id": "Multiplicity",
    "group": "护甲印记",
-   "zh": null,
+   "zh": "分身%s",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "带有分身诅咒的防具含有一种危险的复制魔法。有时候它会复制出穿戴者的镜像，但也有同等几率复制攻击者！",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -1333,9 +1333,9 @@
   {
    "id": "Paralysis",
    "group": "武器附魔",
-   "zh": null,
+   "zh": "麻痹",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "通常最坏的事就是什么事都做不出来。\\n\\n麻痹会制止目标的一切行动，迫使目标静等到效果消失。受伤导致的疼痛也有助于目标摆脱麻痹。\\n\\n麻痹效果剩余时长：%s回合",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -1415,9 +1415,9 @@
   {
    "id": "Poison",
    "group": "武器附魔",
-   "zh": null,
+   "zh": "中毒",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "毒素传遍全身，缓慢地损伤着各个脏器。\\n\\n毒素每回合造成的伤害与其剩余的回合数成正比。\\n\\n中毒效果剩余时长：%s回合",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -1430,9 +1430,9 @@
   {
    "id": "Potential",
    "group": "护甲印记",
-   "zh": null,
+   "zh": "电势%s",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "这个刻印在被击中时会积蓄能量，在生效时为使用者的法杖充能。",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -2117,9 +2117,9 @@
   {
    "id": "Slow",
    "group": "武器附魔",
-   "zh": null,
+   "zh": "迟缓",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "减速魔法影响了目标的时间流速，在目标眼中所有的事物都移动得飞快。\\n\\n迟缓下的角色执行所有行动花费的时间是正常状态下的两倍。\\n\\n迟缓效果剩余时长：%s回合",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -2146,9 +2146,9 @@
   {
    "id": "Stench",
    "group": "护甲印记",
-   "zh": null,
+   "zh": "恶臭%s",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "带有恶臭诅咒的防具会释放出团团毒雾，对一切来不及逃离的对象造成伤害。",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -2242,9 +2242,9 @@
   {
    "id": "Viscosity",
    "group": "护甲印记",
-   "zh": null,
+   "zh": "粘稠%s",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "这个刻印可以储存对使用者造成的伤害，让使用者缓慢受伤而不是一下子受到重击。",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -2566,7 +2566,7 @@
    "group": null,
    "zh": "酸液蝎蛛",
    "en": "acidic scorpio",
-   "zhDesc": null,
+   "zhDesc": "这种巨大的节肢类恶魔生物不会选择近身缠斗，它们更擅长在远处发射能够致残的锯齿钉刺。这一只的身上甚至还滴落着腐蚀淤泥。",
    "enDesc": null,
    "sprite": {
     "sheet": "scorpio",
@@ -2580,7 +2580,7 @@
    "group": null,
    "zh": "白化巨鼠",
    "en": "albino rat",
-   "zhDesc": null,
+   "zhDesc": "这是一种珍稀的啮齿小鼠，有着纯白色的毛皮和锯齿状的牙齿。",
    "enDesc": null,
    "sprite": {
     "sheet": "rat",
@@ -2594,7 +2594,7 @@
    "group": null,
    "zh": "疯狂强盗",
    "en": "crazy bandit",
-   "zhDesc": null,
+   "zhDesc": "一位小偷中的精英，因其身着更为昂贵的的紫色长袍而与众不同。尽管他们偷技高超，却仍然避免不了像同行一样失去理智的命运。\\n\\n疯狂强盗不仅会偷走你的财物，还会使你短暂失明、残废并中毒！不过他们也比别的小偷更有可能携带额外的战利品。",
    "enDesc": null,
    "sprite": {
     "sheet": "thief",
@@ -2883,7 +2883,7 @@
    "group": null,
    "zh": "资深武僧",
    "en": "senior monk",
-   "zhDesc": null,
+   "zhDesc": "这些僧侣皆是狂热的信徒，倾其所能从一切异族手中保护国王的安全。狂热的信仰使得他们将自己的意志交给了国王，只剩下没有思想的躯壳在城中游荡。\\n\\n这个武僧掌握了精深的格斗技巧，相较于普通的武僧，他能在移动时更快地凝神。凝神的武僧必定会招架一次来袭的物理攻击，哪怕是必中的攻击。武僧在移动时能更快地凝神，在战斗中就相对慢些。",
    "enDesc": null,
    "sprite": {
     "sheet": "monk",
@@ -3021,7 +3021,7 @@
    "group": null,
    "zh": "疯狂盗贼",
    "en": "crazy thief",
-   "zhDesc": null,
+   "zhDesc": "这些囚犯逃出了他们的牢房，却没能逃出这座监牢。随着时间流逝，这座监牢彻底摧毁了他们仅存的心智，以及对自由的向往。这些疯狂的小偷和强盗很久以前就已经彻底忘记它们是谁，以及它们为何偷窃。\\n\\n这些敌人比起面对面地战斗，更倾向于偷走你的财物随后逃之夭夭。一定要看紧它们，否则你以后可能再也不会见到自己的被盗财物了。",
    "enDesc": null,
    "sprite": {
     "sheet": "thief",
@@ -3337,7 +3337,7 @@
    "group": null,
    "zh": "地根草",
    "en": "seed of {plantName}",
-   "zhDesc": null,
+   "zhDesc": "碰到地缚根后，它的根系会在踩踏者周边形成某种无法移动的天然护甲。",
    "enDesc": null,
    "sprite": {
     "sheet": "plants",
@@ -3361,7 +3361,7 @@
    "group": null,
    "zh": "凋零叶",
    "en": "seed of {plantName}",
-   "zhDesc": null,
+   "zhDesc": "任何触碰到消逝草的生物都会被传送到当前层的一个随机地点。",
    "enDesc": null,
    "sprite": {
     "sheet": "plants",
@@ -3383,7 +3383,7 @@
    "group": null,
    "zh": "火焰花",
    "en": "seed of {plantName}",
-   "zhDesc": null,
+   "zhDesc": "烈焰花被任何物品触碰到时，都会化为一团火焰。",
    "enDesc": null,
    "sprite": {
     "sheet": "plants",
@@ -3405,7 +3405,7 @@
    "group": null,
    "zh": "冰帽花",
    "en": "seed of {plantName}",
-   "zhDesc": null,
+   "zhDesc": "冰冠花在被接触到时会喷射出一团能冻结周遭的花粉。冻结效果会在潮湿环境中大幅增强。",
    "enDesc": null,
    "sprite": {
     "sheet": "plants",
@@ -3446,7 +3446,7 @@
    "group": null,
    "zh": "腐浆果",
    "en": "seed of {plantName}",
-   "zhDesc": null,
+   "zhDesc": "未成熟的腐莓丛结出的莓果尝起来更像是甜蜜的死亡。经过成年累月的生长，这株腐莓丛终会成熟为另一棵腐莓核心。被踩踏后，这株未成熟的腐莓会释放少量毒气。",
    "enDesc": null,
    "sprite": {
     "sheet": "plants",
@@ -3468,7 +3468,7 @@
    "group": null,
    "zh": "悲伤苔",
    "en": "seed of {plantName}",
-   "zhDesc": null,
+   "zhDesc": "断肠苔（实为花卉而非苔藓）是一种花瓣利如刀片，表面覆有致命毒液的植物。",
    "enDesc": null,
    "sprite": {
     "sheet": "plants",
@@ -3490,7 +3490,7 @@
    "group": null,
    "zh": "太阳草",
    "en": "seed of {plantName}",
-   "zhDesc": null,
+   "zhDesc": "阳春草因其汁液缓慢但显著的疗伤效果而家喻户晓。",
    "enDesc": null,
    "sprite": {
     "sheet": "plants",
@@ -3513,9 +3513,9 @@
   {
    "id": "Bleeding",
    "group": null,
-   "zh": null,
+   "zh": "流血",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "伤口正在令人不安地涌出大量血液。\\n\\n流血每回合都会造成伤害。每回合这个伤害数值都会随机减少，直到出血最终停止。\\n\\n当前流血伤害：%d",
    "enDesc": null,
    "sprite": null,
    "zhConsts": null,
@@ -3526,9 +3526,9 @@
   {
    "id": "Burning",
    "group": null,
-   "zh": null,
+   "zh": "燃烧",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "没什么比被火焰吞没更痛苦了。\\n\\n火焰每回合都会造成伤害，直到它被液体扑灭或者自行消散。火会在你进入水中时熄灭，打碎药瓶产生的水花也具有同样的效果。\\n\\n此外，火焰还会点燃所有接触到的可燃地形与可燃物。\\n\\n燃烧效果剩余时长：%s回合",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -3544,9 +3544,9 @@
   {
    "id": "Charm",
    "group": null,
-   "zh": null,
+   "zh": "魅惑",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "魅惑是一种能让一对夙敌暂时陷入互相倾慕的控制类魔法。\\n\\n被魅惑的单位将无法对魅惑施行者进行直接攻击，但依然可以攻击其他敌人。伤痛会激醒被魅惑单位，减少魅惑状态的持续时间。\\n\\n魅惑效果剩余时间：%s回合",
    "enDesc": null,
    "sprite": null,
    "zhConsts": null,
@@ -3557,9 +3557,9 @@
   {
    "id": "Combo",
    "group": null,
-   "zh": null,
+   "zh": "连击",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "角斗士在成功击中对手时会积累战斗气势。每次攻击命中都会增加1次连击，但长时间不进行攻击，连击数就会归零。只要角斗士仍在积攒连击，其破碎纹章提供的护盾就不会衰减。\\n积攒连击可以激活必定命中的连击战技！当连击数到达2、4、6、8、10时可分别激活不同的连击战技。部分连击战技会重置连击数，部分则不会，但每种连击战技在每次连击中只能使用一次。\\n\\n当前连击：%1$d\\n\\n连击归零剩余回合：%2$s",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -3574,7 +3574,7 @@
    "group": null,
    "zh": null,
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "\\n\\n饥饿会在你在地牢里花费时间的同时缓慢累计，直到你饿得难以忍受。在你极度饥饿时生命值会停止回复并且开始缓慢减少。\\n\\n合理利用食物非常重要！如果你有足够的生命值来维持饥饿，你就该等到一会儿食物更多的时候再吃。正确的配给可以让食物更有效地发挥作用！",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -3592,9 +3592,9 @@
   {
    "id": "Ooze",
    "group": null,
-   "zh": null,
+   "zh": "腐蚀淤泥",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "这种粘稠的酸性淤泥正在紧贴你的骨肉，并缓慢地将它们腐蚀融化。\\n\\n腐蚀淤泥会对受害者持续造成伤害，不过能够立刻在水中洗掉。\\n\\n腐蚀淤泥剩余时长：%s回合",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -3607,9 +3607,9 @@
   {
    "id": "Poison",
    "group": null,
-   "zh": null,
+   "zh": "中毒",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "毒素传遍全身，缓慢地损伤着各个脏器。\\n\\n毒素每回合造成的伤害与其剩余的回合数成正比。\\n\\n中毒效果剩余时长：%s回合",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -3622,9 +3622,9 @@
   {
    "id": "Shadows",
    "group": null,
-   "zh": null,
+   "zh": "暗影融合",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "你和周围的阴影融为一体，使你隐形并减缓你的新陈代谢。\\n\\n当你在隐形时敌人无法追踪或攻击你。大部分物理攻击和魔法(比如卷轴和法杖)会立即解除隐形效果。此外，当你处于暗影融合状态下时，饥饿值增加的速率会降低。\\n\\n暗影融合状态会一直持续直到你离开阴影或与敌人直接接触。",
    "enDesc": null,
    "sprite": null,
    "zhConsts": null,
@@ -3635,9 +3635,9 @@
   {
    "id": "SnipersMark",
    "group": null,
-   "zh": null,
+   "zh": "狙击标记",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "狙击手专注于最近射击的目标。她能够用灵能弓进行一次特殊攻击，攻击方式取决于弓的强化方式。\\n\\n未被强化的弓可以施展_速射_，进行一次低伤害但不消耗回合的射击。\\n\\n强化速度的弓可以施展三箭_连射_。每支箭矢伤害虽低，但仍能触发附魔效果。连射消耗1回合。\\n\\n强化伤害的弓可以施展_狙杀_。这支箭矢必定命中，根据目标距离造成额外伤害。狙杀消耗2回合。\\n\\n效果剩余时长：%s回合",
    "enDesc": null,
    "sprite": null,
    "zhConsts": null,
@@ -3648,9 +3648,9 @@
   {
    "id": "Terror",
    "group": null,
-   "zh": null,
+   "zh": "恐惧",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "恐惧是使敌人陷入不可控制的恐慌的操纵性魔法。\\n\\n恐惧中的角色会远离自己的敌人，试图和敌人隔开尽可能多的门或墙。然而疼痛的刺激会减少恐惧的持续时间。\\n\\n恐惧效果剩余时长：%s",
    "enDesc": null,
    "sprite": null,
    "zhConsts": null,
@@ -5649,9 +5649,9 @@
   {
    "id": "SacrificialFire",
    "group": null,
-   "zh": null,
+   "zh": "献祭之火",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "这是一个承载着献祭之火的祭坛。在此殒命的生物都将成为献给地牢幽魂的祭品。\\n\\n或许献祭够多，就能得到回报？",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -5716,7 +5716,7 @@
    "group": null,
    "zh": "觉察之井",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "知识的力量正在从这口井的水里涌出。饮下井中的水将会鉴定所有已装备的物品、探测背包中所有物品的诅咒并揭示本层所有物品的位置。",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {
@@ -5731,7 +5731,7 @@
    "group": null,
    "zh": "治疗之井",
    "en": null,
-   "zhDesc": null,
+   "zhDesc": "生命的力量正在从这口井的水里涌出。饮下井中的水可以治疗伤口、解除饥饿并净化所有已装备物品的诅咒。",
    "enDesc": null,
    "sprite": null,
    "zhConsts": {

@@ -5,11 +5,11 @@
 | 中文名 | 中文说明 | 英文原名 | 英文说明 | 贴图 |
 |---|---|---|---|---|
 | 梦草 | `TXT_DESC` 一被触碰，梦草就会分泌出一片闪闪发光的迷乱气体。 | seed of {plantName} | — | `plants` #3<br>种子 `items` #91 |
-| 地根草 | `TXT_DESC` 当有生物触碰地根草时，它的根须会在其周围形成一层天然护甲。 | seed of {plantName} | — | `plants` #5<br>种子 `items` #93 |
-| 凋零叶 | `TXT_DESC` 触碰凋零叶会把生物传送到当前楼层的某个随机位置。 | seed of {plantName} | — | `plants` #6<br>种子 `items` #94 |
-| 火焰花 | `TXT_DESC` 任何东西一碰到火焰花，它就会爆出火焰。 | seed of {plantName} | — | `plants` #0<br>种子 `items` #88 |
-| 冰帽花 | `TXT_DESC` 一被触碰，冰帽花就会喷出花粉，把周围的一切都冻住。 | seed of {plantName} | — | `plants` #1<br>种子 `items` #89 |
+| 地根草 | 碰到地缚根后，它的根系会在踩踏者周边形成某种无法移动的天然护甲。<br>`TXT_DESC` 当有生物触碰地根草时，它的根须会在其周围形成一层天然护甲。 | seed of {plantName} | — | `plants` #5<br>种子 `items` #93 |
+| 凋零叶 | 任何触碰到消逝草的生物都会被传送到当前层的一个随机地点。<br>`TXT_DESC` 触碰凋零叶会把生物传送到当前楼层的某个随机位置。 | seed of {plantName} | — | `plants` #6<br>种子 `items` #94 |
+| 火焰花 | 烈焰花被任何物品触碰到时，都会化为一团火焰。<br>`TXT_DESC` 任何东西一碰到火焰花，它就会爆出火焰。 | seed of {plantName} | — | `plants` #0<br>种子 `items` #88 |
+| 冰帽花 | 冰冠花在被接触到时会喷射出一团能冻结周遭的花粉。冻结效果会在潮湿环境中大幅增强。<br>`TXT_DESC` 一被触碰，冰帽花就会喷出花粉，把周围的一切都冻住。 | seed of {plantName} | — | `plants` #1<br>种子 `items` #89 |
 | — | `AC_PLANT` 种植<br>`TXT_INFO` 把这颗种子扔到你想让 %s 生长的地方。  %s<br>`POS` 位置 | — | — | — |
-| 腐浆果 | `TXT_DESC` 这种灌木的浆果，尝起来是甜美的、甜美的死亡。 | seed of {plantName} | — | `plants` #7<br>种子 `items` #95 |
-| 悲伤苔 | `TXT_DESC` 悲伤苔其实是一种花（不是苔藓），花瓣如剃刀般锋利，上面覆着致命的毒液。 | seed of {plantName} | — | `plants` #2<br>种子 `items` #90 |
-| 太阳草 | `TXT_DESC` 太阳草以其汁液的治愈功效而闻名。 | seed of {plantName} | — | `plants` #4<br>种子 `items` #92 |
+| 腐浆果 | 未成熟的腐莓丛结出的莓果尝起来更像是甜蜜的死亡。经过成年累月的生长，这株腐莓丛终会成熟为另一棵腐莓核心。被踩踏后，这株未成熟的腐莓会释放少量毒气。<br>`TXT_DESC` 这种灌木的浆果，尝起来是甜美的、甜美的死亡。 | seed of {plantName} | — | `plants` #7<br>种子 `items` #95 |
+| 悲伤苔 | 断肠苔（实为花卉而非苔藓）是一种花瓣利如刀片，表面覆有致命毒液的植物。<br>`TXT_DESC` 悲伤苔其实是一种花（不是苔藓），花瓣如剃刀般锋利，上面覆着致命的毒液。 | seed of {plantName} | — | `plants` #2<br>种子 `items` #90 |
+| 太阳草 | 阳春草因其汁液缓慢但显著的疗伤效果而家喻户晓。<br>`TXT_DESC` 太阳草以其汁液的治愈功效而闻名。 | seed of {plantName} | — | `plants` #4<br>种子 `items` #92 |

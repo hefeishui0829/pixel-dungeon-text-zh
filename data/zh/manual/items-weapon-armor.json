@@ -1,92 +1,310 @@
 {
- "BattleAxe": {"zh": "战斧", "desc": "这把战斧巨大的钢制斧头，让每一次挥砍都力道十足。"},
- "Boomerang": {"zh": "回旋镖", "desc": "这种扁平弯曲的木制投掷物掷向敌人后，会自行飞回投掷者手中。"},
- "CurareDart": {"zh": "箭毒镖", "desc": "这些小小的邪恶飞镖伤害不高，却能让目标麻痹，在一段时间内无助地动弹不得。"},
- "Dagger": {"zh": "匕首", "desc": "一把朴素的铁质匕首，木柄已经磨得发亮。"},
- "Dart": {"zh": "飞镖", "desc": "这些简单的金属尖刺经过配重，能笔直飞行，手腕一抖便可刺中猎物。"},
- "Death": {"consts": {"TXT_GRIM": "夺命%s"}},
- "Fire": {"consts": {"TXT_BLAZING": "烈焰%s"}},
- "Glaive": {"zh": "长柄刀", "desc": "一种长柄兵器，在长杆末端装上剑刃。"},
- "Horror": {"consts": {"TXT_ELDRITCH": "诡异%s"}},
- "IncendiaryDart": {"zh": "燃烧镖", "desc": "每支飞镖的尖刺用来把它钉在目标身上，同时绑在镖身上的不稳定化合物会爆发出耀眼的火焰。"},
- "Instability": {"consts": {"TXT_UNSTABLE": "不稳定%s"}},
- "Javelin": {"zh": "标枪", "desc": "这根金属长杆经过配重，使尖端在飞行途中始终朝前。"},
- "Knuckles": {"zh": "指虎", "desc": "一块贴合指关节形状的铁块。"},
- "Leech": {"consts": {"TXT_VAMPIRIC": "吸血%s"}},
- "Longsword": {"zh": "长剑", "desc": "这柄又高又重的剑刃把全部重量压进每一次劈砍，能造成重伤。"},
- "Luck": {"consts": {"TXT_LUCKY": "幸运%s"}},
- "Mace": {"zh": "钉头锤", "desc": "这把武器的铁质锤头能造成相当可观的伤害。"},
- "MissileWeapon": {"consts": {
-   "TXT_MISSILES": "投掷武器",
-   "TXT_YES": "是的，我清楚自己在做什么",
-   "TXT_NO": "不，我改变主意了",
-   "TXT_R_U_SURE": "你真的要把它当作近战武器来装备吗？"}},
- "Paralysis": {"consts": {"TXT_STUNNING": "眩晕%s"}},
- "Poison": {"consts": {"TXT_VENOMOUS": "剧毒%s"}},
- "Quarterstaff": {"zh": "铁头长杖", "desc": "一根硬木长杖，两端包着铁箍。"},
- "Shock": {"consts": {"TXT_SHOCKING": "震击%s"}},
- "ShortSword": {"zh": "短剑", "desc": "它确实很短，只比匕首长几英寸。", "consts": {
-   "AC_REFORGE": "重铸",
-   "TXT_SELECT_WEAPON": "选择一件武器进行升级",
-   "TXT_REFORGED": "你重铸了短剑，用来升级你的%s",
-   "TXT_NOT_BOOMERANG": "你不能这样升级回旋镖"}},
- "Shuriken": {"zh": "手里剑", "desc": "星形的金属片带着剃刀般锋利的刃口，命中目标时伤害可观，而且能以极快的频率连续投掷。"},
- "Slow": {"consts": {"TXT_CHILLING": "寒霜%s"}},
- "Spear": {"zh": "长矛", "desc": "一根纤细的木杆，顶端装着一截削尖的铁。"},
- "Sword": {"zh": "剑", "desc": "这柄锋利的钢制长刃闪着令人安心的寒光。"},
- "Tamahawk": {"zh": "投掷战斧", "desc": "这把投掷用的斧头不算太重，但要发挥威力仍需要相当的力量。"},
- "Tempering": {"consts": {"TXT_TEMPERED": "淬炼%s"}},
- "WarHammer": {"zh": "战锤", "desc": "很少有生物能扛住这座由铅与钢堆成的高塔砸下的粉碎一击，但也只有最强壮的冒险者才能挥动它。"},
- "Weapon": {"consts": {
-   "TXT_IDENTIFY": "你对自己的%s已经足够熟悉，可以鉴定它了。它是%s。",
-   "TXT_INCOMPATIBLE": "不同种类魔法的相互作用抵消了这把武器上的附魔！",
-   "TXT_TO_STRING": "%s :%d",
-   "TXT_BROKEN": "破损的%s :%d",
-   "UNFAMILIRIARITY": "不熟练",
-   "ENCHANTMENT": "附魔",
-   "IMBUE": "注入"}},
-
- "Affection": {"consts": {"TXT_AFFECTION": "柔情之%s"}},
- "AntiEntropy": {"consts": {"TXT_ANTI_ENTROPY": "反熵之%s"}},
- "Armor": {"consts": {
-   "TXT_EQUIP_CURSED": "你的%s紧紧勒住你，痛得你龇牙咧嘴",
-   "TXT_IDENTIFY": "你对自己的%s已经足够熟悉，可以鉴定它了。它是%s。",
-   "TXT_TO_STRING": "%s :%d",
-   "TXT_BROKEN": "破损的%s :%d",
-   "TXT_INCOMPATIBLE": "不同种类魔法的相互作用抹去了这件护甲上的印记！",
-   "UNFAMILIRIARITY": "不熟练",
-   "GLYPH": "印记"}},
- "AutoRepair": {"consts": {"TXT_AUTO_REPAIR": "自愈之%s"}},
- "Bounce": {"consts": {"TXT_BOUNCE": "弹射之%s"}},
- "ClassArmor": {"desc": "这东西看起来酷毙了！", "consts": {
-   "TXT_LOW_HEALTH": "你的生命值太低了！",
-   "TXT_NOT_EQUIPPED": "你必须穿着这件护甲才能使用它的特殊能力！",
-   "ARMOR_STR": "力量",
-   "ARMOR_DR": "减伤"}},
- "ClothArmor": {"zh": "布甲", "desc": "这件轻便的护甲只能提供最基础的防护。"},
- "Displacement": {"consts": {"TXT_DISPLACEMENT": "移形之%s"}},
- "Entanglement": {"consts": {"TXT_ENTANGLEMENT": "缠绕之%s"}},
- "HuntressArmor": {"zh": "女猎手斗篷", "desc": "穿上这件斗篷的女猎手能唤出一扇扇形的光刃。每一片光刃都会锁定女猎手视野中的一名敌人，造成的伤害取决于她当前装备的近战武器。", "consts": {
-   "TXT_NO_ENEMIES": "视野中没有敌人",
-   "TXT_NOT_HUNTRESS": "只有女猎手能使用这件护甲！",
-   "AC_SPECIAL": "幽影刀扇"}},
- "LeatherArmor": {"zh": "皮甲", "desc": "用鞣制过的怪物皮革制成的护甲。不如布甲轻便，但防护更好。"},
- "MageArmor": {"zh": "法师长袍", "desc": "穿上这件华美的长袍，法师可以施展「熔岩大地」法术：视野内的所有敌人都会被点燃，同时无法移动。", "consts": {
-   "AC_SPECIAL": "熔岩大地",
-   "TXT_NOT_MAGE": "只有法师能使用这件护甲！"}},
- "MailArmor": {"zh": "锁甲", "desc": "互相扣合的金属环组成了一套坚韧而灵活的护甲。"},
- "Metabolism": {"consts": {"TXT_METABOLISM": "代谢之%s"}},
- "Multiplicity": {"consts": {"TXT_MULTIPLICITY": "多重之%s"}},
- "PlateArmor": {"zh": "板甲", "desc": "巨大的金属板拼接成一整套护甲，为任何强壮到能承受它惊人重量的冒险者提供无可比拟的防护。"},
- "Potential": {"consts": {"TXT_POTENTIAL": "潜能之%s"}},
- "RogueArmor": {"zh": "盗贼夜行衣", "desc": "穿着这件深色夜行衣，盗贼可以施展被称为「烟雾弹」的技巧（虽然并不真的用到炸药）：他会致盲所有能看见他的敌人，然后跳向一旁。", "consts": {
-   "TXT_FOV": "你只能跳到视野内的空地上",
-   "TXT_NOT_ROGUE": "只有盗贼能使用这件护甲！",
-   "AC_SPECIAL": "烟雾弹"}},
- "ScaleArmor": {"zh": "鳞甲", "desc": "缝在皮背心上的金属鳞片，造就了一件既灵活又能防身的护甲。"},
- "Stench": {"consts": {"TXT_STENCH": "恶臭之%s"}},
- "Viscosity": {"consts": {"TXT_VISCOSITY": "黏滞之%s", "DAMAGE": "伤害"}},
- "WarriorArmor": {"zh": "勇士战甲", "desc": "这套护甲看上去很笨重，却能让勇士朝指定位置施展「英勇跃击」，落地时震晕周围所有敌人。", "consts": {
-   "AC_SPECIAL": "英勇跃击",
-   "TXT_NOT_WARRIOR": "只有勇士能使用这件护甲！"}}
+  "BattleAxe": {
+    "zh": "战斧",
+    "desc": "这把战斧巨大的钢制斧头，让每一次挥砍都力道十足。"
+  },
+  "Boomerang": {
+    "zh": "回旋镖",
+    "desc": "这种扁平弯曲的木制投掷物掷向敌人后，会自行飞回投掷者手中。"
+  },
+  "CurareDart": {
+    "zh": "箭毒镖",
+    "desc": "这些小小的邪恶飞镖伤害不高，却能让目标麻痹，在一段时间内无助地动弹不得。"
+  },
+  "Dagger": {
+    "zh": "匕首",
+    "desc": "一把朴素的铁质匕首，木柄已经磨得发亮。"
+  },
+  "Dart": {
+    "zh": "飞镖",
+    "desc": "这些简单的金属尖刺经过配重，能笔直飞行，手腕一抖便可刺中猎物。"
+  },
+  "Death": {
+    "consts": {
+      "TXT_GRIM": "夺命%s"
+    }
+  },
+  "Fire": {
+    "consts": {
+      "TXT_BLAZING": "烈焰%s"
+    },
+    "zh": "火焰",
+    "desc": "一团火焰正在这里肆虐。"
+  },
+  "Glaive": {
+    "zh": "长柄刀",
+    "desc": "一种长柄兵器，在长杆末端装上剑刃。"
+  },
+  "Horror": {
+    "consts": {
+      "TXT_ELDRITCH": "诡异%s"
+    }
+  },
+  "IncendiaryDart": {
+    "zh": "燃烧镖",
+    "desc": "每支飞镖的尖刺用来把它钉在目标身上，同时绑在镖身上的不稳定化合物会爆发出耀眼的火焰。"
+  },
+  "Instability": {
+    "consts": {
+      "TXT_UNSTABLE": "不稳定%s"
+    }
+  },
+  "Javelin": {
+    "zh": "标枪",
+    "desc": "这根金属长杆经过配重，使尖端在飞行途中始终朝前。"
+  },
+  "Knuckles": {
+    "zh": "指虎",
+    "desc": "一块贴合指关节形状的铁块。"
+  },
+  "Leech": {
+    "consts": {
+      "TXT_VAMPIRIC": "吸血%s"
+    }
+  },
+  "Longsword": {
+    "zh": "长剑",
+    "desc": "这柄又高又重的剑刃把全部重量压进每一次劈砍，能造成重伤。"
+  },
+  "Luck": {
+    "consts": {
+      "TXT_LUCKY": "幸运%s"
+    }
+  },
+  "Mace": {
+    "zh": "钉头锤",
+    "desc": "这把武器的铁质锤头能造成相当可观的伤害。"
+  },
+  "MissileWeapon": {
+    "consts": {
+      "TXT_MISSILES": "投掷武器",
+      "TXT_YES": "是的，我清楚自己在做什么",
+      "TXT_NO": "不，我改变主意了",
+      "TXT_R_U_SURE": "你真的要把它当作近战武器来装备吗？"
+    }
+  },
+  "Paralysis": {
+    "consts": {
+      "TXT_STUNNING": "眩晕%s"
+    },
+    "zh": "麻痹",
+    "desc": "通常最坏的事就是什么事都做不出来。\\n\\n麻痹会制止目标的一切行动，迫使目标静等到效果消失。受伤导致的疼痛也有助于目标摆脱麻痹。\\n\\n麻痹效果剩余时长：%s回合"
+  },
+  "Poison": {
+    "consts": {
+      "TXT_VENOMOUS": "剧毒%s"
+    },
+    "zh": "中毒",
+    "desc": "毒素传遍全身，缓慢地损伤着各个脏器。\\n\\n毒素每回合造成的伤害与其剩余的回合数成正比。\\n\\n中毒效果剩余时长：%s回合"
+  },
+  "Quarterstaff": {
+    "zh": "铁头长杖",
+    "desc": "一根硬木长杖，两端包着铁箍。"
+  },
+  "Shock": {
+    "consts": {
+      "TXT_SHOCKING": "震击%s"
+    }
+  },
+  "ShortSword": {
+    "zh": "短剑",
+    "desc": "它确实很短，只比匕首长几英寸。",
+    "consts": {
+      "AC_REFORGE": "重铸",
+      "TXT_SELECT_WEAPON": "选择一件武器进行升级",
+      "TXT_REFORGED": "你重铸了短剑，用来升级你的%s",
+      "TXT_NOT_BOOMERANG": "你不能这样升级回旋镖"
+    }
+  },
+  "Shuriken": {
+    "zh": "手里剑",
+    "desc": "星形的金属片带着剃刀般锋利的刃口，命中目标时伤害可观，而且能以极快的频率连续投掷。"
+  },
+  "Slow": {
+    "consts": {
+      "TXT_CHILLING": "寒霜%s"
+    },
+    "zh": "迟缓",
+    "desc": "减速魔法影响了目标的时间流速，在目标眼中所有的事物都移动得飞快。\\n\\n迟缓下的角色执行所有行动花费的时间是正常状态下的两倍。\\n\\n迟缓效果剩余时长：%s回合"
+  },
+  "Spear": {
+    "zh": "长矛",
+    "desc": "一根纤细的木杆，顶端装着一截削尖的铁。"
+  },
+  "Sword": {
+    "zh": "剑",
+    "desc": "这柄锋利的钢制长刃闪着令人安心的寒光。"
+  },
+  "Tamahawk": {
+    "zh": "投掷战斧",
+    "desc": "这把投掷用的斧头不算太重，但要发挥威力仍需要相当的力量。"
+  },
+  "Tempering": {
+    "consts": {
+      "TXT_TEMPERED": "淬炼%s"
+    }
+  },
+  "WarHammer": {
+    "zh": "战锤",
+    "desc": "很少有生物能扛住这座由铅与钢堆成的高塔砸下的粉碎一击，但也只有最强壮的冒险者才能挥动它。"
+  },
+  "Weapon": {
+    "consts": {
+      "TXT_IDENTIFY": "你对自己的%s已经足够熟悉，可以鉴定它了。它是%s。",
+      "TXT_INCOMPATIBLE": "不同种类魔法的相互作用抵消了这把武器上的附魔！",
+      "TXT_TO_STRING": "%s :%d",
+      "TXT_BROKEN": "破损的%s :%d",
+      "UNFAMILIRIARITY": "不熟练",
+      "ENCHANTMENT": "附魔",
+      "IMBUE": "注入"
+    }
+  },
+  "Affection": {
+    "consts": {
+      "TXT_AFFECTION": "柔情之%s"
+    },
+    "zh": "魅惑%s",
+    "desc": "这个强力的刻印能够操控攻击者的心智，暂时地魅惑他们。"
+  },
+  "AntiEntropy": {
+    "consts": {
+      "TXT_ANTI_ENTROPY": "反熵之%s"
+    },
+    "zh": "反熵%s",
+    "desc": "反熵诅咒与宇宙法则背道而驰，会抽离周遭的热量并汇集到穿戴者身上。这会使穿戴者短暂地燃烧，并冻结周围的一切！"
+  },
+  "Armor": {
+    "consts": {
+      "TXT_EQUIP_CURSED": "你的%s紧紧勒住你，痛得你龇牙咧嘴",
+      "TXT_IDENTIFY": "你对自己的%s已经足够熟悉，可以鉴定它了。它是%s。",
+      "TXT_TO_STRING": "%s :%d",
+      "TXT_BROKEN": "破损的%s :%d",
+      "TXT_INCOMPATIBLE": "不同种类魔法的相互作用抹去了这件护甲上的印记！",
+      "UNFAMILIRIARITY": "不熟练",
+      "GLYPH": "印记"
+    }
+  },
+  "AutoRepair": {
+    "consts": {
+      "TXT_AUTO_REPAIR": "自愈之%s"
+    }
+  },
+  "Bounce": {
+    "consts": {
+      "TXT_BOUNCE": "弹射之%s"
+    }
+  },
+  "ClassArmor": {
+    "desc": "这东西看起来酷毙了！",
+    "consts": {
+      "TXT_LOW_HEALTH": "你的生命值太低了！",
+      "TXT_NOT_EQUIPPED": "你必须穿着这件护甲才能使用它的特殊能力！",
+      "ARMOR_STR": "力量",
+      "ARMOR_DR": "减伤"
+    }
+  },
+  "ClothArmor": {
+    "zh": "布甲",
+    "desc": "这件轻便的护甲只能提供最基础的防护。"
+  },
+  "Displacement": {
+    "consts": {
+      "TXT_DISPLACEMENT": "移形之%s"
+    },
+    "zh": "定相%s",
+    "desc": "定相诅咒会在穿戴者受到攻击时试图将其传送到安全地带。不过，过强的威力反倒会导致使用者被随机传送到层内各处。"
+  },
+  "Entanglement": {
+    "consts": {
+      "TXT_ENTANGLEMENT": "缠绕之%s"
+    },
+    "zh": "缠绕%s",
+    "desc": "这个刻印会在使用者周围生出能吸收伤害的地根护甲。这种地根护甲会在使用者移动后散落失效。"
+  },
+  "HuntressArmor": {
+    "zh": "女猎手斗篷",
+    "desc": "穿上这件斗篷的女猎手能唤出一扇扇形的光刃。每一片光刃都会锁定女猎手视野中的一名敌人，造成的伤害取决于她当前装备的近战武器。",
+    "consts": {
+      "TXT_NO_ENEMIES": "视野中没有敌人",
+      "TXT_NOT_HUNTRESS": "只有女猎手能使用这件护甲！",
+      "AC_SPECIAL": "幽影刀扇"
+    }
+  },
+  "LeatherArmor": {
+    "zh": "皮甲",
+    "desc": "用鞣制过的怪物皮革制成的护甲。不如布甲轻便，但防护更好。"
+  },
+  "MageArmor": {
+    "zh": "法师长袍",
+    "desc": "穿上这件华美的长袍，法师可以施展「熔岩大地」法术：视野内的所有敌人都会被点燃，同时无法移动。",
+    "consts": {
+      "AC_SPECIAL": "熔岩大地",
+      "TXT_NOT_MAGE": "只有法师能使用这件护甲！"
+    }
+  },
+  "MailArmor": {
+    "zh": "锁甲",
+    "desc": "互相扣合的金属环组成了一套坚韧而灵活的护甲。"
+  },
+  "Metabolism": {
+    "consts": {
+      "TXT_METABOLISM": "代谢之%s"
+    },
+    "zh": "代谢%s",
+    "desc": "代谢诅咒在穿戴者受伤时能直接将饱腹度转化为生命值，提供额外的治疗，但你会很快陷入饥饿之中。"
+  },
+  "Multiplicity": {
+    "consts": {
+      "TXT_MULTIPLICITY": "多重之%s"
+    },
+    "zh": "分身%s",
+    "desc": "带有分身诅咒的防具含有一种危险的复制魔法。有时候它会复制出穿戴者的镜像，但也有同等几率复制攻击者！"
+  },
+  "PlateArmor": {
+    "zh": "板甲",
+    "desc": "巨大的金属板拼接成一整套护甲，为任何强壮到能承受它惊人重量的冒险者提供无可比拟的防护。"
+  },
+  "Potential": {
+    "consts": {
+      "TXT_POTENTIAL": "潜能之%s"
+    },
+    "zh": "电势%s",
+    "desc": "这个刻印在被击中时会积蓄能量，在生效时为使用者的法杖充能。"
+  },
+  "RogueArmor": {
+    "zh": "盗贼夜行衣",
+    "desc": "穿着这件深色夜行衣，盗贼可以施展被称为「烟雾弹」的技巧（虽然并不真的用到炸药）：他会致盲所有能看见他的敌人，然后跳向一旁。",
+    "consts": {
+      "TXT_FOV": "你只能跳到视野内的空地上",
+      "TXT_NOT_ROGUE": "只有盗贼能使用这件护甲！",
+      "AC_SPECIAL": "烟雾弹"
+    }
+  },
+  "ScaleArmor": {
+    "zh": "鳞甲",
+    "desc": "缝在皮背心上的金属鳞片，造就了一件既灵活又能防身的护甲。"
+  },
+  "Stench": {
+    "consts": {
+      "TXT_STENCH": "恶臭之%s"
+    },
+    "zh": "恶臭%s",
+    "desc": "带有恶臭诅咒的防具会释放出团团毒雾，对一切来不及逃离的对象造成伤害。"
+  },
+  "Viscosity": {
+    "consts": {
+      "TXT_VISCOSITY": "黏滞之%s",
+      "DAMAGE": "伤害"
+    },
+    "zh": "粘稠%s",
+    "desc": "这个刻印可以储存对使用者造成的伤害，让使用者缓慢受伤而不是一下子受到重击。"
+  },
+  "WarriorArmor": {
+    "zh": "勇士战甲",
+    "desc": "这套护甲看上去很笨重，却能让勇士朝指定位置施展「英勇跃击」，落地时震晕周围所有敌人。",
+    "consts": {
+      "AC_SPECIAL": "英勇跃击",
+      "TXT_NOT_WARRIOR": "只有勇士能使用这件护甲！"
+    }
+  }
 }

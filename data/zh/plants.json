@@ -26,7 +26,7 @@
   "group": null,
   "zh": "地根草",
   "en": "seed of {plantName}",
-  "zhDesc": null,
+  "zhDesc": "碰到地缚根后，它的根系会在踩踏者周边形成某种无法移动的天然护甲。",
   "enDesc": null,
   "sprite": {
    "sheet": "plants",
@@ -50,7 +50,7 @@
   "group": null,
   "zh": "凋零叶",
   "en": "seed of {plantName}",
-  "zhDesc": null,
+  "zhDesc": "任何触碰到消逝草的生物都会被传送到当前层的一个随机地点。",
   "enDesc": null,
   "sprite": {
    "sheet": "plants",
@@ -72,7 +72,7 @@
   "group": null,
   "zh": "火焰花",
   "en": "seed of {plantName}",
-  "zhDesc": null,
+  "zhDesc": "烈焰花被任何物品触碰到时，都会化为一团火焰。",
   "enDesc": null,
   "sprite": {
    "sheet": "plants",
@@ -94,7 +94,7 @@
   "group": null,
   "zh": "冰帽花",
   "en": "seed of {plantName}",
-  "zhDesc": null,
+  "zhDesc": "冰冠花在被接触到时会喷射出一团能冻结周遭的花粉。冻结效果会在潮湿环境中大幅增强。",
   "enDesc": null,
   "sprite": {
    "sheet": "plants",
@@ -135,7 +135,7 @@
   "group": null,
   "zh": "腐浆果",
   "en": "seed of {plantName}",
-  "zhDesc": null,
+  "zhDesc": "未成熟的腐莓丛结出的莓果尝起来更像是甜蜜的死亡。经过成年累月的生长，这株腐莓丛终会成熟为另一棵腐莓核心。被踩踏后，这株未成熟的腐莓会释放少量毒气。",
   "enDesc": null,
   "sprite": {
    "sheet": "plants",
@@ -157,7 +157,7 @@
   "group": null,
   "zh": "悲伤苔",
   "en": "seed of {plantName}",
-  "zhDesc": null,
+  "zhDesc": "断肠苔（实为花卉而非苔藓）是一种花瓣利如刀片，表面覆有致命毒液的植物。",
   "enDesc": null,
   "sprite": {
    "sheet": "plants",
@@ -179,7 +179,7 @@
   "group": null,
   "zh": "太阳草",
   "en": "seed of {plantName}",
-  "zhDesc": null,
+  "zhDesc": "阳春草因其汁液缓慢但显著的疗伤效果而家喻户晓。",
   "enDesc": null,
   "sprite": {
    "sheet": "plants",

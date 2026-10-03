@@ -2,9 +2,9 @@
  {
   "id": "Affection",
   "group": "护甲印记",
-  "zh": null,
+  "zh": "魅惑%s",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "这个强力的刻印能够操控攻击者的心智，暂时地魅惑他们。",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -49,9 +49,9 @@
  {
   "id": "AntiEntropy",
   "group": "护甲印记",
-  "zh": null,
+  "zh": "反熵%s",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "反熵诅咒与宇宙法则背道而驰，会抽离周遭的热量并汇集到穿戴者身上。这会使穿戴者短暂地燃烧，并冻结周围的一切！",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -128,7 +128,7 @@
  {
   "id": "Bag",
   "group": "容器",
-  "zh": null,
+  "zh": "背包",
   "en": null,
   "zhDesc": null,
   "enDesc": null,
@@ -385,9 +385,9 @@
  {
   "id": "Displacement",
   "group": "护甲印记",
-  "zh": null,
+  "zh": "定相%s",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "定相诅咒会在穿戴者受到攻击时试图将其传送到安全地带。不过，过强的威力反倒会导致使用者被随机传送到层内各处。",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -428,9 +428,9 @@
  {
   "id": "Entanglement",
   "group": "护甲印记",
-  "zh": null,
+  "zh": "缠绕%s",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "这个刻印会在使用者周围生出能吸收伤害的地根护甲。这种地根护甲会在使用者移动后散落失效。",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -462,9 +462,9 @@
  {
   "id": "Fire",
   "group": "武器附魔",
-  "zh": null,
+  "zh": "火焰",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "一团火焰正在这里肆虐。",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -525,7 +525,7 @@
   "group": null,
   "zh": "金币",
   "en": "gold",
-  "zhDesc": null,
+  "zhDesc": "一堆金币。收集金币以在随后的商店中消费。",
   "enDesc": null,
   "sprite": {
    "sheet": "items",
@@ -686,7 +686,7 @@
   "group": "钥匙",
   "zh": "铁钥匙",
   "en": "iron key",
-  "zhDesc": null,
+  "zhDesc": "这个铁钥匙的匙齿已经严重磨损；皮制系带也久经年岁摧残。它对应的是哪扇门呢?",
   "enDesc": null,
   "sprite": {
    "sheet": "items",
@@ -968,9 +968,9 @@
  {
   "id": "Metabolism",
   "group": "护甲印记",
-  "zh": null,
+  "zh": "代谢%s",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "代谢诅咒在穿戴者受伤时能直接将饱腹度转化为生命值，提供额外的治疗，但你会很快陷入饥饿之中。",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -1004,9 +1004,9 @@
  {
   "id": "Multiplicity",
   "group": "护甲印记",
-  "zh": null,
+  "zh": "分身%s",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "带有分身诅咒的防具含有一种危险的复制魔法。有时候它会复制出穿戴者的镜像，但也有同等几率复制攻击者！",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -1047,9 +1047,9 @@
  {
   "id": "Paralysis",
   "group": "武器附魔",
-  "zh": null,
+  "zh": "麻痹",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "通常最坏的事就是什么事都做不出来。\\n\\n麻痹会制止目标的一切行动，迫使目标静等到效果消失。受伤导致的疼痛也有助于目标摆脱麻痹。\\n\\n麻痹效果剩余时长：%s回合",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -1129,9 +1129,9 @@
  {
   "id": "Poison",
   "group": "武器附魔",
-  "zh": null,
+  "zh": "中毒",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "毒素传遍全身，缓慢地损伤着各个脏器。\\n\\n毒素每回合造成的伤害与其剩余的回合数成正比。\\n\\n中毒效果剩余时长：%s回合",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -1144,9 +1144,9 @@
  {
   "id": "Potential",
   "group": "护甲印记",
-  "zh": null,
+  "zh": "电势%s",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "这个刻印在被击中时会积蓄能量，在生效时为使用者的法杖充能。",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -1831,9 +1831,9 @@
  {
   "id": "Slow",
   "group": "武器附魔",
-  "zh": null,
+  "zh": "迟缓",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "减速魔法影响了目标的时间流速，在目标眼中所有的事物都移动得飞快。\\n\\n迟缓下的角色执行所有行动花费的时间是正常状态下的两倍。\\n\\n迟缓效果剩余时长：%s回合",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -1860,9 +1860,9 @@
  {
   "id": "Stench",
   "group": "护甲印记",
-  "zh": null,
+  "zh": "恶臭%s",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "带有恶臭诅咒的防具会释放出团团毒雾，对一切来不及逃离的对象造成伤害。",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {
@@ -1956,9 +1956,9 @@
  {
   "id": "Viscosity",
   "group": "护甲印记",
-  "zh": null,
+  "zh": "粘稠%s",
   "en": null,
-  "zhDesc": null,
+  "zhDesc": "这个刻印可以储存对使用者造成的伤害，让使用者缓慢受伤而不是一下子受到重击。",
   "enDesc": null,
   "sprite": null,
   "zhConsts": {

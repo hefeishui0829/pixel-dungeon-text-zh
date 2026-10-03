@@ -5,11 +5,11 @@
  },
  "items": {
   "rows": 147,
-  "translatedStrings": 387
+  "translatedStrings": 416
  },
  "mobs": {
   "rows": 34,
-  "translatedStrings": 74
+  "translatedStrings": 79
  },
  "npcs": {
   "rows": 9,
@@ -17,11 +17,11 @@
  },
  "plants": {
   "rows": 9,
-  "translatedStrings": 19
+  "translatedStrings": 26
  },
  "buffs": {
   "rows": 10,
-  "translatedStrings": 8
+  "translatedStrings": 27
  },
  "badges": {
   "rows": 64,
@@ -49,9 +49,9 @@
  },
  "misc": {
   "rows": 15,
-  "translatedStrings": 50
+  "translatedStrings": 54
  },
  "__total__": {
-  "translatedStrings": 844
+  "translatedStrings": 908
  }
 }

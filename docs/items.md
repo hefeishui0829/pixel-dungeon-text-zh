@@ -4,14 +4,14 @@
 
 | 中文名 | 中文说明 | 英文原名 | 英文说明 | 贴图 |
 |---|---|---|---|---|
-| （护甲印记） | `TXT_AFFECTION` 柔情之%s | — | — | — |
+| 魅惑%s | 这个强力的刻印能够操控攻击者的心智，暂时地魅惑他们。<br>`TXT_AFFECTION` 柔情之%s | — | — | — |
 | 耶诺之护符 | 耶诺之护符是已知最强大的神器，其来源不明。据说，只要主人的意志足够坚定，能「说服」它，这枚护符就能实现任何愿望。<br>`AC_END` 结束游戏 | Amulet of Yendor | The Amulet of Yendor is the most powerful known artifact of unknown origin. It is said that the amulet is able to fulfil any wish if its owner's will-power is strong enough to "persuade" it to do it. | `items` #87 |
 | 安卡 | 这枚古老的不朽象征赋予你死而复生的能力。复活时，所有未装备的物品都会遗失。 | Ankh | The ancient symbol of immortality grants an ability to return to life after death. Upon resurrection all non-equipped items are lost. | `items` #1 |
-| （护甲印记） | `TXT_ANTI_ENTROPY` 反熵之%s | — | — | — |
+| 反熵%s | 反熵诅咒与宇宙法则背道而驰，会抽离周遭的热量并汇集到穿戴者身上。这会使穿戴者短暂地燃烧，并冻结周围的一切！<br>`TXT_ANTI_ENTROPY` 反熵之%s | — | — | — |
 | （护甲） | `TXT_EQUIP_CURSED` 你的%s紧紧勒住你，痛得你龇牙咧嘴<br>`TXT_IDENTIFY` 你对自己的%s已经足够熟悉，可以鉴定它了。它是%s。<br>`TXT_TO_STRING` %s :%d<br>`TXT_BROKEN` 破损的%s :%d<br>`TXT_INCOMPATIBLE` 不同种类魔法的相互作用抹去了这件护甲上的印记！<br>`UNFAMILIRIARITY` 不熟练<br>`GLYPH` 印记 | — | — | — |
 | 护甲改造套件 | 用这套小工具和材料，任何人都能把一件护甲改造成「专属护甲」。它会保留原护甲的全部属性，还会根据穿戴者的职业赋予一项特殊能力。裁缝、皮革加工或锻造的技能一概不需要。<br>`TXT_SELECT_ARMOR` 选择一件护甲进行改造<br>`TXT_UPGRADED` 你用护甲改造套件升级了你的%s<br>`AC_APPLY` 使用 | armor kit | Using this kit of small tools and materials anybody can transform any armor into an "epic armor", which will keep all properties of the original armor, but will also provide its wearer a special ability depending on his class. No skills in tailoring, leatherworking or blacksmithing are required. | `items` #86 |
 | （护甲印记） | `TXT_AUTO_REPAIR` 自愈之%s | — | — | — |
-| （容器） | `AC_OPEN` 打开 | — | — | — |
+| 背包 | `AC_OPEN` 打开 | — | — | — |
 | 战斧 | 这把战斧巨大的钢制斧头，让每一次挥砍都力道十足。 | battle axe | The enormous steel head of this battle axe puts considerable heft behind each stroke. | `items` #22 |
 | 炸弹 | 这是一颗体积不大的炸弹，里面装满了黑火药。方便的是，它被扔出去时引信会自动点燃。 | bomb | This is a relatively small bomb, filled with black powder. Conveniently, its fuse is lit automatically when the bomb is thrown. | `items` #124 |
 | 回旋镖 | 这种扁平弯曲的木制投掷物掷向敌人后，会自行飞回投掷者手中。 | boomerang | Thrown to the enemy this flat curved wooden missile will return to the hands of its thrower. | `items` #106 |
@@ -27,16 +27,16 @@
 | （武器附魔） | `TXT_GRIM` 夺命%s | — | — | — |
 | 露水瓶 | 你可以把多余的露水装进这个小瓶，留着以后喝。如果瓶子是满的，在生死关头露水会被自动喝下。<br>`AC_DRINK` 饮用<br>`TXT_VALUE` %+d生命<br>`TXT_STATUS` %d/%d<br>`TXT_AUTO_DRINK` 露水瓶被喝空，治愈了你的伤口。<br>`TXT_COLLECTED` 你收集了一滴露水装进露水瓶。<br>`TXT_FULL` 你的露水瓶满了！<br>`TXT_EMPTY` 你的露水瓶是空的！<br>`VOLUME` 容量 | dew vial | You can store excess dew in this tiny vessel for drinking it later. If the vial is full, in a moment of deadly peril the dew will be consumed automatically. | `items` #120 |
 | 露水 | 一滴清澈透明的露水。<br>`TXT_VALUE` %+d生命 | dewdrop | A crystal clear dewdrop. | `items` #81 |
-| （护甲印记） | `TXT_DISPLACEMENT` 移形之%s | — | — | — |
+| 定相%s | 定相诅咒会在穿戴者受到攻击时试图将其传送到安全地带。不过，过强的威力反倒会导致使用者被随机传送到层内各处。<br>`TXT_DISPLACEMENT` 移形之%s | — | — | — |
 | 干枯的玫瑰 | 玫瑰早就干枯了，但不知怎么，花瓣一片都没掉。 | dried rose | The rose has dried long ago, but it has kept all its petals somehow. | `items` #100 |
 | 矮人代币 | 许多矮人，以及他们造出的一些大型造物，都随身带着这种用途不明的小金属片。也许是首饰，也许是某种身份证件。矮人真是奇怪的家伙。 | dwarf token | Many dwarves and some of their larger creations carry these small pieces of metal of unknown purpose. Maybe they are jewelry or maybe some kind of ID. Dwarves are strange folk. | `items` #122 |
-| （护甲印记） | `TXT_ENTANGLEMENT` 缠绕之%s | — | — | — |
+| 缠绕%s | 这个刻印会在使用者周围生出能吸收伤害的地根护甲。这种地根护甲会在使用者移动后散落失效。<br>`TXT_ENTANGLEMENT` 缠绕之%s | — | — | — |
 | — | `TXT_UNEQUIP_CURSED` 你无法取下被诅咒的%s！<br>`AC_EQUIP` 装备<br>`AC_UNEQUIP` 卸下 | — | — | — |
-| （武器附魔） | `TXT_BLAZING` 烈焰%s | — | — | — |
+| 火焰 | 一团火焰正在这里肆虐。<br>`TXT_BLAZING` 烈焰%s | — | — | — |
 | 口粮 | 没什么特别的：肉干、几块饼干之类的东西。<br>`AC_EAT` 食用 | ration of food | Nothing fancy here: dried meat, some biscuits - things like that. | `items` #4 |
 | 冻生肉片 | 这是一块冻硬的生肉。唯一的吃法是切下薄薄的薄片。这样吃意外的不错。 | frozen carpaccio | It's a piece of frozen raw meat. The only way to eat it is by cutting thin slices of it. And this way it's suprisingly good. | `items` #116 |
 | 长柄刀 | 一种长柄兵器，在长杆末端装上剑刃。 | glaive | A polearm consisting of a sword blade on the end of a pole. | `items` #30 |
-| 金币 | `TXT_COLLECT` 收集金币，以后好在商店里花掉。<br>`TXT_INFO` 一堆金币，共 %d 枚。{TXT_COLLECT}<br>`TXT_INFO_1` 一枚金币。{TXT_COLLECT}<br>`TXT_VALUE` %+d<br>`VALUE` 价值 | gold | — | `items` #14 |
+| 金币 | 一堆金币。收集金币以在随后的商店中消费。<br>`TXT_COLLECT` 收集金币，以后好在商店里花掉。<br>`TXT_INFO` 一堆金币，共 %d 枚。{TXT_COLLECT}<br>`TXT_INFO_1` 一枚金币。{TXT_COLLECT}<br>`TXT_VALUE` %+d<br>`VALUE` 价值 | gold | — | `items` #14 |
 | 金钥匙 | 这把金钥匙的齿纹细密而精巧。也许它能打开某个箱子上的锁？ | golden key | The notches on this golden key are tiny and intricate. Maybe it can open some chest lock? | `items` #10 |
 | — | `TXT_MIMIC` 这是一只拟形怪！ | — | — | — |
 | 蜜罐 | 这个小蜜罐里蜂蜜不多，但里面住着一只金色蜜蜂，而且它并不想离开。<br>`AC_SHATTER` 砸碎 | honeypot | There is not much honey in this small honeypot, but there is a golden bee there and it doesn't want to leave it. | `items` #125 |
@@ -45,7 +45,7 @@
 | 燃烧镖 | 每支飞镖的尖刺用来把它钉在目标身上，同时绑在镖身上的不稳定化合物会爆发出耀眼的火焰。 | incendiary dart | The spike on each of these darts is designed to pin it to its target while the unstable compounds strapped to its length burst into brilliant flames. | `items` #108 |
 | （武器附魔） | `TXT_UNSTABLE` 不稳定%s | — | — | — |
 | （卷轴） | `TXT_WARNING` 你真的要取消这次卷轴使用吗？无论如何它都会被消耗掉。<br>`TXT_YES` 是的，我确定<br>`TXT_NO` 不，我改变主意了 | — | — | — |
-| 铁钥匙 | `TXT_FROM_DEPTH` 来自第 %d 层的铁钥匙 | iron key | — | `items` #9 |
+| 铁钥匙 | 这个铁钥匙的匙齿已经严重磨损；皮制系带也久经年岁摧残。它对应的是哪扇门呢?<br>`TXT_FROM_DEPTH` 来自第 %d 层的铁钥匙 | iron key | — | `items` #9 |
 | 某样东西 | `TXT_PACK_FULL` 你的背包太满了，装不下%s<br>`TXT_BROKEN` 由于频繁使用，你的%s已经损坏。<br>`TXT_GONNA_BREAK` 由于频繁使用，你的%s很快就要坏了。<br>`TXT_TO_STRING` %s<br>`TXT_TO_STRING_X` %s x%d<br>`TXT_TO_STRING_LVL` %s%+d<br>`TXT_TO_STRING_LVL_X` %s%+d x%d<br>`AC_DROP` 丢弃<br>`AC_THROW` 投掷<br>`QUANTITY` 数量<br>`LEVEL` 等级<br>`LEVEL_KNOWN` 等级已知<br>`CURSED` 已诅咒<br>`CURSED_KNOWN` 诅咒已知<br>`DURABILITY` 耐久 | smth | — | — |
 | 标枪 | 这根金属长杆经过配重，使尖端在飞行途中始终朝前。 | javelin | This length of metal is weighted to keep the spike at its tip foremost as it sails through the air. | `items` #110 |
 | 钥匙环 | 这是一枚铜制钥匙环，让你把钥匙和其余物品分开存放。 | key ring | This is a copper key ring, that lets you keep all your keys separately from the rest of your belongings. | `items` #126 |
@@ -58,18 +58,18 @@
 | 钉头锤 | 这把武器的铁质锤头能造成相当可观的伤害。 | mace | The iron head of this weapon inflicts substantial damage. | `items` #18 |
 | 法师长袍 | 穿上这件华美的长袍，法师可以施展「熔岩大地」法术：视野内的所有敌人都会被点燃，同时无法移动。<br>`AC_SPECIAL` 熔岩大地<br>`TXT_NOT_MAGE` 只有法师能使用这件护甲！ | mage robe | Wearing this gorgeous robe, a mage can cast a spell of molten earth: all the enemies in his field of view will be set on fire and unable to move at the same time. | `items` #98 |
 | 锁甲 | 互相扣合的金属环组成了一套坚韧而灵活的护甲。 | mail armor | Interlocking metal links make for a tough but flexible suit of armor. | `items` #26 |
-| （护甲印记） | `TXT_METABOLISM` 代谢之%s | — | — | — |
+| 代谢%s | 代谢诅咒在穿戴者受伤时能直接将饱腹度转化为生命值，提供额外的治疗，但你会很快陷入饥饿之中。<br>`TXT_METABOLISM` 代谢之%s | — | — | — |
 | （投掷武器） | `TXT_MISSILES` 投掷武器<br>`TXT_YES` 是的，我清楚自己在做什么<br>`TXT_NO` 不，我改变主意了<br>`TXT_R_U_SURE` 你真的要把它当作近战武器来装备吗？ | — | — | — |
-| （护甲印记） | `TXT_MULTIPLICITY` 多重之%s | — | — | — |
+| 分身%s | 带有分身诅咒的防具含有一种危险的复制魔法。有时候它会复制出穿戴者的镜像，但也有同等几率复制攻击者！<br>`TXT_MULTIPLICITY` 多重之%s | — | — | — |
 | 可疑的肉 | 吃不吃随你，后果自负！ | mystery meat | Eat at your own risk! | `items` #113 |
 | 高价口粮 | 看起来跟标准口粮一模一样，只是小了点。 | overpriced food ration | It looks exactly like a standard ration of food but smaller. | `items` #115 |
-| （武器附魔） | `TXT_STUNNING` 眩晕%s | — | — | — |
+| 麻痹 | 通常最坏的事就是什么事都做不出来。\n\n麻痹会制止目标的一切行动，迫使目标静等到效果消失。受伤导致的疼痛也有助于目标摆脱麻痹。\n\n麻痹效果剩余时长：%s回合<br>`TXT_STUNNING` 眩晕%s | — | — | — |
 | 康沃尔馅饼 | 这是正宗的康沃尔馅饼，传统的牛肉加土豆馅。 | pasty | This is authentic Cornish pasty with traditional filling of beef and potato. | `items` #112 |
 | 幻影鱼 | 你几乎看不见这尾在空气中半透明的小鱼。一旦进入水里，它就会彻底隐形。<br>`AC_EAT` 食用 | phantom fish | You can barely see this tiny translucent fish in the air. In the water it becomes effectively invisible. | `items` #118 |
 | 鹤嘴锄 | 这是一把又大又结实的破岩工具。大概也能当武器使。<br>`AC_MINE` 挖矿<br>`TXT_NO_VEIN` 你附近没有可以开采的暗金矿脉 | pickaxe | This is a large and sturdy tool for breaking rocks. Probably it can be used as a weapon. | `items` #101 |
 | 板甲 | 巨大的金属板拼接成一整套护甲，为任何强壮到能承受它惊人重量的冒险者提供无可比拟的防护。 | plate armor | Enormous plates of metal are joined together into a suit that provides unmatched protection to any adventurer strong enough to bear its staggering weight. | `items` #28 |
-| （武器附魔） | `TXT_VENOMOUS` 剧毒%s | — | — | — |
-| （护甲印记） | `TXT_POTENTIAL` 潜能之%s | — | — | — |
+| 中毒 | 毒素传遍全身，缓慢地损伤着各个脏器。\n\n毒素每回合造成的伤害与其剩余的回合数成正比。\n\n中毒效果剩余时长：%s回合<br>`TXT_VENOMOUS` 剧毒%s | — | — | — |
+| 电势%s | 这个刻印在被击中时会积蓄能量，在生效时为使用者的法杖充能。<br>`TXT_POTENTIAL` 潜能之%s | — | — | — |
 | （药水） | {isKnown}{desc}这只小瓶里装着不停打旋的{color}液体。谁知道喝下去或者扔出去会发生什么？<br>`AC_DRINK` 饮用<br>`TXT_HARMFUL` 有害药水！<br>`TXT_BENEFICIAL` 有益药水<br>`TXT_YES` 是的，我清楚自己在做什么<br>`TXT_NO` 不，我改变主意了<br>`TXT_R_U_SURE_DRINK` 你确定要喝下它吗？大多数情况下，这种药水应该扔向敌人才对。<br>`TXT_R_U_SURE_THROW` 你确定要扔掉它吗？大多数情况下，喝下它才是明智之举。 | — | {isKnown}{desc}This flask contains a swirling {color} liquid. Who knows what it will do when drunk or thrown? | — |
 | 经验药水 | 无数场战斗积淀的历练被浓缩成液体，喝下后立即提升一个经验等级。 | Potion of Experience | The storied experiences of multitudes of battles reduced to liquid form, this draught will instantly raise your experience level. | — |
 | 冰霜药水 | 这种化学物质一旦接触空气就会蒸发成冰霜云团，任何碰到它的生物都会被冻在原地，无法行动也无法移动。 | Potion of Frost | Upon exposure to open air, this chemical will evaporate into a freezing cloud, causing any creature that contacts it to be frozen in place, unable to act and move. | — |
@@ -120,15 +120,15 @@
 | 短剑 | 它确实很短，只比匕首长几英寸。<br>`AC_REFORGE` 重铸<br>`TXT_SELECT_WEAPON` 选择一件武器进行升级<br>`TXT_REFORGED` 你重铸了短剑，用来升级你的%s<br>`TXT_NOT_BOOMERANG` 你不能这样升级回旋镖 | short sword | It is indeed quite short, just a few inches longer, than a dagger. | `items` #2 |
 | 手里剑 | 星形的金属片带着剃刀般锋利的刃口，命中目标时伤害可观，而且能以极快的频率连续投掷。 | shuriken | Star-shaped pieces of metal with razor-sharp blades do significant damage when they hit a target. They can be thrown at very high rate. | `items` #15 |
 | 骷髅钥匙 | 这把钥匙看起来来头不小：钥匙头做成了骷髅的形状。大概能打开某扇来头不小的门。 | skeleton key | This key looks serious: its head is shaped like a skull. Probably it can open some serious door. | `items` #8 |
-| （武器附魔） | `TXT_CHILLING` 寒霜%s | — | — | — |
+| 迟缓 | 减速魔法影响了目标的时间流速，在目标眼中所有的事物都移动得飞快。\n\n迟缓下的角色执行所有行动花费的时间是正常状态下的两倍。\n\n迟缓效果剩余时长：%s回合<br>`TXT_CHILLING` 寒霜%s | — | — | — |
 | 长矛 | 一根纤细的木杆，顶端装着一截削尖的铁。 | spear | A slender wooden rod tipped with sharpened iron. | `items` #29 |
-| （护甲印记） | `TXT_STENCH` 恶臭之%s | — | — | — |
+| 恶臭%s | 带有恶臭诅咒的防具会释放出团团毒雾，对一切来不及逃离的对象造成伤害。<br>`TXT_STENCH` 恶臭之%s | — | — | — |
 | 剑 | 这柄锋利的钢制长刃闪着令人安心的寒光。 | sword | The razor-sharp length of steel blade shines reassuringly. | `items` #20 |
 | 投掷战斧 | 这把投掷用的斧头不算太重，但要发挥威力仍需要相当的力量。 | tomahawk | This throwing axe is not that heavy, but it still requires significant strength to be used effectively. | `items` #107 |
 | （武器附魔） | `TXT_TEMPERED` 淬炼%s | — | — | — |
 | 精通之书 | 这本磨损的皮面书并不算厚，但你莫名觉得能从中学到很多。不过要记住，读完这本书可能需要一些时间。<br>`TXT_BLINDED` 失明时你无法阅读<br>`AC_READ` 阅读 | — | This worn leather book is not that thick, but you feel somehow, that you can gather a lot from it. Remember though that reading this tome may require some time. | `items` #82 |
 | 火把 | 在恶魔殿堂里这是不可或缺的道具，那地方以环境照明极差而臭名昭著。<br>`AC_LIGHT` 点燃 | torch | It's an indispensable item in The Demon Halls, which are notorious for their poor ambient lighting. | `items` #84 |
-| （护甲印记） | `TXT_VISCOSITY` 黏滞之%s<br>`DAMAGE` 伤害 | — | — | — |
+| 粘稠%s | 这个刻印可以储存对使用者造成的伤害，让使用者缓慢受伤而不是一下子受到重击。<br>`TXT_VISCOSITY` 黏滞之%s<br>`DAMAGE` 伤害 | — | — | — |
 | （法杖） | `AC_ZAP` 施放<br>`TXT_WOOD` 这根纤细的%s法杖摸上去暖暖的。谁知道使用它会发生什么？<br>`TXT_DAMAGE` 把这支法杖当作近战武器时，它的平均伤害是每次 %d 点。<br>`TXT_WEAPON` 你可以把这支法杖当作近战武器使用。<br>`TXT_FIZZLES` {your}{wand}{fizzles}<br>`TXT_SELF_TARGET` 你不能以自己为目标<br>`TXT_IDENTIFY` 你对自己的%s已经足够熟悉了。<br>`UNFAMILIRIARITY` 不熟练<br>`MAX_CHARGES` 最大充能<br>`CUR_CHARGES` 当前充能<br>`CUR_CHARGE_KNOWN` 充能已知 | — | — | — |
 | 法杖皮套 | 这个细长的皮套是用某种异域动物的皮革制成的，可以紧凑地携带最多 {size} 支法杖。 | wand holster | This slim holder is made of leather of some exotic animal. It allows to compactly carry up to {size} wands. | `items` #111 |
 | 狂乱法杖 | 这支法杖发出的紫光会让目标陷入狂乱，攻击它附近的随机生物。 | Wand of Amok | The purple light from this wand will make the target run amok attacking random creatures in its vicinity. | — |

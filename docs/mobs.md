@@ -4,9 +4,9 @@
 
 | 中文名 | 中文说明 | 英文原名 | 英文说明 | 贴图 |
 |---|---|---|---|---|
-| 酸液蝎蛛 | — | acidic scorpio | — | `scorpio` #14 |
-| 白化巨鼠 | — | albino rat | — | `rat` #16 |
-| 疯狂强盗 | — | crazy bandit | — | `thief` #0 |
+| 酸液蝎蛛 | 这种巨大的节肢类恶魔生物不会选择近身缠斗，它们更擅长在远处发射能够致残的锯齿钉刺。这一只的身上甚至还滴落着腐蚀淤泥。 | acidic scorpio | — | `scorpio` #14 |
+| 白化巨鼠 | 这是一种珍稀的啮齿小鼠，有着纯白色的毛皮和锯齿状的牙齿。 | albino rat | — | `rat` #16 |
+| 疯狂强盗 | 一位小偷中的精英，因其身着更为昂贵的的紫色长袍而与众不同。尽管他们偷技高超，却仍然避免不了像同行一样失去理智的命运。\n\n疯狂强盗不仅会偷走你的财物，还会使你短暂失明、残废并中毒！不过他们也比别的小偷更有可能携带额外的战利品。 | crazy bandit | — | `thief` #0 |
 | 吸血蝙蝠 | 这些敏捷而顽强的洞顶居民能通过每一次成功的攻击回复生命，从而击败比自己大得多的对手。 | vampire bat | These brisk and tenacious inhabitants of cave domes may defeat much larger opponents by replenishing their health with each successful attack. | `bat` #0 |
 | 豺狼人蛮兵 | 蛮兵是所有豺狼人中体型最大、最强壮也最坚韧的。受到重伤时它们会陷入狂暴，对敌人造成更高的伤害。<br>`TXT_ENRAGED` %s 陷入了狂暴！ | gnoll brute | Brutes are the largest, strongest and toughest of all gnolls. When severely wounded, they go berserk, inflicting even more damage to their enemies. | `brute` #0 |
 | 下水道巨蟹 | 这些巨大的螃蟹位于下水道食物链的顶端。它们速度极快，厚重的外骨骼能扛住沉重的打击。 | sewer crab | These huge crabs are at the top of the food chain in the sewers. They are extremely fast and their thick exoskeleton can withstand heavy blows. | `crab` #0 |
@@ -25,7 +25,7 @@
 | 巨型食人鱼 | 这些肉食性鱼类并非地下水塘的原生物种。它们是被专门培育出来，守护被水淹没的藏宝库的。 | giant piranha | These carnivorous fish are not natural inhabitants of underground pools. They were bred specifically to protect flooded treasure vaults. | `piranha` #0 |
 | 有袋巨鼠 | 有袋巨鼠攻击性强，但相当弱小，是下水道的常见居民。只有成群结队时它们才危险。 | marsupial rat | Marsupial rats are aggressive, but rather weak denizens of the sewers. They can be dangerous only in big numbers. | `rat` #0 |
 | 蝎蛛 | 这些巨大的蛛形恶魔会不惜一切避免近战，从远处射出致残的锯齿尖刺。 | scorpio | These huge arachnid-like demonic creatures avoid close combat by all means, firing crippling serrated spikes from long distances. | `scorpio` #0 |
-| 资深武僧 | — | senior monk | — | `monk` #18 |
+| 资深武僧 | 这些僧侣皆是狂热的信徒，倾其所能从一切异族手中保护国王的安全。狂热的信仰使得他们将自己的意志交给了国王，只剩下没有思想的躯壳在城中游荡。\n\n这个武僧掌握了精深的格斗技巧，相较于普通的武僧，他能在移动时更快地凝神。凝神的武僧必定会招架一次来袭的物理攻击，哪怕是必中的攻击。武僧在移动时能更快地凝神，在战斗中就相对慢些。 | senior monk | — | `monk` #18 |
 | 豺狼人萨满 | 最聪明的豺狼人能够掌握萨满法术。它们偏好战斗法术以弥补力量的不足，并且毫不迟疑地对那些质疑自己在族群中地位的人使用。<br>`TXT_LIGHTNING_KILLED` %s 的闪电杀死了你…… | gnoll shaman | The most intelligent gnolls can master shamanistic magic. Gnoll shamans prefer battle spells to compensate for lack of might, not hesitating to use them on those who question their status in a tribe. | `shaman` #0 |
 | 持盾蛮兵 | — | shielded brute | — | `brute` #21 |
 | 骷髅 | 骷髅由倒霉的冒险者与地牢居民的尸骨拼成，被来自地底的邪恶魔法气息驱动。受到足够伤害后，它们会炸成一堆碎骨。<br>`TXT_HERO_KILLED` 你被骨片的爆炸杀死了…… | skeleton | Skeletons are composed of corpses bones from unlucky adventurers and inhabitants of the dungeon, animated by emanations of evil magic from the depths below. After they have been damaged enough, they disintegrate in an explosion of bones. | `skeleton` #0 |
@@ -34,7 +34,7 @@
 | 魅魔 | 魅魔是外形如同妖艳少女（略带哥特味道）的恶魔。魅魔能用魔法魅惑英雄，使其在魅惑消退前无法攻击任何东西。 | succubus | The succubi are demons that look like seductive (in a slightly gothic way) girls. Using its magic, the succubus can charm a hero, who will become unable to attack anything until the charm wears off. | `succubus` #0 |
 | 蝇群 | 致命的蝇群愤怒地嗡嗡作响。每一次非魔法攻击都会把它分裂成两团更小、但同样危险的蝇群。 | swarm of flies | The deadly swarm of flies buzzes angrily. Every non-magical attack will split it into two smaller but equally dangerous swarms. | `swarm` #0 |
 | 天狗 | 天狗是古代刺客组织「天狗」的成员。这些刺客以大量使用手里剑和陷阱而闻名。 | — | Tengu are members of the ancient assassins clan, which is also called Tengu. These assassins are noted for extensive use of shuriken and traps. | `tengu` #0 |
-| 疯狂盗贼 | `TXT_STOLE` %s 偷走了你的%s！<br>`TXT_CARRIES` %s 正带着一个 _%s_。显然是偷来的。 | crazy thief | — | `thief` #0 |
+| 疯狂盗贼 | 这些囚犯逃出了他们的牢房，却没能逃出这座监牢。随着时间流逝，这座监牢彻底摧毁了他们仅存的心智，以及对自由的向往。这些疯狂的小偷和强盗很久以前就已经彻底忘记它们是谁，以及它们为何偷窃。\n\n这些敌人比起面对面地战斗，更倾向于偷走你的财物随后逃之夭夭。一定要看紧它们，否则你以后可能再也不会见到自己的被盗财物了。<br>`TXT_STOLE` %s 偷走了你的%s！<br>`TXT_CARRIES` %s 正带着一个 _%s_。显然是偷来的。 | crazy thief | — | `thief` #0 |
 | 矮人术士 | 当矮人的兴趣从工程转向奥术时，术士们掌握了这座城市的权力。他们从元素魔法起步，但很快就转向了恶魔学与死灵术。<br>`TXT_SHADOWBOLT_KILLED` %s 的暗影箭杀死了你…… | dwarf warlock | When dwarves' interests have shifted from engineering to arcane arts, warlocks have come to power in the city. They started with elemental magic, but soon switched to demonology and necromancy. | `warlock` #0 |
 | 怨灵 | 怨灵是罪人的复仇之魂，其坟墓或墓穴遭到了侵扰。作为灵体，普通武器很难击中它。 | wraith | A wraith is a vengeful spirit of a sinner, whose grave or tomb was disturbed. Being an ethereal entity, it is very hard to hit with a regular weapon. | `wraith` #0 |
 | Yog-Dzewa | `TXT_DESC` Yog-Dzewa 是一位古神，来自混沌领域的强大存在。一个世纪前，古代矮人勉强打赢了对它那支恶魔军队的战争，却无法杀死这位神明本身。于是他们把它囚禁在自己城市下方的殿堂里，以为它已经衰弱到永远无法再起。 | rotting fist | — | `yog` #0 |
