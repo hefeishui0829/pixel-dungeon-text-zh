@@ -62,6 +62,8 @@ public String desc() { return "You can store excess dew ..."; }
 
 文本量是否够、译名是否靠谱，跟社区主流中文分支做过交叉验证：[docs/zh-reference-comparison.md](docs/zh-reference-comparison.md)。结论：类别齐全无缺块，123 条可比名称中 **85% 与 Shattered 官方简体中文吻合**（44% 完全相同、41% 高度相似），差异集中在 SPD 重制改名过的条目。
 
+> **争议译文已单独收录**：与 SPD 官方简体中文存在分歧的条目（名称/说明措辞不同、未译但有官中可参照、疑似改名）共 **181 条**，全部收进 [`data/zh/disputed.json`](data/zh/disputed.json)（每条带 `build_note` 提示构建时如何取舍），并已由 `build_zh.py` 以 `disputed` 字段注入 `data/zh/*.json` 与 `all.json`。人读版见 [docs/disputed-translations.md](docs/disputed-translations.md)。
+
 ## 目录结构
 
 ```
