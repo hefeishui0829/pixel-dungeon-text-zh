@@ -60,6 +60,8 @@ public String desc() { return "You can store excess dew ..."; }
 | levels / traps / journal / results / misc | 29 | 楼层、陷阱、日志、14 条死因、战斗与世界交互 |
 | **合计** | **335 个类 / 844 条已译文本** | 其中 173 条带贴图坐标 |
 
+文本量是否够、译名是否靠谱，跟社区主流中文分支做过交叉验证：[docs/zh-reference-comparison.md](docs/zh-reference-comparison.md)。结论：类别齐全无缺块，123 条可比名称中 **85% 与 Shattered 官方简体中文吻合**（44% 完全相同、41% 高度相似），差异集中在 SPD 重制改名过的条目。
+
 ## 目录结构
 
 ```
