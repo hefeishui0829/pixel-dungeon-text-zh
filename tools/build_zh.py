@@ -107,11 +107,7 @@ def group_of(rec):
     return None
 
 
-# 争议清单(由 collect_disputes.py 生成), 注入主数据时按 (类别,id) 查询
-_DISPUTES = {}
-
-
-def build_items(rows, idx, zh, cat=None):
+def build_items(rows, idx, zh):
     out = []
     for r in rows:
         t = zh.get(r["class"], {})
@@ -127,14 +123,6 @@ def build_items(rows, idx, zh, cat=None):
             "zhConsts": t.get("consts"),
             "enConsts": {k: v["text"] for k, v in r.get("consts", {}).items()} or None,
         }
-        if cat is not None:
-            d = _DISPUTES.get((cat, r["class"]))
-            if d:
-                # 剔除与记录重复的 id/category, 保留分歧信息 + 构建提示
-                rec["disputed"] = [
-                    {k: v for k, v in e.items() if k not in ("id", "category")}
-                    for e in d
-                ]
         # 物品若同时能定位到种子/其它图集, 额外记录
         if r["class"] in idx["plants"] and "seedTile" in idx["plants"][r["class"]]:
             rec["seedSprite"] = {"sheet": "items",
@@ -148,9 +136,9 @@ def build_items(rows, idx, zh, cat=None):
     return out
 
 
-def build_simple(rows, idx, zh, cat=None):
+def build_simple(rows, idx, zh):
     """怪物/NPC/植物/界面等: 结构与物品一致, 只是贴图来源不同"""
-    return build_items(rows, idx, zh, cat)
+    return build_items(rows, idx, zh)
 
 
 def build_badges(idx, badges_zh):
@@ -295,13 +283,6 @@ def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     os.makedirs(DOC_DIR, exist_ok=True)
 
-    # 载入争议清单(若存在), 建 (类别,id) 索引, 供下方注入主数据
-    dpath = os.path.join(OUT_DIR, "disputed.json")
-    if os.path.exists(dpath):
-        djson = json.load(open(dpath, encoding="utf-8"))
-        for e in djson.get("entries", []):
-            _DISPUTES.setdefault((e["category"], e["id"]), []).append(e)
-
     coverage = {}
     all_rows = OrderedDict()
 
@@ -313,7 +294,7 @@ def main():
         if cat == "badges":
             rows = build_badges(idx, badges_zh)
         else:
-            rows = build_simple(en_rows, idx, zh, cat)
+            rows = build_simple(en_rows, idx, zh)
             # 枚举/数组/内联文本(职业特长、副职业、剧情章节等)
             for r in en_rows:
                 t = zh.get(r["class"], {})

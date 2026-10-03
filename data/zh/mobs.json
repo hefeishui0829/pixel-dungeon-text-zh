@@ -11,20 +11,7 @@
    "tile": 14
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "酸液蝎蛛",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "酸液巨蝎"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [酸液蝎蛛] 或 采用 SPD 官方译法 [酸液巨蝎]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Albino",
@@ -38,20 +25,7 @@
    "tile": 16
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "白化巨鼠",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "白化老鼠"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [白化巨鼠] 或 采用 SPD 官方译法 [白化老鼠]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Bandit",
@@ -79,20 +53,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这些敏捷而顽强的洞顶居民能通过每一次成功的攻击回复生命，从而击败比自己大得多的对手。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这些敏捷且坚韧的洞穴穹顶生物比看上去可怕地多。它们会通过每次成功的攻击来恢复生命，从而击败比它们大得多的对手。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这些敏捷而顽强的洞顶居民能通过每一次成功的攻击回复生命，从而击败比自己大得多的对手。] 或 采用 SPD 官方译法 [这些敏捷且坚韧的洞穴穹顶生物比看上去可怕地多。它们会通过每次成功的攻击来恢复生命，从而击败比它们大得多的对手。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Brute",
@@ -110,31 +71,7 @@
   },
   "enConsts": {
    "TXT_ENRAGED": "%s becomes enraged!"
-  },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "豺狼人蛮兵",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "豺狼暴徒"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [豺狼人蛮兵] 或 采用 SPD 官方译法 [豺狼暴徒]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "蛮兵是所有豺狼人中体型最大、最强壮也最坚韧的。受到重伤时它们会陷入狂暴，对敌人造成更高的伤害。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "暴徒是体型最大，力量最强且生命力最坚韧的一种豺狼人。受到致命伤时，他们会狂暴化，获得暂时的护盾和极高的伤害加成。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [蛮兵是所有豺狼人中体型最大、最强壮也最坚韧的。受到重伤时它们会陷入狂暴，对敌人造成更高的伤害。] 或 采用 SPD 官方译法 [暴徒是体型最大，力量最强且生命力最坚韧的一种豺狼人。受到致命伤时，他们会狂暴化，获得暂时的护盾和极高的伤害加成。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Crab",
@@ -148,31 +85,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "下水道巨蟹",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "下水道螃蟹"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [下水道巨蟹] 或 采用 SPD 官方译法 [下水道螃蟹]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这些巨大的螃蟹位于下水道食物链的顶端。它们速度极快，厚重的外骨骼能扛住沉重的打击。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这些巨型的螃蟹位居下水道食物链的顶端。它们行动极其迅速且其厚重的甲壳能承受沉重的打击。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这些巨大的螃蟹位于下水道食物链的顶端。它们速度极快，厚重的外骨骼能扛住沉重的打击。] 或 采用 SPD 官方译法 [这些巨型的螃蟹位居下水道食物链的顶端。它们行动极其迅速且其厚重的甲壳能承受沉重的打击。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "CursePersonification",
@@ -197,20 +110,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这台机器是矮人在几个世纪前造出来的。后来，矮人开始用魔像、元素、甚至恶魔来取代机器。这最终导致了他们文明的衰落。DM-300 之类的机器通常用于建筑和采矿，某些情况下也用于城防。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "DM-300是矮人有史以来发明的最强大的“防卫机械”。这般强大的机械极难量产，所以矮人们仅仅造出了几台来守护他们地下都城的入口。\\n\\n它配备了可以喷出剧毒废气的通风口和一个可以用来攻击和破坏土石的高功率钻头。DM-300还可以接通电网，进一步增强它的力量。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这台机器是矮人在几个世纪前造出来的。后来，矮人开始用魔像、元素、甚至恶魔来取代机器。这最终导致了他们文明的衰落。DM-300 之类的机器通常用于建筑和采矿，某些情况下也用于城防。] 或 采用 SPD 官方译法 [DM-300是矮人有史以来发明的最强大的“防卫机械”。这般强大的机械极难量产，所以矮人们仅仅造出了几台来守护他们地下都城的入口。\\n\\n它配备了可以喷出剧毒废气的通风口和一个可以用来攻击和破坏土石的高功率钻头。DM-300还可以接通电网，进一步增强它的力量。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Elemental",
@@ -242,20 +142,7 @@
   },
   "enConsts": {
    "TXT_DEATHGAZE_KILLED": "%s's deathgaze killed you..."
-  },
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这个恶魔的另一个名字叫「仇恨之球」，因为它一旦发现敌人，就会不顾一切地使用死亡凝视，常常连同伴都不顾，把他们一起重伤。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "邪眼是一种充斥着恶魔能量的飘浮球形生物。它具有近战能力，但其真正的杀招暗藏于其魔法之中。\\n\\n邪眼会在短暂的蓄能过后，释放一种名为_死亡凝视_的毁灭性能量射线。届时，邪眼所凝视的一切都将受到巨额伤害，而明智的冒险家都会避其锋芒。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这个恶魔的另一个名字叫「仇恨之球」，因为它一旦发现敌人，就会不顾一切地使用死亡凝视，常常连同伴都不顾，把他们一起重伤。] 或 采用 SPD 官方译法 [邪眼是一种充斥着恶魔能量的飘浮球形生物。它具有近战能力，但其真正的杀招暗藏于其魔法之中。\\n\\n邪眼会在短暂的蓄能过后，释放一种名为_死亡凝视_的毁灭性能量射线。届时，邪眼所凝视的一切都将受到巨额伤害，而明智的冒险家都会避其锋芒。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "FetidRat",
@@ -266,31 +153,7 @@
   "enDesc": "This marsupial rat is much larger than a regular one. It is surrounded by a foul cloud.",
   "sprite": null,
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "恶臭巨鼠",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "腐臭老鼠"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [恶臭巨鼠] 或 采用 SPD 官方译法 [腐臭老鼠]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这只巨鼠比普通的同类大得多，周身笼罩着一股恶臭的云雾。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这只老鼠很不对劲。它油腻的黑毛和腐烂的皮肤与你之前见过的健康老鼠很不同。浅绿色的眼睛让它显得更具威胁。\\n\\n这只老鼠周围盘绕着一片可怕恶臭，靠近时臭气尤为浓烈。\\n\\n黑色的淤泥从它的嘴中流出。淤泥腐蚀掉了地砖，但遇水似乎就会溶解。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这只巨鼠比普通的同类大得多，周身笼罩着一股恶臭的云雾。] 或 采用 SPD 官方译法 [这只老鼠很不对劲。它油腻的黑毛和腐烂的皮肤与你之前见过的健康老鼠很不同。浅绿色的眼睛让它显得更具威胁。\\n\\n这只老鼠周围盘绕着一片可怕恶臭，靠近时臭气尤为浓烈。\\n\\n黑色的淤泥从它的嘴中流出。淤泥腐蚀掉了地砖，但遇水似乎就会溶解。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Gnoll",
@@ -304,31 +167,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "豺狼人斥候",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "豺狼巡查"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [豺狼人斥候] 或 采用 SPD 官方译法 [豺狼巡查]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "豺狼人是形似鬣狗的人形生物。它们栖居在下水道和地牢中，时不时上到地面劫掠。斥候是族群里的普通成员，没有蛮兵强壮，也没有萨满聪明。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "豺狼人是鬣狗状的类人生物。它们在下水道和地牢里游荡，不时向上行动试图向地表发起进攻。豺狼巡查是它们种群里最普通的一员，它们既没有暴徒强壮，也赶不上萨满聪明。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [豺狼人是形似鬣狗的人形生物。它们栖居在下水道和地牢中，时不时上到地面劫掠。斥候是族群里的普通成员，没有蛮兵强壮，也没有萨满聪明。] 或 采用 SPD 官方译法 [豺狼人是鬣狗状的类人生物。它们在下水道和地牢里游荡，不时向上行动试图向地表发起进攻。豺狼巡查是它们种群里最普通的一员，它们既没有暴徒强壮，也赶不上萨满聪明。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Golem",
@@ -342,20 +181,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "矮人试图把机械知识与新掌握的元素束缚之力结合起来。他们用大地之灵作为魔像机械躯体的「灵魂」，认为这是最容易控制的一种。尽管如此，仪式中最微小的失误仍可能引发失控。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "魔像是矮人们试图利用魔法的新应用弥补机械设备长久以来的缺陷的产物。它们虽不似DM-300那样庞大笨重，但仍具有不可小觑的破坏力。\\n\\n魔像因体型过大无法进入过道，但矮人们赋予了魔像魔力来弥补这一点——魔像能在各个房间之间传送，并能将无法触及的敌人从远处拉回来。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [矮人试图把机械知识与新掌握的元素束缚之力结合起来。他们用大地之灵作为魔像机械躯体的「灵魂」，认为这是最容易控制的一种。尽管如此，仪式中最微小的失误仍可能引发失控。] 或 采用 SPD 官方译法 [魔像是矮人们试图利用魔法的新应用弥补机械设备长久以来的缺陷的产物。它们虽不似DM-300那样庞大笨重，但仍具有不可小觑的破坏力。\\n\\n魔像因体型过大无法进入过道，但矮人们赋予了魔像魔力来弥补这一点——魔像能在各个房间之间传送，并能将无法触及的敌人从远处拉回来。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Goo",
@@ -369,31 +195,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "咕噜",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "粘咕"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [咕噜] 或 采用 SPD 官方译法 [粘咕]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "关于咕噜，人们所知甚少。它很可能根本算不上生物，而只是下水道里的一团物质，偶然获得了些许自由意志。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "我们对粘咕所知甚少。它甚至很有可能不是一个生物，而是下水道表面聚集的邪恶物质得到基本智能而产生的实体。不管怎样，很明显是黑暗魔法造就了这个生物。\\n\\n其凝胶性质让它吸收了很多黑暗能量，你光是靠近就感受到了一股寒意。如果粘咕使用这种能量对你进行攻击那你肯定支撑不了多久。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [关于咕噜，人们所知甚少。它很可能根本算不上生物，而只是下水道里的一团物质，偶然获得了些许自由意志。] 或 采用 SPD 官方译法 [我们对粘咕所知甚少。它甚至很有可能不是一个生物，而是下水道表面聚集的邪恶物质得到基本智能而产生的实体。不管怎样，很明显是黑暗魔法造就了这个生物。\\n\\n其凝胶性质让它吸收了很多黑暗能量，你光是靠近就感受到了一股寒意。如果粘咕使用这种能量对你进行攻击那你肯定支撑不了多久。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "King",
@@ -426,31 +228,7 @@
   "enConsts": {
    "LEVEL": "level",
    "ITEMS": "items"
-  },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "拟形怪",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "宝箱怪"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [拟形怪] 或 采用 SPD 官方译法 [宝箱怪]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "拟形怪是可以变成任意形状的魔法生物。在地牢里，它们几乎总是选择宝箱的形态，因为它们知道怎样才能勾引冒险者上钩。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "宝箱怪是一种能随意改变外形的生物。在地牢里它们几乎一直以宝箱形态出现，因为这样总能吸引疏于防备的冒险家。\\n\\n宝箱怪具有较强的攻击力，但也通常拥有比普通箱子更多的财宝。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [拟形怪是可以变成任意形状的魔法生物。在地牢里，它们几乎总是选择宝箱的形态，因为它们知道怎样才能勾引冒险者上钩。] 或 采用 SPD 官方译法 [宝箱怪是一种能随意改变外形的生物。在地牢里它们几乎一直以宝箱形态出现，因为这样总能吸引疏于防备的冒险家。\\n\\n宝箱怪具有较强的攻击力，但也通常拥有比普通箱子更多的财宝。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Mob",
@@ -494,20 +272,7 @@
   },
   "enConsts": {
    "TXT_DISARM": "%s has knocked the %s from your hands!"
-  },
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这些武僧是狂信者，誓死保护自己城市的秘密不被任何外来者窥探。他们不使用护甲和武器，只依靠徒手格斗的技艺。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这些僧侣皆是狂热的信徒，倾其所能从一切异族手中保护国王的安全。狂热的信仰使得他们将自己的意志交给了国王，只剩下没有思想的躯壳在城中游荡。\\n\\n矮人武僧既不披甲亦不执械，仅仅依靠自己的徒手格斗技巧退敌。凝神的武僧必定会招架一次来袭的物理攻击，哪怕是必中的攻击。武僧在移动时能更快地凝神，在战斗中就相对慢些。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这些武僧是狂信者，誓死保护自己城市的秘密不被任何外来者窥探。他们不使用护甲和武器，只依靠徒手格斗的技艺。] 或 采用 SPD 官方译法 [这些僧侣皆是狂热的信徒，倾其所能从一切异族手中保护国王的安全。狂热的信仰使得他们将自己的意志交给了国王，只剩下没有思想的躯壳在城中游荡。\\n\\n矮人武僧既不披甲亦不执械，仅仅依靠自己的徒手格斗技巧退敌。凝神的武僧必定会招架一次来袭的物理攻击，哪怕是必中的攻击。武僧在移动时能更快地凝神，在战斗中就相对慢些。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Piranha",
@@ -521,20 +286,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这些肉食性鱼类并非地下水塘的原生物种。它们是被专门培育出来，守护被水淹没的藏宝库的。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这些食肉的鱼类是为了专门保护水涝区域而培育的。它们的撕咬相当致命，避免与它们正面对峙为上。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这些肉食性鱼类并非地下水塘的原生物种。它们是被专门培育出来，守护被水淹没的藏宝库的。] 或 采用 SPD 官方译法 [这些食肉的鱼类是为了专门保护水涝区域而培育的。它们的撕咬相当致命，避免与它们正面对峙为上。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Rat",
@@ -548,31 +300,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "有袋巨鼠",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "啮齿小鼠"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [有袋巨鼠] 或 采用 SPD 官方译法 [啮齿小鼠]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "有袋巨鼠攻击性强，但相当弱小，是下水道的常见居民。只有成群结队时它们才危险。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "虽说啮齿小鼠们具有攻击性，可它们依旧是下水道居民里的弱者。它们的啮咬非常烦人，但只有数量巨大时才会有生命威胁。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [有袋巨鼠攻击性强，但相当弱小，是下水道的常见居民。只有成群结队时它们才危险。] 或 采用 SPD 官方译法 [虽说啮齿小鼠们具有攻击性，可它们依旧是下水道居民里的弱者。它们的啮咬非常烦人，但只有数量巨大时才会有生命威胁。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Scorpio",
@@ -586,31 +314,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "蝎蛛",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "巨蝎"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [蝎蛛] 或 采用 SPD 官方译法 [巨蝎]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这些巨大的蛛形恶魔会不惜一切避免近战，从远处射出致残的锯齿尖刺。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这种巨大的节肢类恶魔生物不会选择近身缠斗，它们更擅长在远处发射能够致残的锯齿钉刺。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这些巨大的蛛形恶魔会不惜一切避免近战，从远处射出致残的锯齿尖刺。] 或 采用 SPD 官方译法 [这种巨大的节肢类恶魔生物不会选择近身缠斗，它们更擅长在远处发射能够致残的锯齿钉刺。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Senior",
@@ -624,20 +328,7 @@
    "tile": 18
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "资深武僧",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "武僧大师"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [资深武僧] 或 采用 SPD 官方译法 [武僧大师]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Shaman",
@@ -655,31 +346,7 @@
   },
   "enConsts": {
    "TXT_LIGHTNING_KILLED": "%s's lightning bolt killed you..."
-  },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "豺狼人萨满",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "豺狼萨满"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [豺狼人萨满] 或 采用 SPD 官方译法 [豺狼萨满]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "最聪明的豺狼人能够掌握萨满法术。它们偏好战斗法术以弥补力量的不足，并且毫不迟疑地对那些质疑自己在族群中地位的人使用。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "豺狼萨满比大多数豺狼人更具智慧，它们会用战斗法术来弥补力量上的不足。尽管豺狼萨满的力量相对较弱，它们仍在部落中享有崇高地位。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [最聪明的豺狼人能够掌握萨满法术。它们偏好战斗法术以弥补力量的不足，并且毫不迟疑地对那些质疑自己在族群中地位的人使用。] 或 采用 SPD 官方译法 [豺狼萨满比大多数豺狼人更具智慧，它们会用战斗法术来弥补力量上的不足。尽管豺狼萨满的力量相对较弱，它们仍在部落中享有崇高地位。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Shielded",
@@ -711,20 +378,7 @@
   },
   "enConsts": {
    "TXT_HERO_KILLED": "You were killed by the explosion of bones..."
-  },
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "骷髅由倒霉的冒险者与地牢居民的尸骨拼成，被来自地底的邪恶魔法气息驱动。受到足够伤害后，它们会炸成一堆碎骨。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "骷髅本是倒霉的冒险家和监狱原住民的尸骨，因地牢深处邪恶魔力的影响而苏醒。骷髅被摧毁后，它的骨头会炸成碎片。迸溅的碎骨会伤害邻近的所有角色，而护甲能显著减免这种伤害。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [骷髅由倒霉的冒险者与地牢居民的尸骨拼成，被来自地底的邪恶魔法气息驱动。受到足够伤害后，它们会炸成一堆碎骨。] 或 采用 SPD 官方译法 [骷髅本是倒霉的冒险家和监狱原住民的尸骨，因地牢深处邪恶魔力的影响而苏醒。骷髅被摧毁后，它的骨头会炸成碎片。迸溅的碎骨会伤害邻近的所有角色，而护甲能显著减免这种伤害。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Spinner",
@@ -738,31 +392,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "洞窟纺蛛",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "矿洞蜘蛛"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [洞窟纺蛛] 或 采用 SPD 官方译法 [矿洞蜘蛛]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这些毛茸茸的绿色洞窟蜘蛛会尽量避免正面战斗，宁愿远远等着，让被蛛网缠住的猎物慢慢死于它们的毒咬。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这种长着绿毛的矿洞蜘蛛会试着避免正面交战。它更喜欢呆在远处，等着困在蛛网中的猎物缓缓死于它噬咬时分泌的剧毒。它也能向远处喷吐蛛网，阻挡敌人的行动路线。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这些毛茸茸的绿色洞窟蜘蛛会尽量避免正面战斗，宁愿远远等着，让被蛛网缠住的猎物慢慢死于它们的毒咬。] 或 采用 SPD 官方译法 [这种长着绿毛的矿洞蜘蛛会试着避免正面交战。它更喜欢呆在远处，等着困在蛛网中的猎物缓缓死于它噬咬时分泌的剧毒。它也能向远处喷吐蛛网，阻挡敌人的行动路线。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Statue",
@@ -778,20 +408,7 @@
   "zhConsts": null,
   "enConsts": {
    "WEAPON": "weapon"
-  },
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "你会以为这只是地牢里又一尊丑陋的石像，但它发着红光的眼睛出卖了它。石像本身是石头做的，可它握着的_{weapon.name}_看上去是真的。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "你本以为这只是地牢里又一尊静伫的石像，但它泛着红光的眼睛出卖了它。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [你会以为这只是地牢里又一尊丑陋的石像，但它发着红光的眼睛出卖了它。石像本身是石头做的，可它握着的_{weapon.name}_看上去是真的。] 或 采用 SPD 官方译法 [你本以为这只是地牢里又一尊静伫的石像，但它泛着红光的眼睛出卖了它。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Succubus",
@@ -805,20 +422,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "魅魔是外形如同妖艳少女（略带哥特味道）的恶魔。魅魔能用魔法魅惑英雄，使其在魅惑消退前无法攻击任何东西。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "魅魔是一种善于操纵敌人的精神的变形恶魔。这一只化为了哥特风的苍白人形，或许是为了吸引矮人术士？\\n\\n在攻击时，魅魔能够暂时魅惑目标，使其无法直接攻击魅魔本身。魅魔在攻击被魅惑的目标时能吸取其生命精华。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [魅魔是外形如同妖艳少女（略带哥特味道）的恶魔。魅魔能用魔法魅惑英雄，使其在魅惑消退前无法攻击任何东西。] 或 采用 SPD 官方译法 [魅魔是一种善于操纵敌人的精神的变形恶魔。这一只化为了哥特风的苍白人形，或许是为了吸引矮人术士？\\n\\n在攻击时，魅魔能够暂时魅惑目标，使其无法直接攻击魅魔本身。魅魔在攻击被魅惑的目标时能吸取其生命精华。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Swarm",
@@ -834,20 +438,7 @@
   "zhConsts": null,
   "enConsts": {
    "GENERATION": "generation"
-  },
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "致命的蝇群愤怒地嗡嗡作响。每一次非魔法攻击都会把它分裂成两团更小、但同样危险的蝇群。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "致命的飞蝇群愤怒地发出嗡嗡声。每次非魔法攻击都会把它分割成两群更小但同样危险的飞蝇群。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [致命的蝇群愤怒地嗡嗡作响。每一次非魔法攻击都会把它分裂成两团更小、但同样危险的蝇群。] 或 采用 SPD 官方译法 [致命的飞蝇群愤怒地发出嗡嗡声。每次非魔法攻击都会把它分割成两群更小但同样危险的飞蝇群。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Tengu",
@@ -861,20 +452,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "天狗是古代刺客组织「天狗」的成员。这些刺客以大量使用手里剑和陷阱而闻名。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "一位著名的神秘刺客，其名源于紧贴在他脸上的面具。\\n\\n天狗的手腕和膝下都带着镣铐，但他似乎很久以前就摆脱掉了锁链的束缚。\\n\\n他将利用陷阱、欺骗性的魔法、精准致命的攻击，来消灭唯一能阻止他逃脱的人：你。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [天狗是古代刺客组织「天狗」的成员。这些刺客以大量使用手里剑和陷阱而闻名。] 或 采用 SPD 官方译法 [一位著名的神秘刺客，其名源于紧贴在他脸上的面具。\\n\\n天狗的手腕和膝下都带着镣铐，但他似乎很久以前就摆脱掉了锁链的束缚。\\n\\n他将利用陷阱、欺骗性的魔法、精准致命的攻击，来消灭唯一能阻止他逃脱的人：你。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Thief",
@@ -895,20 +473,7 @@
    "TXT_STOLE": "%s stole %s from you!",
    "TXT_CARRIES": "%s is carrying a _%s_. Stolen obviously.",
    "ITEM": "item"
-  },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "疯狂盗贼",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "疯狂小偷"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [疯狂盗贼] 或 采用 SPD 官方译法 [疯狂小偷]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Warlock",
@@ -926,20 +491,7 @@
   },
   "enConsts": {
    "TXT_SHADOWBOLT_KILLED": "%s's shadow bolt killed you..."
-  },
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "当矮人的兴趣从工程转向奥术时，术士们掌握了这座城市的权力。他们从元素魔法起步，但很快就转向了恶魔学与死灵术。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "当矮人的兴趣从工程建设转向奥秘学术时，术士们逐渐于城中掌权。它们从元素魔法起步，但很快就开始研究恶魔学和死灵术。最强大的术士掌握了矮人王国的王权，其他术士如果想继续练习黑暗魔法，就必须放弃精神的自由，将意志交给他控制。\\n\\n这些术士拥有具有强大的干扰性魔法，能暂时抑制装备的升级魔力。装备的等级越高，受降级魔法的影响就越严重。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [当矮人的兴趣从工程转向奥术时，术士们掌握了这座城市的权力。他们从元素魔法起步，但很快就转向了恶魔学与死灵术。] 或 采用 SPD 官方译法 [当矮人的兴趣从工程建设转向奥秘学术时，术士们逐渐于城中掌权。它们从元素魔法起步，但很快就开始研究恶魔学和死灵术。最强大的术士掌握了矮人王国的王权，其他术士如果想继续练习黑暗魔法，就必须放弃精神的自由，将意志交给他控制。\\n\\n这些术士拥有具有强大的干扰性魔法，能暂时抑制装备的升级魔力。装备的等级越高，受降级魔法的影响就越严重。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Wraith",
@@ -955,20 +507,7 @@
   "zhConsts": null,
   "enConsts": {
    "LEVEL": "level"
-  },
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "怨灵是罪人的复仇之魂，其坟墓或墓穴遭到了侵扰。作为灵体，普通武器很难击中它。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "怨灵是来自于墓穴中渴望复仇的罪人之魂。作为飘渺的非实体很难被正常武器击中。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [怨灵是罪人的复仇之魂，其坟墓或墓穴遭到了侵扰。作为灵体，普通武器很难击中它。] 或 采用 SPD 官方译法 [怨灵是来自于墓穴中渴望复仇的罪人之魂。作为飘渺的非实体很难被正常武器击中。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Yog",

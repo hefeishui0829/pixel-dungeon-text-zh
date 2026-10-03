@@ -40,19 +40,6 @@
    "POS": "pos",
    "LEVEL": "level"
   },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "地根草",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "地缚根"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [地根草] 或 采用 SPD 官方译法 [地缚根]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ],
   "seedSprite": {
    "sheet": "items",
    "tile": 93
@@ -75,19 +62,6 @@
   "enConsts": {
    "TXT_DESC": "Touching a Fadeleaf will teleport any creature to a random place on the current level."
   },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "凋零叶",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "消逝草"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [凋零叶] 或 采用 SPD 官方译法 [消逝草]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ],
   "seedSprite": {
    "sheet": "items",
    "tile": 94
@@ -110,19 +84,6 @@
   "enConsts": {
    "TXT_DESC": "When something touches a Firebloom, it bursts into flames."
   },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "火焰花",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "烈焰花"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [火焰花] 或 采用 SPD 官方译法 [烈焰花]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ],
   "seedSprite": {
    "sheet": "items",
    "tile": 88
@@ -145,19 +106,6 @@
   "enConsts": {
    "TXT_DESC": "Upon touching an Icecap excretes a pollen, which freezes everything in its vicinity."
   },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "冰帽花",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "冰冠花"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [冰帽花] 或 采用 SPD 官方译法 [冰冠花]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ],
   "seedSprite": {
    "sheet": "items",
    "tile": 89
@@ -180,20 +128,7 @@
    "POS": "pos",
    "AC_PLANT": "PLANT",
    "TXT_INFO": "Throw this seed to the place where you want to grow %s.\n\n%s"
-  },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "untranslated_has_ref",
-    "ours": null,
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "植物"
-    },
-    "reason": "本项目该项未译, SPD 官方简中有权威译, 构建者可考虑直接采用",
-    "build_note": "构建时请二选一: 采用本项目译法 [（本项目未译）] 或 采用 SPD 官方译法 [植物]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Rotberry",
@@ -212,19 +147,6 @@
   "enConsts": {
    "TXT_DESC": "Berries of this shrub taste like sweet, sweet death."
   },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "腐浆果",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "腐莓植株"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [腐浆果] 或 采用 SPD 官方译法 [腐莓植株]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ],
   "seedSprite": {
    "sheet": "items",
    "tile": 95
@@ -247,19 +169,6 @@
   "enConsts": {
    "TXT_DESC": "A Sorrowmoss is a flower (not a moss) with razor-sharp petals, coated with a deadly venom."
   },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "悲伤苔",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "断肠苔"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [悲伤苔] 或 采用 SPD 官方译法 [断肠苔]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ],
   "seedSprite": {
    "sheet": "items",
    "tile": 90
@@ -283,19 +192,6 @@
    "TXT_DESC": "Sungrass is renowned for its sap's healing properties.",
    "POS": "pos"
   },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "太阳草",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "阳春草"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [太阳草] 或 采用 SPD 官方译法 [阳春草]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ],
   "seedSprite": {
    "sheet": "items",
    "tile": 92

@@ -13,20 +13,7 @@
   "zhConsts": null,
   "enConsts": {
    "LEVEL": "level"
-  },
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "尽管个头很小，金色蜜蜂却会凶狠地保护自己的主人。不过它们活不长。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "尽管金色蜜蜂体型不大，但它们也会尽全力守卫自己的家园。这只蜜蜂非常疯狂，你最好和它保持距离。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [尽管个头很小，金色蜜蜂却会凶狠地保护自己的主人。不过它们活不长。] 或 采用 SPD 官方译法 [尽管金色蜜蜂体型不大，但它们也会尽全力守卫自己的家园。这只蜜蜂非常疯狂，你最好和它保持距离。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Blacksmith",
@@ -64,20 +51,7 @@
    "GIVEN": "given",
    "COMPLETED": "completed",
    "REFORGED": "reforged"
-  },
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这个巨魔铁匠长得和所有巨魔一样：又高又瘦，皮肤无论颜色还是质感都像石头。他正摆弄着一套小得不成比例的工具。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这个巨魔铁匠看起来和任何其他巨魔一样：又高又瘦，皮肤的色泽和纹理都像是石头。这位巨魔铁匠正捏着一把与其体形极其不符的小锤子不停地修修补补。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这个巨魔铁匠长得和所有巨魔一样：又高又瘦，皮肤无论颜色还是质感都像石头。他正摆弄着一套小得不成比例的工具。] 或 采用 SPD 官方译法 [这个巨魔铁匠看起来和任何其他巨魔一样：又高又瘦，皮肤的色泽和纹理都像是石头。这位巨魔铁匠正捏着一把与其体形极其不符的小锤子不停地修修补补。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Ghost",
@@ -123,20 +97,7 @@
    "TXT_CURSE2": "Thank you, %s! The curse is broken and I can finally rest... Please take one of these items, maybe they will be useful to you in your journey...",
    "TXT_YES": "Yes, I will do it for you",
    "TXT_NO": "No, I can't help you"
-  },
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "幽灵几乎看不见。它像是一团无形的光斑，上面浮着一张哀伤的脸。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这个幽灵几乎不可见。它看起来像是由一片无定形的昏暗光斑和一张悲痛的面孔所组成的。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [幽灵几乎看不见。它像是一团无形的光斑，上面浮着一张哀伤的脸。] 或 采用 SPD 官方译法 [这个幽灵几乎不可见。它看起来像是由一片无定形的昏暗光斑和一张悲痛的面孔所组成的。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "Imp",
@@ -170,20 +131,7 @@
    "GIVEN": "given",
    "COMPLETED": "completed",
    "REWARD": "reward"
-  },
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "小恶魔是低等恶魔。它们的力量和魔法天赋都不出众，但相当聪明而且善于交际。许多小恶魔更喜欢和非恶魔住在一起。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这个红色的小东西看起来像个小恶魔。小恶魔是一种低等恶魔，力量不强但头脑精明。\\n\\n在古老的民间故事中，恶魔常常被描述为来自异世界的旅者。你仅仅是如是听闻过，从未见过能证明它们真正存在的证据，不过你面前的这位小恶魔貌似货真价实，而且还挺乐意见到你的。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [小恶魔是低等恶魔。它们的力量和魔法天赋都不出众，但相当聪明而且善于交际。许多小恶魔更喜欢和非恶魔住在一起。] 或 采用 SPD 官方译法 [这个红色的小东西看起来像个小恶魔。小恶魔是一种低等恶魔，力量不强但头脑精明。\\n\\n在古老的民间故事中，恶魔常常被描述为来自异世界的旅者。你仅仅是如是听闻过，从未见过能证明它们真正存在的证据，不过你面前的这位小恶魔貌似货真价实，而且还挺乐意见到你的。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "ImpShopkeeper",
@@ -201,20 +149,7 @@
   },
   "enConsts": {
    "TXT_GREETINGS": "Hello, friend!"
-  },
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "小恶魔是低等恶魔。它们的力量与魔法天赋都不出众，但相当聪明而且善于交际，许多小恶魔更喜欢在非恶魔中间生活、做生意。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "小恶魔在恶魔大厅的入口前摆了个小摊。在这能看到一张友好的面孔是挺不错的，但它商品的标价看起来可一点儿也不友好。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [小恶魔是低等恶魔。它们的力量与魔法天赋都不出众，但相当聪明而且善于交际，许多小恶魔更喜欢在非恶魔中间生活、做生意。] 或 采用 SPD 官方译法 [小恶魔在恶魔大厅的入口前摆了个小摊。在这能看到一张友好的面孔是挺不错的，但它商品的标价看起来可一点儿也不友好。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "MirrorImage",
@@ -229,31 +164,7 @@
    "TIER": "tier",
    "ATTACK": "attack",
    "DAMAGE": "damage"
-  },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "镜像分身",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "镜像"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [镜像分身] 或 采用 SPD 官方译法 [镜像]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这个幻象和你非常相似，只是颜色更苍白，而且会微微抽搐。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这个幻像和你非常相似，甚至还装备着你当前的武器和护甲。\\n\\n镜像会猎寻敌人，并用它们的镜像武器对其发动攻击。镜像武器的使用方式与特性和你手中的一样，但造成的伤害会低些。镜像刚生成时几乎是隐形的，但攻击后会显形。\\n\\n镜像有一定的攻击能力，但本身非常脆弱，受到伤害就会瞬间消散。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这个幻象和你非常相似，只是颜色更苍白，而且会微微抽搐。] 或 采用 SPD 官方译法 [这个幻像和你非常相似，甚至还装备着你当前的武器和护甲。\\n\\n镜像会猎寻敌人，并用它们的镜像武器对其发动攻击。镜像武器的使用方式与特性和你手中的一样，但造成的伤害会低些。镜像刚生成时几乎是隐形的，但攻击后会显形。\\n\\n镜像有一定的攻击能力，但本身非常脆弱，受到伤害就会瞬间消散。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  },
  {
   "id": "RatKing",
@@ -267,20 +178,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这只老鼠比普通有袋巨鼠稍大一些，头上戴着一顶小小的王冠。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这只老鼠比普通的啮齿小鼠大一点。它戴着一顶小小的皇冠。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这只老鼠比普通有袋巨鼠稍大一些，头上戴着一顶小小的王冠。] 或 采用 SPD 官方译法 [这只老鼠比普通的啮齿小鼠大一点。它戴着一顶小小的皇冠。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Shopkeeper",
@@ -294,31 +192,7 @@
    "tile": 0
   },
   "zhConsts": null,
-  "enConsts": null,
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "商店老板",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "店主"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [商店老板] 或 采用 SPD 官方译法 [店主]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这个矮胖的家伙看上去更适合待在大城市的商业区，而不是地牢里。看看他的价格，你就明白他为什么偏爱在这儿做生意了。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这个矮胖的家伙看起来更适合在某些大城市里做买卖而不是在这种地牢。这些商品的价格说明了为什么他会喜欢在这儿做生意。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这个矮胖的家伙看上去更适合待在大城市的商业区，而不是地牢里。看看他的价格，你就明白他为什么偏爱在这儿做生意了。] 或 采用 SPD 官方译法 [这个矮胖的家伙看起来更适合在某些大城市里做买卖而不是在这种地牢。这些商品的价格说明了为什么他会喜欢在这儿做生意。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  "enConsts": null
  },
  {
   "id": "Wandmaker",
@@ -340,30 +214,6 @@
    "GIVEN": "given",
    "WAND1": "wand1",
    "WAND2": "wand2"
-  },
-  "disputed": [
-   {
-    "field": "zh",
-    "type": "wording_mismatch",
-    "ours": "老法杖匠",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "老杖匠"
-    },
-    "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-    "build_note": "构建时请二选一: 采用本项目译法 [老法杖匠] 或 采用 SPD 官方译法 [老杖匠]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   },
-   {
-    "field": "zhDesc",
-    "type": "wording_mismatch",
-    "ours": "这位上了年纪却依然硬朗的绅士，脸上带着一丝困惑的神情。他被一层魔法护盾保护着。",
-    "reference": {
-     "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-     "value": "这位精神矍铄的老先生神情有些困扰。他周身有着魔法屏障的保护。"
-    },
-    "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-    "build_note": "构建时请二选一: 采用本项目译法 [这位上了年纪却依然硬朗的绅士，脸上带着一丝困惑的神情。他被一层魔法护盾保护着。] 或 采用 SPD 官方译法 [这位精神矍铄的老先生神情有些困扰。他周身有着魔法屏障的保护。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-   }
-  ]
+  }
  }
 ]

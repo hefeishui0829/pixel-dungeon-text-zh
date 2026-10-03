@@ -316,31 +316,7 @@
    },
    "enConsts": {
     "AC_END": "END THE GAME"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "耶诺之护符",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "Yendor护符"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [耶诺之护符] 或 采用 SPD 官方译法 [Yendor护符]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "耶诺之护符是已知最强大的神器，其来源不明。据说，只要主人的意志足够坚定，能「说服」它，这枚护符就能实现任何愿望。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "Yendor护符是人类与矮人所知的最强大的神器。其上镶嵌的晶石奇光辉映、气象非常，蕴含着不可思议的神奇力量。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [耶诺之护符是已知最强大的神器，其来源不明。据说，只要主人的意志足够坚定，能「说服」它，这枚护符就能实现任何愿望。] 或 采用 SPD 官方译法 [Yendor护符是人类与矮人所知的最强大的神器。其上镶嵌的晶石奇光辉映、气象非常，蕴含着不可思议的神奇力量。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Ankh",
@@ -354,31 +330,7 @@
     "tile": 1
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "安卡",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "重生十字架"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [安卡] 或 采用 SPD 官方译法 [重生十字架]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这枚古老的不朽象征赋予你死而复生的能力。复活时，所有未装备的物品都会遗失。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这枚象征不朽的古老饰物能使人起死回生。不过大部分物品将会被遗落在死亡的地点，等待你去拾回。装满的水袋可用于对重生十字架进行赐福，赋予它更强的力量。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这枚古老的不朽象征赋予你死而复生的能力。复活时，所有未装备的物品都会遗失。] 或 采用 SPD 官方译法 [这枚象征不朽的古老饰物能使人起死回生。不过大部分物品将会被遗落在死亡的地点，等待你去拾回。装满的水袋可用于对重生十字架进行赐福，赋予它更强的力量。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "AntiEntropy",
@@ -420,20 +372,7 @@
     "TXT_INCOMPATIBLE": "Interaction of different types of magic has erased the glyph on this armor!",
     "UNFAMILIRIARITY": "unfamiliarity",
     "GLYPH": "glyph"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "untranslated_has_ref",
-     "ours": null,
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "护甲"
-     },
-     "reason": "本项目该项未译, SPD 官方简中有权威译, 构建者可考虑直接采用",
-     "build_note": "构建时请二选一: 采用本项目译法 [（本项目未译）] 或 采用 SPD 官方译法 [护甲]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "ArmorKit",
@@ -500,20 +439,7 @@
     "tile": 22
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这把战斧巨大的钢制斧头，让每一次挥砍都力道十足。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这把有着硕大钢制头部的战斧能将庞大的力量倾注在每次挥舞之中。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这把战斧巨大的钢制斧头，让每一次挥砍都力道十足。] 或 采用 SPD 官方译法 [这把有着硕大钢制头部的战斧能将庞大的力量倾注在每次挥舞之中。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Bomb",
@@ -527,20 +453,7 @@
     "tile": 124
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这是一颗体积不大的炸弹，里面装满了黑火药。方便的是，它被扔出去时引信会自动点燃。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "一枚颇大的黑火药炸弹。爆炸时，这枚炸弹会对所有临近单位造成_%1$d~%2$d点伤害_并摧毁某些地形或物品。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这是一颗体积不大的炸弹，里面装满了黑火药。方便的是，它被扔出去时引信会自动点燃。] 或 采用 SPD 官方译法 [一枚颇大的黑火药炸弹。爆炸时，这枚炸弹会对所有临近单位造成_%1$d~%2$d点伤害_并摧毁某些地形或物品。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Boomerang",
@@ -554,20 +467,7 @@
     "tile": 106
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这种扁平弯曲的木制投掷物掷向敌人后，会自行飞回投掷者手中。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "被投向敌人后，这把扁平的曲状木制投掷武器能够自动回到投掷者手中。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这种扁平弯曲的木制投掷物掷向敌人后，会自行飞回投掷者手中。] 或 采用 SPD 官方译法 [被投向敌人后，这把扁平的曲状木制投掷武器能够自动回到投掷者手中。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Bounce",
@@ -596,31 +496,7 @@
     "tile": 114
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "炭烤肉排",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "烤肉"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [炭烤肉排] 或 采用 SPD 官方译法 [烤肉]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "看起来是块像样的肉排。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "看起来像块好肉排。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [看起来是块像样的肉排。] 或 采用 SPD 官方译法 [看起来像块好肉排。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "ClassArmor",
@@ -655,20 +531,7 @@
     "tile": 24
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这件轻便的护甲只能提供最基础的防护。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这件轻便的护甲能提供最基本的防御。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这件轻便的护甲只能提供最基础的防护。] 或 采用 SPD 官方译法 [这件轻便的护甲能提供最基本的防御。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "CorpseDust",
@@ -682,20 +545,7 @@
     "tile": 121
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这团尸尘外表与普通灰尘没什么两样。但你就是知道，最好尽快把它处理掉。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "在外观上这团尸尘和普通灰尘差不多。而你却能够感受到其中潜伏着一股充满恶意的魔力。\\n\\n尽快脱手为好。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这团尸尘外表与普通灰尘没什么两样。但你就是知道，最好尽快把它处理掉。] 或 采用 SPD 官方译法 [在外观上这团尸尘和普通灰尘差不多。而你却能够感受到其中潜伏着一股充满恶意的魔力。\\n\\n尽快脱手为好。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "CurareDart",
@@ -723,20 +573,7 @@
     "tile": 19
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "一把朴素的铁质匕首，木柄已经磨得发亮。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "木柄被磨损的简易铁质匕首。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [一把朴素的铁质匕首，木柄已经磨得发亮。] 或 采用 SPD 官方译法 [木柄被磨损的简易铁质匕首。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "DarkGold",
@@ -750,31 +587,7 @@
     "tile": 102
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "暗金矿石",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "暗金矿"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [暗金矿石] 或 采用 SPD 官方译法 [暗金矿]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这种金属之所以叫暗金，不是因为颜色（它跟普通黄金毫无区别），而是因为它在日光下会熔化，因此在地面上毫无用处。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这种金属名中的暗并非源于其色泽(它看起来和普通黄金一样)，而是因为它会在阳光下熔化，令其在地表上毫无用处。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这种金属之所以叫暗金，不是因为颜色（它跟普通黄金毫无区别），而是因为它在日光下会熔化，因此在地面上毫无用处。] 或 采用 SPD 官方译法 [这种金属名中的暗并非源于其色泽(它看起来和普通黄金一样)，而是因为它会在阳光下熔化，令其在地表上毫无用处。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Dart",
@@ -788,20 +601,7 @@
     "tile": 31
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这些简单的金属尖刺经过配重，能笔直飞行，手腕一抖便可刺中猎物。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "由短木杆和金属尖头简易制成，手腕轻抖就会精准地飞向目标。使用种子可以为飞镖涂药，使其对目标造成额外效果。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这些简单的金属尖刺经过配重，能笔直飞行，手腕一抖便可刺中猎物。] 或 采用 SPD 官方译法 [由短木杆和金属尖头简易制成，手腕轻抖就会精准地飞向目标。使用种子可以为飞镖涂药，使其对目标造成额外效果。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Death",
@@ -866,31 +666,7 @@
    },
    "enConsts": {
     "TXT_VALUE": "%+dHP"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "露水",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "露珠"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [露水] 或 采用 SPD 官方译法 [露珠]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "一滴清澈透明的露水。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "一颗晶莹剔透的露珠。\\n\\n受这片区域的魔力影响，净水有着少量的治疗效果。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [一滴清澈透明的露水。] 或 采用 SPD 官方译法 [一颗晶莹剔透的露珠。\\n\\n受这片区域的魔力影响，净水有着少量的治疗效果。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Displacement",
@@ -919,31 +695,7 @@
     "tile": 100
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "干枯的玫瑰",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "干枯玫瑰"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [干枯的玫瑰] 或 采用 SPD 官方译法 [干枯玫瑰]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "玫瑰早就干枯了，但不知怎么，花瓣一片都没掉。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这就是那朵在幽灵消失前被提及的玫瑰吗？它似乎拥有某种精神力量，也许能以此为媒介触及这位陨落战士的能量。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [玫瑰早就干枯了，但不知怎么，花瓣一片都没掉。] 或 采用 SPD 官方译法 [这就是那朵在幽灵消失前被提及的玫瑰吗？它似乎拥有某种精神力量，也许能以此为媒介触及这位陨落战士的能量。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "DwarfToken",
@@ -957,31 +709,7 @@
     "tile": 122
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "矮人代币",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "矮人徽记"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [矮人代币] 或 采用 SPD 官方译法 [矮人徽记]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "许多矮人，以及他们造出的一些大型造物，都随身带着这种用途不明的小金属片。也许是首饰，也许是某种身份证件。矮人真是奇怪的家伙。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "一块形状奇特的金属片，被宝库中的矮人守卫随身携带。或许这徽记也是将守卫禁锢于这座宝库的魔法的一部分？最好先带着它，或许还会有用。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [许多矮人，以及他们造出的一些大型造物，都随身带着这种用途不明的小金属片。也许是首饰，也许是某种身份证件。矮人真是奇怪的家伙。] 或 采用 SPD 官方译法 [一块形状奇特的金属片，被宝库中的矮人守卫随身携带。或许这徽记也是将守卫禁锢于这座宝库的魔法的一部分？最好先带着它，或许还会有用。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Entanglement",
@@ -1048,20 +776,7 @@
    },
    "enConsts": {
     "AC_EAT": "EAT"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "没什么特别的：肉干、几块饼干之类的东西。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "里面都是些寻常玩意：一片肉干，几块饼干——诸如此类。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [没什么特别的：肉干、几块饼干之类的东西。] 或 采用 SPD 官方译法 [里面都是些寻常玩意：一片肉干，几块饼干——诸如此类。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "FrozenCarpaccio",
@@ -1075,31 +790,7 @@
     "tile": 116
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "冻生肉片",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "冷冻生肉片"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [冻生肉片] 或 采用 SPD 官方译法 [冷冻生肉片]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这是一块冻硬的生肉。唯一的吃法是切下薄薄的薄片。这样吃意外的不错。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这是份速冻生肉，只能切成薄片取食，而且意外的好吃。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这是一块冻硬的生肉。唯一的吃法是切下薄薄的薄片。这样吃意外的不错。] 或 采用 SPD 官方译法 [这是份速冻生肉，只能切成薄片取食，而且意外的好吃。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Glaive",
@@ -1113,31 +804,7 @@
     "tile": 30
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "长柄刀",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "关刀"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [长柄刀] 或 采用 SPD 官方译法 [关刀]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "一种长柄兵器，在长杆末端装上剑刃。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "一支在末端装有剑刃的重型长柄武器。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [一种长柄兵器，在长杆末端装上剑刃。] 或 采用 SPD 官方译法 [一支在末端装有剑刃的重型长柄武器。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Gold",
@@ -1177,20 +844,7 @@
     "tile": 10
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这把金钥匙的齿纹细密而精巧。也许它能打开某个箱子上的锁？",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这把黄金钥匙的齿纹精妙而复杂。或许可以用它来打开某个上锁的宝箱？"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这把金钥匙的齿纹细密而精巧。也许它能打开某个箱子上的锁？] 或 采用 SPD 官方译法 [这把黄金钥匙的齿纹精妙而复杂。或许可以用它来打开某个上锁的宝箱？]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Heap",
@@ -1226,31 +880,7 @@
    },
    "enConsts": {
     "AC_SHATTER": "SHATTER"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "蜜罐",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "蜂蜜罐"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [蜜罐] 或 采用 SPD 官方译法 [蜂蜜罐]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这个小蜜罐里蜂蜜不多，但里面住着一只金色蜜蜂，而且它并不想离开。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这个巨型蜜罐只是薄薄地涂了一圈蜂蜜，作为替代里头住着一只巨型蜜蜂！这种大型蜜蜂一般只待在蜂巢里，也许罐子本身就是某种特殊陷阱屋？蜜蜂看起来对罐子很满意，当你看向它时它非常警惕地对你回以嗡鸣。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这个小蜜罐里蜂蜜不多，但里面住着一只金色蜜蜂，而且它并不想离开。] 或 采用 SPD 官方译法 [这个巨型蜜罐只是薄薄地涂了一圈蜂蜜，作为替代里头住着一只巨型蜜蜂！这种大型蜜蜂一般只待在蜂巢里，也许罐子本身就是某种特殊陷阱屋？蜜蜂看起来对罐子很满意，当你看向它时它非常警惕地对你回以嗡鸣。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Horror",
@@ -1287,31 +917,7 @@
     "TXT_NO_ENEMIES": "No enemies in sight",
     "TXT_NOT_HUNTRESS": "Only huntresses can use this armor!",
     "AC_SPECIAL": "SPECTRAL BLADES"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "女猎手斗篷",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "英雄披风"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [女猎手斗篷] 或 采用 SPD 官方译法 [英雄披风]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "穿上这件斗篷的女猎手能唤出一扇扇形的光刃。每一片光刃都会锁定女猎手视野中的一名敌人，造成的伤害取决于她当前装备的近战武器。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "披着这件朴实无华的披风，女猎手能够使出一个华丽的招式。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [穿上这件斗篷的女猎手能唤出一扇扇形的光刃。每一片光刃都会锁定女猎手视野中的一名敌人，造成的伤害取决于她当前装备的近战武器。] 或 采用 SPD 官方译法 [披着这件朴实无华的披风，女猎手能够使出一个华丽的招式。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "IncendiaryDart",
@@ -1325,31 +931,7 @@
     "tile": 108
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "燃烧镖",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "燃烧飞镖"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [燃烧镖] 或 采用 SPD 官方译法 [燃烧飞镖]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "每支飞镖的尖刺用来把它钉在目标身上，同时绑在镖身上的不稳定化合物会爆发出耀眼的火焰。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这些飞镖上涂着一种由烈焰花制成的药物，命中后会燃起烈焰。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [每支飞镖的尖刺用来把它钉在目标身上，同时绑在镖身上的不稳定化合物会爆发出耀眼的火焰。] 或 采用 SPD 官方译法 [这些飞镖上涂着一种由烈焰花制成的药物，命中后会燃起烈焰。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Instability",
@@ -1473,20 +1055,7 @@
     "tile": 110
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这根金属长杆经过配重，使尖端在飞行途中始终朝前。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这些大号投掷用长枪上的配重保证它们会以尖端为首飞向目标。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这根金属长杆经过配重，使尖端在飞行途中始终朝前。] 或 采用 SPD 官方译法 [这些大号投掷用长枪上的配重保证它们会以尖端为首飞向目标。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Key",
@@ -1554,20 +1123,7 @@
     "tile": 25
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "用鞣制过的怪物皮革制成的护甲。不如布甲轻便，但防护更好。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "用鞣制的兽皮制成的护甲。没有布甲轻，但提供更好的防御。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [用鞣制过的怪物皮革制成的护甲。不如布甲轻便，但防护更好。] 或 采用 SPD 官方译法 [用鞣制的兽皮制成的护甲。没有布甲轻，但提供更好的防御。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Leech",
@@ -1616,31 +1172,7 @@
     "AC_RETURN": "RETURN",
     "DEPTH": "depth",
     "POS": "pos"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "劳埃德信标",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "时空道标"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [劳埃德信标] 或 采用 SPD 官方译法 [时空道标]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "劳埃德信标是一件精巧的魔法装置，能让你回到曾经去过的地方。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "时空道标是一个赋予使用者控制传送魔法能力的复杂魔法装置。该信标可以用来返回一个预定地点，但其在装备时的充能也可以用来对指定目标发射随机传送魔法。这个魔法可以针对某个目标或使用者自身。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [劳埃德信标是一件精巧的魔法装置，能让你回到曾经去过的地方。] 或 采用 SPD 官方译法 [时空道标是一个赋予使用者控制传送魔法能力的复杂魔法装置。该信标可以用来返回一个预定地点，但其在装备时的充能也可以用来对指定目标发射随机传送魔法。这个魔法可以针对某个目标或使用者自身。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Longsword",
@@ -1654,20 +1186,7 @@
     "tile": 21
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这柄又高又重的剑刃把全部重量压进每一次劈砍，能造成重伤。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这柄剑的厚长利刃闪烁着令人宽心的寒光，不过这长度也确实让它非常沉重。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这柄又高又重的剑刃把全部重量压进每一次劈砍，能造成重伤。] 或 采用 SPD 官方译法 [这柄剑的厚长利刃闪烁着令人宽心的寒光，不过这长度也确实让它非常沉重。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Luck",
@@ -1696,31 +1215,7 @@
     "tile": 18
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "钉头锤",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "硬头锤"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [钉头锤] 或 采用 SPD 官方译法 [硬头锤]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这把武器的铁质锤头能造成相当可观的伤害。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这把武器前端的大型铁头能够造成可观的伤害。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这把武器的铁质锤头能造成相当可观的伤害。] 或 采用 SPD 官方译法 [这把武器前端的大型铁头能够造成可观的伤害。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "MageArmor",
@@ -1740,31 +1235,7 @@
    "enConsts": {
     "AC_SPECIAL": "MOLTEN EARTH",
     "TXT_NOT_MAGE": "Only mages can use this armor!"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "法师长袍",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "英雄法袍"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [法师长袍] 或 采用 SPD 官方译法 [英雄法袍]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "穿上这件华美的长袍，法师可以施展「熔岩大地」法术：视野内的所有敌人都会被点燃，同时无法移动。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "穿着这件华贵的法袍时，法师可以释放一项特殊的技能。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [穿上这件华美的长袍，法师可以施展「熔岩大地」法术：视野内的所有敌人都会被点燃，同时无法移动。] 或 采用 SPD 官方译法 [穿着这件华贵的法袍时，法师可以释放一项特殊的技能。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "MailArmor",
@@ -1778,31 +1249,7 @@
     "tile": 26
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "锁甲",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "链甲"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [锁甲] 或 采用 SPD 官方译法 [链甲]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "互相扣合的金属环组成了一套坚韧而灵活的护甲。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "由金属链环环相扣制成的一套结实又不失灵活的护甲。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [互相扣合的金属环组成了一套坚韧而灵活的护甲。] 或 采用 SPD 官方译法 [由金属链环环相扣制成的一套结实又不失灵活的护甲。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Metabolism",
@@ -1867,31 +1314,7 @@
     "tile": 113
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "可疑的肉",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "神秘的肉"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [可疑的肉] 或 采用 SPD 官方译法 [神秘的肉]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "吃不吃随你，后果自负！",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "想吃可以，后果自腹！"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [吃不吃随你，后果自负！] 或 采用 SPD 官方译法 [想吃可以，后果自腹！]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "OverpricedRation",
@@ -1934,31 +1357,7 @@
     "tile": 112
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "康沃尔馅饼",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "馅饼"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [康沃尔馅饼] 或 采用 SPD 官方译法 [馅饼]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这是正宗的康沃尔馅饼，传统的牛肉加土豆馅。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这是份正宗康郡肉馅饼，内含牛肉加土豆的传统馅料。美味十足！"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这是正宗的康沃尔馅饼，传统的牛肉加土豆馅。] 或 采用 SPD 官方译法 [这是份正宗康郡肉馅饼，内含牛肉加土豆的传统馅料。美味十足！]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "PhantomFish",
@@ -1997,31 +1396,7 @@
     "AC_MINE": "MINE",
     "TXT_NO_VEIN": "There is no dark gold vein near you to mine",
     "BLOODSTAINED": "bloodStained"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "鹤嘴锄",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "镐子"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [鹤嘴锄] 或 采用 SPD 官方译法 [镐子]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这是一把又大又结实的破岩工具。大概也能当武器使。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这是一件笨重但十分耐用的凿岩工具。不需要装备上就能作为挖掘工具使用，但在紧要关头也能作为武器装备。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这是一把又大又结实的破岩工具。大概也能当武器使。] 或 采用 SPD 官方译法 [这是一件笨重但十分耐用的凿岩工具。不需要装备上就能作为挖掘工具使用，但在紧要关头也能作为武器装备。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "PlateArmor",
@@ -2035,20 +1410,7 @@
     "tile": 28
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "巨大的金属板拼接成一整套护甲，为任何强壮到能承受它惊人重量的冒险者提供无可比拟的防护。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "厚重的金属板拼接到一起，为能承受其骇人重量的冒险家提供无与伦比的防御。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [巨大的金属板拼接成一整套护甲，为任何强壮到能承受它惊人重量的冒险者提供无可比拟的防护。] 或 采用 SPD 官方译法 [厚重的金属板拼接到一起，为能承受其骇人重量的冒险家提供无与伦比的防御。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Poison",
@@ -2116,31 +1478,7 @@
    "enDesc": "The storied experiences of multitudes of battles reduced to liquid form, this draught will instantly raise your experience level.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "经验药水",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "经验药剂"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [经验药水] 或 采用 SPD 官方译法 [经验药剂]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "无数场战斗积淀的历练被浓缩成液体，喝下后立即提升一个经验等级。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "众多战斗积累而来的经验被浓缩为液态，这种药剂能够瞬间提升你的等级。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [无数场战斗积淀的历练被浓缩成液体，喝下后立即提升一个经验等级。] 或 采用 SPD 官方译法 [众多战斗积累而来的经验被浓缩为液态，这种药剂能够瞬间提升你的等级。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "PotionOfFrost",
@@ -2151,31 +1489,7 @@
    "enDesc": "Upon exposure to open air, this chemical will evaporate into a freezing cloud, causing any creature that contacts it to be frozen in place, unable to act and move.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "冰霜药水",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "冰霜药剂"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [冰霜药水] 或 采用 SPD 官方译法 [冰霜药剂]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这种化学物质一旦接触空气就会蒸发成冰霜云团，任何碰到它的生物都会被冻在原地，无法行动也无法移动。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "一旦暴露在空气里，这种化学药剂会挥发成为一片冰冷的气雾。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这种化学物质一旦接触空气就会蒸发成冰霜云团，任何碰到它的生物都会被冻在原地，无法行动也无法移动。] 或 采用 SPD 官方译法 [一旦暴露在空气里，这种化学药剂会挥发成为一片冰冷的气雾。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "PotionOfHealing",
@@ -2186,31 +1500,7 @@
    "enDesc": "An elixir that will instantly return you to full health and cure poison.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "治疗药水",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "治疗药剂"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [治疗药水] 或 采用 SPD 官方译法 [治疗药剂]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "一瓶能立刻让你恢复满生命值并解除中毒的药剂。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "一支让你快速回满生命值并清除毒素的万能药剂。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [一瓶能立刻让你恢复满生命值并解除中毒的药剂。] 或 采用 SPD 官方译法 [一支让你快速回满生命值并清除毒素的万能药剂。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "PotionOfInvisibility",
@@ -2221,31 +1511,7 @@
    "enDesc": "Drinking this potion will render you temporarily invisible. While invisible, enemies will be unable to see you. Attacking an enemy, as well as using a wand or a scroll before enemy's eyes, will dispel the effect.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "隐形药水",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "隐形药剂"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [隐形药水] 或 采用 SPD 官方译法 [隐形药剂]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "喝下后你会暂时隐形，敌人将看不见你。攻击敌人，或在敌人眼前使用法杖、卷轴，都会解除这个效果。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "饮用这种药剂会使你暂时隐形。隐形期间，敌人将无法看见你。使用物理攻击或魔法效果(例如使用卷轴或法杖)，会立即解除隐形效果。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [喝下后你会暂时隐形，敌人将看不见你。攻击敌人，或在敌人眼前使用法杖、卷轴，都会解除这个效果。] 或 采用 SPD 官方译法 [饮用这种药剂会使你暂时隐形。隐形期间，敌人将无法看见你。使用物理攻击或魔法效果(例如使用卷轴或法杖)，会立即解除隐形效果。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "PotionOfLevitation",
@@ -2256,31 +1522,7 @@
    "enDesc": "Drinking this curious liquid will cause you to hover in the air, able to drift effortlessly over traps. Flames and gases fill the air, however, and cannot be bypassed while airborne.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "漂浮药水",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "浮空药剂"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [漂浮药水] 或 采用 SPD 官方译法 [浮空药剂]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "喝下这种奇特的液体会让你悬浮在空中，可以毫不费力地飘过陷阱。不过火焰和毒气弥漫在空气中，飘着也躲不开。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "饮用这种古怪的药剂能让你漂浮到空中，从而轻易地越过陷阱和深渊。扔出它会产生一片未被提纯的气体云雾，让其中的所有生物迷失方向。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [喝下这种奇特的液体会让你悬浮在空中，可以毫不费力地飘过陷阱。不过火焰和毒气弥漫在空气中，飘着也躲不开。] 或 采用 SPD 官方译法 [饮用这种古怪的药剂能让你漂浮到空中，从而轻易地越过陷阱和深渊。扔出它会产生一片未被提纯的气体云雾，让其中的所有生物迷失方向。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "PotionOfLiquidFlame",
@@ -2291,31 +1533,7 @@
    "enDesc": "This flask contains an unstable compound which will burst violently into flame upon exposure to open air.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "烈焰药水",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "液火药剂"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [烈焰药水] 或 采用 SPD 官方译法 [液火药剂]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "瓶里装着不稳定的化合物，一接触空气就会猛烈燃烧起来。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "该药瓶里装着一种不稳定的化合物，一旦暴露在空气中就会猛烈地燃烧起来。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [瓶里装着不稳定的化合物，一接触空气就会猛烈燃烧起来。] 或 采用 SPD 官方译法 [该药瓶里装着一种不稳定的化合物，一旦暴露在空气中就会猛烈地燃烧起来。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "PotionOfMight",
@@ -2337,31 +1555,7 @@
    "enDesc": "After drinking this, your mind will become attuned to the psychic signature of distant creatures, enabling you to sense biological presences through walls. Also this potion will permit you to see through nearby walls and doors.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "心灵视界药水",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "灵视药剂"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [心灵视界药水] 或 采用 SPD 官方译法 [灵视药剂]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "喝下之后，你的精神会与远处生物的心灵信号同步，让你能隔着墙壁感知生命存在。它还能让你看穿附近的墙壁和门。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "喝下这个，你的心智将与大范围内的生物精神同调，让你能感受到围墙背后的生体所在。该药剂还能够让你的视野无视身边门墙的阻挡。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [喝下之后，你的精神会与远处生物的心灵信号同步，让你能隔着墙壁感知生命存在。它还能让你看穿附近的墙壁和门。] 或 采用 SPD 官方译法 [喝下这个，你的心智将与大范围内的生物精神同调，让你能感受到围墙背后的生体所在。该药剂还能够让你的视野无视身边门墙的阻挡。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "PotionOfParalyticGas",
@@ -2372,31 +1566,7 @@
    "enDesc": "Upon exposure to open air, the liquid in this flask will vaporize into a numbing yellow haze. Anyone who inhales the cloud will be paralyzed instantly, unable to move for some time after the cloud dissipates. This item can be thrown at distant enemies to catch them within the effect of the gas.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "麻痹气体药水",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "麻痹药剂"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [麻痹气体药水] 或 采用 SPD 官方译法 [麻痹药剂]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "瓶中的液体接触空气后会汽化成麻木的黄色烟雾。吸入烟雾的人会立刻麻痹，在烟雾散去后的一段时间里仍无法移动。可以把它扔向远处的敌人，让他们笼罩在气体里。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "暴露于空气时，烧瓶里的液体会气化成一片令人失去知觉的黄色云雾。任何吸入气体的生物都可能立即麻痹，直到气体消散后一段时间才能行动。可以把该物件扔到远处的敌群中，让气体覆盖影响它们。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [瓶中的液体接触空气后会汽化成麻木的黄色烟雾。吸入烟雾的人会立刻麻痹，在烟雾散去后的一段时间里仍无法移动。可以把它扔向远处的敌人，让他们笼罩在气体里。] 或 采用 SPD 官方译法 [暴露于空气时，烧瓶里的液体会气化成一片令人失去知觉的黄色云雾。任何吸入气体的生物都可能立即麻痹，直到气体消散后一段时间才能行动。可以把该物件扔到远处的敌群中，让气体覆盖影响它们。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "PotionOfPurity",
@@ -2413,31 +1583,7 @@
    "enConsts": {
     "TXT_FRESHNESS": "You feel uncommon freshness in the air.",
     "TXT_NO_SMELL": "You've stopped sensing any smells!"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "净化药水",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "净化药剂"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [净化药水] 或 采用 SPD 官方译法 [净化药剂]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这种试剂会迅速中和作用范围内的所有有害气体。喝下它能让你在一段时间内对此类气体免疫。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这种魔法试剂能迅速中和掉大范围内的各种有害环境。饮用它将使你暂时免疫这种环境。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这种试剂会迅速中和作用范围内的所有有害气体。喝下它能让你在一段时间内对此类气体免疫。] 或 采用 SPD 官方译法 [这种魔法试剂能迅速中和掉大范围内的各种有害环境。饮用它将使你暂时免疫这种环境。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "PotionOfStrength",
@@ -2448,31 +1594,7 @@
    "enDesc": "This powerful liquid will course through your muscles, permanently increasing your strength by one point.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "力量药水（旧版）",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "力量药剂"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [力量药水（旧版）] 或 采用 SPD 官方译法 [力量药剂]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这瓶强劲的液体会流遍你的肌肉，永久提升 1 点力量。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这种强力的液体会洗刷你的肌肉，永久性增加1点力量值。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这瓶强劲的液体会流遍你的肌肉，永久提升 1 点力量。] 或 采用 SPD 官方译法 [这种强力的液体会洗刷你的肌肉，永久性增加1点力量值。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "PotionOfToxicGas",
@@ -2483,31 +1605,7 @@
    "enDesc": "Uncorking or shattering this pressurized glass will cause its contents to explode into a deadly cloud of toxic green gas. You might choose to fling this potion at distant enemies instead of uncorking it by hand.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "毒气药水",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "毒气药剂"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [毒气药水] 或 采用 SPD 官方译法 [毒气药剂]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "打开或摔碎这个加压玻璃瓶，里面的东西会炸成一片致命的绿色毒云。你也可以选择把它扔向远处的敌人，而不是拿在手里开瓶。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "打开或摔碎这个密封的药瓶将导致内容物爆发成一团剧毒的绿色云雾。你应该选择从远处将这瓶药剂扔向敌人，而不是手动开封。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [打开或摔碎这个加压玻璃瓶，里面的东西会炸成一片致命的绿色毒云。你也可以选择把它扔向远处的敌人，而不是拿在手里开瓶。] 或 采用 SPD 官方译法 [打开或摔碎这个密封的药瓶将导致内容物爆发成一团剧毒的绿色云雾。你应该选择从远处将这瓶药剂扔向敌人，而不是手动开封。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Quarterstaff",
@@ -2521,31 +1619,7 @@
     "tile": 17
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "铁头长杖",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "铁头棍"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [铁头长杖] 或 采用 SPD 官方译法 [铁头棍]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "一根硬木长杖，两端包着铁箍。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这是两端以铁包覆的硬木棍。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [一根硬木长杖，两端包着铁箍。] 或 采用 SPD 官方译法 [这是两端以铁包覆的硬木棍。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "RatSkull",
@@ -2559,20 +1633,7 @@
     "tile": 103
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这本来会是个不错的狩猎战利品，可惜太臭了，挂不到墙上去。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这件可怕的饰物并不比正常老鼠的头骨大多少，但不知为何在这个地牢却很稀有。头骨的魔力似乎能吸引更多稀有的地牢住民，使它们更有可能出现。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这本来会是个不错的狩猎战利品，可惜太臭了，挂不到墙上去。] 或 采用 SPD 官方译法 [这件可怕的饰物并不比正常老鼠的头骨大多少，但不知为何在这个地牢却很稀有。头骨的魔力似乎能吸引更多稀有的地牢住民，使它们更有可能出现。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Ring",
@@ -2606,20 +1667,7 @@
    "enDesc": "{isKnown}This ring increases your chance to hit the enemy.{super.desc}",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "{isKnown}这枚戒指提高你命中敌人的概率。{super.desc}",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这枚戒指提高了你的专注力，使敌人难以躲闪你的攻击。被诅咒的戒指则会让你的攻击更易于被闪避。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [{isKnown}这枚戒指提高你命中敌人的概率。{super.desc}] 或 采用 SPD 官方译法 [这枚戒指提高了你的专注力，使敌人难以躲闪你的攻击。被诅咒的戒指则会让你的攻击更易于被闪避。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "RingOfDetection",
@@ -2641,20 +1689,7 @@
    "enDesc": "{isKnown}This ring provides resistance to different elements, such as fire, electricity, gases etc. Also it decreases duration of negative effects.{super.desc}",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "{isKnown}这枚戒指提供对不同元素的抗性，比如火焰、电流、毒气等等，同时缩短负面效果的持续时间。{super.desc}",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这枚戒指能为佩戴者提供抗性，降低大部分元素和魔法效果的伤害和持续时间。被诅咒的戒指自然会加重这些效果。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [{isKnown}这枚戒指提供对不同元素的抗性，比如火焰、电流、毒气等等，同时缩短负面效果的持续时间。{super.desc}] 或 采用 SPD 官方译法 [这枚戒指能为佩戴者提供抗性，降低大部分元素和魔法效果的伤害和持续时间。被诅咒的戒指自然会加重这些效果。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "RingOfEvasion",
@@ -2665,20 +1700,7 @@
    "enDesc": "{isKnown}This ring increases your chance to dodge enemy attack.{super.desc}",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "{isKnown}这枚戒指提高你躲开敌人攻击的概率。{super.desc}",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这枚戒指会加快佩戴者的反应速度，令其更难被敌人击中。被诅咒的戒指反而会让佩戴者更容易被击中。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [{isKnown}这枚戒指提高你躲开敌人攻击的概率。{super.desc}] 或 采用 SPD 官方译法 [这枚戒指会加快佩戴者的反应速度，令其更难被敌人击中。被诅咒的戒指反而会让佩戴者更容易被击中。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "RingOfHaggler",
@@ -2700,31 +1722,7 @@
    "enDesc": "{isKnown}This ring accelerates the wearer's flow of time, allowing one to perform all actions a little faster.{super.desc}",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "急速之戒",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "疾速之戒"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [急速之戒] 或 采用 SPD 官方译法 [疾速之戒]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "{isKnown}这枚戒指加快佩戴者的时间流速，让所有动作都变得快上一点。{super.desc}",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这枚戒指减轻了佩戴者在移动时的负担，使其能够飞速奔跑。被诅咒的戒指则会使佩戴者倍感沉重。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [{isKnown}这枚戒指加快佩戴者的时间流速，让所有动作都变得快上一点。{super.desc}] 或 采用 SPD 官方译法 [这枚戒指减轻了佩戴者在移动时的负担，使其能够飞速奔跑。被诅咒的戒指则会使佩戴者倍感沉重。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "RingOfHerbalism",
@@ -2812,31 +1810,7 @@
     "TXT_FOV": "You can only jump to an empty location in your field of view",
     "TXT_NOT_ROGUE": "Only rogues can use this armor!",
     "AC_SPECIAL": "SMOKE BOMB"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "盗贼夜行衣",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "英雄风衣"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [盗贼夜行衣] 或 采用 SPD 官方译法 [英雄风衣]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "穿着这件深色夜行衣，盗贼可以施展被称为「烟雾弹」的技巧（虽然并不真的用到炸药）：他会致盲所有能看见他的敌人，然后跳向一旁。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "裹着这身与黑暗融为一体的斗篷时，盗贼能够施展一项特殊技能。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [穿着这件深色夜行衣，盗贼可以施展被称为「烟雾弹」的技巧（虽然并不真的用到炸药）：他会致盲所有能看见他的敌人，然后跳向一旁。] 或 采用 SPD 官方译法 [裹着这身与黑暗融为一体的斗篷时，盗贼能够施展一项特殊技能。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "ScaleArmor",
@@ -2850,20 +1824,7 @@
     "tile": 27
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "缝在皮背心上的金属鳞片，造就了一件既灵活又能防身的护甲。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "在厚实的皮背心中缝入金属鳞片，形成了灵活而高防御的护甲。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [缝在皮背心上的金属鳞片，造就了一件既灵活又能防身的护甲。] 或 采用 SPD 官方译法 [在厚实的皮背心中缝入金属鳞片，形成了灵活而高防御的护甲。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Scroll",
@@ -2894,20 +1855,7 @@
     "tile": 104
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "你可以把任意数量的卷轴放进这个筒状容器。它节省背包空间，还能保护卷轴不被火烧毁。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这个管状的容器看起来可以装下一整份天文学家的手书，不过你的卷轴也刚好能放在里面。里面甚至有一些能用来放置法术结晶、奥术刻笔和奥术树脂的小隔间。\\n\\n这个容器看起来并不是很可燃，所以你的卷轴在里面一定很安全。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [你可以把任意数量的卷轴放进这个筒状容器。它节省背包空间，还能保护卷轴不被火烧毁。] 或 采用 SPD 官方译法 [这个管状的容器看起来可以装下一整份天文学家的手书，不过你的卷轴也刚好能放在里面。里面甚至有一些能用来放置法术结晶、奥术刻笔和奥术树脂的小隔间。\\n\\n这个容器看起来并不是很可燃，所以你的卷轴在里面一定很安全。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "ScrollOfChallenge",
@@ -2918,31 +1866,7 @@
    "enDesc": "When read aloud, this scroll will unleash a challenging roar that will awaken all monsters and alert them to the reader's location.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "挑战卷轴",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "决斗秘卷"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [挑战卷轴] 或 采用 SPD 官方译法 [决斗秘卷]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "大声念出后，这张卷轴会爆发出一声挑衅的怒吼，惊醒所有怪物，让它们注意到朗读者的位置。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "大声诵读此卷轴时，它将发出巨大的吼声，将敌人吸引到诵读者身边，同时在它们周围创建一个小型的竞技场。\\n\\n只要使用者在这个竞技场里，就将获得33%的伤害减免(在其它所有伤害减免计算之前)，并且不会损失饱食度。\\n\\n竞技场的大小将随着诵读者所在区域的大小而改变。在一些Boss战区域，竞技场会格外的小。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [大声念出后，这张卷轴会爆发出一声挑衅的怒吼，惊醒所有怪物，让它们注意到朗读者的位置。] 或 采用 SPD 官方译法 [大声诵读此卷轴时，它将发出巨大的吼声，将敌人吸引到诵读者身边，同时在它们周围创建一个小型的竞技场。\\n\\n只要使用者在这个竞技场里，就将获得33%的伤害减免(在其它所有伤害减免计算之前)，并且不会损失饱食度。\\n\\n竞技场的大小将随着诵读者所在区域的大小而改变。在一些Boss战区域，竞技场会格外的小。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "ScrollOfEnchantment",
@@ -2957,31 +1881,7 @@
    },
    "enConsts": {
     "TXT_GLOWS": "your %s glows in the dark"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "附魔卷轴",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "注魔秘卷"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [附魔卷轴] 或 采用 SPD 官方译法 [注魔秘卷]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这张卷轴能为一把武器或一件护甲随机附上一条附魔，赋予它特殊的能力。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这张秘卷可以为武器或护甲注入强大的魔力。使用者甚至可以在一定程度上选择注入哪种魔力。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这张卷轴能为一把武器或一件护甲随机附上一条附魔，赋予它特殊的能力。] 或 采用 SPD 官方译法 [这张秘卷可以为武器或护甲注入强大的魔力。使用者甚至可以在一定程度上选择注入哪种魔力。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "ScrollOfIdentify",
@@ -2992,20 +1892,7 @@
    "enDesc": "Permanently reveals all of the secrets of a single item.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "永久揭示一件物品的全部秘密。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "该卷轴能永久揭示一件物品的所有秘密。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [永久揭示一件物品的全部秘密。] 或 采用 SPD 官方译法 [该卷轴能永久揭示一件物品的所有秘密。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "ScrollOfLullaby",
@@ -3016,31 +1903,7 @@
    "enDesc": "A soothing melody will put all creatures in your field of view into a deep sleep, giving you a chance to flee or make a surprise attack on them.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "催眠曲卷轴",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "催眠卷轴"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [催眠曲卷轴] 或 采用 SPD 官方译法 [催眠卷轴]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "一段舒缓的旋律会让你视野中的所有生物陷入沉睡，给你逃跑或偷袭的机会。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "阅读这张卷轴会释放出一段舒缓的旋律，让所有听到它的生物深陷魔法睡眠。这种睡眠有益于阅读者及友方单位的健康。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [一段舒缓的旋律会让你视野中的所有生物陷入沉睡，给你逃跑或偷袭的机会。] 或 采用 SPD 官方译法 [阅读这张卷轴会释放出一段舒缓的旋律，让所有听到它的生物深陷魔法睡眠。这种睡眠有益于阅读者及友方单位的健康。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "ScrollOfMagicMapping",
@@ -3055,31 +1918,7 @@
    },
    "enConsts": {
     "TXT_LAYOUT": "You are now aware of the level layout."
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "魔法地图卷轴",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "探地卷轴"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [魔法地图卷轴] 或 采用 SPD 官方译法 [探地卷轴]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "念出这张卷轴时，一幅清晰无比的图像会刻进你的记忆，让你知晓本层的精确布局并发现所有隐藏的秘密。物品与生物的位置仍然未知。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "阅读这张卷轴时，一副明晰的景象会刻入你的记忆中，告知你整个楼层的精确布局并揭开所有隐藏的秘密。不过道具位置和生物分布依旧是未知状态。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [念出这张卷轴时，一幅清晰无比的图像会刻进你的记忆，让你知晓本层的精确布局并发现所有隐藏的秘密。物品与生物的位置仍然未知。] 或 采用 SPD 官方译法 [阅读这张卷轴时，一副明晰的景象会刻入你的记忆中，告知你整个楼层的精确布局并揭开所有隐藏的秘密。不过道具位置和生物分布依旧是未知状态。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "ScrollOfMirrorImage",
@@ -3090,20 +1929,7 @@
    "enDesc": "The incantation on this scroll will create illusionary twins of the reader, which will chase his enemies.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这张卷轴上的咒语会创造出朗读者的幻影分身，替他追击敌人。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "卷轴上的咒文会创造使用者的两个镜像。这些像使用者的弱化版克隆体的镜像会对敌人展开追杀。不过镜像非常脆弱，受到伤害就会瞬间消散。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这张卷轴上的咒语会创造出朗读者的幻影分身，替他追击敌人。] 或 采用 SPD 官方译法 [卷轴上的咒文会创造使用者的两个镜像。这些像使用者的弱化版克隆体的镜像会对敌人展开追杀。不过镜像非常脆弱，受到伤害就会瞬间消散。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "ScrollOfPsionicBlast",
@@ -3114,31 +1940,7 @@
    "enDesc": "This scroll contains destructive energy, that can be psionically channeled to inflict a massive damage to all creatures within a field of view. An accompanying flash of light will temporarily blind everybody in the area of effect including the reader of the scroll.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "心灵爆破卷轴",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "灵爆秘卷"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [心灵爆破卷轴] 或 采用 SPD 官方译法 [灵爆秘卷]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这张卷轴蕴含着破坏性的能量，可以通过心灵引导，对视野内的所有生物造成巨大伤害。伴随的闪光还会暂时致盲作用范围内的所有人，包括朗读卷轴的人自己。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这张秘卷封存着惊人的毁灭性能量，一旦被释放出来可摧毁视野内所有生物的心智。\\n\\n然而，使用者也会遭受灵爆的严重反噬，使其身受重创，双目失明，力量虚弱。灵爆秘卷击中的目标越多，其对使用者造成的伤害越低。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这张卷轴蕴含着破坏性的能量，可以通过心灵引导，对视野内的所有生物造成巨大伤害。伴随的闪光还会暂时致盲作用范围内的所有人，包括朗读卷轴的人自己。] 或 采用 SPD 官方译法 [这张秘卷封存着惊人的毁灭性能量，一旦被释放出来可摧毁视野内所有生物的心智。\\n\\n然而，使用者也会遭受灵爆的严重反噬，使其身受重创，双目失明，力量虚弱。灵爆秘卷击中的目标越多，其对使用者造成的伤害越低。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "ScrollOfRecharging",
@@ -3149,20 +1951,7 @@
    "enDesc": "The raw magical power bound up in this parchment will, when released, recharge all of the reader's wands to full power.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这张羊皮纸中封存的原始魔力一旦释放，会把朗读者的所有法杖充能至满。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "纯正的魔法能量被禁锢在羊皮纸内，当这股能量被释放时会在短时间内持续为阅读者的所有法杖充能。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这张羊皮纸中封存的原始魔力一旦释放，会把朗读者的所有法杖充能至满。] 或 采用 SPD 官方译法 [纯正的魔法能量被禁锢在羊皮纸内，当这股能量被释放时会在短时间内持续为阅读者的所有法杖充能。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "ScrollOfRemoveCurse",
@@ -3179,31 +1968,7 @@
    "enConsts": {
     "TXT_PROCCED": "Your pack glows with a cleansing light, and a malevolent energy disperses.",
     "TXT_NOT_PROCCED": "Your pack glows with a cleansing light, but nothing happens."
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "驱咒卷轴",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "祛邪卷轴"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [驱咒卷轴] 或 采用 SPD 官方译法 [祛邪卷轴]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这张卷轴上的咒语会立刻剥离朗读者的武器、护甲、戒指和随身物品上一切可能妨碍其卸下的邪恶诅咒。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "卷轴上的咒语能够瞬间清除指定的一件武器、护甲、法杖、戒指或神器上的诅咒。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这张卷轴上的咒语会立刻剥离朗读者的武器、护甲、戒指和随身物品上一切可能妨碍其卸下的邪恶诅咒。] 或 采用 SPD 官方译法 [卷轴上的咒语能够瞬间清除指定的一件武器、护甲、法杖、戒指或神器上的诅咒。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "ScrollOfTeleportation",
@@ -3220,20 +1985,7 @@
    "enConsts": {
     "TXT_TELEPORTED": "In a blink of an eye you were teleported to another location of the level.",
     "TXT_NO_TELEPORT": "Strong magic aura of this place prevents you from teleporting!"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "羊皮纸上的法术会把朗读者立刻送到本地牢层的某个随机位置。它能用来逃离险境，但运气不好的话，可能反而落进更危险的地方。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "羊皮纸上的咒语能立刻让阅读者传送到本层的另一处。卷轴会优先选择阅读者还未探索的地方，但无法将人传送到门被锁或被路障堵住入口的密室中。不过，它能帮助发现通向未知区域的隐藏门。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [羊皮纸上的法术会把朗读者立刻送到本地牢层的某个随机位置。它能用来逃离险境，但运气不好的话，可能反而落进更危险的地方。] 或 采用 SPD 官方译法 [羊皮纸上的咒语能立刻让阅读者传送到本层的另一处。卷轴会优先选择阅读者还未探索的地方，但无法将人传送到门被锁或被路障堵住入口的密室中。不过，它能帮助发现通向未知区域的隐藏门。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "ScrollOfTerror",
@@ -3244,20 +1996,7 @@
    "enDesc": "A flash of red light will overwhelm all creatures in your field of view with terror, and they will turn and flee. Attacking a fleeing enemy will dispel the effect.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "一道红光会让视野中的所有生物陷入极度恐惧，转身逃跑。攻击正在逃跑的敌人会解除这个效果。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "被阅读的时候，该卷轴会爆射出一道可怖的红色闪光，以恐惧压垮使用者视野范围内生物的心智并使它们转身逃跑。攻击正在逃跑的敌人会缩短该效果的持续时长。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [一道红光会让视野中的所有生物陷入极度恐惧，转身逃跑。攻击正在逃跑的敌人会解除这个效果。] 或 采用 SPD 官方译法 [被阅读的时候，该卷轴会爆射出一道可怖的红色闪光，以恐惧压垮使用者视野范围内生物的心智并使它们转身逃跑。攻击正在逃跑的敌人会缩短该效果的持续时长。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "ScrollOfUpgrade",
@@ -3272,20 +2011,7 @@
    },
    "enConsts": {
     "TXT_LOOKS_BETTER": "your %s certainly looks better now"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这张卷轴能升级一件物品，提升它的品质。法杖会{increase}{in}{power}{and}{in}{number}{of}{charges}",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这张卷轴可以升级一件物品或一组投掷武器。法杖可获得更高的效能与更多的充能，武器与护甲可获得更强的攻防属性，投掷武器组的耐久度可获得重置与提升，而戒指的效能可获得强化。\\n\\n这张卷轴能弱化诅咒甚至可能将其完全净化，但是效果不如祛邪卷轴稳定。不幸地，升级魔法也可能消除高级装备的附魔或刻印。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这张卷轴能升级一件物品，提升它的品质。法杖会{increase}{in}{power}{and}{in}{number}{of}{charges}] 或 采用 SPD 官方译法 [这张卷轴可以升级一件物品或一组投掷武器。法杖可获得更高的效能与更多的充能，武器与护甲可获得更强的攻防属性，投掷武器组的耐久度可获得重置与提升，而戒指的效能可获得强化。\\n\\n这张卷轴能弱化诅咒甚至可能将其完全净化，但是效果不如祛邪卷轴稳定。不幸地，升级魔法也可能消除高级装备的附魔或刻印。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "ScrollOfWipeOut",
@@ -3358,20 +2084,7 @@
     "TXT_SELECT_WEAPON": "Select a weapon to upgrade",
     "TXT_REFORGED": "you reforged the short sword to upgrade your %s",
     "TXT_NOT_BOOMERANG": "you can't upgrade a boomerang this way"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "它确实很短，只比匕首长几英寸。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "它确实相当短，只比一把匕首长出几厘米。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [它确实很短，只比匕首长几英寸。] 或 采用 SPD 官方译法 [它确实相当短，只比一把匕首长出几厘米。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Shuriken",
@@ -3385,20 +2098,7 @@
     "tile": 15
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "星形的金属片带着剃刀般锋利的刃口，命中目标时伤害可观，而且能以极快的频率连续投掷。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "一些轻便到可以在移动时快速掷出的锋利星形金属刃片。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [星形的金属片带着剃刀般锋利的刃口，命中目标时伤害可观，而且能以极快的频率连续投掷。] 或 采用 SPD 官方译法 [一些轻便到可以在移动时快速掷出的锋利星形金属刃片。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "SkeletonKey",
@@ -3412,20 +2112,7 @@
     "tile": 8
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这把钥匙看起来来头不小：钥匙头做成了骷髅的形状。大概能打开某扇来头不小的门。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "一把匙柄处塑有头骨，与众不同的钥匙。你每次观察匙齿时其外形似乎都有不同。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这把钥匙看起来来头不小：钥匙头做成了骷髅的形状。大概能打开某扇来头不小的门。] 或 采用 SPD 官方译法 [一把匙柄处塑有头骨，与众不同的钥匙。你每次观察匙齿时其外形似乎都有不同。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Slow",
@@ -3454,20 +2141,7 @@
     "tile": 29
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "一根纤细的木杆，顶端装着一截削尖的铁。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这是一根装着锋锐铁刺的细长木杆。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [一根纤细的木杆，顶端装着一截削尖的铁。] 或 采用 SPD 官方译法 [这是一根装着锋锐铁刺的细长木杆。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Stench",
@@ -3496,31 +2170,7 @@
     "tile": 20
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "剑",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "单手剑"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [剑] 或 采用 SPD 官方译法 [单手剑]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这柄锋利的钢制长刃闪着令人安心的寒光。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "平衡性良好的剑。不算太大，但是依然比短剑长上不少。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这柄锋利的钢制长刃闪着令人安心的寒光。] 或 采用 SPD 官方译法 [平衡性良好的剑。不算太大，但是依然比短剑长上不少。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Tamahawk",
@@ -3534,20 +2184,7 @@
     "tile": 107
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "possibly_renamed",
-     "ours": "投掷战斧",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "飞斧"
-     },
-     "reason": "本项目 id 在 SPD 中无精确对应, 但存在极相似类名[tomahawk], 疑似 SPD 改名; 下方 reference 为 SPD 侧的译法参考",
-     "build_note": "构建时请二选一: 采用本项目译法 [投掷战斧] 或 采用 SPD 官方译法 [飞斧]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Tempering",
@@ -3600,20 +2237,7 @@
    },
    "enConsts": {
     "AC_LIGHT": "LIGHT"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "在恶魔殿堂里这是不可或缺的道具，那地方以环境照明极差而臭名昭著。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "冒险必备物品，每当地牢陷入黑暗之时，火把能让你走上正确的道路。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [在恶魔殿堂里这是不可或缺的道具，那地方以环境照明极差而臭名昭著。] 或 采用 SPD 官方译法 [冒险必备物品，每当地牢陷入黑暗之时，火把能让你走上正确的道路。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Viscosity",
@@ -3723,31 +2347,7 @@
    "enDesc": "This wand emits a beam of destructive energy, which pierces all creatures in its way. The more targets it hits, the more damage it inflicts to each of them.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "分解法杖",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "解离法杖"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [分解法杖] 或 采用 SPD 官方译法 [解离法杖]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这支法杖射出一道毁灭性能量束，穿透它路径上的所有生物。命中的目标越多，对每一个造成的伤害就越高。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这根法杖由一整块光滑的黑曜石制成，深紫色的光自其边缘流向法杖顶端。它闪烁着破坏性能量，准备着向前迸射。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这支法杖射出一道毁灭性能量束，穿透它路径上的所有生物。命中的目标越多，对每一个造成的伤害就越高。] 或 采用 SPD 官方译法 [这根法杖由一整块光滑的黑曜石制成，深紫色的光自其边缘流向法杖顶端。它闪烁着破坏性能量，准备着向前迸射。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "WandOfFirebolt",
@@ -3758,20 +2358,7 @@
    "enDesc": "This wand unleashes bursts of magical fire. It will ignite flammable terrain, and will damage and burn a creature it hits.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "possibly_renamed",
-     "ours": "火焰箭法杖",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "焰浪法杖"
-     },
-     "reason": "本项目 id 在 SPD 中无精确对应, 但存在极相似类名[wandoffireblast], 疑似 SPD 改名; 下方 reference 为 SPD 侧的译法参考",
-     "build_note": "构建时请二选一: 采用本项目译法 [火焰箭法杖] 或 采用 SPD 官方译法 [焰浪法杖]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "WandOfFlock",
@@ -3796,31 +2383,7 @@
    "enDesc": "This wand conjures forth deadly arcs of electricity, which deal damage to several creatures standing close to each other.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "闪电法杖",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "雷霆法杖"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [闪电法杖] 或 采用 SPD 官方译法 [雷霆法杖]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这支法杖召来致命的电弧，对彼此靠近的数个生物造成伤害。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这根法杖由实心金属制成，这使它惊人地沉重。电弧在顶端两个内弯的叉齿间跳跃。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这支法杖召来致命的电弧，对彼此靠近的数个生物造成伤害。] 或 采用 SPD 官方译法 [这根法杖由实心金属制成，这使它惊人地沉重。电弧在顶端两个内弯的叉齿间跳跃。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "WandOfMagicMissile",
@@ -3842,31 +2405,7 @@
     "AC_DISENCHANT": "DISENCHANT",
     "TXT_SELECT_WAND": "Select a wand to upgrade",
     "TXT_DISENCHANTED": "you disenchanted the Wand of Magic Missile and used its essence to upgrade your %s"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "魔法飞弹法杖",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "魔弹法杖"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [魔法飞弹法杖] 或 采用 SPD 官方译法 [魔弹法杖]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这支法杖发射纯粹魔力凝聚的飞弹，对目标生物造成中等伤害。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这根十分普通的法杖能发射由纯魔法能量构成的飞弹。尽管法杖本身没有什么花哨的特效，但它有更多的充能数，而且在被升级后能暂时强化其他法杖。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这支法杖发射纯粹魔力凝聚的飞弹，对目标生物造成中等伤害。] 或 采用 SPD 官方译法 [这根十分普通的法杖能发射由纯魔法能量构成的飞弹。尽管法杖本身没有什么花哨的特效，但它有更多的充能数，而且在被升级后能暂时强化其他法杖。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "WandOfPoison",
@@ -3903,31 +2442,7 @@
    "enDesc": "\"When life ceases new life always begins to grow... The eternal cycle always remains!\"",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "重生法杖",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "再生法杖"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [重生法杖] 或 采用 SPD 官方译法 [再生法杖]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "「生命终结之处，新的生命总会开始生长……永恒的循环永不停息！」",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这根法杖由一根细长木枝巧琢而成。不知为何，它还活着而且生机盎然，像一株树苗的嫩芽般艳绿。“春兰兮秋菊，长无绝兮终古！”"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [「生命终结之处，新的生命总会开始生长……永恒的循环永不停息！」] 或 采用 SPD 官方译法 [这根法杖由一根细长木枝巧琢而成。不知为何，它还活着而且生机盎然，像一株树苗的嫩芽般艳绿。“春兰兮秋菊，长无绝兮终古！”]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "WandOfSlowness",
@@ -3963,20 +2478,7 @@
     "tile": 23
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "很少有生物能扛住这座由铅与钢堆成的高塔砸下的粉碎一击，但也只有最强壮的冒险者才能挥动它。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "很少有生物能抵挡这铅铁巨块的辗压，但也只有最强壮的冒险家才能有效使用它。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [很少有生物能扛住这座由铅与钢堆成的高塔砸下的粉碎一击，但也只有最强壮的冒险者才能挥动它。] 或 采用 SPD 官方译法 [很少有生物能抵挡这铅铁巨块的辗压，但也只有最强壮的冒险家才能有效使用它。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "WarriorArmor",
@@ -3996,31 +2498,7 @@
    "enConsts": {
     "AC_SPECIAL": "HEROIC LEAP",
     "TXT_NOT_WARRIOR": "Only warriors can use this armor!"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "勇士战甲",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "英雄板甲"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [勇士战甲] 或 采用 SPD 官方译法 [英雄板甲]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这套护甲看上去很笨重，却能让勇士朝指定位置施展「英勇跃击」，落地时震晕周围所有敌人。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "装备这套重型板甲时，战士能够施展一项特殊技能。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这套护甲看上去很笨重，却能让勇士朝指定位置施展「英勇跃击」，落地时震晕周围所有敌人。] 或 采用 SPD 官方译法 [装备这套重型板甲时，战士能够施展一项特殊技能。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Weapon",
@@ -4095,20 +2573,7 @@
     "tile": 14
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "酸液蝎蛛",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "酸液巨蝎"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [酸液蝎蛛] 或 采用 SPD 官方译法 [酸液巨蝎]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Albino",
@@ -4122,20 +2587,7 @@
     "tile": 16
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "白化巨鼠",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "白化老鼠"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [白化巨鼠] 或 采用 SPD 官方译法 [白化老鼠]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Bandit",
@@ -4163,20 +2615,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这些敏捷而顽强的洞顶居民能通过每一次成功的攻击回复生命，从而击败比自己大得多的对手。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这些敏捷且坚韧的洞穴穹顶生物比看上去可怕地多。它们会通过每次成功的攻击来恢复生命，从而击败比它们大得多的对手。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这些敏捷而顽强的洞顶居民能通过每一次成功的攻击回复生命，从而击败比自己大得多的对手。] 或 采用 SPD 官方译法 [这些敏捷且坚韧的洞穴穹顶生物比看上去可怕地多。它们会通过每次成功的攻击来恢复生命，从而击败比它们大得多的对手。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Brute",
@@ -4194,31 +2633,7 @@
    },
    "enConsts": {
     "TXT_ENRAGED": "%s becomes enraged!"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "豺狼人蛮兵",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "豺狼暴徒"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [豺狼人蛮兵] 或 采用 SPD 官方译法 [豺狼暴徒]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "蛮兵是所有豺狼人中体型最大、最强壮也最坚韧的。受到重伤时它们会陷入狂暴，对敌人造成更高的伤害。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "暴徒是体型最大，力量最强且生命力最坚韧的一种豺狼人。受到致命伤时，他们会狂暴化，获得暂时的护盾和极高的伤害加成。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [蛮兵是所有豺狼人中体型最大、最强壮也最坚韧的。受到重伤时它们会陷入狂暴，对敌人造成更高的伤害。] 或 采用 SPD 官方译法 [暴徒是体型最大，力量最强且生命力最坚韧的一种豺狼人。受到致命伤时，他们会狂暴化，获得暂时的护盾和极高的伤害加成。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Crab",
@@ -4232,31 +2647,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "下水道巨蟹",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "下水道螃蟹"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [下水道巨蟹] 或 采用 SPD 官方译法 [下水道螃蟹]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这些巨大的螃蟹位于下水道食物链的顶端。它们速度极快，厚重的外骨骼能扛住沉重的打击。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这些巨型的螃蟹位居下水道食物链的顶端。它们行动极其迅速且其厚重的甲壳能承受沉重的打击。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这些巨大的螃蟹位于下水道食物链的顶端。它们速度极快，厚重的外骨骼能扛住沉重的打击。] 或 采用 SPD 官方译法 [这些巨型的螃蟹位居下水道食物链的顶端。它们行动极其迅速且其厚重的甲壳能承受沉重的打击。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "CursePersonification",
@@ -4281,20 +2672,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这台机器是矮人在几个世纪前造出来的。后来，矮人开始用魔像、元素、甚至恶魔来取代机器。这最终导致了他们文明的衰落。DM-300 之类的机器通常用于建筑和采矿，某些情况下也用于城防。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "DM-300是矮人有史以来发明的最强大的“防卫机械”。这般强大的机械极难量产，所以矮人们仅仅造出了几台来守护他们地下都城的入口。\\n\\n它配备了可以喷出剧毒废气的通风口和一个可以用来攻击和破坏土石的高功率钻头。DM-300还可以接通电网，进一步增强它的力量。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这台机器是矮人在几个世纪前造出来的。后来，矮人开始用魔像、元素、甚至恶魔来取代机器。这最终导致了他们文明的衰落。DM-300 之类的机器通常用于建筑和采矿，某些情况下也用于城防。] 或 采用 SPD 官方译法 [DM-300是矮人有史以来发明的最强大的“防卫机械”。这般强大的机械极难量产，所以矮人们仅仅造出了几台来守护他们地下都城的入口。\\n\\n它配备了可以喷出剧毒废气的通风口和一个可以用来攻击和破坏土石的高功率钻头。DM-300还可以接通电网，进一步增强它的力量。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Elemental",
@@ -4326,20 +2704,7 @@
    },
    "enConsts": {
     "TXT_DEATHGAZE_KILLED": "%s's deathgaze killed you..."
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这个恶魔的另一个名字叫「仇恨之球」，因为它一旦发现敌人，就会不顾一切地使用死亡凝视，常常连同伴都不顾，把他们一起重伤。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "邪眼是一种充斥着恶魔能量的飘浮球形生物。它具有近战能力，但其真正的杀招暗藏于其魔法之中。\\n\\n邪眼会在短暂的蓄能过后，释放一种名为_死亡凝视_的毁灭性能量射线。届时，邪眼所凝视的一切都将受到巨额伤害，而明智的冒险家都会避其锋芒。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这个恶魔的另一个名字叫「仇恨之球」，因为它一旦发现敌人，就会不顾一切地使用死亡凝视，常常连同伴都不顾，把他们一起重伤。] 或 采用 SPD 官方译法 [邪眼是一种充斥着恶魔能量的飘浮球形生物。它具有近战能力，但其真正的杀招暗藏于其魔法之中。\\n\\n邪眼会在短暂的蓄能过后，释放一种名为_死亡凝视_的毁灭性能量射线。届时，邪眼所凝视的一切都将受到巨额伤害，而明智的冒险家都会避其锋芒。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "FetidRat",
@@ -4350,31 +2715,7 @@
    "enDesc": "This marsupial rat is much larger than a regular one. It is surrounded by a foul cloud.",
    "sprite": null,
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "恶臭巨鼠",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "腐臭老鼠"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [恶臭巨鼠] 或 采用 SPD 官方译法 [腐臭老鼠]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这只巨鼠比普通的同类大得多，周身笼罩着一股恶臭的云雾。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这只老鼠很不对劲。它油腻的黑毛和腐烂的皮肤与你之前见过的健康老鼠很不同。浅绿色的眼睛让它显得更具威胁。\\n\\n这只老鼠周围盘绕着一片可怕恶臭，靠近时臭气尤为浓烈。\\n\\n黑色的淤泥从它的嘴中流出。淤泥腐蚀掉了地砖，但遇水似乎就会溶解。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这只巨鼠比普通的同类大得多，周身笼罩着一股恶臭的云雾。] 或 采用 SPD 官方译法 [这只老鼠很不对劲。它油腻的黑毛和腐烂的皮肤与你之前见过的健康老鼠很不同。浅绿色的眼睛让它显得更具威胁。\\n\\n这只老鼠周围盘绕着一片可怕恶臭，靠近时臭气尤为浓烈。\\n\\n黑色的淤泥从它的嘴中流出。淤泥腐蚀掉了地砖，但遇水似乎就会溶解。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Gnoll",
@@ -4388,31 +2729,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "豺狼人斥候",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "豺狼巡查"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [豺狼人斥候] 或 采用 SPD 官方译法 [豺狼巡查]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "豺狼人是形似鬣狗的人形生物。它们栖居在下水道和地牢中，时不时上到地面劫掠。斥候是族群里的普通成员，没有蛮兵强壮，也没有萨满聪明。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "豺狼人是鬣狗状的类人生物。它们在下水道和地牢里游荡，不时向上行动试图向地表发起进攻。豺狼巡查是它们种群里最普通的一员，它们既没有暴徒强壮，也赶不上萨满聪明。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [豺狼人是形似鬣狗的人形生物。它们栖居在下水道和地牢中，时不时上到地面劫掠。斥候是族群里的普通成员，没有蛮兵强壮，也没有萨满聪明。] 或 采用 SPD 官方译法 [豺狼人是鬣狗状的类人生物。它们在下水道和地牢里游荡，不时向上行动试图向地表发起进攻。豺狼巡查是它们种群里最普通的一员，它们既没有暴徒强壮，也赶不上萨满聪明。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Golem",
@@ -4426,20 +2743,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "矮人试图把机械知识与新掌握的元素束缚之力结合起来。他们用大地之灵作为魔像机械躯体的「灵魂」，认为这是最容易控制的一种。尽管如此，仪式中最微小的失误仍可能引发失控。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "魔像是矮人们试图利用魔法的新应用弥补机械设备长久以来的缺陷的产物。它们虽不似DM-300那样庞大笨重，但仍具有不可小觑的破坏力。\\n\\n魔像因体型过大无法进入过道，但矮人们赋予了魔像魔力来弥补这一点——魔像能在各个房间之间传送，并能将无法触及的敌人从远处拉回来。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [矮人试图把机械知识与新掌握的元素束缚之力结合起来。他们用大地之灵作为魔像机械躯体的「灵魂」，认为这是最容易控制的一种。尽管如此，仪式中最微小的失误仍可能引发失控。] 或 采用 SPD 官方译法 [魔像是矮人们试图利用魔法的新应用弥补机械设备长久以来的缺陷的产物。它们虽不似DM-300那样庞大笨重，但仍具有不可小觑的破坏力。\\n\\n魔像因体型过大无法进入过道，但矮人们赋予了魔像魔力来弥补这一点——魔像能在各个房间之间传送，并能将无法触及的敌人从远处拉回来。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Goo",
@@ -4453,31 +2757,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "咕噜",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "粘咕"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [咕噜] 或 采用 SPD 官方译法 [粘咕]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "关于咕噜，人们所知甚少。它很可能根本算不上生物，而只是下水道里的一团物质，偶然获得了些许自由意志。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "我们对粘咕所知甚少。它甚至很有可能不是一个生物，而是下水道表面聚集的邪恶物质得到基本智能而产生的实体。不管怎样，很明显是黑暗魔法造就了这个生物。\\n\\n其凝胶性质让它吸收了很多黑暗能量，你光是靠近就感受到了一股寒意。如果粘咕使用这种能量对你进行攻击那你肯定支撑不了多久。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [关于咕噜，人们所知甚少。它很可能根本算不上生物，而只是下水道里的一团物质，偶然获得了些许自由意志。] 或 采用 SPD 官方译法 [我们对粘咕所知甚少。它甚至很有可能不是一个生物，而是下水道表面聚集的邪恶物质得到基本智能而产生的实体。不管怎样，很明显是黑暗魔法造就了这个生物。\\n\\n其凝胶性质让它吸收了很多黑暗能量，你光是靠近就感受到了一股寒意。如果粘咕使用这种能量对你进行攻击那你肯定支撑不了多久。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "King",
@@ -4510,31 +2790,7 @@
    "enConsts": {
     "LEVEL": "level",
     "ITEMS": "items"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "拟形怪",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "宝箱怪"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [拟形怪] 或 采用 SPD 官方译法 [宝箱怪]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "拟形怪是可以变成任意形状的魔法生物。在地牢里，它们几乎总是选择宝箱的形态，因为它们知道怎样才能勾引冒险者上钩。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "宝箱怪是一种能随意改变外形的生物。在地牢里它们几乎一直以宝箱形态出现，因为这样总能吸引疏于防备的冒险家。\\n\\n宝箱怪具有较强的攻击力，但也通常拥有比普通箱子更多的财宝。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [拟形怪是可以变成任意形状的魔法生物。在地牢里，它们几乎总是选择宝箱的形态，因为它们知道怎样才能勾引冒险者上钩。] 或 采用 SPD 官方译法 [宝箱怪是一种能随意改变外形的生物。在地牢里它们几乎一直以宝箱形态出现，因为这样总能吸引疏于防备的冒险家。\\n\\n宝箱怪具有较强的攻击力，但也通常拥有比普通箱子更多的财宝。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Mob",
@@ -4578,20 +2834,7 @@
    },
    "enConsts": {
     "TXT_DISARM": "%s has knocked the %s from your hands!"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这些武僧是狂信者，誓死保护自己城市的秘密不被任何外来者窥探。他们不使用护甲和武器，只依靠徒手格斗的技艺。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这些僧侣皆是狂热的信徒，倾其所能从一切异族手中保护国王的安全。狂热的信仰使得他们将自己的意志交给了国王，只剩下没有思想的躯壳在城中游荡。\\n\\n矮人武僧既不披甲亦不执械，仅仅依靠自己的徒手格斗技巧退敌。凝神的武僧必定会招架一次来袭的物理攻击，哪怕是必中的攻击。武僧在移动时能更快地凝神，在战斗中就相对慢些。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这些武僧是狂信者，誓死保护自己城市的秘密不被任何外来者窥探。他们不使用护甲和武器，只依靠徒手格斗的技艺。] 或 采用 SPD 官方译法 [这些僧侣皆是狂热的信徒，倾其所能从一切异族手中保护国王的安全。狂热的信仰使得他们将自己的意志交给了国王，只剩下没有思想的躯壳在城中游荡。\\n\\n矮人武僧既不披甲亦不执械，仅仅依靠自己的徒手格斗技巧退敌。凝神的武僧必定会招架一次来袭的物理攻击，哪怕是必中的攻击。武僧在移动时能更快地凝神，在战斗中就相对慢些。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Piranha",
@@ -4605,20 +2848,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这些肉食性鱼类并非地下水塘的原生物种。它们是被专门培育出来，守护被水淹没的藏宝库的。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这些食肉的鱼类是为了专门保护水涝区域而培育的。它们的撕咬相当致命，避免与它们正面对峙为上。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这些肉食性鱼类并非地下水塘的原生物种。它们是被专门培育出来，守护被水淹没的藏宝库的。] 或 采用 SPD 官方译法 [这些食肉的鱼类是为了专门保护水涝区域而培育的。它们的撕咬相当致命，避免与它们正面对峙为上。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Rat",
@@ -4632,31 +2862,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "有袋巨鼠",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "啮齿小鼠"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [有袋巨鼠] 或 采用 SPD 官方译法 [啮齿小鼠]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "有袋巨鼠攻击性强，但相当弱小，是下水道的常见居民。只有成群结队时它们才危险。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "虽说啮齿小鼠们具有攻击性，可它们依旧是下水道居民里的弱者。它们的啮咬非常烦人，但只有数量巨大时才会有生命威胁。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [有袋巨鼠攻击性强，但相当弱小，是下水道的常见居民。只有成群结队时它们才危险。] 或 采用 SPD 官方译法 [虽说啮齿小鼠们具有攻击性，可它们依旧是下水道居民里的弱者。它们的啮咬非常烦人，但只有数量巨大时才会有生命威胁。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Scorpio",
@@ -4670,31 +2876,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "蝎蛛",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "巨蝎"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [蝎蛛] 或 采用 SPD 官方译法 [巨蝎]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这些巨大的蛛形恶魔会不惜一切避免近战，从远处射出致残的锯齿尖刺。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这种巨大的节肢类恶魔生物不会选择近身缠斗，它们更擅长在远处发射能够致残的锯齿钉刺。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这些巨大的蛛形恶魔会不惜一切避免近战，从远处射出致残的锯齿尖刺。] 或 采用 SPD 官方译法 [这种巨大的节肢类恶魔生物不会选择近身缠斗，它们更擅长在远处发射能够致残的锯齿钉刺。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Senior",
@@ -4708,20 +2890,7 @@
     "tile": 18
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "资深武僧",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "武僧大师"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [资深武僧] 或 采用 SPD 官方译法 [武僧大师]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Shaman",
@@ -4739,31 +2908,7 @@
    },
    "enConsts": {
     "TXT_LIGHTNING_KILLED": "%s's lightning bolt killed you..."
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "豺狼人萨满",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "豺狼萨满"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [豺狼人萨满] 或 采用 SPD 官方译法 [豺狼萨满]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "最聪明的豺狼人能够掌握萨满法术。它们偏好战斗法术以弥补力量的不足，并且毫不迟疑地对那些质疑自己在族群中地位的人使用。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "豺狼萨满比大多数豺狼人更具智慧，它们会用战斗法术来弥补力量上的不足。尽管豺狼萨满的力量相对较弱，它们仍在部落中享有崇高地位。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [最聪明的豺狼人能够掌握萨满法术。它们偏好战斗法术以弥补力量的不足，并且毫不迟疑地对那些质疑自己在族群中地位的人使用。] 或 采用 SPD 官方译法 [豺狼萨满比大多数豺狼人更具智慧，它们会用战斗法术来弥补力量上的不足。尽管豺狼萨满的力量相对较弱，它们仍在部落中享有崇高地位。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Shielded",
@@ -4795,20 +2940,7 @@
    },
    "enConsts": {
     "TXT_HERO_KILLED": "You were killed by the explosion of bones..."
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "骷髅由倒霉的冒险者与地牢居民的尸骨拼成，被来自地底的邪恶魔法气息驱动。受到足够伤害后，它们会炸成一堆碎骨。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "骷髅本是倒霉的冒险家和监狱原住民的尸骨，因地牢深处邪恶魔力的影响而苏醒。骷髅被摧毁后，它的骨头会炸成碎片。迸溅的碎骨会伤害邻近的所有角色，而护甲能显著减免这种伤害。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [骷髅由倒霉的冒险者与地牢居民的尸骨拼成，被来自地底的邪恶魔法气息驱动。受到足够伤害后，它们会炸成一堆碎骨。] 或 采用 SPD 官方译法 [骷髅本是倒霉的冒险家和监狱原住民的尸骨，因地牢深处邪恶魔力的影响而苏醒。骷髅被摧毁后，它的骨头会炸成碎片。迸溅的碎骨会伤害邻近的所有角色，而护甲能显著减免这种伤害。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Spinner",
@@ -4822,31 +2954,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "洞窟纺蛛",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "矿洞蜘蛛"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [洞窟纺蛛] 或 采用 SPD 官方译法 [矿洞蜘蛛]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这些毛茸茸的绿色洞窟蜘蛛会尽量避免正面战斗，宁愿远远等着，让被蛛网缠住的猎物慢慢死于它们的毒咬。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这种长着绿毛的矿洞蜘蛛会试着避免正面交战。它更喜欢呆在远处，等着困在蛛网中的猎物缓缓死于它噬咬时分泌的剧毒。它也能向远处喷吐蛛网，阻挡敌人的行动路线。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这些毛茸茸的绿色洞窟蜘蛛会尽量避免正面战斗，宁愿远远等着，让被蛛网缠住的猎物慢慢死于它们的毒咬。] 或 采用 SPD 官方译法 [这种长着绿毛的矿洞蜘蛛会试着避免正面交战。它更喜欢呆在远处，等着困在蛛网中的猎物缓缓死于它噬咬时分泌的剧毒。它也能向远处喷吐蛛网，阻挡敌人的行动路线。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Statue",
@@ -4862,20 +2970,7 @@
    "zhConsts": null,
    "enConsts": {
     "WEAPON": "weapon"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "你会以为这只是地牢里又一尊丑陋的石像，但它发着红光的眼睛出卖了它。石像本身是石头做的，可它握着的_{weapon.name}_看上去是真的。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "你本以为这只是地牢里又一尊静伫的石像，但它泛着红光的眼睛出卖了它。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [你会以为这只是地牢里又一尊丑陋的石像，但它发着红光的眼睛出卖了它。石像本身是石头做的，可它握着的_{weapon.name}_看上去是真的。] 或 采用 SPD 官方译法 [你本以为这只是地牢里又一尊静伫的石像，但它泛着红光的眼睛出卖了它。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Succubus",
@@ -4889,20 +2984,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "魅魔是外形如同妖艳少女（略带哥特味道）的恶魔。魅魔能用魔法魅惑英雄，使其在魅惑消退前无法攻击任何东西。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "魅魔是一种善于操纵敌人的精神的变形恶魔。这一只化为了哥特风的苍白人形，或许是为了吸引矮人术士？\\n\\n在攻击时，魅魔能够暂时魅惑目标，使其无法直接攻击魅魔本身。魅魔在攻击被魅惑的目标时能吸取其生命精华。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [魅魔是外形如同妖艳少女（略带哥特味道）的恶魔。魅魔能用魔法魅惑英雄，使其在魅惑消退前无法攻击任何东西。] 或 采用 SPD 官方译法 [魅魔是一种善于操纵敌人的精神的变形恶魔。这一只化为了哥特风的苍白人形，或许是为了吸引矮人术士？\\n\\n在攻击时，魅魔能够暂时魅惑目标，使其无法直接攻击魅魔本身。魅魔在攻击被魅惑的目标时能吸取其生命精华。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Swarm",
@@ -4918,20 +3000,7 @@
    "zhConsts": null,
    "enConsts": {
     "GENERATION": "generation"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "致命的蝇群愤怒地嗡嗡作响。每一次非魔法攻击都会把它分裂成两团更小、但同样危险的蝇群。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "致命的飞蝇群愤怒地发出嗡嗡声。每次非魔法攻击都会把它分割成两群更小但同样危险的飞蝇群。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [致命的蝇群愤怒地嗡嗡作响。每一次非魔法攻击都会把它分裂成两团更小、但同样危险的蝇群。] 或 采用 SPD 官方译法 [致命的飞蝇群愤怒地发出嗡嗡声。每次非魔法攻击都会把它分割成两群更小但同样危险的飞蝇群。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Tengu",
@@ -4945,20 +3014,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "天狗是古代刺客组织「天狗」的成员。这些刺客以大量使用手里剑和陷阱而闻名。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "一位著名的神秘刺客，其名源于紧贴在他脸上的面具。\\n\\n天狗的手腕和膝下都带着镣铐，但他似乎很久以前就摆脱掉了锁链的束缚。\\n\\n他将利用陷阱、欺骗性的魔法、精准致命的攻击，来消灭唯一能阻止他逃脱的人：你。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [天狗是古代刺客组织「天狗」的成员。这些刺客以大量使用手里剑和陷阱而闻名。] 或 采用 SPD 官方译法 [一位著名的神秘刺客，其名源于紧贴在他脸上的面具。\\n\\n天狗的手腕和膝下都带着镣铐，但他似乎很久以前就摆脱掉了锁链的束缚。\\n\\n他将利用陷阱、欺骗性的魔法、精准致命的攻击，来消灭唯一能阻止他逃脱的人：你。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Thief",
@@ -4979,20 +3035,7 @@
     "TXT_STOLE": "%s stole %s from you!",
     "TXT_CARRIES": "%s is carrying a _%s_. Stolen obviously.",
     "ITEM": "item"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "疯狂盗贼",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "疯狂小偷"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [疯狂盗贼] 或 采用 SPD 官方译法 [疯狂小偷]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Warlock",
@@ -5010,20 +3053,7 @@
    },
    "enConsts": {
     "TXT_SHADOWBOLT_KILLED": "%s's shadow bolt killed you..."
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "当矮人的兴趣从工程转向奥术时，术士们掌握了这座城市的权力。他们从元素魔法起步，但很快就转向了恶魔学与死灵术。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "当矮人的兴趣从工程建设转向奥秘学术时，术士们逐渐于城中掌权。它们从元素魔法起步，但很快就开始研究恶魔学和死灵术。最强大的术士掌握了矮人王国的王权，其他术士如果想继续练习黑暗魔法，就必须放弃精神的自由，将意志交给他控制。\\n\\n这些术士拥有具有强大的干扰性魔法，能暂时抑制装备的升级魔力。装备的等级越高，受降级魔法的影响就越严重。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [当矮人的兴趣从工程转向奥术时，术士们掌握了这座城市的权力。他们从元素魔法起步，但很快就转向了恶魔学与死灵术。] 或 采用 SPD 官方译法 [当矮人的兴趣从工程建设转向奥秘学术时，术士们逐渐于城中掌权。它们从元素魔法起步，但很快就开始研究恶魔学和死灵术。最强大的术士掌握了矮人王国的王权，其他术士如果想继续练习黑暗魔法，就必须放弃精神的自由，将意志交给他控制。\\n\\n这些术士拥有具有强大的干扰性魔法，能暂时抑制装备的升级魔力。装备的等级越高，受降级魔法的影响就越严重。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Wraith",
@@ -5039,20 +3069,7 @@
    "zhConsts": null,
    "enConsts": {
     "LEVEL": "level"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "怨灵是罪人的复仇之魂，其坟墓或墓穴遭到了侵扰。作为灵体，普通武器很难击中它。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "怨灵是来自于墓穴中渴望复仇的罪人之魂。作为飘渺的非实体很难被正常武器击中。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [怨灵是罪人的复仇之魂，其坟墓或墓穴遭到了侵扰。作为灵体，普通武器很难击中它。] 或 采用 SPD 官方译法 [怨灵是来自于墓穴中渴望复仇的罪人之魂。作为飘渺的非实体很难被正常武器击中。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Yog",
@@ -5088,20 +3105,7 @@
    "zhConsts": null,
    "enConsts": {
     "LEVEL": "level"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "尽管个头很小，金色蜜蜂却会凶狠地保护自己的主人。不过它们活不长。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "尽管金色蜜蜂体型不大，但它们也会尽全力守卫自己的家园。这只蜜蜂非常疯狂，你最好和它保持距离。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [尽管个头很小，金色蜜蜂却会凶狠地保护自己的主人。不过它们活不长。] 或 采用 SPD 官方译法 [尽管金色蜜蜂体型不大，但它们也会尽全力守卫自己的家园。这只蜜蜂非常疯狂，你最好和它保持距离。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Blacksmith",
@@ -5139,20 +3143,7 @@
     "GIVEN": "given",
     "COMPLETED": "completed",
     "REFORGED": "reforged"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这个巨魔铁匠长得和所有巨魔一样：又高又瘦，皮肤无论颜色还是质感都像石头。他正摆弄着一套小得不成比例的工具。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这个巨魔铁匠看起来和任何其他巨魔一样：又高又瘦，皮肤的色泽和纹理都像是石头。这位巨魔铁匠正捏着一把与其体形极其不符的小锤子不停地修修补补。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这个巨魔铁匠长得和所有巨魔一样：又高又瘦，皮肤无论颜色还是质感都像石头。他正摆弄着一套小得不成比例的工具。] 或 采用 SPD 官方译法 [这个巨魔铁匠看起来和任何其他巨魔一样：又高又瘦，皮肤的色泽和纹理都像是石头。这位巨魔铁匠正捏着一把与其体形极其不符的小锤子不停地修修补补。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Ghost",
@@ -5198,20 +3189,7 @@
     "TXT_CURSE2": "Thank you, %s! The curse is broken and I can finally rest... Please take one of these items, maybe they will be useful to you in your journey...",
     "TXT_YES": "Yes, I will do it for you",
     "TXT_NO": "No, I can't help you"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "幽灵几乎看不见。它像是一团无形的光斑，上面浮着一张哀伤的脸。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这个幽灵几乎不可见。它看起来像是由一片无定形的昏暗光斑和一张悲痛的面孔所组成的。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [幽灵几乎看不见。它像是一团无形的光斑，上面浮着一张哀伤的脸。] 或 采用 SPD 官方译法 [这个幽灵几乎不可见。它看起来像是由一片无定形的昏暗光斑和一张悲痛的面孔所组成的。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Imp",
@@ -5245,20 +3223,7 @@
     "GIVEN": "given",
     "COMPLETED": "completed",
     "REWARD": "reward"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "小恶魔是低等恶魔。它们的力量和魔法天赋都不出众，但相当聪明而且善于交际。许多小恶魔更喜欢和非恶魔住在一起。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这个红色的小东西看起来像个小恶魔。小恶魔是一种低等恶魔，力量不强但头脑精明。\\n\\n在古老的民间故事中，恶魔常常被描述为来自异世界的旅者。你仅仅是如是听闻过，从未见过能证明它们真正存在的证据，不过你面前的这位小恶魔貌似货真价实，而且还挺乐意见到你的。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [小恶魔是低等恶魔。它们的力量和魔法天赋都不出众，但相当聪明而且善于交际。许多小恶魔更喜欢和非恶魔住在一起。] 或 采用 SPD 官方译法 [这个红色的小东西看起来像个小恶魔。小恶魔是一种低等恶魔，力量不强但头脑精明。\\n\\n在古老的民间故事中，恶魔常常被描述为来自异世界的旅者。你仅仅是如是听闻过，从未见过能证明它们真正存在的证据，不过你面前的这位小恶魔貌似货真价实，而且还挺乐意见到你的。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "ImpShopkeeper",
@@ -5276,20 +3241,7 @@
    },
    "enConsts": {
     "TXT_GREETINGS": "Hello, friend!"
-   },
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "小恶魔是低等恶魔。它们的力量与魔法天赋都不出众，但相当聪明而且善于交际，许多小恶魔更喜欢在非恶魔中间生活、做生意。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "小恶魔在恶魔大厅的入口前摆了个小摊。在这能看到一张友好的面孔是挺不错的，但它商品的标价看起来可一点儿也不友好。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [小恶魔是低等恶魔。它们的力量与魔法天赋都不出众，但相当聪明而且善于交际，许多小恶魔更喜欢在非恶魔中间生活、做生意。] 或 采用 SPD 官方译法 [小恶魔在恶魔大厅的入口前摆了个小摊。在这能看到一张友好的面孔是挺不错的，但它商品的标价看起来可一点儿也不友好。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "MirrorImage",
@@ -5304,31 +3256,7 @@
     "TIER": "tier",
     "ATTACK": "attack",
     "DAMAGE": "damage"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "镜像分身",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "镜像"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [镜像分身] 或 采用 SPD 官方译法 [镜像]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这个幻象和你非常相似，只是颜色更苍白，而且会微微抽搐。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这个幻像和你非常相似，甚至还装备着你当前的武器和护甲。\\n\\n镜像会猎寻敌人，并用它们的镜像武器对其发动攻击。镜像武器的使用方式与特性和你手中的一样，但造成的伤害会低些。镜像刚生成时几乎是隐形的，但攻击后会显形。\\n\\n镜像有一定的攻击能力，但本身非常脆弱，受到伤害就会瞬间消散。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这个幻象和你非常相似，只是颜色更苍白，而且会微微抽搐。] 或 采用 SPD 官方译法 [这个幻像和你非常相似，甚至还装备着你当前的武器和护甲。\\n\\n镜像会猎寻敌人，并用它们的镜像武器对其发动攻击。镜像武器的使用方式与特性和你手中的一样，但造成的伤害会低些。镜像刚生成时几乎是隐形的，但攻击后会显形。\\n\\n镜像有一定的攻击能力，但本身非常脆弱，受到伤害就会瞬间消散。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "RatKing",
@@ -5342,20 +3270,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这只老鼠比普通有袋巨鼠稍大一些，头上戴着一顶小小的王冠。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这只老鼠比普通的啮齿小鼠大一点。它戴着一顶小小的皇冠。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这只老鼠比普通有袋巨鼠稍大一些，头上戴着一顶小小的王冠。] 或 采用 SPD 官方译法 [这只老鼠比普通的啮齿小鼠大一点。它戴着一顶小小的皇冠。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Shopkeeper",
@@ -5369,31 +3284,7 @@
     "tile": 0
    },
    "zhConsts": null,
-   "enConsts": null,
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "商店老板",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "店主"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [商店老板] 或 采用 SPD 官方译法 [店主]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这个矮胖的家伙看上去更适合待在大城市的商业区，而不是地牢里。看看他的价格，你就明白他为什么偏爱在这儿做生意了。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这个矮胖的家伙看起来更适合在某些大城市里做买卖而不是在这种地牢。这些商品的价格说明了为什么他会喜欢在这儿做生意。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这个矮胖的家伙看上去更适合待在大城市的商业区，而不是地牢里。看看他的价格，你就明白他为什么偏爱在这儿做生意了。] 或 采用 SPD 官方译法 [这个矮胖的家伙看起来更适合在某些大城市里做买卖而不是在这种地牢。这些商品的价格说明了为什么他会喜欢在这儿做生意。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   "enConsts": null
   },
   {
    "id": "Wandmaker",
@@ -5415,31 +3306,7 @@
     "GIVEN": "given",
     "WAND1": "wand1",
     "WAND2": "wand2"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "老法杖匠",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "老杖匠"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [老法杖匠] 或 采用 SPD 官方译法 [老杖匠]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    },
-    {
-     "field": "zhDesc",
-     "type": "wording_mismatch",
-     "ours": "这位上了年纪却依然硬朗的绅士，脸上带着一丝困惑的神情。他被一层魔法护盾保护着。",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "这位精神矍铄的老先生神情有些困扰。他周身有着魔法屏障的保护。"
-     },
-     "reason": "本项目已有说明译文, 但与 SPD 官方简中说明不一致",
-     "build_note": "构建时请二选一: 采用本项目译法 [这位上了年纪却依然硬朗的绅士，脸上带着一丝困惑的神情。他被一层魔法护盾保护着。] 或 采用 SPD 官方译法 [这位精神矍铄的老先生神情有些困扰。他周身有着魔法屏障的保护。]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   }
  ],
  "plants": [
@@ -5484,19 +3351,6 @@
     "POS": "pos",
     "LEVEL": "level"
    },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "地根草",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "地缚根"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [地根草] 或 采用 SPD 官方译法 [地缚根]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ],
    "seedSprite": {
     "sheet": "items",
     "tile": 93
@@ -5519,19 +3373,6 @@
    "enConsts": {
     "TXT_DESC": "Touching a Fadeleaf will teleport any creature to a random place on the current level."
    },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "凋零叶",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "消逝草"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [凋零叶] 或 采用 SPD 官方译法 [消逝草]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ],
    "seedSprite": {
     "sheet": "items",
     "tile": 94
@@ -5554,19 +3395,6 @@
    "enConsts": {
     "TXT_DESC": "When something touches a Firebloom, it bursts into flames."
    },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "火焰花",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "烈焰花"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [火焰花] 或 采用 SPD 官方译法 [烈焰花]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ],
    "seedSprite": {
     "sheet": "items",
     "tile": 88
@@ -5589,19 +3417,6 @@
    "enConsts": {
     "TXT_DESC": "Upon touching an Icecap excretes a pollen, which freezes everything in its vicinity."
    },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "冰帽花",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "冰冠花"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [冰帽花] 或 采用 SPD 官方译法 [冰冠花]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ],
    "seedSprite": {
     "sheet": "items",
     "tile": 89
@@ -5624,20 +3439,7 @@
     "POS": "pos",
     "AC_PLANT": "PLANT",
     "TXT_INFO": "Throw this seed to the place where you want to grow %s.\n\n%s"
-   },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "untranslated_has_ref",
-     "ours": null,
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "植物"
-     },
-     "reason": "本项目该项未译, SPD 官方简中有权威译, 构建者可考虑直接采用",
-     "build_note": "构建时请二选一: 采用本项目译法 [（本项目未译）] 或 采用 SPD 官方译法 [植物]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ]
+   }
   },
   {
    "id": "Rotberry",
@@ -5656,19 +3458,6 @@
    "enConsts": {
     "TXT_DESC": "Berries of this shrub taste like sweet, sweet death."
    },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "腐浆果",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "腐莓植株"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [腐浆果] 或 采用 SPD 官方译法 [腐莓植株]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ],
    "seedSprite": {
     "sheet": "items",
     "tile": 95
@@ -5691,19 +3480,6 @@
    "enConsts": {
     "TXT_DESC": "A Sorrowmoss is a flower (not a moss) with razor-sharp petals, coated with a deadly venom."
    },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "悲伤苔",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "断肠苔"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [悲伤苔] 或 采用 SPD 官方译法 [断肠苔]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ],
    "seedSprite": {
     "sheet": "items",
     "tile": 90
@@ -5727,19 +3503,6 @@
     "TXT_DESC": "Sungrass is renowned for its sap's healing properties.",
     "POS": "pos"
    },
-   "disputed": [
-    {
-     "field": "zh",
-     "type": "wording_mismatch",
-     "ours": "太阳草",
-     "reference": {
-      "source": "Shattered Pixel Dungeon 官方简体中文 (00-Evan/shattered-pixel-dungeon@master)",
-      "value": "阳春草"
-     },
-     "reason": "本项目已译, 但与 SPD 官方简中措辞不同(重制命名/译名风格差异)",
-     "build_note": "构建时请二选一: 采用本项目译法 [太阳草] 或 采用 SPD 官方译法 [阳春草]。二者差异源于 SPD 重制命名 / 译名风格不同, 并非本项目漏译; 最终以你的实际构建项目为准决定是否采用本条目。"
-    }
-   ],
    "seedSprite": {
     "sheet": "items",
     "tile": 92
