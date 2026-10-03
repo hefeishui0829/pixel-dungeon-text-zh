@@ -8,7 +8,7 @@
   "enDesc": null,
   "sprite": {
    "sheet": "scorpio",
-   "tile": 16
+   "tile": 14
   },
   "zhConsts": null,
   "enConsts": null
@@ -22,7 +22,7 @@
   "enDesc": null,
   "sprite": {
    "sheet": "rat",
-   "tile": 0
+   "tile": 16
   },
   "zhConsts": null,
   "enConsts": null
@@ -265,7 +265,7 @@
   "enDesc": "These monks are fanatics, who devoted themselves to protecting their city's secrets from all aliens. They don't use any armor or weapons, relying solely on the art of hand-to-hand combat.",
   "sprite": {
    "sheet": "monk",
-   "tile": 0
+   "tile": 1
   },
   "zhConsts": {
    "TXT_DISARM": "%s 把你手中的%s打飞了！"
@@ -325,7 +325,7 @@
   "enDesc": null,
   "sprite": {
    "sheet": "monk",
-   "tile": 0
+   "tile": 18
   },
   "zhConsts": null,
   "enConsts": null
@@ -357,7 +357,7 @@
   "enDesc": null,
   "sprite": {
    "sheet": "brute",
-   "tile": 16
+   "tile": 21
   },
   "zhConsts": null,
   "enConsts": null

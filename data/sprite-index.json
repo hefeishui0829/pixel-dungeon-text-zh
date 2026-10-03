@@ -135,17 +135,13 @@
  "mobs": {
   "AcidicSprite": {
    "sheet": "scorpio",
-   "tile": 16,
+   "tile": 14,
    "gameFrame": 14,
    "gameGrid": [
     18,
     17
    ],
    "gameCols": 14,
-   "offsetPx": [
-    0,
-    1
-   ],
    "frames": {
     "idle": [
      14,
@@ -183,17 +179,13 @@
   },
   "AlbinoSprite": {
    "sheet": "rat",
-   "tile": 0,
+   "tile": 16,
    "gameFrame": 16,
    "gameGrid": [
     16,
     15
    ],
    "gameCols": 16,
-   "offsetPx": [
-    0,
-    15
-   ],
    "frames": {
     "idle": [
      16,
@@ -230,11 +222,7 @@
     12,
     13
    ],
-   "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ]
+   "gameCols": 21
   },
   "BatSprite": {
    "sheet": "bat",
@@ -245,10 +233,6 @@
     15
    ],
    "gameCols": 8,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -280,10 +264,6 @@
     16
    ],
    "gameCols": 16,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -324,10 +304,6 @@
     16
    ],
    "gameCols": 4,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -360,10 +336,6 @@
     16
    ],
    "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -402,10 +374,6 @@
     17
    ],
    "gameCols": 10,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -438,10 +406,6 @@
     16
    ],
    "gameCols": 16,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -477,10 +441,6 @@
     20
    ],
    "gameCols": 11,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -521,10 +481,6 @@
     14
    ],
    "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -562,10 +518,6 @@
     18
    ],
    "gameCols": 16,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -596,10 +548,6 @@
     15
    ],
    "gameCols": 2,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -623,10 +571,6 @@
     15
    ],
    "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -665,10 +609,6 @@
     16
    ],
    "gameCols": 16,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -703,10 +643,6 @@
     14
    ],
    "gameCols": 12,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -737,10 +673,6 @@
     14
    ],
    "gameCols": 5,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -823,10 +755,6 @@
     16
    ],
    "gameCols": 16,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -867,17 +795,13 @@
   },
   "LarvaSprite": {
    "sheet": "larva",
-   "tile": 3,
+   "tile": 4,
    "gameFrame": 4,
    "gameGrid": [
     12,
     8
    ],
    "gameCols": 10,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      4,
@@ -913,10 +837,6 @@
     16
    ],
    "gameCols": 16,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -949,17 +869,13 @@
   },
   "MonkSprite": {
    "sheet": "monk",
-   "tile": 0,
+   "tile": 1,
    "gameFrame": 1,
    "gameGrid": [
     15,
     14
    ],
    "gameCols": 17,
-   "offsetPx": [
-    15,
-    0
-   ],
    "frames": {
     "idle": [
      1,
@@ -1000,10 +916,6 @@
     16
    ],
    "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1044,10 +956,6 @@
     16
    ],
    "gameCols": 8,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1079,10 +987,6 @@
     15
    ],
    "gameCols": 16,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1121,10 +1025,6 @@
     17
    ],
    "gameCols": 5,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1155,10 +1055,6 @@
     17
    ],
    "gameCols": 14,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1198,17 +1094,13 @@
   },
   "SeniorSprite": {
    "sheet": "monk",
-   "tile": 0,
+   "tile": 18,
    "gameFrame": 18,
    "gameGrid": [
     15,
     14
    ],
    "gameCols": 17,
-   "offsetPx": [
-    15,
-    14
-   ],
    "frames": {
     "idle": [
      18,
@@ -1249,10 +1141,6 @@
     15
    ],
    "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1291,10 +1179,6 @@
     15
    ],
    "gameCols": 4,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1321,17 +1205,13 @@
   },
   "ShieldedSprite": {
    "sheet": "brute",
-   "tile": 16,
+   "tile": 21,
    "gameFrame": 21,
    "gameGrid": [
     12,
     16
    ],
    "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      21,
@@ -1368,11 +1248,7 @@
     14,
     14
    ],
-   "gameCols": 2,
-   "offsetPx": [
-    0,
-    0
-   ]
+   "gameCols": 2
   },
   "SkeletonSprite": {
    "sheet": "skeleton",
@@ -1383,10 +1259,6 @@
     15
    ],
    "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1436,10 +1308,6 @@
     16
    ],
    "gameCols": 16,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1480,10 +1348,6 @@
     15
    ],
    "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1526,10 +1390,6 @@
     15
    ],
    "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1580,10 +1440,6 @@
     16
    ],
    "gameCols": 16,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1625,10 +1481,6 @@
     16
    ],
    "gameCols": 18,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1669,11 +1521,7 @@
     12,
     13
    ],
-   "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ]
+   "gameCols": 21
   },
   "UndeadSprite": {
    "sheet": "undead",
@@ -1684,10 +1532,6 @@
     16
    ],
    "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1737,10 +1581,6 @@
     14
    ],
    "gameCols": 5,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1785,10 +1625,6 @@
     15
    ],
    "gameCols": 21,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1830,10 +1666,6 @@
     15
    ],
    "gameCols": 9,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,
@@ -1866,10 +1698,6 @@
     19
    ],
    "gameCols": 12,
-   "offsetPx": [
-    0,
-    0
-   ],
    "frames": {
     "idle": [
      0,

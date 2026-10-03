@@ -4,8 +4,8 @@
 
 | 中文名 | 中文说明 | 英文原名 | 英文说明 | 贴图 |
 |---|---|---|---|---|
-| 酸液蝎蛛 | — | acidic scorpio | — | `scorpio` #16 |
-| 白化巨鼠 | — | albino rat | — | `rat` #0 |
+| 酸液蝎蛛 | — | acidic scorpio | — | `scorpio` #14 |
+| 白化巨鼠 | — | albino rat | — | `rat` #16 |
 | 疯狂强盗 | — | crazy bandit | — | `thief` #0 |
 | 吸血蝙蝠 | 这些敏捷而顽强的洞顶居民能通过每一次成功的攻击回复生命，从而击败比自己大得多的对手。 | vampire bat | These brisk and tenacious inhabitants of cave domes may defeat much larger opponents by replenishing their health with each successful attack. | `bat` #0 |
 | 豺狼人蛮兵 | 蛮兵是所有豺狼人中体型最大、最强壮也最坚韧的。受到重伤时它们会陷入狂暴，对敌人造成更高的伤害。<br>`TXT_ENRAGED` %s 陷入了狂暴！ | gnoll brute | Brutes are the largest, strongest and toughest of all gnolls. When severely wounded, they go berserk, inflicting even more damage to their enemies. | `brute` #0 |
@@ -21,13 +21,13 @@
 | 亡灵矮人 | 末代矮人国王以对生死之道的深刻理解而闻名。他说服朝廷成员参加一场本应赋予他们永恒青春的仪式。到头来只有他一个人得到了——外带一支亡灵大军作为赠品。 | undead dwarf | The last king of dwarves was known for his deep understanding of processes of life and death. He has persuaded members of his court to participate in a ritual, that should have granted them eternal youthfulness. In the end he was the only one, who got it - and an army of undead as a bonus. | `king` #0 |
 | 拟形怪 | 拟形怪是可以变成任意形状的魔法生物。在地牢里，它们几乎总是选择宝箱的形态，因为它们知道怎样才能勾引冒险者上钩。 | mimic | Mimics are magical creatures which can take any shape they wish. In dungeons they almost always choose a shape of a treasure chest, because they know how to beckon an adventurer. | `mimic` #0 |
 | — | 真正的描述即将推出！<br>`TXT_DIED` 你听到远处有什么东西死掉了<br>`TXT_ECHO` 的回声<br>`TXT_NOTICE1` ？！<br>`TXT_RAGE` #$%^<br>`TXT_EXP` %+d经验 | — | Real description is coming soon! | — |
-| 矮人武僧 | 这些武僧是狂信者，誓死保护自己城市的秘密不被任何外来者窥探。他们不使用护甲和武器，只依靠徒手格斗的技艺。<br>`TXT_DISARM` %s 把你手中的%s打飞了！ | dwarf monk | These monks are fanatics, who devoted themselves to protecting their city's secrets from all aliens. They don't use any armor or weapons, relying solely on the art of hand-to-hand combat. | `monk` #0 |
+| 矮人武僧 | 这些武僧是狂信者，誓死保护自己城市的秘密不被任何外来者窥探。他们不使用护甲和武器，只依靠徒手格斗的技艺。<br>`TXT_DISARM` %s 把你手中的%s打飞了！ | dwarf monk | These monks are fanatics, who devoted themselves to protecting their city's secrets from all aliens. They don't use any armor or weapons, relying solely on the art of hand-to-hand combat. | `monk` #1 |
 | 巨型食人鱼 | 这些肉食性鱼类并非地下水塘的原生物种。它们是被专门培育出来，守护被水淹没的藏宝库的。 | giant piranha | These carnivorous fish are not natural inhabitants of underground pools. They were bred specifically to protect flooded treasure vaults. | `piranha` #0 |
 | 有袋巨鼠 | 有袋巨鼠攻击性强，但相当弱小，是下水道的常见居民。只有成群结队时它们才危险。 | marsupial rat | Marsupial rats are aggressive, but rather weak denizens of the sewers. They can be dangerous only in big numbers. | `rat` #0 |
 | 蝎蛛 | 这些巨大的蛛形恶魔会不惜一切避免近战，从远处射出致残的锯齿尖刺。 | scorpio | These huge arachnid-like demonic creatures avoid close combat by all means, firing crippling serrated spikes from long distances. | `scorpio` #0 |
-| 资深武僧 | — | senior monk | — | `monk` #0 |
+| 资深武僧 | — | senior monk | — | `monk` #18 |
 | 豺狼人萨满 | 最聪明的豺狼人能够掌握萨满法术。它们偏好战斗法术以弥补力量的不足，并且毫不迟疑地对那些质疑自己在族群中地位的人使用。<br>`TXT_LIGHTNING_KILLED` %s 的闪电杀死了你…… | gnoll shaman | The most intelligent gnolls can master shamanistic magic. Gnoll shamans prefer battle spells to compensate for lack of might, not hesitating to use them on those who question their status in a tribe. | `shaman` #0 |
-| 持盾蛮兵 | — | shielded brute | — | `brute` #16 |
+| 持盾蛮兵 | — | shielded brute | — | `brute` #21 |
 | 骷髅 | 骷髅由倒霉的冒险者与地牢居民的尸骨拼成，被来自地底的邪恶魔法气息驱动。受到足够伤害后，它们会炸成一堆碎骨。<br>`TXT_HERO_KILLED` 你被骨片的爆炸杀死了…… | skeleton | Skeletons are composed of corpses bones from unlucky adventurers and inhabitants of the dungeon, animated by emanations of evil magic from the depths below. After they have been damaged enough, they disintegrate in an explosion of bones. | `skeleton` #0 |
 | 洞窟纺蛛 | 这些毛茸茸的绿色洞窟蜘蛛会尽量避免正面战斗，宁愿远远等着，让被蛛网缠住的猎物慢慢死于它们的毒咬。 | cave spinner | These greenish furry cave spiders try to avoid direct combat, preferring to wait in the distance while their victim, entangled in the spinner's excreted cobweb, slowly dies from their poisonous bite. | `spinner` #0 |
 | 活化石像 | 你会以为这只是地牢里又一尊丑陋的石像，但它发着红光的眼睛出卖了它。石像本身是石头做的，可它握着的_{weapon.name}_看上去是真的。 | animated statue | You would think that it's just another ugly statue of this dungeon, but its red glowing eyes give itself away. While the statue itself is made of stone, the _{weapon.name}_, it's wielding, looks real. | `statue` #0 |

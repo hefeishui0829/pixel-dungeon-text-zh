@@ -11,10 +11,16 @@
     plants   植物   -> plants.png / items.png(种子)
 
 索引的语义
-    tile 指的是 **原始素材 16x16 网格中的序号**(行主序, 从 0 开始)。
-    贴图项目 pixel-dungeon-mi-band 输出的 sprites.json 里,
-    coords[i] 的 i 同样按原始序号排列 (空 tile 记为 null, 内容相同的 tile 指向同一坐标),
-    所以 `coords[tile]` 就是压缩后图集上这一格的左上角坐标 —— 两边天然对齐, 无需额外换算。
+    tile 指的是 **游戏内网格中的帧序号**(行主序, 从 0 开始)。
+
+    贴图项目 pixel-dungeon-mi-band 现已按每张精灵表在游戏内的真实网格切图
+    (见其 tools/sprite_grid.json; 82 张里只有 8 张是 16x16), 输出的 sprites.json 里
+    coords[i] 的 i 同样按该网格的帧序号排列 (空 tile 记为 null,
+    内容相同的 tile 指向同一坐标), 所以 `coords[tile]` 就是压缩后图集上这一格的
+    左上角坐标 —— 两边天然对齐, 无需换算。
+
+    历史: 贴图项目早期统一按 16x16 切, 本索引曾用"换算成 16x16 等效序号"来打补丁;
+    贴图项目修正网格后该换算已移除, 否则会二次错位。
 
 用法
     python3 tools/build_sprite_index.py --src <pd源码src> --out data/sprite-index.json
@@ -57,10 +63,17 @@ def build_assets(src_dir):
 def build_mobs(src_dir, assets, sizes):
     """怪物/NPC 类 -> {sheet, tile} (sheet 名即贴图项目的图集名, tile = idle 动画首帧)
 
-    注意: 游戏内并非所有精灵表都用 16x16 网格, 例如 rat.png 是 TextureFilm(16, 15)、
-    scorpio.png 是 (18, 17)。而贴图项目统一按 16x16 切图, 所以这里要把"游戏内帧序号"
-    换算成"16x16 网格下的等效序号", 否则查出来的格子会是空的/错的。
-    换算: 帧 i -> 游戏内 (col, row) -> 原图像素 (col*gw, row*gh) -> 16x16 网格序号。
+    重要 (2024 修正)
+    --------------
+    游戏内并非所有精灵表都用 16x16 网格: rat.png 是 TextureFilm(16, 15)、
+    scorpio.png 是 (18, 17)、piranha.png 是 (12, 16) 等, 82 张里只有 8 张是标准 16x16。
+
+    早期贴图项目统一按 16x16 切图, 这会让所有非标准网格的图集在游戏里整体错位
+    (例如 piranha 每帧累积偏移 4px)。本索引当时用"换算成 16x16 等效序号"来打补丁。
+
+    贴图项目修正后已改为按游戏内真实网格切 (见 tools/sprite_grid.json),
+    因此这里不再换算 —— tile 直接就是游戏内帧序号, 与 sprites.json 的
+    coords[frame] 一一对应, 无需任何转换。
     """
     sp_dir = os.path.join(src_dir, "com/watabou/pixeldungeon/sprites")
     out = {}
@@ -84,18 +97,13 @@ def build_mobs(src_dir, assets, sizes):
 
         src_w = sizes.get(sheet, [None])[0]
         game_cols = (src_w // gw) if src_w else 16
-        grid16_cols = (src_w // 16) if src_w else 16
-        row, col = divmod(first, game_cols)
-        px, py = col * gw, row * gh
-        tile16 = (py // 16) * grid16_cols + (px // 16) if grid16_cols else first
 
         out[cls] = {
             "sheet": sheet,
-            "tile": tile16,
+            "tile": first,          # 游戏内网格序号, 与贴图项目 coords 直接对应
             "gameFrame": first,
             "gameGrid": [gw, gh],
             "gameCols": game_cols,
-            "offsetPx": [px - (px // 16) * 16, py - (py // 16) * 16],
         }
         # 记录全部动画帧, 方便手环端直接做逐帧动画
         frames = {}

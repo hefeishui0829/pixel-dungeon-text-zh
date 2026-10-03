@@ -5,7 +5,9 @@
 把本项目的「文本条目」查成贴图项目 pixel-dungeon-mi-band 里的实际图集坐标。
 
 两边的约定
-    本项目的 data/zh/*.json 里, sprite.tile 是 **原始素材 16x16 网格里的序号**(行主序)。
+    本项目的 data/zh/*.json 里, sprite.tile 是 **该精灵表在游戏内网格中的帧序号**(行主序)。
+    (不是统一 16x16 —— 游戏内 82 张精灵表只有 8 张是标准 16x16, 贴图项目按各自真实
+     网格切图, 所以这里的序号直接等于 sprites.json 的 coords 下标。)
     贴图项目的 sprites.json 里, sheets[sheet].coords 是一个数组,
     coords[i] 与原始序号 i 一一对应(全透明的格子为 null, 内容相同的格子指向同一坐标)。
     所以查表就是 coords[tile] —— 不需要任何换算, 这也是本项目刻意沿用原始序号的原因。

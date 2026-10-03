@@ -3767,7 +3767,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 12,
-    "tileHeight": 12,
+    "tileHeight": 11,
     "note": null
    },
    "band-pro": {
@@ -3775,7 +3775,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 16,
-    "tileHeight": 16,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -3907,11 +3907,11 @@
  },
  "Acidic": {
   "sheet": "scorpio",
-  "tile": 16,
+  "tile": 14,
   "presets": {
    "band-lite": {
     "image": "scorpio.png",
-    "x": 104,
+    "x": 88,
     "y": 0,
     "tileWidth": 8,
     "tileHeight": 8,
@@ -3919,18 +3919,18 @@
    },
    "band": {
     "image": "scorpio.png",
-    "x": 156,
+    "x": 132,
     "y": 0,
     "tileWidth": 12,
-    "tileHeight": 12,
+    "tileHeight": 11,
     "note": null
    },
    "band-pro": {
     "image": "scorpio.png",
-    "x": 208,
+    "x": 176,
     "y": 0,
     "tileWidth": 16,
-    "tileHeight": 16,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -3938,11 +3938,11 @@
  },
  "Albino": {
   "sheet": "rat",
-  "tile": 0,
+  "tile": 16,
   "presets": {
    "band-lite": {
     "image": "rat.png",
-    "x": 0,
+    "x": 120,
     "y": 0,
     "tileWidth": 8,
     "tileHeight": 8,
@@ -3950,18 +3950,18 @@
    },
    "band": {
     "image": "rat.png",
-    "x": 0,
+    "x": 180,
     "y": 0,
     "tileWidth": 12,
-    "tileHeight": 12,
+    "tileHeight": 11,
     "note": null
    },
    "band-pro": {
     "image": "rat.png",
-    "x": 0,
+    "x": 240,
     "y": 0,
     "tileWidth": 16,
-    "tileHeight": 16,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -3975,7 +3975,7 @@
     "image": "thief.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 7,
     "tileHeight": 8,
     "note": null
    },
@@ -3983,7 +3983,7 @@
     "image": "thief.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 11,
     "tileHeight": 12,
     "note": null
    },
@@ -3991,8 +3991,8 @@
     "image": "thief.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 12,
+    "tileHeight": 13,
     "note": null
    }
   },
@@ -4022,8 +4022,8 @@
     "image": "bat.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 15,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4037,7 +4037,7 @@
     "image": "brute.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 6,
     "tileHeight": 8,
     "note": null
    },
@@ -4045,7 +4045,7 @@
     "image": "brute.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 9,
     "tileHeight": 12,
     "note": null
    },
@@ -4053,7 +4053,7 @@
     "image": "brute.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
+    "tileWidth": 12,
     "tileHeight": 16,
     "note": null
    }
@@ -4100,7 +4100,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 8,
-    "tileHeight": 8,
+    "tileHeight": 7,
     "note": null
    },
    "band": {
@@ -4108,7 +4108,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 12,
-    "tileHeight": 12,
+    "tileHeight": 11,
     "note": null
    },
    "band-pro": {
@@ -4116,7 +4116,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 16,
-    "tileHeight": 16,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4130,7 +4130,7 @@
     "image": "elemental.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 7,
     "tileHeight": 8,
     "note": null
    },
@@ -4138,7 +4138,7 @@
     "image": "elemental.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 10,
     "tileHeight": 12,
     "note": null
    },
@@ -4146,8 +4146,8 @@
     "image": "elemental.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 12,
+    "tileHeight": 14,
     "note": null
    }
   },
@@ -4161,7 +4161,7 @@
     "image": "eye.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 7,
     "tileHeight": 8,
     "note": null
    },
@@ -4169,7 +4169,7 @@
     "image": "eye.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 11,
     "tileHeight": 12,
     "note": null
    },
@@ -4177,7 +4177,7 @@
     "image": "eye.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
+    "tileWidth": 14,
     "tileHeight": 16,
     "note": null
    }
@@ -4192,7 +4192,7 @@
     "image": "gnoll.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 6,
     "tileHeight": 8,
     "note": null
    },
@@ -4200,7 +4200,7 @@
     "image": "gnoll.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 10,
     "tileHeight": 12,
     "note": null
    },
@@ -4208,8 +4208,8 @@
     "image": "gnoll.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 12,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4255,7 +4255,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 8,
-    "tileHeight": 8,
+    "tileHeight": 6,
     "note": null
    },
    "band": {
@@ -4263,7 +4263,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 12,
-    "tileHeight": 12,
+    "tileHeight": 8,
     "note": null
    },
    "band-pro": {
@@ -4271,7 +4271,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 16,
-    "tileHeight": 16,
+    "tileHeight": 11,
     "note": null
    }
   },
@@ -4341,30 +4341,30 @@
  },
  "Monk": {
   "sheet": "monk",
-  "tile": 0,
+  "tile": 1,
   "presets": {
    "band-lite": {
     "image": "monk.png",
-    "x": 0,
+    "x": 8,
     "y": 0,
     "tileWidth": 8,
-    "tileHeight": 8,
+    "tileHeight": 7,
     "note": null
    },
    "band": {
     "image": "monk.png",
-    "x": 0,
+    "x": 12,
     "y": 0,
     "tileWidth": 12,
-    "tileHeight": 12,
+    "tileHeight": 11,
     "note": null
    },
    "band-pro": {
     "image": "monk.png",
-    "x": 0,
+    "x": 15,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 15,
+    "tileHeight": 14,
     "note": null
    }
   },
@@ -4376,27 +4376,27 @@
   "presets": {
    "band-lite": {
     "image": "piranha.png",
-    "x": null,
-    "y": null,
-    "tileWidth": 8,
+    "x": 0,
+    "y": 0,
+    "tileWidth": 6,
     "tileHeight": 8,
-    "note": "该 tile 全透明, 已在压缩时剔除"
+    "note": null
    },
    "band": {
     "image": "piranha.png",
-    "x": null,
-    "y": null,
-    "tileWidth": 12,
+    "x": 0,
+    "y": 0,
+    "tileWidth": 9,
     "tileHeight": 12,
-    "note": "该 tile 全透明, 已在压缩时剔除"
+    "note": null
    },
    "band-pro": {
     "image": "piranha.png",
-    "x": null,
-    "y": null,
-    "tileWidth": 16,
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
     "tileHeight": 16,
-    "note": "该 tile 全透明, 已在压缩时剔除"
+    "note": null
    }
   },
   "zh": "巨型食人鱼"
@@ -4418,7 +4418,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 12,
-    "tileHeight": 12,
+    "tileHeight": 11,
     "note": null
    },
    "band-pro": {
@@ -4426,7 +4426,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 16,
-    "tileHeight": 16,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4449,7 +4449,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 12,
-    "tileHeight": 12,
+    "tileHeight": 11,
     "note": null
    },
    "band-pro": {
@@ -4457,7 +4457,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 16,
-    "tileHeight": 16,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4465,30 +4465,30 @@
  },
  "Senior": {
   "sheet": "monk",
-  "tile": 0,
+  "tile": 18,
   "presets": {
    "band-lite": {
     "image": "monk.png",
-    "x": 0,
+    "x": 144,
     "y": 0,
     "tileWidth": 8,
-    "tileHeight": 8,
+    "tileHeight": 7,
     "note": null
    },
    "band": {
     "image": "monk.png",
-    "x": 0,
+    "x": 216,
     "y": 0,
     "tileWidth": 12,
-    "tileHeight": 12,
+    "tileHeight": 11,
     "note": null
    },
    "band-pro": {
     "image": "monk.png",
-    "x": 0,
-    "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "x": 15,
+    "y": 14,
+    "tileWidth": 15,
+    "tileHeight": 14,
     "note": null
    }
   },
@@ -4502,7 +4502,7 @@
     "image": "shaman.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 6,
     "tileHeight": 8,
     "note": null
    },
@@ -4510,7 +4510,7 @@
     "image": "shaman.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 10,
     "tileHeight": 12,
     "note": null
    },
@@ -4518,8 +4518,8 @@
     "image": "shaman.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 12,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4527,29 +4527,29 @@
  },
  "Shielded": {
   "sheet": "brute",
-  "tile": 16,
+  "tile": 21,
   "presets": {
    "band-lite": {
     "image": "brute.png",
-    "x": 72,
+    "x": 66,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 6,
     "tileHeight": 8,
     "note": null
    },
    "band": {
     "image": "brute.png",
-    "x": 108,
+    "x": 99,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 9,
     "tileHeight": 12,
     "note": null
    },
    "band-pro": {
     "image": "brute.png",
-    "x": 144,
+    "x": 132,
     "y": 0,
-    "tileWidth": 16,
+    "tileWidth": 12,
     "tileHeight": 16,
     "note": null
    }
@@ -4564,7 +4564,7 @@
     "image": "skeleton.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 6,
     "tileHeight": 8,
     "note": null
    },
@@ -4572,7 +4572,7 @@
     "image": "skeleton.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 10,
     "tileHeight": 12,
     "note": null
    },
@@ -4580,8 +4580,8 @@
     "image": "skeleton.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 12,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4626,7 +4626,7 @@
     "image": "statue.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 6,
     "tileHeight": 8,
     "note": null
    },
@@ -4634,7 +4634,7 @@
     "image": "statue.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 10,
     "tileHeight": 12,
     "note": null
    },
@@ -4642,8 +4642,8 @@
     "image": "statue.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 12,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4657,7 +4657,7 @@
     "image": "succubus.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 6,
     "tileHeight": 8,
     "note": null
    },
@@ -4665,7 +4665,7 @@
     "image": "succubus.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 10,
     "tileHeight": 12,
     "note": null
    },
@@ -4673,8 +4673,8 @@
     "image": "succubus.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 12,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4719,7 +4719,7 @@
     "image": "tengu.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 7,
     "tileHeight": 8,
     "note": null
    },
@@ -4727,7 +4727,7 @@
     "image": "tengu.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 10,
     "tileHeight": 12,
     "note": null
    },
@@ -4735,7 +4735,7 @@
     "image": "tengu.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
+    "tileWidth": 14,
     "tileHeight": 16,
     "note": null
    }
@@ -4750,7 +4750,7 @@
     "image": "thief.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 7,
     "tileHeight": 8,
     "note": null
    },
@@ -4758,7 +4758,7 @@
     "image": "thief.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 11,
     "tileHeight": 12,
     "note": null
    },
@@ -4766,8 +4766,8 @@
     "image": "thief.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 12,
+    "tileHeight": 13,
     "note": null
    }
   },
@@ -4781,7 +4781,7 @@
     "image": "warlock.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 6,
     "tileHeight": 8,
     "note": null
    },
@@ -4789,7 +4789,7 @@
     "image": "warlock.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 10,
     "tileHeight": 12,
     "note": null
    },
@@ -4797,8 +4797,8 @@
     "image": "warlock.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 12,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4812,7 +4812,7 @@
     "image": "wraith.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 7,
     "tileHeight": 8,
     "note": null
    },
@@ -4820,7 +4820,7 @@
     "image": "wraith.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 11,
     "tileHeight": 12,
     "note": null
    },
@@ -4828,8 +4828,8 @@
     "image": "wraith.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 14,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4852,7 +4852,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 12,
-    "tileHeight": 12,
+    "tileHeight": 11,
     "note": null
    },
    "band-pro": {
@@ -4860,7 +4860,7 @@
     "x": 0,
     "y": 0,
     "tileWidth": 16,
-    "tileHeight": 16,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4905,7 +4905,7 @@
     "image": "blacksmith.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 6,
     "tileHeight": 8,
     "note": null
    },
@@ -4913,7 +4913,7 @@
     "image": "blacksmith.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 10,
     "tileHeight": 12,
     "note": null
    },
@@ -4921,7 +4921,7 @@
     "image": "blacksmith.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
+    "tileWidth": 13,
     "tileHeight": 16,
     "note": null
    }
@@ -4936,7 +4936,7 @@
     "image": "ghost.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 7,
     "tileHeight": 8,
     "note": null
    },
@@ -4944,7 +4944,7 @@
     "image": "ghost.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 11,
     "tileHeight": 12,
     "note": null
    },
@@ -4952,8 +4952,8 @@
     "image": "ghost.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 14,
+    "tileHeight": 15,
     "note": null
    }
   },
@@ -4967,7 +4967,7 @@
     "image": "demon.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 7,
     "tileHeight": 8,
     "note": null
    },
@@ -4975,7 +4975,7 @@
     "image": "demon.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 10,
     "tileHeight": 12,
     "note": null
    },
@@ -4983,8 +4983,8 @@
     "image": "demon.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 12,
+    "tileHeight": 14,
     "note": null
    }
   },
@@ -4998,7 +4998,7 @@
     "image": "demon.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 7,
     "tileHeight": 8,
     "note": null
    },
@@ -5006,7 +5006,7 @@
     "image": "demon.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 10,
     "tileHeight": 12,
     "note": null
    },
@@ -5014,8 +5014,8 @@
     "image": "demon.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 12,
+    "tileHeight": 14,
     "note": null
    }
   },
@@ -5076,8 +5076,8 @@
     "image": "shopkeeper.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 14,
+    "tileHeight": 14,
     "note": null
    }
   },
@@ -5091,7 +5091,7 @@
     "image": "wandmaker.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 8,
+    "tileWidth": 7,
     "tileHeight": 8,
     "note": null
    },
@@ -5099,7 +5099,7 @@
     "image": "wandmaker.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 12,
+    "tileWidth": 10,
     "tileHeight": 12,
     "note": null
    },
@@ -5107,8 +5107,8 @@
     "image": "wandmaker.png",
     "x": 0,
     "y": 0,
-    "tileWidth": 16,
-    "tileHeight": 16,
+    "tileWidth": 12,
+    "tileHeight": 14,
     "note": null
    }
   },

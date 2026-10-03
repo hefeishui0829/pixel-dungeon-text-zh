@@ -37,8 +37,13 @@ public String desc() { return "You can store excess dew ..."; }
 }
 ```
 
-`sprite.tile` 是**原始素材 16×16 网格中的序号**（行主序），
+`sprite.tile` 是**该精灵表在游戏内网格中的帧序号**（行主序），
 正好是贴图项目 `sprites.json` 里 `coords` 数组的下标 —— 不需要任何换算。
+
+> 注意不是统一的 16×16 序号：游戏内 82 张精灵表只有 8 张是标准 16×16，
+> 其余各有网格（`piranha` 12×16、`scorpio` 18×17、`rat` 16×15 …）。
+> 贴图项目按各自的真实网格切图（见其 `tools/sprite_grid.json`），
+> 所以这里的序号直接就是 `coords` 下标。
 
 ## 内容一览
 
@@ -87,15 +92,14 @@ python3 tools/lookup_sprite.py --band ../pixel-dungeon-band --id Amulet
 python3 tools/verify_mapping.py --preset band
 ```
 
-第 5 步当前结果：三档均为 **172 条有像素、0 异常**，仅食人鱼首帧因原图 alpha
-全部低于二值化阈值而在压缩时被剔除（见下方「已知偏差」）。
+第 5 步当前结果：三档均为 **173 条有像素、0 空 tile、0 异常**。
 
 ## 与贴图项目的对应关系
 
 | 本项目 | 贴图项目 |
 |---|---|
 | `sprite.sheet`（如 `items`、`rat`） | `output/<档位>/<sheet>.png` |
-| `sprite.tile`（原始 16×16 序号） | `sprites.json → sheets[sheet].coords[tile]` |
+| `sprite.tile`（游戏内网格帧序号） | `sprites.json → sheets[sheet].coords[tile]` |
 | `data/sprite-map.json` | 三档 `{image, x, y, tileWidth, tileHeight}` 直接可用 |
 
 三档 tile 尺寸：`band-lite` 8px、`band` 12px（推荐）、`band-pro` 16px。
@@ -103,16 +107,17 @@ python3 tools/verify_mapping.py --preset band
 
 ## 已知偏差（诚实记录）
 
-1. **部分精灵表游戏内网格不是 16×16**。例如 `rat.png` 源码用 `TextureFilm(16, 15)`、
-   `scorpio.png` 用 `(18, 17)`、`goo.png` 用 `(20, 14)`。贴图项目统一按 16×16 切图，
-   因此**首帧**偏差 ≤1px，但**后续动画帧**会有累积错位。
-   本项目的 `sprite-index.json` 已按游戏内网格换算回首帧的等效 16×16 序号，
-   并记录 `gameGrid` / `offsetPx` 供核对。
-2. **食人鱼（Piranha）首帧缺失**：`piranha.png` 第 0 格所有像素 alpha ≤ 76，
-   低于二值化阈值 128，在压缩管线的 alpha 二值化后被判为空 tile 剔除，
-   三档图集中都没有对应格子。其余 10 格正常。
-3. **动态描述文本带占位符**：如 `"%s of affection"`、`"seed of {plantName}"`，
+1. **动态描述文本带占位符**：如 `"%s of affection"`、`"seed of {plantName}"`，
    中文保留了同样的占位符，运行时按游戏逻辑填充即可。
+2. **非 16×16 网格的图集**：游戏内 82 张精灵表只有 8 张是标准 16×16。
+   贴图项目**曾经**统一按 16×16 切，导致这些图集动画帧整体错位；该问题已修正
+   （改为按 `sprite_grid.json` 里各自的游戏网格切），本索引也随之改为直接记录
+   游戏内帧序号，`sprite-index.json` 中的 `gameGrid` 字段供核对。
+3. **低 alpha 残影格**：`piranha.png` 第 0/1 格是食人鱼的水下半透明阴影
+   （alpha 峰值仅 76），标准二值化阈值 128 下会被整格判空。
+   贴图管线现改为"标准阈值变全空时退回低阈值 (32)"的双阈值策略，
+   这两格已找回（验证结果 173 条全部有像素）。代价是它们会被存成不透明实色，
+   而非原来的半透明。
 
 ## 许可
 
