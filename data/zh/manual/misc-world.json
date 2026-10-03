@@ -1,0 +1,76 @@
+{
+ "Char": {"zh": "生物", "consts": {
+   "TXT_HIT": "%s 击中了 %s",
+   "TXT_KILL": "%s 杀死了你……",
+   "TXT_DEFEAT": "%s 击败了 %s",
+   "TXT_YOU_MISSED": "%s %s 你的攻击",
+   "TXT_SMB_MISSED": "%s %s %s 的攻击",
+   "TXT_OUT_OF_PARALYSIS": "疼痛让 %s 从麻痹中惊醒",
+   "TAG_HP": "当前生命",
+   "TAG_HT": "生命上限"}},
+ "SacrificialFire": {"consts": {
+   "TXT_WORTHY": "你的祭品是值得的……",
+   "TXT_UNWORTHY": "你的祭品不值得……",
+   "TXT_REWARD": "你的祭品是值得的，而你也是！"}},
+ "WaterOfAwareness": {"zh": "觉察之井", "consts": {
+   "TXT_PROCCED": "你刚喝下一口，就感到知识涌入脑海。现在你对自己的装备了如指掌。你还感知到了本层的所有物品，并知晓了它的一切秘密。"}},
+ "WaterOfHealth": {"zh": "治疗之井", "consts": {
+   "TXT_PROCCED": "你刚喝下一口，就感到伤口完全愈合了。"}},
+ "GLog": {"consts": {"TAG": "游戏", "POSITIVE": "++", "NEGATIVE": "--", "WARNING": "**", "HIGHLIGHT": "@@"}},
+ "Statistics": {"consts": {
+   "GOLD": "得分", "DEEPEST": "最深楼层", "SLAIN": "击杀敌人数", "FOOD": "食用食物数",
+   "ALCHEMY": "调配药水数", "PIRANHAS": "食人鱼", "NIGHT": "夜间狩猎", "ANKHS": "使用安卡数",
+   "DURATION": "时长", "AMULET": "已获得护符"}},
+ "Dungeon": {"consts": {
+   "VERSION": "版本", "CHALLENGES": "挑战", "HERO": "英雄", "GOLD": "金币",
+   "DEPTH": "深度", "LEVEL": "等级", "CHAPTERS": "章节", "QUESTS": "任务", "BADGES": "徽章"}},
+ "Bones": {"consts": {"LEVEL": "层数", "ITEM": "物品"}},
+ "Rankings": {"consts": {"RECORDS": "记录", "LATEST": "最近", "TOTAL": "总计", "WON": "胜利", "REASON": "原因", "WIN": "胜利", "SCORE": "得分", "TIER": "档位"}},
+
+ "Level": {"consts": {
+   "TXT_HIDDEN_PLATE_CLICKS": "一块隐藏的压力板发出咔哒声！",
+   "MAP": "地图", "VISITED": "已探索", "MAPPED": "已绘制", "ENTRANCE": "入口", "EXIT": "出口",
+   "HEAPS": "物品堆", "PLANTS": "植物", "MOBS": "怪物", "BLOBS": "气体"}},
+ "LightningTrap": {"zh": "闪电陷阱"},
+ "Room": {"consts": {"ROOMS": "房间"}},
+
+ "ResultDescriptions": {"consts": {
+   "MOB": "在第 %d 层被%s杀死",
+   "BOSS": "在第 %d 层被%s杀死",
+   "WAND": "在第 %d 层被自己的%s杀死",
+   "GLYPH": "在第 %d 层被%s杀死",
+   "BOMB": "在第 %d 层被炸弹的爆炸炸死",
+   "TRAP": "在第 %d 层死于%s的放电",
+   "BURNING": "在第 %d 层被活活烧死",
+   "HUNGER": "在第 %d 层饿死",
+   "POISON": "在第 %d 层毒发身亡",
+   "GAS": "在第 %d 层死于毒气",
+   "BLEEDING": "在第 %d 层失血而死",
+   "OOZE": "在第 %d 层被腐蚀性黏液杀死",
+   "FALL": "在第 %d 层坠亡",
+   "WIN": "获得耶诺之护符"}},
+
+ "Journal": {"enum": {
+   "WELL_OF_HEALTH": "治疗之井",
+   "WELL_OF_AWARENESS": "觉察之井",
+   "WELL_OF_TRANSMUTATION": "嬗变之井",
+   "SACRIFICIAL_FIRE": "献祭之室",
+   "ALCHEMY": "炼金锅",
+   "GARDEN": "花园",
+   "STATUE": "活化石像",
+   "GHOST": "悲伤幽灵",
+   "WANDMAKER": "老法杖匠",
+   "TROLL": "巨魔铁匠",
+   "IMP": "野心勃勃的小恶魔"}},
+ "WndJournal": {"consts": {"TXT_TITLE": "日志"}},
+
+ "AlchemyPot": {"consts": {"TXT_SELECT_SEED": "选择一颗种子扔进去"}},
+ "Chasm": {"consts": {
+   "TXT_CHASM": "深渊",
+   "TXT_YES": "是的，我清楚自己在做什么",
+   "TXT_NO": "不，我改变主意了",
+   "TXT_JUMP": "你真的要跳进深渊吗？你很可能会死。"}},
+ "Sign": {"consts": {
+   "TXT_DEAD_END": "你在这儿干什么？！",
+   "TXT_BURN": "你刚想读那块牌子，它就爆出了绿色的火焰。"}}
+}

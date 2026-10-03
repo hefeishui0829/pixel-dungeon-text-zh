@@ -1,0 +1,64 @@
+[
+ {
+  "class": "ResultDescriptions",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/ResultDescriptions.java",
+  "consts": {
+   "MOB": {
+    "text": "Killed by %s on level %d",
+    "refs": []
+   },
+   "BOSS": {
+    "text": "Killed by the %s on level %d",
+    "refs": []
+   },
+   "WAND": {
+    "text": "Killed by your own %s on level %d",
+    "refs": []
+   },
+   "GLYPH": {
+    "text": "Killed by the %s on level %d",
+    "refs": []
+   },
+   "BOMB": {
+    "text": "Killed by an explosion of a bomb on level %d",
+    "refs": []
+   },
+   "TRAP": {
+    "text": "Killed by discharge of %s on level %d",
+    "refs": []
+   },
+   "BURNING": {
+    "text": "Burned to death on level %d",
+    "refs": []
+   },
+   "HUNGER": {
+    "text": "Starved to death on level %d",
+    "refs": []
+   },
+   "POISON": {
+    "text": "Died from poison on level %d",
+    "refs": []
+   },
+   "GAS": {
+    "text": "Died from toxic gas on level %d",
+    "refs": []
+   },
+   "BLEEDING": {
+    "text": "Bled to death on level %d",
+    "refs": []
+   },
+   "OOZE": {
+    "text": "Killed by a caustic ooze on level %d",
+    "refs": []
+   },
+   "FALL": {
+    "text": "Fell to death on level %d",
+    "refs": []
+   },
+   "WIN": {
+    "text": "Obtained the Amulet of Yendor",
+    "refs": []
+   }
+  }
+ }
+]

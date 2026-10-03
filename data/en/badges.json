@@ -1,0 +1,571 @@
+[
+ {
+  "class": "Badges",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/Badges.java",
+  "enumEntries": {
+   "MONSTERS_SLAIN_1": {
+    "args": [
+     "10 enemies slain"
+    ],
+    "nums": [
+     10,
+     0
+    ]
+   },
+   "MONSTERS_SLAIN_2": {
+    "args": [
+     "50 enemies slain"
+    ],
+    "nums": [
+     50,
+     1
+    ]
+   },
+   "MONSTERS_SLAIN_3": {
+    "args": [
+     "150 enemies slain"
+    ],
+    "nums": [
+     150,
+     2
+    ]
+   },
+   "MONSTERS_SLAIN_4": {
+    "args": [
+     "250 enemies slain"
+    ],
+    "nums": [
+     250,
+     3
+    ]
+   },
+   "GOLD_COLLECTED_1": {
+    "args": [
+     "100 gold collected"
+    ],
+    "nums": [
+     100,
+     4
+    ]
+   },
+   "GOLD_COLLECTED_2": {
+    "args": [
+     "500 gold collected"
+    ],
+    "nums": [
+     500,
+     5
+    ]
+   },
+   "GOLD_COLLECTED_3": {
+    "args": [
+     "2500 gold collected"
+    ],
+    "nums": [
+     2500,
+     6
+    ]
+   },
+   "GOLD_COLLECTED_4": {
+    "args": [
+     "7500 gold collected"
+    ],
+    "nums": [
+     7500,
+     7
+    ]
+   },
+   "LEVEL_REACHED_1": {
+    "args": [
+     "Level 6 reached"
+    ],
+    "nums": [
+     6,
+     8
+    ]
+   },
+   "LEVEL_REACHED_2": {
+    "args": [
+     "Level 12 reached"
+    ],
+    "nums": [
+     12,
+     9
+    ]
+   },
+   "LEVEL_REACHED_3": {
+    "args": [
+     "Level 18 reached"
+    ],
+    "nums": [
+     18,
+     10
+    ]
+   },
+   "LEVEL_REACHED_4": {
+    "args": [
+     "Level 24 reached"
+    ],
+    "nums": [
+     24,
+     11
+    ]
+   },
+   "ALL_POTIONS_IDENTIFIED": {
+    "args": [
+     "All potions identified"
+    ],
+    "nums": [
+     16
+    ]
+   },
+   "ALL_SCROLLS_IDENTIFIED": {
+    "args": [
+     "All scrolls identified"
+    ],
+    "nums": [
+     17
+    ]
+   },
+   "ALL_RINGS_IDENTIFIED": {
+    "args": [
+     "All rings identified"
+    ],
+    "nums": [
+     18
+    ]
+   },
+   "ALL_WANDS_IDENTIFIED": {
+    "args": [
+     "All wands identified"
+    ],
+    "nums": [
+     19
+    ]
+   },
+   "ALL_ITEMS_IDENTIFIED": {
+    "args": [
+     "All potions, scrolls, rings & wands identified"
+    ],
+    "nums": [
+     35
+    ]
+   },
+   "ALL_BAGS_BOUGHT": {
+    "args": [
+     "All bags bought"
+    ],
+    "nums": [
+     23
+    ]
+   },
+   "DEATH_FROM_FIRE": {
+    "args": [
+     "Death from fire"
+    ],
+    "nums": [
+     24
+    ]
+   },
+   "DEATH_FROM_POISON": {
+    "args": [
+     "Death from poison"
+    ],
+    "nums": [
+     25
+    ]
+   },
+   "DEATH_FROM_GAS": {
+    "args": [
+     "Death from toxic gas"
+    ],
+    "nums": [
+     26
+    ]
+   },
+   "DEATH_FROM_HUNGER": {
+    "args": [
+     "Death from hunger"
+    ],
+    "nums": [
+     27
+    ]
+   },
+   "DEATH_FROM_GLYPH": {
+    "args": [
+     "Death from an enchantment"
+    ],
+    "nums": [
+     57
+    ]
+   },
+   "DEATH_FROM_FALLING": {
+    "args": [
+     "Death from falling down"
+    ],
+    "nums": [
+     59
+    ]
+   },
+   "YASD": {
+    "args": [
+     "Death from fire, poison, toxic gas & hunger"
+    ],
+    "nums": [
+     34
+    ]
+   },
+   "BOSS_SLAIN_1": {
+    "args": [
+     "1st boss slain"
+    ],
+    "nums": [
+     1,
+     12
+    ]
+   },
+   "BOSS_SLAIN_2": {
+    "args": [
+     "2nd boss slain"
+    ],
+    "nums": [
+     2,
+     13
+    ]
+   },
+   "BOSS_SLAIN_3": {
+    "args": [
+     "3rd boss slain"
+    ],
+    "nums": [
+     3,
+     14
+    ]
+   },
+   "BOSS_SLAIN_4": {
+    "args": [
+     "4th boss slain"
+    ],
+    "nums": [
+     4,
+     15
+    ]
+   },
+   "BOSS_SLAIN_1_ALL_CLASSES": {
+    "args": [
+     "1st boss slain by Warrior, Mage, Rogue & Huntress"
+    ],
+    "nums": [
+     1,
+     32
+    ]
+   },
+   "BOSS_SLAIN_3_ALL_SUBCLASSES": {
+    "args": [
+     "3rd boss slain by Gladiator, Berserker, Warlock, Battlemage, Freerunner, Assassin, Sniper & Warden"
+    ],
+    "nums": [
+     3,
+     33
+    ]
+   },
+   "RING_OF_HAGGLER": {
+    "args": [
+     "Ring of Haggler obtained"
+    ],
+    "nums": [
+     20
+    ]
+   },
+   "RING_OF_THORNS": {
+    "args": [
+     "Ring of Thorns obtained"
+    ],
+    "nums": [
+     21
+    ]
+   },
+   "STRENGTH_ATTAINED_1": {
+    "args": [
+     "13 points of Strength attained"
+    ],
+    "nums": [
+     13,
+     40
+    ]
+   },
+   "STRENGTH_ATTAINED_2": {
+    "args": [
+     "15 points of Strength attained"
+    ],
+    "nums": [
+     15,
+     41
+    ]
+   },
+   "STRENGTH_ATTAINED_3": {
+    "args": [
+     "17 points of Strength attained"
+    ],
+    "nums": [
+     17,
+     42
+    ]
+   },
+   "STRENGTH_ATTAINED_4": {
+    "args": [
+     "19 points of Strength attained"
+    ],
+    "nums": [
+     19,
+     43
+    ]
+   },
+   "FOOD_EATEN_1": {
+    "args": [
+     "10 pieces of food eaten"
+    ],
+    "nums": [
+     10,
+     44
+    ]
+   },
+   "FOOD_EATEN_2": {
+    "args": [
+     "20 pieces of food eaten"
+    ],
+    "nums": [
+     20,
+     45
+    ]
+   },
+   "FOOD_EATEN_3": {
+    "args": [
+     "30 pieces of food eaten"
+    ],
+    "nums": [
+     30,
+     46
+    ]
+   },
+   "FOOD_EATEN_4": {
+    "args": [
+     "40 pieces of food eaten"
+    ],
+    "nums": [
+     40,
+     47
+    ]
+   },
+   "ITEM_LEVEL_1": {
+    "args": [
+     "Item of level 3 acquired"
+    ],
+    "nums": [
+     3,
+     48
+    ]
+   },
+   "ITEM_LEVEL_2": {
+    "args": [
+     "Item of level 6 acquired"
+    ],
+    "nums": [
+     6,
+     49
+    ]
+   },
+   "ITEM_LEVEL_3": {
+    "args": [
+     "Item of level 9 acquired"
+    ],
+    "nums": [
+     9,
+     50
+    ]
+   },
+   "ITEM_LEVEL_4": {
+    "args": [
+     "Item of level 12 acquired"
+    ],
+    "nums": [
+     12,
+     51
+    ]
+   },
+   "RARE": {
+    "args": [
+     "All rare monsters slain"
+    ],
+    "nums": [
+     37
+    ]
+   },
+   "VICTORY": {
+    "args": [
+     "Amulet of Yendor obtained"
+    ],
+    "nums": [
+     22
+    ]
+   },
+   "VICTORY_ALL_CLASSES": {
+    "args": [
+     "Amulet of Yendor obtained by Warrior, Mage, Rogue & Huntress"
+    ],
+    "nums": [
+     36
+    ]
+   },
+   "MASTERY_COMBO": {
+    "args": [
+     "7-hit combo"
+    ],
+    "nums": [
+     7,
+     56
+    ]
+   },
+   "POTIONS_COOKED_1": {
+    "args": [
+     "3 potions cooked"
+    ],
+    "nums": [
+     3,
+     52
+    ]
+   },
+   "POTIONS_COOKED_2": {
+    "args": [
+     "6 potions cooked"
+    ],
+    "nums": [
+     6,
+     53
+    ]
+   },
+   "POTIONS_COOKED_3": {
+    "args": [
+     "9 potions cooked"
+    ],
+    "nums": [
+     9,
+     54
+    ]
+   },
+   "POTIONS_COOKED_4": {
+    "args": [
+     "12 potions cooked"
+    ],
+    "nums": [
+     12,
+     55
+    ]
+   },
+   "NO_MONSTERS_SLAIN": {
+    "args": [
+     "Level completed without killing any monsters"
+    ],
+    "nums": [
+     28
+    ]
+   },
+   "GRIM_WEAPON": {
+    "args": [
+     "Monster killed by a Grim weapon"
+    ],
+    "nums": [
+     29
+    ]
+   },
+   "PIRANHAS": {
+    "args": [
+     "6 piranhas killed"
+    ],
+    "nums": [
+     6,
+     30
+    ]
+   },
+   "NIGHT_HUNTER": {
+    "args": [
+     "15 monsters killed at nighttime"
+    ],
+    "nums": [
+     15,
+     58
+    ]
+   },
+   "GAMES_PLAYED_1": {
+    "args": [
+     "10 games played"
+    ],
+    "nums": [
+     10,
+     60
+    ]
+   },
+   "GAMES_PLAYED_2": {
+    "args": [
+     "100 games played"
+    ],
+    "nums": [
+     100,
+     61
+    ]
+   },
+   "GAMES_PLAYED_3": {
+    "args": [
+     "500 games played"
+    ],
+    "nums": [
+     500,
+     62
+    ]
+   },
+   "GAMES_PLAYED_4": {
+    "args": [
+     "2000 games played"
+    ],
+    "nums": [
+     2000,
+     63
+    ]
+   },
+   "HAPPY_END": {
+    "args": [
+     "Happy end"
+    ],
+    "nums": [
+     38
+    ]
+   },
+   "CHAMPION": {
+    "args": [
+     "Challenge won"
+    ],
+    "nums": [
+     39
+    ]
+   },
+   "SUPPORTER": {
+    "args": [
+     "Thanks for your support!"
+    ],
+    "nums": [
+     31
+    ]
+   }
+  },
+  "consts": {
+   "BADGES_FILE": {
+    "text": "badges.dat",
+    "refs": []
+   },
+   "BADGES": {
+    "text": "badges",
+    "refs": []
+   }
+  }
+ }
+]

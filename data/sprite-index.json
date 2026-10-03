@@ -1,0 +1,2395 @@
+{
+ "note": "tile = 原始素材 16x16 网格中的序号(行主序)。与 pixel-dungeon-mi-band 的 sprites.json -> sheets[sheet].coords[tile] 一一对应。gameFrame 是游戏源码里的动画帧序号, gameGrid 是源码使用的网格尺寸; 两者不一致时(如 rat 的 16x15)已做换算, offsetPx 记录换算后的像素偏差。",
+ "items": {
+  "WEAPON": 5,
+  "ARMOR": 6,
+  "RING": 7,
+  "SMTH": 127,
+  "SKELETON_KEY": 8,
+  "IRON_KEY": 9,
+  "GOLDEN_KEY": 10,
+  "SHORT_SWORD": 2,
+  "KNUCKLEDUSTER": 16,
+  "QUARTERSTAFF": 17,
+  "MACE": 18,
+  "DAGGER": 19,
+  "SWORD": 20,
+  "LONG_SWORD": 21,
+  "BATTLE_AXE": 22,
+  "WAR_HAMMER": 23,
+  "SPEAR": 29,
+  "GLAIVE": 30,
+  "SHURIKEN": 15,
+  "DART": 31,
+  "BOOMERANG": 106,
+  "TOMAHAWK": 107,
+  "INCENDIARY_DART": 108,
+  "CURARE_DART": 109,
+  "JAVELIN": 110,
+  "ARMOR_CLOTH": 24,
+  "ARMOR_LEATHER": 25,
+  "ARMOR_MAIL": 26,
+  "ARMOR_SCALE": 27,
+  "ARMOR_PLATE": 28,
+  "ARMOR_ROGUE": 96,
+  "ARMOR_WARRIOR": 97,
+  "ARMOR_MAGE": 98,
+  "ARMOR_HUNTRESS": 99,
+  "WAND_MAGIC_MISSILE": 3,
+  "WAND_HOLLY": 48,
+  "WAND_YEW": 49,
+  "WAND_EBONY": 50,
+  "WAND_CHERRY": 51,
+  "WAND_TEAK": 52,
+  "WAND_ROWAN": 53,
+  "WAND_WILLOW": 54,
+  "WAND_MAHOGANY": 55,
+  "WAND_BAMBOO": 68,
+  "WAND_PURPLEHEART": 69,
+  "WAND_OAK": 70,
+  "WAND_BIRCH": 71,
+  "RING_DIAMOND": 32,
+  "RING_OPAL": 33,
+  "RING_GARNET": 34,
+  "RING_RUBY": 35,
+  "RING_AMETHYST": 36,
+  "RING_TOPAZ": 37,
+  "RING_ONYX": 38,
+  "RING_TOURMALINE": 39,
+  "RING_EMERALD": 72,
+  "RING_SAPPHIRE": 73,
+  "RING_QUARTZ": 74,
+  "RING_AGATE": 75,
+  "POTION_TURQUOISE": 56,
+  "POTION_CRIMSON": 57,
+  "POTION_AZURE": 58,
+  "POTION_JADE": 59,
+  "POTION_GOLDEN": 60,
+  "POTION_MAGENTA": 61,
+  "POTION_CHARCOAL": 62,
+  "POTION_IVORY": 63,
+  "POTION_AMBER": 64,
+  "POTION_BISTRE": 65,
+  "POTION_INDIGO": 66,
+  "POTION_SILVER": 67,
+  "SCROLL_KAUNAN": 40,
+  "SCROLL_SOWILO": 41,
+  "SCROLL_LAGUZ": 42,
+  "SCROLL_YNGVI": 43,
+  "SCROLL_GYFU": 44,
+  "SCROLL_RAIDO": 45,
+  "SCROLL_ISAZ": 46,
+  "SCROLL_MANNAZ": 47,
+  "SCROLL_NAUDIZ": 76,
+  "SCROLL_BERKANAN": 77,
+  "SCROLL_ODAL": 78,
+  "SCROLL_TIWAZ": 79,
+  "SCROLL_WIPE_OUT": 117,
+  "SEED_FIREBLOOM": 88,
+  "SEED_ICECAP": 89,
+  "SEED_SORROWMOSS": 90,
+  "SEED_DREAMWEED": 91,
+  "SEED_SUNGRASS": 92,
+  "SEED_EARTHROOT": 93,
+  "SEED_FADELEAF": 94,
+  "SEED_ROTBERRY": 95,
+  "ROSE": 100,
+  "PICKAXE": 101,
+  "ORE": 102,
+  "SKULL": 103,
+  "PHANTOM": 118,
+  "DUST": 121,
+  "TOKEN": 122,
+  "BONES": 0,
+  "CHEST": 11,
+  "LOCKED_CHEST": 12,
+  "TOMB": 13,
+  "CRYSTAL_CHEST": 105,
+  "HIDDEN": 119,
+  "RATION": 4,
+  "PASTY": 112,
+  "MEAT": 113,
+  "STEAK": 114,
+  "OVERPRICED": 115,
+  "CARPACCIO": 116,
+  "POUCH": 83,
+  "HOLDER": 104,
+  "HOLSTER": 111,
+  "KEYRING": 126,
+  "SPARK_UPGRADE": 117,
+  "SPARK_ENCHANT": 118,
+  "ANKH": 1,
+  "GOLD": 14,
+  "STYLUS": 80,
+  "DEWDROP": 81,
+  "MASTERY": 82,
+  "TORCH": 84,
+  "BEACON": 85,
+  "KIT": 86,
+  "AMULET": 87,
+  "VIAL": 120,
+  "WEIGHT": 123,
+  "BOMB": 124,
+  "HONEYPOT": 125
+ },
+ "mobs": {
+  "AcidicSprite": {
+   "sheet": "scorpio",
+   "tile": 16,
+   "gameFrame": 14,
+   "gameGrid": [
+    18,
+    17
+   ],
+   "gameCols": 14,
+   "offsetPx": [
+    0,
+    1
+   ],
+   "frames": {
+    "idle": [
+     14,
+     14,
+     14,
+     14,
+     14,
+     14,
+     14,
+     14,
+     15,
+     16,
+     15,
+     16,
+     15,
+     16
+    ],
+    "run": [
+     19,
+     20
+    ],
+    "attack": [
+     14,
+     17,
+     18
+    ],
+    "die": [
+     14,
+     21,
+     22,
+     23,
+     24
+    ]
+   }
+  },
+  "AlbinoSprite": {
+   "sheet": "rat",
+   "tile": 0,
+   "gameFrame": 16,
+   "gameGrid": [
+    16,
+    15
+   ],
+   "gameCols": 16,
+   "offsetPx": [
+    0,
+    15
+   ],
+   "frames": {
+    "idle": [
+     16,
+     16,
+     16,
+     17
+    ],
+    "run": [
+     22,
+     23,
+     24,
+     25,
+     26
+    ],
+    "attack": [
+     18,
+     19,
+     20,
+     21
+    ],
+    "die": [
+     27,
+     28,
+     29,
+     30
+    ]
+   }
+  },
+  "BanditSprite": {
+   "sheet": "thief",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    13
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ]
+  },
+  "BatSprite": {
+   "sheet": "bat",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    15,
+    15
+   ],
+   "gameCols": 8,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1
+    ],
+    "run": [
+     0,
+     1
+    ],
+    "attack": [
+     2,
+     3,
+     0,
+     1
+    ],
+    "die": [
+     4,
+     5,
+     6
+    ]
+   }
+  },
+  "BeeSprite": {
+   "sheet": "bee",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    16,
+    16
+   ],
+   "gameCols": 16,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1,
+     1,
+     0,
+     2,
+     2
+    ],
+    "run": [
+     0,
+     1,
+     1,
+     0,
+     2,
+     2
+    ],
+    "attack": [
+     3,
+     4,
+     5,
+     6
+    ],
+    "die": [
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "BlacksmithSprite": {
+   "sheet": "blacksmith",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    13,
+    16
+   ],
+   "gameCols": 4,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2,
+     2,
+     2,
+     3
+    ],
+    "run": [
+     0
+    ],
+    "die": [
+     0
+    ]
+   }
+  },
+  "BruteSprite": {
+   "sheet": "brute",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    16
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     1,
+     1
+    ],
+    "run": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "attack": [
+     2,
+     3,
+     0
+    ],
+    "die": [
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "BurningFistSprite": {
+   "sheet": "burning_fist",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    24,
+    17
+   ],
+   "gameCols": 10,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     1
+    ],
+    "run": [
+     0,
+     1
+    ],
+    "attack": [
+     0,
+     5,
+     6
+    ],
+    "die": [
+     0,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "CrabSprite": {
+   "sheet": "crab",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    16,
+    16
+   ],
+   "gameCols": 16,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1,
+     0,
+     2
+    ],
+    "run": [
+     3,
+     4,
+     5,
+     6
+    ],
+    "attack": [
+     7,
+     8,
+     9
+    ],
+    "die": [
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "DM300Sprite": {
+   "sheet": "dm300",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    22,
+    20
+   ],
+   "gameCols": 11,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1
+    ],
+    "run": [
+     2,
+     3
+    ],
+    "attack": [
+     4,
+     5,
+     6
+    ],
+    "die": [
+     0,
+     7,
+     0,
+     7,
+     0,
+     7,
+     0,
+     7,
+     0,
+     7,
+     0,
+     7,
+     8
+    ]
+   }
+  },
+  "ElementalSprite": {
+   "sheet": "elemental",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    14
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1,
+     2
+    ],
+    "run": [
+     0,
+     1,
+     3
+    ],
+    "attack": [
+     4,
+     5,
+     6
+    ],
+    "die": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     12
+    ]
+   }
+  },
+  "EyeSprite": {
+   "sheet": "eye",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    16,
+    18
+   ],
+   "gameCols": 16,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1,
+     2
+    ],
+    "run": [
+     5,
+     6
+    ],
+    "attack": [
+     4,
+     3
+    ],
+    "die": [
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "GhostSprite": {
+   "sheet": "ghost",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    14,
+    15
+   ],
+   "gameCols": 2,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1
+    ],
+    "run": [
+     0,
+     1
+    ],
+    "die": [
+     0
+    ]
+   }
+  },
+  "GnollSprite": {
+   "sheet": "gnoll",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    15
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     1,
+     1
+    ],
+    "run": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "attack": [
+     2,
+     3,
+     0
+    ],
+    "die": [
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "GolemSprite": {
+   "sheet": "golem",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    16,
+    16
+   ],
+   "gameCols": 16,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1
+    ],
+    "run": [
+     2,
+     3,
+     4,
+     5
+    ],
+    "attack": [
+     6,
+     7,
+     8
+    ],
+    "die": [
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "GooSprite": {
+   "sheet": "goo",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    20,
+    14
+   ],
+   "gameCols": 12,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1
+    ],
+    "run": [
+     0,
+     1
+    ],
+    "attack": [
+     5,
+     0,
+     6
+    ],
+    "die": [
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "ImpSprite": {
+   "sheet": "demon",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    14
+   ],
+   "gameCols": 5,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1,
+     2,
+     3,
+     0,
+     1,
+     2,
+     3,
+     0,
+     0,
+     0,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     0,
+     1,
+     2,
+     3,
+     0,
+     1,
+     2,
+     3,
+     0,
+     1,
+     3,
+     0,
+     0,
+     0,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     0,
+     0,
+     0,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "run": [
+     0
+    ],
+    "die": [
+     0,
+     3,
+     2,
+     1,
+     0,
+     3,
+     2,
+     1,
+     0
+    ]
+   }
+  },
+  "KingSprite": {
+   "sheet": "king",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    16,
+    16
+   ],
+   "gameCols": 16,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2
+    ],
+    "run": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "attack": [
+     9,
+     10,
+     11
+    ],
+    "die": [
+     12,
+     13,
+     14,
+     15
+    ]
+   }
+  },
+  "LarvaSprite": {
+   "sheet": "larva",
+   "tile": 3,
+   "gameFrame": 4,
+   "gameGrid": [
+    12,
+    8
+   ],
+   "gameCols": 10,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     4,
+     4,
+     4,
+     4,
+     4,
+     5,
+     5
+    ],
+    "run": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "attack": [
+     6,
+     5,
+     7
+    ],
+    "die": [
+     8
+    ]
+   }
+  },
+  "MimicSprite": {
+   "sheet": "mimic",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    16,
+    16
+   ],
+   "gameCols": 16,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     1,
+     1
+    ],
+    "run": [
+     0,
+     1,
+     2,
+     3,
+     3,
+     2,
+     1
+    ],
+    "attack": [
+     0,
+     4,
+     5,
+     6
+    ],
+    "die": [
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "MonkSprite": {
+   "sheet": "monk",
+   "tile": 0,
+   "gameFrame": 1,
+   "gameGrid": [
+    15,
+    14
+   ],
+   "gameCols": 17,
+   "offsetPx": [
+    15,
+    0
+   ],
+   "frames": {
+    "idle": [
+     1,
+     0,
+     1,
+     2
+    ],
+    "run": [
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ],
+    "attack": [
+     3,
+     4,
+     3,
+     4
+    ],
+    "die": [
+     1,
+     7,
+     8,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "PiranhaSprite": {
+   "sheet": "piranha",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    16
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1,
+     2,
+     1
+    ],
+    "run": [
+     0,
+     1,
+     2,
+     1
+    ],
+    "attack": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "die": [
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  "RatKingSprite": {
+   "sheet": "ratking",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    16,
+    16
+   ],
+   "gameCols": 8,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "run": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "attack": [
+     0
+    ],
+    "die": [
+     0
+    ]
+   }
+  },
+  "RatSprite": {
+   "sheet": "rat",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    16,
+    15
+   ],
+   "gameCols": 16,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "run": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "attack": [
+     2,
+     3,
+     4,
+     5,
+     0
+    ],
+    "die": [
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  "RottingFistSprite": {
+   "sheet": "rotting_fist",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    24,
+    17
+   ],
+   "gameCols": 5,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     1
+    ],
+    "run": [
+     0,
+     1
+    ],
+    "attack": [
+     0
+    ],
+    "die": [
+     0,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "ScorpioSprite": {
+   "sheet": "scorpio",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    18,
+    17
+   ],
+   "gameCols": 14,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2,
+     1,
+     2,
+     1,
+     2
+    ],
+    "run": [
+     5,
+     5,
+     6,
+     6
+    ],
+    "attack": [
+     0,
+     3,
+     4
+    ],
+    "die": [
+     0,
+     7,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "SeniorSprite": {
+   "sheet": "monk",
+   "tile": 0,
+   "gameFrame": 18,
+   "gameGrid": [
+    15,
+    14
+   ],
+   "gameCols": 17,
+   "offsetPx": [
+    15,
+    14
+   ],
+   "frames": {
+    "idle": [
+     18,
+     17,
+     18,
+     19
+    ],
+    "run": [
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "attack": [
+     20,
+     21,
+     20,
+     21
+    ],
+    "die": [
+     18,
+     24,
+     25,
+     25,
+     26,
+     27
+    ]
+   }
+  },
+  "ShamanSprite": {
+   "sheet": "shaman",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    15
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     1,
+     1
+    ],
+    "run": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "attack": [
+     2,
+     3,
+     0
+    ],
+    "die": [
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "SheepSprite": {
+   "sheet": "sheep",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    16,
+    15
+   ],
+   "gameCols": 4,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2,
+     3,
+     0
+    ],
+    "die": [
+     0
+    ]
+   }
+  },
+  "ShieldedSprite": {
+   "sheet": "brute",
+   "tile": 16,
+   "gameFrame": 21,
+   "gameGrid": [
+    12,
+    16
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     21,
+     21,
+     21,
+     22,
+     21,
+     21,
+     22,
+     22
+    ],
+    "run": [
+     25,
+     26,
+     27,
+     28
+    ],
+    "attack": [
+     23,
+     24
+    ],
+    "die": [
+     29,
+     30,
+     31
+    ]
+   }
+  },
+  "ShopkeeperSprite": {
+   "sheet": "shopkeeper",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    14,
+    14
+   ],
+   "gameCols": 2,
+   "offsetPx": [
+    0,
+    0
+   ]
+  },
+  "SkeletonSprite": {
+   "sheet": "skeleton",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    15
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2,
+     3
+    ],
+    "run": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "attack": [
+     14,
+     15,
+     16
+    ],
+    "die": [
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "SpinnerSprite": {
+   "sheet": "spinner",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    16,
+    16
+   ],
+   "gameCols": 16,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     1
+    ],
+    "run": [
+     0,
+     2,
+     0,
+     3
+    ],
+    "attack": [
+     0,
+     4,
+     5,
+     0
+    ],
+    "die": [
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "StatueSprite": {
+   "sheet": "statue",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    15
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     1
+    ],
+    "run": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "attack": [
+     8,
+     9,
+     10
+    ],
+    "die": [
+     11,
+     12,
+     13,
+     14,
+     15,
+     15
+    ]
+   }
+  },
+  "SuccubusSprite": {
+   "sheet": "succubus",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    15
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2,
+     2,
+     2,
+     2,
+     1
+    ],
+    "run": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "attack": [
+     9,
+     10,
+     11
+    ],
+    "die": [
+     12
+    ]
+   }
+  },
+  "SwarmSprite": {
+   "sheet": "swarm",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    16,
+    16
+   ],
+   "gameCols": 16,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "run": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "attack": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "die": [
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  "TenguSprite": {
+   "sheet": "tengu",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    14,
+    16
+   ],
+   "gameCols": 18,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "run": [
+     2,
+     3,
+     4,
+     5,
+     0
+    ],
+    "attack": [
+     6,
+     7,
+     7,
+     0
+    ],
+    "die": [
+     8,
+     9,
+     10,
+     10,
+     10,
+     10,
+     10,
+     10
+    ]
+   }
+  },
+  "ThiefSprite": {
+   "sheet": "thief",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    13
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ]
+  },
+  "UndeadSprite": {
+   "sheet": "undead",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    16
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2,
+     3
+    ],
+    "run": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "attack": [
+     14,
+     15,
+     16
+    ],
+    "die": [
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  "WandmakerSprite": {
+   "sheet": "wandmaker",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    14
+   ],
+   "gameCols": 5,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     2,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     2,
+     1
+    ],
+    "run": [
+     0
+    ],
+    "die": [
+     0
+    ]
+   }
+  },
+  "WarlockSprite": {
+   "sheet": "warlock",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    12,
+    15
+   ],
+   "gameCols": 21,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0,
+     1,
+     1
+    ],
+    "run": [
+     0,
+     2,
+     3,
+     4
+    ],
+    "attack": [
+     0,
+     5,
+     6
+    ],
+    "die": [
+     0,
+     7,
+     8,
+     8,
+     9,
+     10
+    ]
+   }
+  },
+  "WraithSprite": {
+   "sheet": "wraith",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    14,
+    15
+   ],
+   "gameCols": 9,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1
+    ],
+    "run": [
+     0,
+     1
+    ],
+    "attack": [
+     0,
+     2,
+     3
+    ],
+    "die": [
+     0,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "YogSprite": {
+   "sheet": "yog",
+   "tile": 0,
+   "gameFrame": 0,
+   "gameGrid": [
+    20,
+    19
+   ],
+   "gameCols": 12,
+   "offsetPx": [
+    0,
+    0
+   ],
+   "frames": {
+    "idle": [
+     0,
+     1,
+     2,
+     2,
+     1,
+     0,
+     3,
+     4,
+     4,
+     3,
+     0,
+     5,
+     6,
+     6,
+     5
+    ],
+    "run": [
+     0
+    ],
+    "attack": [
+     0
+    ],
+    "die": [
+     0,
+     7,
+     8,
+     9
+    ]
+   }
+  }
+ },
+ "badges": {
+  "MONSTERS_SLAIN_1": {
+   "desc_en": "10 enemies slain",
+   "tile": 0,
+   "meta": false
+  },
+  "MONSTERS_SLAIN_2": {
+   "desc_en": "50 enemies slain",
+   "tile": 1,
+   "meta": false
+  },
+  "MONSTERS_SLAIN_3": {
+   "desc_en": "150 enemies slain",
+   "tile": 2,
+   "meta": false
+  },
+  "MONSTERS_SLAIN_4": {
+   "desc_en": "250 enemies slain",
+   "tile": 3,
+   "meta": false
+  },
+  "GOLD_COLLECTED_1": {
+   "desc_en": "100 gold collected",
+   "tile": 4,
+   "meta": false
+  },
+  "GOLD_COLLECTED_2": {
+   "desc_en": "500 gold collected",
+   "tile": 5,
+   "meta": false
+  },
+  "GOLD_COLLECTED_3": {
+   "desc_en": "2500 gold collected",
+   "tile": 6,
+   "meta": false
+  },
+  "GOLD_COLLECTED_4": {
+   "desc_en": "7500 gold collected",
+   "tile": 7,
+   "meta": false
+  },
+  "LEVEL_REACHED_1": {
+   "desc_en": "Level 6 reached",
+   "tile": 8,
+   "meta": false
+  },
+  "LEVEL_REACHED_2": {
+   "desc_en": "Level 12 reached",
+   "tile": 9,
+   "meta": false
+  },
+  "LEVEL_REACHED_3": {
+   "desc_en": "Level 18 reached",
+   "tile": 10,
+   "meta": false
+  },
+  "LEVEL_REACHED_4": {
+   "desc_en": "Level 24 reached",
+   "tile": 11,
+   "meta": false
+  },
+  "ALL_POTIONS_IDENTIFIED": {
+   "desc_en": "All potions identified",
+   "tile": 16,
+   "meta": false
+  },
+  "ALL_SCROLLS_IDENTIFIED": {
+   "desc_en": "All scrolls identified",
+   "tile": 17,
+   "meta": false
+  },
+  "ALL_RINGS_IDENTIFIED": {
+   "desc_en": "All rings identified",
+   "tile": 18,
+   "meta": false
+  },
+  "ALL_WANDS_IDENTIFIED": {
+   "desc_en": "All wands identified",
+   "tile": 19,
+   "meta": false
+  },
+  "ALL_ITEMS_IDENTIFIED": {
+   "desc_en": "All potions, scrolls, rings & wands identified",
+   "tile": 35,
+   "meta": true
+  },
+  "ALL_BAGS_BOUGHT": {
+   "desc_en": "All bags bought",
+   "tile": 23,
+   "meta": false
+  },
+  "DEATH_FROM_FIRE": {
+   "desc_en": "Death from fire",
+   "tile": 24,
+   "meta": false
+  },
+  "DEATH_FROM_POISON": {
+   "desc_en": "Death from poison",
+   "tile": 25,
+   "meta": false
+  },
+  "DEATH_FROM_GAS": {
+   "desc_en": "Death from toxic gas",
+   "tile": 26,
+   "meta": false
+  },
+  "DEATH_FROM_HUNGER": {
+   "desc_en": "Death from hunger",
+   "tile": 27,
+   "meta": false
+  },
+  "DEATH_FROM_GLYPH": {
+   "desc_en": "Death from an enchantment",
+   "tile": 57,
+   "meta": false
+  },
+  "DEATH_FROM_FALLING": {
+   "desc_en": "Death from falling down",
+   "tile": 59,
+   "meta": false
+  },
+  "YASD": {
+   "desc_en": "Death from fire, poison, toxic gas & hunger",
+   "tile": 34,
+   "meta": true
+  },
+  "BOSS_SLAIN_1": {
+   "desc_en": "1st boss slain",
+   "tile": 12,
+   "meta": false
+  },
+  "BOSS_SLAIN_2": {
+   "desc_en": "2nd boss slain",
+   "tile": 13,
+   "meta": false
+  },
+  "BOSS_SLAIN_3": {
+   "desc_en": "3rd boss slain",
+   "tile": 14,
+   "meta": false
+  },
+  "BOSS_SLAIN_4": {
+   "desc_en": "4th boss slain",
+   "tile": 15,
+   "meta": false
+  },
+  "BOSS_SLAIN_1_ALL_CLASSES": {
+   "desc_en": "1st boss slain by Warrior, Mage, Rogue & Huntress",
+   "tile": 32,
+   "meta": true
+  },
+  "BOSS_SLAIN_3_ALL_SUBCLASSES": {
+   "desc_en": "3rd boss slain by Gladiator, Berserker, Warlock, Battlemage, Freerunner, Assassin, Sniper & Warden",
+   "tile": 33,
+   "meta": true
+  },
+  "RING_OF_HAGGLER": {
+   "desc_en": "Ring of Haggler obtained",
+   "tile": 20,
+   "meta": false
+  },
+  "RING_OF_THORNS": {
+   "desc_en": "Ring of Thorns obtained",
+   "tile": 21,
+   "meta": false
+  },
+  "STRENGTH_ATTAINED_1": {
+   "desc_en": "13 points of Strength attained",
+   "tile": 40,
+   "meta": false
+  },
+  "STRENGTH_ATTAINED_2": {
+   "desc_en": "15 points of Strength attained",
+   "tile": 41,
+   "meta": false
+  },
+  "STRENGTH_ATTAINED_3": {
+   "desc_en": "17 points of Strength attained",
+   "tile": 42,
+   "meta": false
+  },
+  "STRENGTH_ATTAINED_4": {
+   "desc_en": "19 points of Strength attained",
+   "tile": 43,
+   "meta": false
+  },
+  "FOOD_EATEN_1": {
+   "desc_en": "10 pieces of food eaten",
+   "tile": 44,
+   "meta": false
+  },
+  "FOOD_EATEN_2": {
+   "desc_en": "20 pieces of food eaten",
+   "tile": 45,
+   "meta": false
+  },
+  "FOOD_EATEN_3": {
+   "desc_en": "30 pieces of food eaten",
+   "tile": 46,
+   "meta": false
+  },
+  "FOOD_EATEN_4": {
+   "desc_en": "40 pieces of food eaten",
+   "tile": 47,
+   "meta": false
+  },
+  "ITEM_LEVEL_1": {
+   "desc_en": "Item of level 3 acquired",
+   "tile": 48,
+   "meta": false
+  },
+  "ITEM_LEVEL_2": {
+   "desc_en": "Item of level 6 acquired",
+   "tile": 49,
+   "meta": false
+  },
+  "ITEM_LEVEL_3": {
+   "desc_en": "Item of level 9 acquired",
+   "tile": 50,
+   "meta": false
+  },
+  "ITEM_LEVEL_4": {
+   "desc_en": "Item of level 12 acquired",
+   "tile": 51,
+   "meta": false
+  },
+  "RARE": {
+   "desc_en": "All rare monsters slain",
+   "tile": 37,
+   "meta": true
+  },
+  "VICTORY": {
+   "desc_en": "Amulet of Yendor obtained",
+   "tile": 22,
+   "meta": false
+  },
+  "VICTORY_ALL_CLASSES": {
+   "desc_en": "Amulet of Yendor obtained by Warrior, Mage, Rogue & Huntress",
+   "tile": 36,
+   "meta": true
+  },
+  "MASTERY_COMBO": {
+   "desc_en": "7-hit combo",
+   "tile": 56,
+   "meta": false
+  },
+  "POTIONS_COOKED_1": {
+   "desc_en": "3 potions cooked",
+   "tile": 52,
+   "meta": false
+  },
+  "POTIONS_COOKED_2": {
+   "desc_en": "6 potions cooked",
+   "tile": 53,
+   "meta": false
+  },
+  "POTIONS_COOKED_3": {
+   "desc_en": "9 potions cooked",
+   "tile": 54,
+   "meta": false
+  },
+  "POTIONS_COOKED_4": {
+   "desc_en": "12 potions cooked",
+   "tile": 55,
+   "meta": false
+  },
+  "NO_MONSTERS_SLAIN": {
+   "desc_en": "Level completed without killing any monsters",
+   "tile": 28,
+   "meta": false
+  },
+  "GRIM_WEAPON": {
+   "desc_en": "Monster killed by a Grim weapon",
+   "tile": 29,
+   "meta": false
+  },
+  "PIRANHAS": {
+   "desc_en": "6 piranhas killed",
+   "tile": 30,
+   "meta": false
+  },
+  "NIGHT_HUNTER": {
+   "desc_en": "15 monsters killed at nighttime",
+   "tile": 58,
+   "meta": false
+  },
+  "GAMES_PLAYED_1": {
+   "desc_en": "10 games played",
+   "tile": 60,
+   "meta": true
+  },
+  "GAMES_PLAYED_2": {
+   "desc_en": "100 games played",
+   "tile": 61,
+   "meta": true
+  },
+  "GAMES_PLAYED_3": {
+   "desc_en": "500 games played",
+   "tile": 62,
+   "meta": true
+  },
+  "GAMES_PLAYED_4": {
+   "desc_en": "2000 games played",
+   "tile": 63,
+   "meta": true
+  },
+  "HAPPY_END": {
+   "desc_en": "Happy end",
+   "tile": 38,
+   "meta": false
+  },
+  "CHAMPION": {
+   "desc_en": "Challenge won",
+   "tile": 39,
+   "meta": true
+  },
+  "SUPPORTER": {
+   "desc_en": "Thanks for your support!",
+   "tile": 31,
+   "meta": true
+  }
+ },
+ "plants": {
+  "Dreamweed": {
+   "tile": 3,
+   "seedTile": 91
+  },
+  "Earthroot": {
+   "tile": 5,
+   "seedTile": 93
+  },
+  "Fadeleaf": {
+   "tile": 6,
+   "seedTile": 94
+  },
+  "Firebloom": {
+   "tile": 0,
+   "seedTile": 88
+  },
+  "Icecap": {
+   "tile": 1,
+   "seedTile": 89
+  },
+  "Rotberry": {
+   "tile": 7,
+   "seedTile": 95
+  },
+  "Sorrowmoss": {
+   "tile": 2,
+   "seedTile": 90
+  },
+  "Sungrass": {
+   "tile": 4,
+   "seedTile": 92
+  }
+ },
+ "assets": {
+  "ARCS_BG": "arcs1.png",
+  "ARCS_FG": "arcs2.png",
+  "DASHBOARD": "dashboard.png",
+  "BANNERS": "banners.png",
+  "BADGES": "badges.png",
+  "LOCKED": "locked_badge.png",
+  "AMULET": "amulet.png",
+  "CHROME": "chrome.png",
+  "ICONS": "icons.png",
+  "STATUS": "status_pane.png",
+  "HP_BAR": "hp_bar.png",
+  "XP_BAR": "exp_bar.png",
+  "TOOLBAR": "toolbar.png",
+  "SHADOW": "shadow.png",
+  "WARRIOR": "warrior.png",
+  "MAGE": "mage.png",
+  "ROGUE": "rogue.png",
+  "HUNTRESS": "ranger.png",
+  "AVATARS": "avatars.png",
+  "PET": "pet.png",
+  "SURFACE": "surface.png",
+  "FIREBALL": "fireball.png",
+  "SPECKS": "specks.png",
+  "EFFECTS": "effects.png",
+  "RAT": "rat.png",
+  "GNOLL": "gnoll.png",
+  "CRAB": "crab.png",
+  "GOO": "goo.png",
+  "SWARM": "swarm.png",
+  "SKELETON": "skeleton.png",
+  "SHAMAN": "shaman.png",
+  "THIEF": "thief.png",
+  "TENGU": "tengu.png",
+  "SHEEP": "sheep.png",
+  "KEEPER": "shopkeeper.png",
+  "BAT": "bat.png",
+  "BRUTE": "brute.png",
+  "SPINNER": "spinner.png",
+  "DM300": "dm300.png",
+  "WRAITH": "wraith.png",
+  "ELEMENTAL": "elemental.png",
+  "MONK": "monk.png",
+  "WARLOCK": "warlock.png",
+  "GOLEM": "golem.png",
+  "UNDEAD": "undead.png",
+  "KING": "king.png",
+  "STATUE": "statue.png",
+  "PIRANHA": "piranha.png",
+  "EYE": "eye.png",
+  "SUCCUBUS": "succubus.png",
+  "SCORPIO": "scorpio.png",
+  "ROTTING": "rotting_fist.png",
+  "BURNING": "burning_fist.png",
+  "YOG": "yog.png",
+  "LARVA": "larva.png",
+  "GHOST": "ghost.png",
+  "MAKER": "wandmaker.png",
+  "TROLL": "blacksmith.png",
+  "IMP": "demon.png",
+  "RATKING": "ratking.png",
+  "BEE": "bee.png",
+  "MIMIC": "mimic.png",
+  "ITEMS": "items.png",
+  "PLANTS": "plants.png",
+  "TILES_SEWERS": "tiles0.png",
+  "TILES_PRISON": "tiles1.png",
+  "TILES_CAVES": "tiles2.png",
+  "TILES_CITY": "tiles3.png",
+  "TILES_HALLS": "tiles4.png",
+  "WATER_SEWERS": "water0.png",
+  "WATER_PRISON": "water1.png",
+  "WATER_CAVES": "water2.png",
+  "WATER_CITY": "water3.png",
+  "WATER_HALLS": "water4.png",
+  "BUFFS_SMALL": "buffs.png",
+  "BUFFS_LARGE": "large_buffs.png",
+  "SPELL_ICONS": "spell_icons.png",
+  "FONTS1X": "font1x.png",
+  "FONTS15X": "font15x.png",
+  "FONTS2X": "font2x.png",
+  "FONTS25X": "font25x.png",
+  "FONTS3X": "font3x.png",
+  "THEME": "theme.mp3",
+  "TUNE": "game.mp3",
+  "HAPPY": "surface.mp3",
+  "SND_CLICK": "snd_click.mp3",
+  "SND_BADGE": "snd_badge.mp3",
+  "SND_GOLD": "snd_gold.mp3",
+  "SND_OPEN": "snd_door_open.mp3",
+  "SND_UNLOCK": "snd_unlock.mp3",
+  "SND_ITEM": "snd_item.mp3",
+  "SND_DEWDROP": "snd_dewdrop.mp3",
+  "SND_HIT": "snd_hit.mp3",
+  "SND_MISS": "snd_miss.mp3",
+  "SND_STEP": "snd_step.mp3",
+  "SND_WATER": "snd_water.mp3",
+  "SND_DESCEND": "snd_descend.mp3",
+  "SND_EAT": "snd_eat.mp3",
+  "SND_READ": "snd_read.mp3",
+  "SND_LULLABY": "snd_lullaby.mp3",
+  "SND_DRINK": "snd_drink.mp3",
+  "SND_SHATTER": "snd_shatter.mp3",
+  "SND_ZAP": "snd_zap.mp3",
+  "SND_LIGHTNING": "snd_lightning.mp3",
+  "SND_LEVELUP": "snd_levelup.mp3",
+  "SND_DEATH": "snd_death.mp3",
+  "SND_CHALLENGE": "snd_challenge.mp3",
+  "SND_CURSED": "snd_cursed.mp3",
+  "SND_TRAP": "snd_trap.mp3",
+  "SND_EVOKE": "snd_evoke.mp3",
+  "SND_TOMB": "snd_tomb.mp3",
+  "SND_ALERT": "snd_alert.mp3",
+  "SND_MELD": "snd_meld.mp3",
+  "SND_BOSS": "snd_boss.mp3",
+  "SND_BLAST": "snd_blast.mp3",
+  "SND_PLANT": "snd_plant.mp3",
+  "SND_RAY": "snd_ray.mp3",
+  "SND_BEACON": "snd_beacon.mp3",
+  "SND_TELEPORT": "snd_teleport.mp3",
+  "SND_CHARMS": "snd_charms.mp3",
+  "SND_MASTERY": "snd_mastery.mp3",
+  "SND_PUFF": "snd_puff.mp3",
+  "SND_ROCKS": "snd_rocks.mp3",
+  "SND_BURNING": "snd_burning.mp3",
+  "SND_FALLING": "snd_falling.mp3",
+  "SND_GHOST": "snd_ghost.mp3",
+  "SND_SECRET": "snd_secret.mp3",
+  "SND_BONES": "snd_bones.mp3",
+  "SND_BEE": "snd_bee.mp3",
+  "SND_DEGRADE": "snd_degrade.mp3",
+  "SND_MIMIC": "snd_mimic.mp3"
+ }
+}

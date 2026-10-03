@@ -1,0 +1,355 @@
+[
+ {
+  "class": "Bee",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/npcs/Bee.java",
+  "name": "golden bee",
+  "desc": "Despite their small size, golden bees tend to protect their master fiercely. They don't live long though.",
+  "spriteClass": "BeeSprite",
+  "consts": {
+   "LEVEL": {
+    "text": "level",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Blacksmith",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/npcs/Blacksmith.java",
+  "name": "troll blacksmith",
+  "desc": "This troll blacksmith looks like all trolls look: he is tall and lean, and his skin resembles stone in both color and texture. The troll blacksmith is tinkering with unproportionally small tools.",
+  "spriteClass": "BlacksmithSprite",
+  "consts": {
+   "TXT_GOLD_1": {
+    "text": "Hey human! Wanna be useful, eh? Take dis pickaxe and mine me some _dark gold ore_, _15 pieces_ should be enough. What do you mean, how am I gonna pay? You greedy...\nOk, ok, I don't have money to pay, but I can do some smithin' for you. Consider yourself lucky, I'm the only blacksmith around.",
+    "refs": []
+   },
+   "TXT_BLOOD_1": {
+    "text": "Hey human! Wanna be useful, eh? Take dis pickaxe and _kill a bat_ wit' it, I need its blood on the head. What do you mean, how am I gonna pay? You greedy...\nOk, ok, I don't have money to pay, but I can do some smithin' for you. Consider yourself lucky, I'm the only blacksmith around.",
+    "refs": []
+   },
+   "TXT2": {
+    "text": "Are you kiddin' me? Where is my pickaxe?!",
+    "refs": []
+   },
+   "TXT3": {
+    "text": "Dark gold ore. 15 pieces. Seriously, is it dat hard?",
+    "refs": []
+   },
+   "TXT4": {
+    "text": "I said I need bat blood on the pickaxe. Chop chop!",
+    "refs": []
+   },
+   "TXT_COMPLETED": {
+    "text": "Oh, you have returned... Better late dan never.",
+    "refs": []
+   },
+   "TXT_GET_LOST": {
+    "text": "I'm busy. Get lost!",
+    "refs": []
+   },
+   "TXT_LOOKS_BETTER": {
+    "text": "your %s certainly looks better now",
+    "refs": []
+   },
+   "NODE": {
+    "text": "blacksmith",
+    "refs": []
+   },
+   "SPAWNED": {
+    "text": "spawned",
+    "refs": []
+   },
+   "ALTERNATIVE": {
+    "text": "alternative",
+    "refs": []
+   },
+   "GIVEN": {
+    "text": "given",
+    "refs": []
+   },
+   "COMPLETED": {
+    "text": "completed",
+    "refs": []
+   },
+   "REFORGED": {
+    "text": "reforged",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Ghost",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/npcs/Ghost.java",
+  "name": "sad ghost",
+  "desc": "The ghost is barely visible. It looks like a shapeless spot of faint light with a sorrowful face.",
+  "spriteClass": "GhostSprite",
+  "consts": {
+   "NODE": {
+    "text": "sadGhost",
+    "refs": []
+   },
+   "SPAWNED": {
+    "text": "spawned",
+    "refs": []
+   },
+   "TYPE": {
+    "text": "type",
+    "refs": []
+   },
+   "ALTERNATIVE": {
+    "text": "alternative",
+    "refs": []
+   },
+   "LEFT2KILL": {
+    "text": "left2kill",
+    "refs": []
+   },
+   "GIVEN": {
+    "text": "given",
+    "refs": []
+   },
+   "PROCESSED": {
+    "text": "processed",
+    "refs": []
+   },
+   "DEPTH": {
+    "text": "depth",
+    "refs": []
+   },
+   "WEAPON": {
+    "text": "weapon",
+    "refs": []
+   },
+   "ARMOR": {
+    "text": "armor",
+    "refs": []
+   },
+   "TXT_ROSE1": {
+    "text": "Hello adventurer... Once I was like you - strong and confident... And now I'm dead... But I can't leave this place... Not until I have my _dried rose_... It's very important to me... Some monster stole it from my body...",
+    "refs": []
+   },
+   "TXT_ROSE2": {
+    "text": "Please... Help me... _Find the rose_...",
+    "refs": []
+   },
+   "TXT_ROSE3": {
+    "text": "Yes! Yes!!! This is it! Please give it to me! And you can take one of these items, maybe they will be useful to you in your journey...",
+    "refs": []
+   },
+   "TXT_RAT1": {
+    "text": "Hello adventurer... Once I was like you - strong and confident... And now I'm dead... But I can't leave this place... Not until I have my revenge... Slay the _fetid rat_, that has taken my life...",
+    "refs": []
+   },
+   "TXT_RAT2": {
+    "text": "Please... Help me... _Slay the abomination_...",
+    "refs": []
+   },
+   "TXT_RAT3": {
+    "text": "Yes! The ugly creature is slain and I can finally rest... Please take one of these items, maybe they will be useful to you in your journey...",
+    "refs": []
+   },
+   "TXT_CURSE1": {
+    "text": "Hello adventurer... Once I was like you - strong and confident... And now I'm dead... But I can't leave this place, as I am bound by a horrid curse... Please... Help me... _Destroy the curse_...",
+    "refs": []
+   },
+   "TXT_CURSE2": {
+    "text": "Thank you, %s! The curse is broken and I can finally rest... Please take one of these items, maybe they will be useful to you in your journey...",
+    "refs": []
+   },
+   "TXT_YES": {
+    "text": "Yes, I will do it for you",
+    "refs": []
+   },
+   "TXT_NO": {
+    "text": "No, I can't help you",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Imp",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/npcs/Imp.java",
+  "name": "ambitious imp",
+  "desc": "Imps are lesser demons. They are notable for neither their strength nor their magic talent, but they are quite smart and sociable. Many imps prefer to live among non-demons.",
+  "spriteClass": "ImpSprite",
+  "consts": {
+   "TXT_GOLEMS1": {
+    "text": "Are you an adventurer? I love adventurers! You can always rely on them {if}{something}{needs}{to}{be}{killed.}{Am}{I}{right}{For}{a}{bounty}{of}{course}",
+    "refs": [
+     "if",
+     "something",
+     "needs",
+     "to",
+     "be",
+     "killed.",
+     "Am",
+     "I",
+     "right",
+     "For",
+     "a",
+     "bounty",
+     "of",
+     "course"
+    ]
+   },
+   "TXT_MONKS1": {
+    "text": "Are you an adventurer? I love adventurers! You can always rely on them {if}{something}{needs}{to}{be}{killed.}{Am}{I}{right}{For}{a}{bounty}{of}{course}",
+    "refs": [
+     "if",
+     "something",
+     "needs",
+     "to",
+     "be",
+     "killed.",
+     "Am",
+     "I",
+     "right",
+     "For",
+     "a",
+     "bounty",
+     "of",
+     "course"
+    ]
+   },
+   "TXT_GOLEMS2": {
+    "text": "How is your golem safari going?",
+    "refs": []
+   },
+   "TXT_MONKS2": {
+    "text": "{Oh}{you}{are}{still}{alive}{I}{knew}{that}{your}{kung}{fu}{is}{stronger}",
+    "refs": [
+     "Oh",
+     "you",
+     "are",
+     "still",
+     "alive",
+     "I",
+     "knew",
+     "that",
+     "your",
+     "kung",
+     "fu",
+     "is",
+     "stronger"
+    ]
+   },
+   "TXT_CYA": {
+    "text": "See you, %s!",
+    "refs": []
+   },
+   "TXT_HEY": {
+    "text": "Psst, %s!",
+    "refs": []
+   },
+   "NODE": {
+    "text": "demon",
+    "refs": []
+   },
+   "ALTERNATIVE": {
+    "text": "alternative",
+    "refs": []
+   },
+   "SPAWNED": {
+    "text": "spawned",
+    "refs": []
+   },
+   "GIVEN": {
+    "text": "given",
+    "refs": []
+   },
+   "COMPLETED": {
+    "text": "completed",
+    "refs": []
+   },
+   "REWARD": {
+    "text": "reward",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "ImpShopkeeper",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/npcs/ImpShopkeeper.java",
+  "name": "ambitious imp",
+  "desc": "Imps are lesser demons. They are notable for neither their strength nor their magic talent. But they are quite smart and sociable, and many of imps prefer to live and do business among non-demons.",
+  "spriteClass": "ImpSprite",
+  "consts": {
+   "TXT_GREETINGS": {
+    "text": "Hello, friend!",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "MirrorImage",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/npcs/MirrorImage.java",
+  "name": "mirror image",
+  "desc": "This illusion bears a close resemblance to you, but it's paler and twitches a little.",
+  "spriteClass": "MirrorSprite",
+  "consts": {
+   "TIER": {
+    "text": "tier",
+    "refs": []
+   },
+   "ATTACK": {
+    "text": "attack",
+    "refs": []
+   },
+   "DAMAGE": {
+    "text": "damage",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "RatKing",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/npcs/RatKing.java",
+  "name": "rat king",
+  "desc": "This rat is a little bigger than a regular marsupial rat and it's wearing a tiny crown on its head.",
+  "spriteClass": "RatKingSprite"
+ },
+ {
+  "class": "Shopkeeper",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/npcs/Shopkeeper.java",
+  "name": "shopkeeper",
+  "desc": "This stout guy looks more appropriate for a trade district in some large city than for a dungeon. His prices explain why he prefers to do business here.",
+  "spriteClass": "ShopkeeperSprite"
+ },
+ {
+  "class": "Wandmaker",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/npcs/Wandmaker.java",
+  "name": "old wandmaker",
+  "desc": "This old but hale gentleman wears a slightly confused expression. He is protected by a magic shield.",
+  "spriteClass": "WandmakerSprite",
+  "consts": {
+   "NODE": {
+    "text": "wandmaker",
+    "refs": []
+   },
+   "SPAWNED": {
+    "text": "spawned",
+    "refs": []
+   },
+   "TYPE": {
+    "text": "type",
+    "refs": []
+   },
+   "ALTERNATIVE": {
+    "text": "alternative",
+    "refs": []
+   },
+   "GIVEN": {
+    "text": "given",
+    "refs": []
+   },
+   "WAND1": {
+    "text": "wand1",
+    "refs": []
+   },
+   "WAND2": {
+    "text": "wand2",
+    "refs": []
+   }
+  }
+ }
+]

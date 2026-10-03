@@ -1,0 +1,40 @@
+# 怪物
+
+> 中文为人工翻译; 英文原文来自 pixel-dungeon v1.9.1 源码。「贴图」列给出精灵表名与原始 tile 序号, 与贴图项目 sprites.json 的 `coords[tile]` 一一对应。
+
+| 中文名 | 中文说明 | 英文原名 | 英文说明 | 贴图 |
+|---|---|---|---|---|
+| 酸液蝎蛛 | — | acidic scorpio | — | `scorpio` #16 |
+| 白化巨鼠 | — | albino rat | — | `rat` #0 |
+| 疯狂强盗 | — | crazy bandit | — | `thief` #0 |
+| 吸血蝙蝠 | 这些敏捷而顽强的洞顶居民能通过每一次成功的攻击回复生命，从而击败比自己大得多的对手。 | vampire bat | These brisk and tenacious inhabitants of cave domes may defeat much larger opponents by replenishing their health with each successful attack. | `bat` #0 |
+| 豺狼人蛮兵 | 蛮兵是所有豺狼人中体型最大、最强壮也最坚韧的。受到重伤时它们会陷入狂暴，对敌人造成更高的伤害。<br>`TXT_ENRAGED` %s 陷入了狂暴！ | gnoll brute | Brutes are the largest, strongest and toughest of all gnolls. When severely wounded, they go berserk, inflicting even more damage to their enemies. | `brute` #0 |
+| 下水道巨蟹 | 这些巨大的螃蟹位于下水道食物链的顶端。它们速度极快，厚重的外骨骼能扛住沉重的打击。 | sewer crab | These huge crabs are at the top of the food chain in the sewers. They are extremely fast and their thick exoskeleton can withstand heavy blows. | `crab` #0 |
+| 诅咒化身 | 这个生物外形酷似悲伤幽灵，却翻涌着黑暗。它的脸上挂着绝望的神情。 | curse personification | This creature resembles the sad ghost, but it swirls with darkness. Its face bears an expression of despair. | — |
+| DM-300 | 这台机器是矮人在几个世纪前造出来的。后来，矮人开始用魔像、元素、甚至恶魔来取代机器。这最终导致了他们文明的衰落。DM-300 之类的机器通常用于建筑和采矿，某些情况下也用于城防。 | — | This machine was created by the Dwarves several centuries ago. Later, Dwarves started to replace machines with golems, elementals and even demons. Eventually it led their civilization to the decline. The DM-300 and similar machines were typically used for construction and mining, and in some cases, for city defense. | `dm300` #0 |
+| 火元素 | 游荡的火元素是召唤强大存在的副产物。它们天性太过混乱，即便是最强大的恶魔学家也驾驭不了。 | fire elemental | Wandering fire elementals are a byproduct of summoning greater entities. They are too chaotic in their nature to be controlled by even the most powerful demonologist. | `elemental` #0 |
+| 邪眼 | 这个恶魔的另一个名字叫「仇恨之球」，因为它一旦发现敌人，就会不顾一切地使用死亡凝视，常常连同伴都不顾，把他们一起重伤。<br>`TXT_DEATHGAZE_KILLED` %s 的死亡凝视杀死了你…… | evil eye | One of this demon's other names is "orb of hatred", because when it sees an enemy, it uses its deathgaze recklessly, often ignoring its allies and wounding them. | `eye` #0 |
+| 恶臭巨鼠 | 这只巨鼠比普通的同类大得多，周身笼罩着一股恶臭的云雾。 | fetid rat | This marsupial rat is much larger than a regular one. It is surrounded by a foul cloud. | — |
+| 豺狼人斥候 | 豺狼人是形似鬣狗的人形生物。它们栖居在下水道和地牢中，时不时上到地面劫掠。斥候是族群里的普通成员，没有蛮兵强壮，也没有萨满聪明。 | gnoll scout | Gnolls are hyena-like humanoids. They dwell in sewers and dungeons, venturing up to raid the surface from time to time. Gnoll scouts are regular members of their pack, they are not as strong as brutes and not as intelligent as shamans. | `gnoll` #0 |
+| 魔像 | 矮人试图把机械知识与新掌握的元素束缚之力结合起来。他们用大地之灵作为魔像机械躯体的「灵魂」，认为这是最容易控制的一种。尽管如此，仪式中最微小的失误仍可能引发失控。 | golem | The Dwarves tried to combine their knowledge of mechanisms with their newfound power of elemental binding. They used spirits of earth as the "soul" for the mechanical bodies of golems, which were believed to be most controllable of all. Despite this, the tiniest mistake in the ritual could cause an outbreak. | `golem` #0 |
+| 咕噜 | 关于咕噜，人们所知甚少。它很可能根本算不上生物，而只是下水道里的一团物质，偶然获得了些许自由意志。 | — | Little known about The Goo. It's quite possible that it is not even a creature, but rather a conglomerate of substances from the sewers that gained rudiments of free will. | `goo` #0 |
+| 亡灵矮人 | 末代矮人国王以对生死之道的深刻理解而闻名。他说服朝廷成员参加一场本应赋予他们永恒青春的仪式。到头来只有他一个人得到了——外带一支亡灵大军作为赠品。 | undead dwarf | The last king of dwarves was known for his deep understanding of processes of life and death. He has persuaded members of his court to participate in a ritual, that should have granted them eternal youthfulness. In the end he was the only one, who got it - and an army of undead as a bonus. | `king` #0 |
+| 拟形怪 | 拟形怪是可以变成任意形状的魔法生物。在地牢里，它们几乎总是选择宝箱的形态，因为它们知道怎样才能勾引冒险者上钩。 | mimic | Mimics are magical creatures which can take any shape they wish. In dungeons they almost always choose a shape of a treasure chest, because they know how to beckon an adventurer. | `mimic` #0 |
+| — | 真正的描述即将推出！<br>`TXT_DIED` 你听到远处有什么东西死掉了<br>`TXT_ECHO` 的回声<br>`TXT_NOTICE1` ？！<br>`TXT_RAGE` #$%^<br>`TXT_EXP` %+d经验 | — | Real description is coming soon! | — |
+| 矮人武僧 | 这些武僧是狂信者，誓死保护自己城市的秘密不被任何外来者窥探。他们不使用护甲和武器，只依靠徒手格斗的技艺。<br>`TXT_DISARM` %s 把你手中的%s打飞了！ | dwarf monk | These monks are fanatics, who devoted themselves to protecting their city's secrets from all aliens. They don't use any armor or weapons, relying solely on the art of hand-to-hand combat. | `monk` #0 |
+| 巨型食人鱼 | 这些肉食性鱼类并非地下水塘的原生物种。它们是被专门培育出来，守护被水淹没的藏宝库的。 | giant piranha | These carnivorous fish are not natural inhabitants of underground pools. They were bred specifically to protect flooded treasure vaults. | `piranha` #0 |
+| 有袋巨鼠 | 有袋巨鼠攻击性强，但相当弱小，是下水道的常见居民。只有成群结队时它们才危险。 | marsupial rat | Marsupial rats are aggressive, but rather weak denizens of the sewers. They can be dangerous only in big numbers. | `rat` #0 |
+| 蝎蛛 | 这些巨大的蛛形恶魔会不惜一切避免近战，从远处射出致残的锯齿尖刺。 | scorpio | These huge arachnid-like demonic creatures avoid close combat by all means, firing crippling serrated spikes from long distances. | `scorpio` #0 |
+| 资深武僧 | — | senior monk | — | `monk` #0 |
+| 豺狼人萨满 | 最聪明的豺狼人能够掌握萨满法术。它们偏好战斗法术以弥补力量的不足，并且毫不迟疑地对那些质疑自己在族群中地位的人使用。<br>`TXT_LIGHTNING_KILLED` %s 的闪电杀死了你…… | gnoll shaman | The most intelligent gnolls can master shamanistic magic. Gnoll shamans prefer battle spells to compensate for lack of might, not hesitating to use them on those who question their status in a tribe. | `shaman` #0 |
+| 持盾蛮兵 | — | shielded brute | — | `brute` #16 |
+| 骷髅 | 骷髅由倒霉的冒险者与地牢居民的尸骨拼成，被来自地底的邪恶魔法气息驱动。受到足够伤害后，它们会炸成一堆碎骨。<br>`TXT_HERO_KILLED` 你被骨片的爆炸杀死了…… | skeleton | Skeletons are composed of corpses bones from unlucky adventurers and inhabitants of the dungeon, animated by emanations of evil magic from the depths below. After they have been damaged enough, they disintegrate in an explosion of bones. | `skeleton` #0 |
+| 洞窟纺蛛 | 这些毛茸茸的绿色洞窟蜘蛛会尽量避免正面战斗，宁愿远远等着，让被蛛网缠住的猎物慢慢死于它们的毒咬。 | cave spinner | These greenish furry cave spiders try to avoid direct combat, preferring to wait in the distance while their victim, entangled in the spinner's excreted cobweb, slowly dies from their poisonous bite. | `spinner` #0 |
+| 活化石像 | 你会以为这只是地牢里又一尊丑陋的石像，但它发着红光的眼睛出卖了它。石像本身是石头做的，可它握着的_{weapon.name}_看上去是真的。 | animated statue | You would think that it's just another ugly statue of this dungeon, but its red glowing eyes give itself away. While the statue itself is made of stone, the _{weapon.name}_, it's wielding, looks real. | `statue` #0 |
+| 魅魔 | 魅魔是外形如同妖艳少女（略带哥特味道）的恶魔。魅魔能用魔法魅惑英雄，使其在魅惑消退前无法攻击任何东西。 | succubus | The succubi are demons that look like seductive (in a slightly gothic way) girls. Using its magic, the succubus can charm a hero, who will become unable to attack anything until the charm wears off. | `succubus` #0 |
+| 蝇群 | 致命的蝇群愤怒地嗡嗡作响。每一次非魔法攻击都会把它分裂成两团更小、但同样危险的蝇群。 | swarm of flies | The deadly swarm of flies buzzes angrily. Every non-magical attack will split it into two smaller but equally dangerous swarms. | `swarm` #0 |
+| 天狗 | 天狗是古代刺客组织「天狗」的成员。这些刺客以大量使用手里剑和陷阱而闻名。 | — | Tengu are members of the ancient assassins clan, which is also called Tengu. These assassins are noted for extensive use of shuriken and traps. | `tengu` #0 |
+| 疯狂盗贼 | `TXT_STOLE` %s 偷走了你的%s！<br>`TXT_CARRIES` %s 正带着一个 _%s_。显然是偷来的。 | crazy thief | — | `thief` #0 |
+| 矮人术士 | 当矮人的兴趣从工程转向奥术时，术士们掌握了这座城市的权力。他们从元素魔法起步，但很快就转向了恶魔学与死灵术。<br>`TXT_SHADOWBOLT_KILLED` %s 的暗影箭杀死了你…… | dwarf warlock | When dwarves' interests have shifted from engineering to arcane arts, warlocks have come to power in the city. They started with elemental magic, but soon switched to demonology and necromancy. | `warlock` #0 |
+| 怨灵 | 怨灵是罪人的复仇之魂，其坟墓或墓穴遭到了侵扰。作为灵体，普通武器很难击中它。 | wraith | A wraith is a vengeful spirit of a sinner, whose grave or tomb was disturbed. Being an ethereal entity, it is very hard to hit with a regular weapon. | `wraith` #0 |
+| Yog-Dzewa | `TXT_DESC` Yog-Dzewa 是一位古神，来自混沌领域的强大存在。一个世纪前，古代矮人勉强打赢了对它那支恶魔军队的战争，却无法杀死这位神明本身。于是他们把它囚禁在自己城市下方的殿堂里，以为它已经衰弱到永远无法再起。 | rotting fist | — | `yog` #0 |

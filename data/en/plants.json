@@ -1,0 +1,136 @@
+[
+ {
+  "class": "Dreamweed",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/plants/Dreamweed.java",
+  "name": "seed of {plantName}",
+  "plantName": "Dreamweed",
+  "image": "ItemSpriteSheet.SEED_DREAMWEED",
+  "consts": {
+   "TXT_DESC": {
+    "text": "Upon touching a Dreamweed it secretes a glittering cloud of confusing gas.",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Earthroot",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/plants/Earthroot.java",
+  "name": "seed of {plantName}",
+  "plantName": "Earthroot",
+  "image": "ItemSpriteSheet.SEED_EARTHROOT",
+  "consts": {
+   "TXT_DESC": {
+    "text": "When a creature touches an Earthroot, its roots create a kind of natural armor around it.",
+    "refs": []
+   },
+   "POS": {
+    "text": "pos",
+    "refs": []
+   },
+   "LEVEL": {
+    "text": "level",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Fadeleaf",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/plants/Fadeleaf.java",
+  "name": "seed of {plantName}",
+  "plantName": "Fadeleaf",
+  "image": "ItemSpriteSheet.SEED_FADELEAF",
+  "consts": {
+   "TXT_DESC": {
+    "text": "Touching a Fadeleaf will teleport any creature to a random place on the current level.",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Firebloom",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/plants/Firebloom.java",
+  "name": "seed of {plantName}",
+  "plantName": "Firebloom",
+  "image": "ItemSpriteSheet.SEED_FIREBLOOM",
+  "consts": {
+   "TXT_DESC": {
+    "text": "When something touches a Firebloom, it bursts into flames.",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Icecap",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/plants/Icecap.java",
+  "name": "seed of {plantName}",
+  "plantName": "Icecap",
+  "image": "ItemSpriteSheet.SEED_ICECAP",
+  "consts": {
+   "TXT_DESC": {
+    "text": "Upon touching an Icecap excretes a pollen, which freezes everything in its vicinity.",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Plant",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/plants/Plant.java",
+  "consts": {
+   "POS": {
+    "text": "pos",
+    "refs": []
+   },
+   "AC_PLANT": {
+    "text": "PLANT",
+    "refs": []
+   },
+   "TXT_INFO": {
+    "text": "Throw this seed to the place where you want to grow %s.\n\n%s",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Rotberry",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/plants/Rotberry.java",
+  "name": "seed of {plantName}",
+  "plantName": "Rotberry",
+  "image": "ItemSpriteSheet.SEED_ROTBERRY",
+  "consts": {
+   "TXT_DESC": {
+    "text": "Berries of this shrub taste like sweet, sweet death.",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Sorrowmoss",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/plants/Sorrowmoss.java",
+  "name": "seed of {plantName}",
+  "plantName": "Sorrowmoss",
+  "image": "ItemSpriteSheet.SEED_SORROWMOSS",
+  "consts": {
+   "TXT_DESC": {
+    "text": "A Sorrowmoss is a flower (not a moss) with razor-sharp petals, coated with a deadly venom.",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Sungrass",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/plants/Sungrass.java",
+  "name": "seed of {plantName}",
+  "plantName": "Sungrass",
+  "image": "ItemSpriteSheet.SEED_SUNGRASS",
+  "consts": {
+   "TXT_DESC": {
+    "text": "Sungrass is renowned for its sap's healing properties.",
+    "refs": []
+   },
+   "POS": {
+    "text": "pos",
+    "refs": []
+   }
+  }
+ }
+]

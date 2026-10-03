@@ -1,0 +1,236 @@
+[
+ {
+  "class": "Belongings",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/hero/Belongings.java",
+  "name": "backpack",
+  "consts": {
+   "WEAPON": {
+    "text": "weapon",
+    "refs": []
+   },
+   "ARMOR": {
+    "text": "armor",
+    "refs": []
+   },
+   "RING1": {
+    "text": "ring1",
+    "refs": []
+   },
+   "RING2": {
+    "text": "ring2",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Hero",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/hero/Hero.java",
+  "name": "you",
+  "consts": {
+   "TXT_LEAVE": {
+    "text": "One does not simply leave Pixel Dungeon.",
+    "refs": []
+   },
+   "TXT_LEVEL_UP": {
+    "text": "level up!",
+    "refs": []
+   },
+   "TXT_NEW_LEVEL": {
+    "text": "Welcome to level %d! Now you are healthier and more focused. It's easier for you to hit enemies and dodge their attacks.",
+    "refs": []
+   },
+   "TXT_YOU_NOW_HAVE": {
+    "text": "You now have %s",
+    "refs": []
+   },
+   "TXT_SOMETHING_ELSE": {
+    "text": "There is something else here",
+    "refs": []
+   },
+   "TXT_LOCKED_CHEST": {
+    "text": "This chest is locked and you don't have matching key",
+    "refs": []
+   },
+   "TXT_LOCKED_DOOR": {
+    "text": "You don't have a matching key",
+    "refs": []
+   },
+   "TXT_NOTICED_SMTH": {
+    "text": "You noticed something",
+    "refs": []
+   },
+   "TXT_WAIT": {
+    "text": "...",
+    "refs": []
+   },
+   "TXT_SEARCH": {
+    "text": "search",
+    "refs": []
+   },
+   "ATTACK": {
+    "text": "attackSkill",
+    "refs": []
+   },
+   "DEFENSE": {
+    "text": "defenseSkill",
+    "refs": []
+   },
+   "STRENGTH": {
+    "text": "STR",
+    "refs": []
+   },
+   "LEVEL": {
+    "text": "lvl",
+    "refs": []
+   },
+   "EXPERIENCE": {
+    "text": "exp",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "HeroClass",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/hero/HeroClass.java",
+  "arrays": {
+   "WAR_PERKS": [
+    "Warriors start with 11 points of Strength.",
+    "Warriors start with a unique short sword. This sword can be later \"reforged\" to upgrade another melee weapon.",
+    "Warriors are less proficient with missile weapons.",
+    "Any piece of food restores some health when eaten.",
+    "Potions of Strength are identified from the beginning."
+   ],
+   "MAG_PERKS": [
+    "Mages start with a unique Wand of Magic Missile. This wand can be later \"disenchanted\" to upgrade another wand.",
+    "Mages recharge their wands faster.",
+    "When eaten, any piece of food restores 1 charge for all wands in the inventory.",
+    "Mages can use wands as a melee weapon.",
+    "Scrolls of Identify are identified from the beginning."
+   ],
+   "ROG_PERKS": [
+    "Rogues start with a Ring of Shadows+1.",
+    "Rogues identify a type of a ring on equipping it.",
+    "Rogues are proficient with light armor, dodging better while wearing one.",
+    "Rogues are proficient in detecting hidden doors and traps.",
+    "Rogues can go without food longer.",
+    "Scrolls of Magic Mapping are identified from the beginning."
+   ],
+   "HUN_PERKS": [
+    "Huntresses start with 15 points of Health.",
+    "Huntresses start with a unique upgradeable boomerang.",
+    "Huntresses are proficient with missile weapons and get a damage bonus for excessive strength when using them.",
+    "Huntresses gain more health from dewdrops.",
+    "Huntresses sense neighbouring monsters even if they are hidden behind obstacles."
+   ]
+  },
+  "enumEntries": {
+   "WARRIOR": {
+    "args": [
+     "warrior"
+    ],
+    "nums": []
+   },
+   "MAGE": {
+    "args": [
+     "mage"
+    ],
+    "nums": []
+   },
+   "ROGUE": {
+    "args": [
+     "rogue"
+    ],
+    "nums": []
+   },
+   "HUNTRESS": {
+    "args": [
+     "huntress"
+    ],
+    "nums": []
+   }
+  },
+  "consts": {
+   "CLASS": {
+    "text": "class",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "HeroSubClass",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/hero/HeroSubClass.java",
+  "enumEntries": {
+   "GLADIATOR": {
+    "args": [
+     "gladiator",
+     "A successful attack with a melee weapon allows the _Gladiator_ to start a combo, ",
+     "in which every next successful hit inflicts more damage."
+    ],
+    "nums": []
+   },
+   "BERSERKER": {
+    "args": [
+     "berserker",
+     "When severely wounded, the _Berserker_ enters a state of wild fury ",
+     "significantly increasing his damage output."
+    ],
+    "nums": []
+   },
+   "WARLOCK": {
+    "args": [
+     "warlock",
+     "After killing an enemy the _Warlock_ consumes its soul. ",
+     "It heals his wounds and satisfies his hunger."
+    ],
+    "nums": []
+   },
+   "BATTLEMAGE": {
+    "args": [
+     "battlemage",
+     "When fighting with a wand in his hands, the _Battlemage_ inflicts additional damage depending ",
+     "on the current number of charges. Every successful hit restores 1 charge to this wand."
+    ],
+    "nums": [
+     1
+    ]
+   },
+   "ASSASSIN": {
+    "args": [
+     "assassin",
+     "When performing a surprise attack, the _Assassin_ inflicts additional damage to his target."
+    ],
+    "nums": []
+   },
+   "FREERUNNER": {
+    "args": [
+     "freerunner",
+     "The _Freerunner_ can move almost twice faster, than most of the monsters. When he ",
+     "is running, the Freerunner is much harder to hit. For that he must be unencumbered and not starving."
+    ],
+    "nums": []
+   },
+   "SNIPER": {
+    "args": [
+     "sniper",
+     "_Snipers_ are able to detect weak points in an enemy's armor, ",
+     "effectively ignoring it when using a missile weapon."
+    ],
+    "nums": []
+   },
+   "WARDEN": {
+    "args": [
+     "warden",
+     "Having a strong connection with forces of nature gives _Wardens_ an ability to gather dewdrops and ",
+     "seeds from plants. Also trampling a high grass grants them a temporary armor buff."
+    ],
+    "nums": []
+   }
+  },
+  "consts": {
+   "SUBCLASS": {
+    "text": "subClass",
+    "refs": []
+   }
+  }
+ }
+]

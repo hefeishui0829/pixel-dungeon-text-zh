@@ -1,0 +1,43 @@
+[
+ {
+  "id": "ResultDescriptions",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "MOB": "在第 %d 层被%s杀死",
+   "BOSS": "在第 %d 层被%s杀死",
+   "WAND": "在第 %d 层被自己的%s杀死",
+   "GLYPH": "在第 %d 层被%s杀死",
+   "BOMB": "在第 %d 层被炸弹的爆炸炸死",
+   "TRAP": "在第 %d 层死于%s的放电",
+   "BURNING": "在第 %d 层被活活烧死",
+   "HUNGER": "在第 %d 层饿死",
+   "POISON": "在第 %d 层毒发身亡",
+   "GAS": "在第 %d 层死于毒气",
+   "BLEEDING": "在第 %d 层失血而死",
+   "OOZE": "在第 %d 层被腐蚀性黏液杀死",
+   "FALL": "在第 %d 层坠亡",
+   "WIN": "获得耶诺之护符"
+  },
+  "enConsts": {
+   "MOB": "Killed by %s on level %d",
+   "BOSS": "Killed by the %s on level %d",
+   "WAND": "Killed by your own %s on level %d",
+   "GLYPH": "Killed by the %s on level %d",
+   "BOMB": "Killed by an explosion of a bomb on level %d",
+   "TRAP": "Killed by discharge of %s on level %d",
+   "BURNING": "Burned to death on level %d",
+   "HUNGER": "Starved to death on level %d",
+   "POISON": "Died from poison on level %d",
+   "GAS": "Died from toxic gas on level %d",
+   "BLEEDING": "Bled to death on level %d",
+   "OOZE": "Killed by a caustic ooze on level %d",
+   "FALL": "Fell to death on level %d",
+   "WIN": "Obtained the Amulet of Yendor"
+  }
+ }
+]

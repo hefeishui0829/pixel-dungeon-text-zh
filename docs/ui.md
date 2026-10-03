@@ -1,0 +1,187 @@
+# 界面与剧情
+
+> 中文为人工翻译; 英文原文来自 pixel-dungeon v1.9.1 源码。「贴图」列给出精灵表名与原始 tile 序号, 与贴图项目 sprites.json 的 `coords[tile]` 一一对应。
+
+## AboutScene
+
+- `TXT` 程序与美术：Watabou 音乐：Cube_Code  本作灵感来自 Brian Walker 的 Brogue。{Try}{it}{on}{Windows}{Mac}{OS}{or}{Linux}{it}{s}{awesome}
+
+## AmuletScene
+
+- `TXT_EXIT` 今天就到此为止吧
+- `TXT_STAY` 我还没玩够
+- `TXT` 你终于把它握在了手里——耶诺之护符。借助它的力量，你可以征服世界，也可以为人民带来和平与繁荣，或者随便做点什么。总之，你的人生将彻底改变，而这场游戏到此为止。当然，你也可以再当一阵子凡人。
+
+## GameScene
+
+- `TXT_WELCOME` 欢迎来到像素地牢第 %d 层！
+- `TXT_WELCOME_BACK` 欢迎回到像素地牢第 %d 层！
+- `TXT_NIGHT_MODE` 小心点，夜晚的地牢更加危险！
+- `TXT_CHASM` 你的脚步声在地牢中回荡。
+- `TXT_WATER` 你听到四周水花四溅的声音。
+- `TXT_GRASS` 空气中弥漫着浓重的草木气息。
+- `TXT_SECRETS` 这里的气氛暗示着，本层藏着不少秘密。
+
+## InterlevelScene
+
+- `TXT_DESCENDING` 正在下楼……
+- `TXT_ASCENDING` 正在上楼……
+- `TXT_LOADING` 载入中……
+- `TXT_RESURRECTING` 复活中……
+- `TXT_RETURNING` 返回中……
+- `TXT_FALLING` 坠落中……
+- `ERR_FILE_NOT_FOUND` 找不到文件。原因不明。
+- `ERR_GENERIC` 出了点问题……
+
+## IntroScene
+
+- `TEXT` 在你之前，各式各样的英雄都曾闯入这座地牢。有些人带着财宝和魔法神器归来，大多数人则从此音讯全无。但至今没有一个人成功取回耶诺之护符——据说它被藏在地牢的最深处。  你认为自己已经准备好迎接这个挑战，更重要的是，你感觉到命运正在对你微笑。是时候开启属于你自己的冒险了！
+
+## RankingsScene
+
+- `TXT_TITLE` 排行榜
+- `TXT_TOTAL` 已进行游戏：
+- `TXT_NO_GAMES` 还没有进行过任何游戏。
+- `TXT_NO_INFO` 没有更多信息
+
+## StartScene
+
+- `TXT_LOAD` 读取游戏
+- `TXT_NEW` 新游戏
+- `TXT_ERASE` 清除当前存档
+- `TXT_DPTH_LVL` 深度：%d，等级：%d
+- `TXT_REALLY` 你真的要开始新游戏吗？
+- `TXT_WARNING` 当前游戏进度将被清除。
+- `TXT_YES` 是的，开始新游戏
+- `TXT_NO` 不，返回主菜单
+- `TXT_UNLOCK` 用其他任意职业击杀第三个 Boss，即可解锁这个职业
+- `TXT_WIN_THE_GAME` 用任意职业通关一次，即可解锁「挑战模式」。
+
+## WndBlacksmith
+
+- `TXT_PROMPT` 好吧，说好的就是说好的，我能帮你做的是：把 2 件物品重铸，合成一件品质更好的。
+- `TXT_SELECT` 选择一件物品进行重铸
+- `TXT_REFORGE` 开始重铸
+
+## WndChallenges
+
+- `TITLE` 挑战
+
+## WndClass
+
+- `TXT_MASTERY` 精通
+
+## WndGame
+
+- `TXT_SETTINGS` 设置
+- `TXT_CHALLEGES` 挑战
+- `TXT_RANKINGS` 排行榜
+- `TXT_START` 开始新游戏
+- `TXT_MENU` 主菜单
+- `TXT_EXIT` 退出游戏
+- `TXT_RETURN` 返回游戏
+
+## WndHero
+
+- `TXT_STATS` 属性
+- `TXT_BUFFS` 状态
+- `TXT_EXP` 经验
+- `TXT_STR` 力量
+- `TXT_HEALTH` 生命
+- `TXT_GOLD` 已收集金币
+- `TXT_DEPTH` 最深楼层
+- `TXT_TITLE` 等级 %d %s
+- `TXT_CATALOGUS` 图鉴
+- `TXT_JOURNAL` 日志
+
+## WndImp
+
+- `TXT_MESSAGE` 哦太好了！你就是我的英雄！至于报酬嘛，我身上现在没现金，但我有更好的东西给你。这是我们家的传家戒指：我爷爷从一个死掉的圣骑士手指上撸下来的。
+- `TXT_REWARD` 收下戒指
+
+## WndInfoCell
+
+- `TXT_NOTHING` 这里什么都没有。
+
+## WndInfoItem
+
+- `TXT_CHEST` 箱子
+- `TXT_LOCKED_CHEST` 上锁的箱子
+- `TXT_CRYSTAL_CHEST` 水晶箱
+- `TXT_TOMB` 石棺
+- `TXT_SKELETON` 骸骨残骸
+- `TXT_WONT_KNOW` 不打开它，你就不会知道里面有什么！
+- `TXT_NEED_KEY` {TXT_WONT_KNOW} 但要打开它，你需要一把金钥匙。
+- `TXT_INSIDE` 你能看见里面有 %s，但要打开箱子需要一把金钥匙。
+- `TXT_OWNER` 这座古老石棺里也许有些有用的东西，但它的主人绝对会反对你翻查。
+- `TXT_REMAINS` 这是你某位前辈留下的全部遗物。也许值得翻找一下，看看有没有值钱的东西。
+
+## WndRanking
+
+- `TXT_ERROR` 无法载入更多信息
+- `TXT_STATS` 属性
+- `TXT_ITEMS` 物品
+- `TXT_BADGES` 徽章
+- `TXT_TITLE` 等级 %d %s
+- `TXT_CHALLENGES` 挑战
+- `TXT_HEALTH` 生命
+- `TXT_STR` 力量
+- `TXT_DURATION` 游戏时长
+- `TXT_DEPTH` 最深楼层
+- `TXT_ENEMIES` 击杀怪物
+- `TXT_GOLD` 已收集金币
+- `TXT_FOOD` 食用食物
+- `TXT_ALCHEMY` 调配药水
+- `TXT_ANKHS` 使用安卡
+
+## WndResurrect
+
+- `TXT_MESSAGE` 你死去了，但你获得了再来一次的机会去征服这座地牢。你要接受吗？
+- `TXT_YES` 要，我要继续战斗！
+- `TXT_NO` 不，我放弃了
+
+## WndSadGhost
+
+- `TXT_WEAPON` 幽灵的武器
+- `TXT_ARMOR` 幽灵的护甲
+
+## WndSettings
+
+- `TXT_ZOOM_IN` +
+- `TXT_ZOOM_OUT` -
+- `TXT_ZOOM_DEFAULT` 默认缩放
+- `TXT_SCALE_UP` 放大界面
+- `TXT_IMMERSIVE` 沉浸模式
+- `TXT_MUSIC` 音乐
+- `TXT_SOUND` 音效
+- `TXT_BRIGHTNESS` 亮度
+- `TXT_QUICKSLOT` 第二个快捷栏
+- `TXT_SWITCH_PORT` 切换为竖屏
+- `TXT_SWITCH_LAND` 切换为横屏
+
+## WndStory
+
+- `SEWERS` 地牢就位于城市的正下方，它最上面几层实际上就是城市的下水道系统。名义上属于城市的一部分，这几层并不算太危险。没人会说这里安全，但至少你还不必应付邪恶的魔法。
+- `PRISON` 许多年前，这里建起了一座关押最危险罪犯的地下监狱。在当时看来这是个非常聪明的主意，因为这地方确实极难逃脱。但很快，黑暗的瘴气开始从下方渗透进来，把囚犯和看守都逼疯了。最终监狱被废弃，不过有些犯人被锁在这里，再也没能出去。
+- `CAVES` 延伸在被废弃监狱下方的洞窟人烟稀少。它们埋得太深，城市无力开发；矿产又太贫瘠，矮人看不上眼。过去，在两大势力之间的商路上曾有过一处贸易哨站，但自从矮人都城衰败后，它也随之消亡。如今这里只有无处不在的豺狼人和地下动物栖居。
+- `METROPOLIS` 矮人都城曾是最伟大的矮人城邦。鼎盛时期，矮人的机械化大军成功击退了古神与其恶魔军团的入侵。但据说，凯旋的战士们带回了腐化的种子——那场胜利，正是这个地下王国终结的开端。
+- `HALLS` 过去，这几层是都城的郊区。与古神一战代价惨重，矮人元气大伤，无力清除残留的恶魔。渐渐地，恶魔收紧了对这里的控制，如今它被称作恶魔殿堂。<br><br>能有幸深入到这里的冒险者寥寥无几……
+
+## WndTradeItem
+
+- `TXT_SALE` 出售：%s - %d 金
+- `TXT_BUY` 以 %d 金买入
+- `TXT_SELL` 以 %d 金卖出
+- `TXT_SELL_1` 卖出 1 个，得 %d 金
+- `TXT_SELL_ALL` 全部卖出，得 %d 金
+- `TXT_CANCEL` 算了
+- `TXT_SOLD` 你把%s卖了 %d 金
+- `TXT_BOUGHT` 你花 %d 金买下了%s
+
+## WndWandmaker
+
+- `TXT_MESSAGE` 哦，看来你成功了！希望这没给你添太多麻烦。就像我承诺的那样，你可以从我这些高品质法杖里挑一支。
+- `TXT_BATTLE` 战斗型法杖
+- `TXT_NON_BATTLE` 非战斗型法杖
+- `TXT_FARAWELL` 祝你一路顺风，%s！
+

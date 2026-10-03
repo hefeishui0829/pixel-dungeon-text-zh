@@ -1,0 +1,150 @@
+[
+ {
+  "id": "Bleeding",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "LEVEL": "level"
+  }
+ },
+ {
+  "id": "Burning",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "TXT_BURNS_UP": "%s 烧起来了！",
+   "TXT_BURNED_TO_DEATH": "你被活活烧死了……"
+  },
+  "enConsts": {
+   "TXT_BURNS_UP": "%s burns up!",
+   "TXT_BURNED_TO_DEATH": "You burned to death...",
+   "LEFT": "left"
+  }
+ },
+ {
+  "id": "Charm",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "OBJECT": "object"
+  }
+ },
+ {
+  "id": "Combo",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "TXT_COMBO": "%d 连击！"
+  },
+  "enConsts": {
+   "TXT_COMBO": "%d hit combo!"
+  }
+ },
+ {
+  "id": "Hunger",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "TXT_HUNGRY": "你饿了。",
+   "TXT_STARVING": "你快饿死了！",
+   "TXT_DEATH": "你饿死了……"
+  },
+  "enConsts": {
+   "TXT_HUNGRY": "You are hungry.",
+   "TXT_STARVING": "You are starving!",
+   "TXT_DEATH": "You starved to death...",
+   "LEVEL": "level"
+  }
+ },
+ {
+  "id": "Ooze",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "TXT_HERO_KILLED": "%s 杀死了你……"
+  },
+  "enConsts": {
+   "TXT_HERO_KILLED": "%s killed you..."
+  }
+ },
+ {
+  "id": "Poison",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "TXT_VENOMOUS": "剧毒%s"
+  },
+  "enConsts": {
+   "LEFT": "left"
+  }
+ },
+ {
+  "id": "Shadows",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "LEFT": "left"
+  }
+ },
+ {
+  "id": "SnipersMark",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "OBJECT": "object"
+  }
+ },
+ {
+  "id": "Terror",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "OBJECT": "object"
+  }
+ }
+]

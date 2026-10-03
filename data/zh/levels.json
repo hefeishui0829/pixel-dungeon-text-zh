@@ -1,0 +1,137 @@
+[
+ {
+  "id": "CavesBossLevel",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "DOOR": "door",
+   "ENTERED": "entered",
+   "DROPPED": "droppped"
+  }
+ },
+ {
+  "id": "CityBossLevel",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "DOOR": "door",
+   "ENTERED": "entered",
+   "DROPPED": "droppped"
+  }
+ },
+ {
+  "id": "HallsBossLevel",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "STAIRS": "stairs",
+   "ENTERED": "entered",
+   "DROPPED": "droppped"
+  }
+ },
+ {
+  "id": "Level",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "TXT_HIDDEN_PLATE_CLICKS": "一块隐藏的压力板发出咔哒声！",
+   "MAP": "地图",
+   "VISITED": "已探索",
+   "MAPPED": "已绘制",
+   "ENTRANCE": "入口",
+   "EXIT": "出口",
+   "HEAPS": "物品堆",
+   "PLANTS": "植物",
+   "MOBS": "怪物",
+   "BLOBS": "气体"
+  },
+  "enConsts": {
+   "TXT_HIDDEN_PLATE_CLICKS": "A hidden pressure plate clicks!",
+   "MAP": "map",
+   "VISITED": "visited",
+   "MAPPED": "mapped",
+   "ENTRANCE": "entrance",
+   "EXIT": "exit",
+   "HEAPS": "heaps",
+   "PLANTS": "plants",
+   "MOBS": "mobs",
+   "BLOBS": "blobs"
+  }
+ },
+ {
+  "id": "LightningTrap",
+  "group": null,
+  "zh": "闪电陷阱",
+  "en": "lightning trap",
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "name": "lightning trap"
+  }
+ },
+ {
+  "id": "PrisonBossLevel",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "ARENA": "arena",
+   "DOOR": "door",
+   "ENTERED": "entered",
+   "DROPPED": "droppped"
+  }
+ },
+ {
+  "id": "Room",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "ROOMS": "房间"
+  },
+  "enConsts": {
+   "ROOMS": "rooms"
+  }
+ },
+ {
+  "id": "SewerBossLevel",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "STAIRS": "stairs"
+  }
+ }
+]

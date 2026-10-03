@@ -1,0 +1,122 @@
+[
+ {
+  "id": "Journal",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "FEATURE": "feature",
+   "DEPTH": "depth",
+   "JOURNAL": "journal"
+  },
+  "enum": {
+   "WELL_OF_HEALTH": {
+    "en": [
+     "Well of Health"
+    ],
+    "zh": [
+     "治疗之井"
+    ]
+   },
+   "WELL_OF_AWARENESS": {
+    "en": [
+     "Well of Awareness"
+    ],
+    "zh": [
+     "觉察之井"
+    ]
+   },
+   "WELL_OF_TRANSMUTATION": {
+    "en": [
+     "Well of Transmutation"
+    ],
+    "zh": [
+     "嬗变之井"
+    ]
+   },
+   "SACRIFICIAL_FIRE": {
+    "en": [
+     "Sacrificial chamber"
+    ],
+    "zh": [
+     "献祭之室"
+    ]
+   },
+   "ALCHEMY": {
+    "en": [
+     "Alchemy pot"
+    ],
+    "zh": [
+     "炼金锅"
+    ]
+   },
+   "GARDEN": {
+    "en": [
+     "Garden"
+    ],
+    "zh": [
+     "花园"
+    ]
+   },
+   "STATUE": {
+    "en": [
+     "Animated statue"
+    ],
+    "zh": [
+     "活化石像"
+    ]
+   },
+   "GHOST": {
+    "en": [
+     "Sad ghost"
+    ],
+    "zh": [
+     "悲伤幽灵"
+    ]
+   },
+   "WANDMAKER": {
+    "en": [
+     "Old wandmaker"
+    ],
+    "zh": [
+     "老法杖匠"
+    ]
+   },
+   "TROLL": {
+    "en": [
+     "Troll blacksmith"
+    ],
+    "zh": [
+     "巨魔铁匠"
+    ]
+   },
+   "IMP": {
+    "en": [
+     "Ambitious imp"
+    ],
+    "zh": [
+     "野心勃勃的小恶魔"
+    ]
+   }
+  }
+ },
+ {
+  "id": "WndJournal",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "TXT_TITLE": "日志"
+  },
+  "enConsts": {
+   "TXT_TITLE": "Journal"
+  }
+ }
+]

@@ -1,0 +1,200 @@
+[
+ {
+  "id": "Dreamweed",
+  "group": null,
+  "zh": "梦草",
+  "en": "seed of {plantName}",
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": {
+   "sheet": "plants",
+   "tile": 3
+  },
+  "zhConsts": {
+   "TXT_DESC": "一被触碰，梦草就会分泌出一片闪闪发光的迷乱气体。"
+  },
+  "enConsts": {
+   "TXT_DESC": "Upon touching a Dreamweed it secretes a glittering cloud of confusing gas."
+  },
+  "seedSprite": {
+   "sheet": "items",
+   "tile": 91
+  }
+ },
+ {
+  "id": "Earthroot",
+  "group": null,
+  "zh": "地根草",
+  "en": "seed of {plantName}",
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": {
+   "sheet": "plants",
+   "tile": 5
+  },
+  "zhConsts": {
+   "TXT_DESC": "当有生物触碰地根草时，它的根须会在其周围形成一层天然护甲。"
+  },
+  "enConsts": {
+   "TXT_DESC": "When a creature touches an Earthroot, its roots create a kind of natural armor around it.",
+   "POS": "pos",
+   "LEVEL": "level"
+  },
+  "seedSprite": {
+   "sheet": "items",
+   "tile": 93
+  }
+ },
+ {
+  "id": "Fadeleaf",
+  "group": null,
+  "zh": "凋零叶",
+  "en": "seed of {plantName}",
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": {
+   "sheet": "plants",
+   "tile": 6
+  },
+  "zhConsts": {
+   "TXT_DESC": "触碰凋零叶会把生物传送到当前楼层的某个随机位置。"
+  },
+  "enConsts": {
+   "TXT_DESC": "Touching a Fadeleaf will teleport any creature to a random place on the current level."
+  },
+  "seedSprite": {
+   "sheet": "items",
+   "tile": 94
+  }
+ },
+ {
+  "id": "Firebloom",
+  "group": null,
+  "zh": "火焰花",
+  "en": "seed of {plantName}",
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": {
+   "sheet": "plants",
+   "tile": 0
+  },
+  "zhConsts": {
+   "TXT_DESC": "任何东西一碰到火焰花，它就会爆出火焰。"
+  },
+  "enConsts": {
+   "TXT_DESC": "When something touches a Firebloom, it bursts into flames."
+  },
+  "seedSprite": {
+   "sheet": "items",
+   "tile": 88
+  }
+ },
+ {
+  "id": "Icecap",
+  "group": null,
+  "zh": "冰帽花",
+  "en": "seed of {plantName}",
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": {
+   "sheet": "plants",
+   "tile": 1
+  },
+  "zhConsts": {
+   "TXT_DESC": "一被触碰，冰帽花就会喷出花粉，把周围的一切都冻住。"
+  },
+  "enConsts": {
+   "TXT_DESC": "Upon touching an Icecap excretes a pollen, which freezes everything in its vicinity."
+  },
+  "seedSprite": {
+   "sheet": "items",
+   "tile": 89
+  }
+ },
+ {
+  "id": "Plant",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "AC_PLANT": "种植",
+   "TXT_INFO": "把这颗种子扔到你想让 %s 生长的地方。  %s",
+   "POS": "位置"
+  },
+  "enConsts": {
+   "POS": "pos",
+   "AC_PLANT": "PLANT",
+   "TXT_INFO": "Throw this seed to the place where you want to grow %s.\n\n%s"
+  }
+ },
+ {
+  "id": "Rotberry",
+  "group": null,
+  "zh": "腐浆果",
+  "en": "seed of {plantName}",
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": {
+   "sheet": "plants",
+   "tile": 7
+  },
+  "zhConsts": {
+   "TXT_DESC": "这种灌木的浆果，尝起来是甜美的、甜美的死亡。"
+  },
+  "enConsts": {
+   "TXT_DESC": "Berries of this shrub taste like sweet, sweet death."
+  },
+  "seedSprite": {
+   "sheet": "items",
+   "tile": 95
+  }
+ },
+ {
+  "id": "Sorrowmoss",
+  "group": null,
+  "zh": "悲伤苔",
+  "en": "seed of {plantName}",
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": {
+   "sheet": "plants",
+   "tile": 2
+  },
+  "zhConsts": {
+   "TXT_DESC": "悲伤苔其实是一种花（不是苔藓），花瓣如剃刀般锋利，上面覆着致命的毒液。"
+  },
+  "enConsts": {
+   "TXT_DESC": "A Sorrowmoss is a flower (not a moss) with razor-sharp petals, coated with a deadly venom."
+  },
+  "seedSprite": {
+   "sheet": "items",
+   "tile": 90
+  }
+ },
+ {
+  "id": "Sungrass",
+  "group": null,
+  "zh": "太阳草",
+  "en": "seed of {plantName}",
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": {
+   "sheet": "plants",
+   "tile": 4
+  },
+  "zhConsts": {
+   "TXT_DESC": "太阳草以其汁液的治愈功效而闻名。"
+  },
+  "enConsts": {
+   "TXT_DESC": "Sungrass is renowned for its sap's healing properties.",
+   "POS": "pos"
+  },
+  "seedSprite": {
+   "sheet": "items",
+   "tile": 92
+  }
+ }
+]

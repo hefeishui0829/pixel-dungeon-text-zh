@@ -1,0 +1,155 @@
+[
+ {
+  "class": "CavesBossLevel",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/levels/CavesBossLevel.java",
+  "consts": {
+   "DOOR": {
+    "text": "door",
+    "refs": []
+   },
+   "ENTERED": {
+    "text": "entered",
+    "refs": []
+   },
+   "DROPPED": {
+    "text": "droppped",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "CityBossLevel",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/levels/CityBossLevel.java",
+  "consts": {
+   "DOOR": {
+    "text": "door",
+    "refs": []
+   },
+   "ENTERED": {
+    "text": "entered",
+    "refs": []
+   },
+   "DROPPED": {
+    "text": "droppped",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "HallsBossLevel",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/levels/HallsBossLevel.java",
+  "consts": {
+   "STAIRS": {
+    "text": "stairs",
+    "refs": []
+   },
+   "ENTERED": {
+    "text": "entered",
+    "refs": []
+   },
+   "DROPPED": {
+    "text": "droppped",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Level",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/levels/Level.java",
+  "consts": {
+   "TXT_HIDDEN_PLATE_CLICKS": {
+    "text": "A hidden pressure plate clicks!",
+    "refs": []
+   },
+   "MAP": {
+    "text": "map",
+    "refs": []
+   },
+   "VISITED": {
+    "text": "visited",
+    "refs": []
+   },
+   "MAPPED": {
+    "text": "mapped",
+    "refs": []
+   },
+   "ENTRANCE": {
+    "text": "entrance",
+    "refs": []
+   },
+   "EXIT": {
+    "text": "exit",
+    "refs": []
+   },
+   "HEAPS": {
+    "text": "heaps",
+    "refs": []
+   },
+   "PLANTS": {
+    "text": "plants",
+    "refs": []
+   },
+   "MOBS": {
+    "text": "mobs",
+    "refs": []
+   },
+   "BLOBS": {
+    "text": "blobs",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "LightningTrap",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/levels/traps/LightningTrap.java",
+  "name": "lightning trap",
+  "consts": {
+   "name": {
+    "text": "lightning trap",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "PrisonBossLevel",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/levels/PrisonBossLevel.java",
+  "consts": {
+   "ARENA": {
+    "text": "arena",
+    "refs": []
+   },
+   "DOOR": {
+    "text": "door",
+    "refs": []
+   },
+   "ENTERED": {
+    "text": "entered",
+    "refs": []
+   },
+   "DROPPED": {
+    "text": "droppped",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Room",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/levels/Room.java",
+  "consts": {
+   "ROOMS": {
+    "text": "rooms",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "SewerBossLevel",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/levels/SewerBossLevel.java",
+  "consts": {
+   "STAIRS": {
+    "text": "stairs",
+    "refs": []
+   }
+  }
+ }
+]

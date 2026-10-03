@@ -1,0 +1,219 @@
+[
+ {
+  "id": "Bee",
+  "group": null,
+  "zh": "金色蜜蜂",
+  "en": "golden bee",
+  "zhDesc": "尽管个头很小，金色蜜蜂却会凶狠地保护自己的主人。不过它们活不长。",
+  "enDesc": "Despite their small size, golden bees tend to protect their master fiercely. They don't live long though.",
+  "sprite": {
+   "sheet": "bee",
+   "tile": 0
+  },
+  "zhConsts": null,
+  "enConsts": {
+   "LEVEL": "level"
+  }
+ },
+ {
+  "id": "Blacksmith",
+  "group": null,
+  "zh": "巨魔铁匠",
+  "en": "troll blacksmith",
+  "zhDesc": "这个巨魔铁匠长得和所有巨魔一样：又高又瘦，皮肤无论颜色还是质感都像石头。他正摆弄着一套小得不成比例的工具。",
+  "enDesc": "This troll blacksmith looks like all trolls look: he is tall and lean, and his skin resembles stone in both color and texture. The troll blacksmith is tinkering with unproportionally small tools.",
+  "sprite": {
+   "sheet": "blacksmith",
+   "tile": 0
+  },
+  "zhConsts": {
+   "TXT_GOLD_1": "嘿，人类！想不想做点有用的事，嗯？拿上这把鹤嘴锄，给我挖点 _暗金矿石_，_15 块_就够了。你问我要怎么付你钱？你可真贪……好吧好吧，我没钱付你，但我可以帮你打点铁器。算你走运，这一带只有我一个铁匠。",
+   "TXT_BLOOD_1": "嘿，人类！想不想做点有用的事，嗯？拿上这把鹤嘴锄，_杀一只蝙蝠_，我要把血涂在锄头上。你问我要怎么付你钱？你可真贪……好吧好吧，我没钱付你，但我可以帮你打点铁器。算你走运，这一带只有我一个铁匠。",
+   "TXT2": "你在跟我开玩笑吗？我的鹤嘴锄呢？！",
+   "TXT3": "暗金矿石，15 块。说真的，这有那么难吗？",
+   "TXT4": "我说过我要锄头上沾着蝙蝠的血。快点动手！",
+   "TXT_COMPLETED": "哦，你回来了……迟到总比不到好。",
+   "TXT_GET_LOST": "我正忙。一边去！",
+   "TXT_LOOKS_BETTER": "你的%s现在看起来顺眼多了"
+  },
+  "enConsts": {
+   "TXT_GOLD_1": "Hey human! Wanna be useful, eh? Take dis pickaxe and mine me some _dark gold ore_, _15 pieces_ should be enough. What do you mean, how am I gonna pay? You greedy...\nOk, ok, I don't have money to pay, but I can do some smithin' for you. Consider yourself lucky, I'm the only blacksmith around.",
+   "TXT_BLOOD_1": "Hey human! Wanna be useful, eh? Take dis pickaxe and _kill a bat_ wit' it, I need its blood on the head. What do you mean, how am I gonna pay? You greedy...\nOk, ok, I don't have money to pay, but I can do some smithin' for you. Consider yourself lucky, I'm the only blacksmith around.",
+   "TXT2": "Are you kiddin' me? Where is my pickaxe?!",
+   "TXT3": "Dark gold ore. 15 pieces. Seriously, is it dat hard?",
+   "TXT4": "I said I need bat blood on the pickaxe. Chop chop!",
+   "TXT_COMPLETED": "Oh, you have returned... Better late dan never.",
+   "TXT_GET_LOST": "I'm busy. Get lost!",
+   "TXT_LOOKS_BETTER": "your %s certainly looks better now",
+   "NODE": "blacksmith",
+   "SPAWNED": "spawned",
+   "ALTERNATIVE": "alternative",
+   "GIVEN": "given",
+   "COMPLETED": "completed",
+   "REFORGED": "reforged"
+  }
+ },
+ {
+  "id": "Ghost",
+  "group": null,
+  "zh": "悲伤幽灵",
+  "en": "sad ghost",
+  "zhDesc": "幽灵几乎看不见。它像是一团无形的光斑，上面浮着一张哀伤的脸。",
+  "enDesc": "The ghost is barely visible. It looks like a shapeless spot of faint light with a sorrowful face.",
+  "sprite": {
+   "sheet": "ghost",
+   "tile": 0
+  },
+  "zhConsts": {
+   "TXT_ROSE1": "你好啊，冒险者……曾经我也像你一样——强壮而自信……可现在我已经死了……但我离不开这个地方……除非找回我的 _干枯的玫瑰_……它对我非常重要……有只怪物把它从我身上偷走了……",
+   "TXT_ROSE2": "求你了……帮帮我……_找到那朵玫瑰_……",
+   "TXT_ROSE3": "对！对！！！就是它！请把它交给我！你可以从这些东西里挑一件，也许它们能在你的旅途中派上用场……",
+   "TXT_RAT1": "你好啊，冒险者……曾经我也像你一样——强壮而自信……可现在我已经死了……但我离不开这个地方……除非报了这仇……杀掉那只夺走我性命的 _恶臭巨鼠_……",
+   "TXT_RAT2": "求你了……帮帮我……_宰掉那头怪物_……",
+   "TXT_RAT3": "太好了！那只丑陋的怪物死了，我终于可以安息了……请从这些东西里挑一件吧，也许它们能在你的旅途中派上用场……",
+   "TXT_CURSE1": "你好啊，冒险者……曾经我也像你一样——强壮而自信……可现在我已经死了……但我离不开这个地方，我被一个可怕的诅咒束缚着……求你了……帮帮我……_破除这个诅咒_……",
+   "TXT_CURSE2": "谢谢你，%s！诅咒解除了，我终于可以安息了……请从这些东西里挑一件吧，也许它们能在你的旅途中派上用场……",
+   "TXT_YES": "好的，我愿意为你去做",
+   "TXT_NO": "不行，我帮不了你"
+  },
+  "enConsts": {
+   "NODE": "sadGhost",
+   "SPAWNED": "spawned",
+   "TYPE": "type",
+   "ALTERNATIVE": "alternative",
+   "LEFT2KILL": "left2kill",
+   "GIVEN": "given",
+   "PROCESSED": "processed",
+   "DEPTH": "depth",
+   "WEAPON": "weapon",
+   "ARMOR": "armor",
+   "TXT_ROSE1": "Hello adventurer... Once I was like you - strong and confident... And now I'm dead... But I can't leave this place... Not until I have my _dried rose_... It's very important to me... Some monster stole it from my body...",
+   "TXT_ROSE2": "Please... Help me... _Find the rose_...",
+   "TXT_ROSE3": "Yes! Yes!!! This is it! Please give it to me! And you can take one of these items, maybe they will be useful to you in your journey...",
+   "TXT_RAT1": "Hello adventurer... Once I was like you - strong and confident... And now I'm dead... But I can't leave this place... Not until I have my revenge... Slay the _fetid rat_, that has taken my life...",
+   "TXT_RAT2": "Please... Help me... _Slay the abomination_...",
+   "TXT_RAT3": "Yes! The ugly creature is slain and I can finally rest... Please take one of these items, maybe they will be useful to you in your journey...",
+   "TXT_CURSE1": "Hello adventurer... Once I was like you - strong and confident... And now I'm dead... But I can't leave this place, as I am bound by a horrid curse... Please... Help me... _Destroy the curse_...",
+   "TXT_CURSE2": "Thank you, %s! The curse is broken and I can finally rest... Please take one of these items, maybe they will be useful to you in your journey...",
+   "TXT_YES": "Yes, I will do it for you",
+   "TXT_NO": "No, I can't help you"
+  }
+ },
+ {
+  "id": "Imp",
+  "group": null,
+  "zh": "野心勃勃的小恶魔",
+  "en": "ambitious imp",
+  "zhDesc": "小恶魔是低等恶魔。它们的力量和魔法天赋都不出众，但相当聪明而且善于交际。许多小恶魔更喜欢和非恶魔住在一起。",
+  "enDesc": "Imps are lesser demons. They are notable for neither their strength nor their magic talent, but they are quite smart and sociable. Many imps prefer to live among non-demons.",
+  "sprite": {
+   "sheet": "demon",
+   "tile": 0
+  },
+  "zhConsts": {
+   "TXT_GOLEMS1": "你是冒险者吗？我最喜欢冒险者了！只要有东西需要被干掉，找他们准没错。{if}{something}{needs}{to}{be}{killed.}{Am}{I}{right}{For}{a}{bounty}{of}{course}",
+   "TXT_MONKS1": "你是冒险者吗？我最喜欢冒险者了！只要有东西需要被干掉，找他们准没错。{if}{something}{needs}{to}{be}{killed.}{Am}{I}{right}{For}{a}{bounty}{of}{course}",
+   "TXT_GOLEMS2": "你的魔像狩猎之旅进展如何？",
+   "TXT_MONKS2": "{Oh}{you}{are}{still}{alive}{I}{knew}{that}{your}{kung}{fu}{is}{stronger}",
+   "TXT_CYA": "再见啦，%s！",
+   "TXT_HEY": "喂，%s！"
+  },
+  "enConsts": {
+   "TXT_GOLEMS1": "Are you an adventurer? I love adventurers! You can always rely on them {if}{something}{needs}{to}{be}{killed.}{Am}{I}{right}{For}{a}{bounty}{of}{course}",
+   "TXT_MONKS1": "Are you an adventurer? I love adventurers! You can always rely on them {if}{something}{needs}{to}{be}{killed.}{Am}{I}{right}{For}{a}{bounty}{of}{course}",
+   "TXT_GOLEMS2": "How is your golem safari going?",
+   "TXT_MONKS2": "{Oh}{you}{are}{still}{alive}{I}{knew}{that}{your}{kung}{fu}{is}{stronger}",
+   "TXT_CYA": "See you, %s!",
+   "TXT_HEY": "Psst, %s!",
+   "NODE": "demon",
+   "ALTERNATIVE": "alternative",
+   "SPAWNED": "spawned",
+   "GIVEN": "given",
+   "COMPLETED": "completed",
+   "REWARD": "reward"
+  }
+ },
+ {
+  "id": "ImpShopkeeper",
+  "group": null,
+  "zh": "野心勃勃的小恶魔",
+  "en": "ambitious imp",
+  "zhDesc": "小恶魔是低等恶魔。它们的力量与魔法天赋都不出众，但相当聪明而且善于交际，许多小恶魔更喜欢在非恶魔中间生活、做生意。",
+  "enDesc": "Imps are lesser demons. They are notable for neither their strength nor their magic talent. But they are quite smart and sociable, and many of imps prefer to live and do business among non-demons.",
+  "sprite": {
+   "sheet": "demon",
+   "tile": 0
+  },
+  "zhConsts": {
+   "TXT_GREETINGS": "你好啊，朋友！"
+  },
+  "enConsts": {
+   "TXT_GREETINGS": "Hello, friend!"
+  }
+ },
+ {
+  "id": "MirrorImage",
+  "group": null,
+  "zh": "镜像分身",
+  "en": "mirror image",
+  "zhDesc": "这个幻象和你非常相似，只是颜色更苍白，而且会微微抽搐。",
+  "enDesc": "This illusion bears a close resemblance to you, but it's paler and twitches a little.",
+  "sprite": null,
+  "zhConsts": null,
+  "enConsts": {
+   "TIER": "tier",
+   "ATTACK": "attack",
+   "DAMAGE": "damage"
+  }
+ },
+ {
+  "id": "RatKing",
+  "group": null,
+  "zh": "鼠王",
+  "en": "rat king",
+  "zhDesc": "这只老鼠比普通有袋巨鼠稍大一些，头上戴着一顶小小的王冠。",
+  "enDesc": "This rat is a little bigger than a regular marsupial rat and it's wearing a tiny crown on its head.",
+  "sprite": {
+   "sheet": "ratking",
+   "tile": 0
+  },
+  "zhConsts": null,
+  "enConsts": null
+ },
+ {
+  "id": "Shopkeeper",
+  "group": null,
+  "zh": "商店老板",
+  "en": "shopkeeper",
+  "zhDesc": "这个矮胖的家伙看上去更适合待在大城市的商业区，而不是地牢里。看看他的价格，你就明白他为什么偏爱在这儿做生意了。",
+  "enDesc": "This stout guy looks more appropriate for a trade district in some large city than for a dungeon. His prices explain why he prefers to do business here.",
+  "sprite": {
+   "sheet": "shopkeeper",
+   "tile": 0
+  },
+  "zhConsts": null,
+  "enConsts": null
+ },
+ {
+  "id": "Wandmaker",
+  "group": null,
+  "zh": "老法杖匠",
+  "en": "old wandmaker",
+  "zhDesc": "这位上了年纪却依然硬朗的绅士，脸上带着一丝困惑的神情。他被一层魔法护盾保护着。",
+  "enDesc": "This old but hale gentleman wears a slightly confused expression. He is protected by a magic shield.",
+  "sprite": {
+   "sheet": "wandmaker",
+   "tile": 0
+  },
+  "zhConsts": null,
+  "enConsts": {
+   "NODE": "wandmaker",
+   "SPAWNED": "spawned",
+   "TYPE": "type",
+   "ALTERNATIVE": "alternative",
+   "GIVEN": "given",
+   "WAND1": "wand1",
+   "WAND2": "wand2"
+  }
+ }
+]

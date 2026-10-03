@@ -1,0 +1,98 @@
+[
+ {
+  "class": "Journal",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/Journal.java",
+  "enumEntries": {
+   "WELL_OF_HEALTH": {
+    "args": [
+     "Well of Health"
+    ],
+    "nums": []
+   },
+   "WELL_OF_AWARENESS": {
+    "args": [
+     "Well of Awareness"
+    ],
+    "nums": []
+   },
+   "WELL_OF_TRANSMUTATION": {
+    "args": [
+     "Well of Transmutation"
+    ],
+    "nums": []
+   },
+   "SACRIFICIAL_FIRE": {
+    "args": [
+     "Sacrificial chamber"
+    ],
+    "nums": []
+   },
+   "ALCHEMY": {
+    "args": [
+     "Alchemy pot"
+    ],
+    "nums": []
+   },
+   "GARDEN": {
+    "args": [
+     "Garden"
+    ],
+    "nums": []
+   },
+   "STATUE": {
+    "args": [
+     "Animated statue"
+    ],
+    "nums": []
+   },
+   "GHOST": {
+    "args": [
+     "Sad ghost"
+    ],
+    "nums": []
+   },
+   "WANDMAKER": {
+    "args": [
+     "Old wandmaker"
+    ],
+    "nums": []
+   },
+   "TROLL": {
+    "args": [
+     "Troll blacksmith"
+    ],
+    "nums": []
+   },
+   "IMP": {
+    "args": [
+     "Ambitious imp"
+    ],
+    "nums": []
+   }
+  },
+  "consts": {
+   "FEATURE": {
+    "text": "feature",
+    "refs": []
+   },
+   "DEPTH": {
+    "text": "depth",
+    "refs": []
+   },
+   "JOURNAL": {
+    "text": "journal",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndJournal",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndJournal.java",
+  "consts": {
+   "TXT_TITLE": {
+    "text": "Journal",
+    "refs": []
+   }
+  }
+ }
+]

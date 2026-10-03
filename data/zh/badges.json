@@ -1,0 +1,642 @@
+[
+ {
+  "id": "MONSTERS_SLAIN_1",
+  "zh": "击杀 10 个敌人",
+  "en": "10 enemies slain",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 0
+  },
+  "meta": false
+ },
+ {
+  "id": "MONSTERS_SLAIN_2",
+  "zh": "击杀 50 个敌人",
+  "en": "50 enemies slain",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 1
+  },
+  "meta": false
+ },
+ {
+  "id": "MONSTERS_SLAIN_3",
+  "zh": "击杀 150 个敌人",
+  "en": "150 enemies slain",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 2
+  },
+  "meta": false
+ },
+ {
+  "id": "MONSTERS_SLAIN_4",
+  "zh": "击杀 250 个敌人",
+  "en": "250 enemies slain",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 3
+  },
+  "meta": false
+ },
+ {
+  "id": "GOLD_COLLECTED_1",
+  "zh": "收集 100 金币",
+  "en": "100 gold collected",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 4
+  },
+  "meta": false
+ },
+ {
+  "id": "GOLD_COLLECTED_2",
+  "zh": "收集 500 金币",
+  "en": "500 gold collected",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 5
+  },
+  "meta": false
+ },
+ {
+  "id": "GOLD_COLLECTED_3",
+  "zh": "收集 2500 金币",
+  "en": "2500 gold collected",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 6
+  },
+  "meta": false
+ },
+ {
+  "id": "GOLD_COLLECTED_4",
+  "zh": "收集 7500 金币",
+  "en": "7500 gold collected",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 7
+  },
+  "meta": false
+ },
+ {
+  "id": "LEVEL_REACHED_1",
+  "zh": "达到 6 级",
+  "en": "Level 6 reached",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 8
+  },
+  "meta": false
+ },
+ {
+  "id": "LEVEL_REACHED_2",
+  "zh": "达到 12 级",
+  "en": "Level 12 reached",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 9
+  },
+  "meta": false
+ },
+ {
+  "id": "LEVEL_REACHED_3",
+  "zh": "达到 18 级",
+  "en": "Level 18 reached",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 10
+  },
+  "meta": false
+ },
+ {
+  "id": "LEVEL_REACHED_4",
+  "zh": "达到 24 级",
+  "en": "Level 24 reached",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 11
+  },
+  "meta": false
+ },
+ {
+  "id": "BOSS_SLAIN_1",
+  "zh": "击杀第 1 个 Boss",
+  "en": "1st boss slain",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 12
+  },
+  "meta": false
+ },
+ {
+  "id": "BOSS_SLAIN_2",
+  "zh": "击杀第 2 个 Boss",
+  "en": "2nd boss slain",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 13
+  },
+  "meta": false
+ },
+ {
+  "id": "BOSS_SLAIN_3",
+  "zh": "击杀第 3 个 Boss",
+  "en": "3rd boss slain",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 14
+  },
+  "meta": false
+ },
+ {
+  "id": "BOSS_SLAIN_4",
+  "zh": "击杀第 4 个 Boss",
+  "en": "4th boss slain",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 15
+  },
+  "meta": false
+ },
+ {
+  "id": "ALL_POTIONS_IDENTIFIED",
+  "zh": "鉴定全部药水",
+  "en": "All potions identified",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 16
+  },
+  "meta": false
+ },
+ {
+  "id": "ALL_SCROLLS_IDENTIFIED",
+  "zh": "鉴定全部卷轴",
+  "en": "All scrolls identified",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 17
+  },
+  "meta": false
+ },
+ {
+  "id": "ALL_RINGS_IDENTIFIED",
+  "zh": "鉴定全部戒指",
+  "en": "All rings identified",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 18
+  },
+  "meta": false
+ },
+ {
+  "id": "ALL_WANDS_IDENTIFIED",
+  "zh": "鉴定全部法杖",
+  "en": "All wands identified",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 19
+  },
+  "meta": false
+ },
+ {
+  "id": "RING_OF_HAGGLER",
+  "zh": "获得讲价之戒",
+  "en": "Ring of Haggler obtained",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 20
+  },
+  "meta": false
+ },
+ {
+  "id": "RING_OF_THORNS",
+  "zh": "获得荆棘之戒",
+  "en": "Ring of Thorns obtained",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 21
+  },
+  "meta": false
+ },
+ {
+  "id": "VICTORY",
+  "zh": "获得耶诺之护符",
+  "en": "Amulet of Yendor obtained",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 22
+  },
+  "meta": false
+ },
+ {
+  "id": "ALL_BAGS_BOUGHT",
+  "zh": "买齐所有背包",
+  "en": "All bags bought",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 23
+  },
+  "meta": false
+ },
+ {
+  "id": "DEATH_FROM_FIRE",
+  "zh": "死于火焰",
+  "en": "Death from fire",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 24
+  },
+  "meta": false
+ },
+ {
+  "id": "DEATH_FROM_POISON",
+  "zh": "死于中毒",
+  "en": "Death from poison",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 25
+  },
+  "meta": false
+ },
+ {
+  "id": "DEATH_FROM_GAS",
+  "zh": "死于毒气",
+  "en": "Death from toxic gas",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 26
+  },
+  "meta": false
+ },
+ {
+  "id": "DEATH_FROM_HUNGER",
+  "zh": "死于饥饿",
+  "en": "Death from hunger",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 27
+  },
+  "meta": false
+ },
+ {
+  "id": "NO_MONSTERS_SLAIN",
+  "zh": "不杀任何怪物通关一层",
+  "en": "Level completed without killing any monsters",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 28
+  },
+  "meta": false
+ },
+ {
+  "id": "GRIM_WEAPON",
+  "zh": "用夺命武器杀死怪物",
+  "en": "Monster killed by a Grim weapon",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 29
+  },
+  "meta": false
+ },
+ {
+  "id": "PIRANHAS",
+  "zh": "杀死 6 只食人鱼",
+  "en": "6 piranhas killed",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 30
+  },
+  "meta": false
+ },
+ {
+  "id": "SUPPORTER",
+  "zh": "感谢你的支持！",
+  "en": "Thanks for your support!",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 31
+  },
+  "meta": true
+ },
+ {
+  "id": "BOSS_SLAIN_1_ALL_CLASSES",
+  "zh": "用勇士、法师、盗贼与女猎手各自击杀第 1 个 Boss",
+  "en": "1st boss slain by Warrior, Mage, Rogue & Huntress",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 32
+  },
+  "meta": true
+ },
+ {
+  "id": "BOSS_SLAIN_3_ALL_SUBCLASSES",
+  "zh": "用角斗士、狂战士、术士、战斗法师、疾行者、刺客、狙击手与守望者各自击杀第 3 个 Boss",
+  "en": "3rd boss slain by Gladiator, Berserker, Warlock, Battlemage, Freerunner, Assassin, Sniper & Warden",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 33
+  },
+  "meta": true
+ },
+ {
+  "id": "YASD",
+  "zh": "死于火焰、中毒、毒气与饥饿",
+  "en": "Death from fire, poison, toxic gas & hunger",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 34
+  },
+  "meta": true
+ },
+ {
+  "id": "ALL_ITEMS_IDENTIFIED",
+  "zh": "鉴定全部药水、卷轴、戒指与法杖",
+  "en": "All potions, scrolls, rings & wands identified",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 35
+  },
+  "meta": true
+ },
+ {
+  "id": "VICTORY_ALL_CLASSES",
+  "zh": "用勇士、法师、盗贼与女猎手各自获得耶诺之护符",
+  "en": "Amulet of Yendor obtained by Warrior, Mage, Rogue & Huntress",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 36
+  },
+  "meta": true
+ },
+ {
+  "id": "RARE",
+  "zh": "击杀所有稀有怪物",
+  "en": "All rare monsters slain",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 37
+  },
+  "meta": true
+ },
+ {
+  "id": "HAPPY_END",
+  "zh": "圆满结局",
+  "en": "Happy end",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 38
+  },
+  "meta": false
+ },
+ {
+  "id": "CHAMPION",
+  "zh": "挑战获胜",
+  "en": "Challenge won",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 39
+  },
+  "meta": true
+ },
+ {
+  "id": "STRENGTH_ATTAINED_1",
+  "zh": "力量达到 13 点",
+  "en": "13 points of Strength attained",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 40
+  },
+  "meta": false
+ },
+ {
+  "id": "STRENGTH_ATTAINED_2",
+  "zh": "力量达到 15 点",
+  "en": "15 points of Strength attained",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 41
+  },
+  "meta": false
+ },
+ {
+  "id": "STRENGTH_ATTAINED_3",
+  "zh": "力量达到 17 点",
+  "en": "17 points of Strength attained",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 42
+  },
+  "meta": false
+ },
+ {
+  "id": "STRENGTH_ATTAINED_4",
+  "zh": "力量达到 19 点",
+  "en": "19 points of Strength attained",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 43
+  },
+  "meta": false
+ },
+ {
+  "id": "FOOD_EATEN_1",
+  "zh": "吃掉 10 份食物",
+  "en": "10 pieces of food eaten",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 44
+  },
+  "meta": false
+ },
+ {
+  "id": "FOOD_EATEN_2",
+  "zh": "吃掉 20 份食物",
+  "en": "20 pieces of food eaten",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 45
+  },
+  "meta": false
+ },
+ {
+  "id": "FOOD_EATEN_3",
+  "zh": "吃掉 30 份食物",
+  "en": "30 pieces of food eaten",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 46
+  },
+  "meta": false
+ },
+ {
+  "id": "FOOD_EATEN_4",
+  "zh": "吃掉 40 份食物",
+  "en": "40 pieces of food eaten",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 47
+  },
+  "meta": false
+ },
+ {
+  "id": "ITEM_LEVEL_1",
+  "zh": "获得 3 级物品",
+  "en": "Item of level 3 acquired",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 48
+  },
+  "meta": false
+ },
+ {
+  "id": "ITEM_LEVEL_2",
+  "zh": "获得 6 级物品",
+  "en": "Item of level 6 acquired",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 49
+  },
+  "meta": false
+ },
+ {
+  "id": "ITEM_LEVEL_3",
+  "zh": "获得 9 级物品",
+  "en": "Item of level 9 acquired",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 50
+  },
+  "meta": false
+ },
+ {
+  "id": "ITEM_LEVEL_4",
+  "zh": "获得 12 级物品",
+  "en": "Item of level 12 acquired",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 51
+  },
+  "meta": false
+ },
+ {
+  "id": "POTIONS_COOKED_1",
+  "zh": "调配 3 瓶药水",
+  "en": "3 potions cooked",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 52
+  },
+  "meta": false
+ },
+ {
+  "id": "POTIONS_COOKED_2",
+  "zh": "调配 6 瓶药水",
+  "en": "6 potions cooked",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 53
+  },
+  "meta": false
+ },
+ {
+  "id": "POTIONS_COOKED_3",
+  "zh": "调配 9 瓶药水",
+  "en": "9 potions cooked",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 54
+  },
+  "meta": false
+ },
+ {
+  "id": "POTIONS_COOKED_4",
+  "zh": "调配 12 瓶药水",
+  "en": "12 potions cooked",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 55
+  },
+  "meta": false
+ },
+ {
+  "id": "MASTERY_COMBO",
+  "zh": "打出 7 连击",
+  "en": "7-hit combo",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 56
+  },
+  "meta": false
+ },
+ {
+  "id": "DEATH_FROM_GLYPH",
+  "zh": "死于附魔",
+  "en": "Death from an enchantment",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 57
+  },
+  "meta": false
+ },
+ {
+  "id": "NIGHT_HUNTER",
+  "zh": "在夜间杀死 15 个怪物",
+  "en": "15 monsters killed at nighttime",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 58
+  },
+  "meta": false
+ },
+ {
+  "id": "DEATH_FROM_FALLING",
+  "zh": "坠亡",
+  "en": "Death from falling down",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 59
+  },
+  "meta": false
+ },
+ {
+  "id": "GAMES_PLAYED_1",
+  "zh": "游玩 10 局",
+  "en": "10 games played",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 60
+  },
+  "meta": true
+ },
+ {
+  "id": "GAMES_PLAYED_2",
+  "zh": "游玩 100 局",
+  "en": "100 games played",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 61
+  },
+  "meta": true
+ },
+ {
+  "id": "GAMES_PLAYED_3",
+  "zh": "游玩 500 局",
+  "en": "500 games played",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 62
+  },
+  "meta": true
+ },
+ {
+  "id": "GAMES_PLAYED_4",
+  "zh": "游玩 2000 局",
+  "en": "2000 games played",
+  "sprite": {
+   "sheet": "badges",
+   "tile": 63
+  },
+  "meta": true
+ }
+]

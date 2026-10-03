@@ -1,0 +1,122 @@
+[
+ {
+  "class": "Bleeding",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/buffs/Bleeding.java",
+  "consts": {
+   "LEVEL": {
+    "text": "level",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Burning",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/buffs/Burning.java",
+  "consts": {
+   "TXT_BURNS_UP": {
+    "text": "%s burns up!",
+    "refs": []
+   },
+   "TXT_BURNED_TO_DEATH": {
+    "text": "You burned to death...",
+    "refs": []
+   },
+   "LEFT": {
+    "text": "left",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Charm",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/buffs/Charm.java",
+  "consts": {
+   "OBJECT": {
+    "text": "object",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Combo",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/buffs/Combo.java",
+  "consts": {
+   "TXT_COMBO": {
+    "text": "%d hit combo!",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Hunger",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/buffs/Hunger.java",
+  "consts": {
+   "TXT_HUNGRY": {
+    "text": "You are hungry.",
+    "refs": []
+   },
+   "TXT_STARVING": {
+    "text": "You are starving!",
+    "refs": []
+   },
+   "TXT_DEATH": {
+    "text": "You starved to death...",
+    "refs": []
+   },
+   "LEVEL": {
+    "text": "level",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Ooze",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/buffs/Ooze.java",
+  "consts": {
+   "TXT_HERO_KILLED": {
+    "text": "%s killed you...",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Poison",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/buffs/Poison.java",
+  "consts": {
+   "LEFT": {
+    "text": "left",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Shadows",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/buffs/Shadows.java",
+  "consts": {
+   "LEFT": {
+    "text": "left",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "SnipersMark",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/buffs/SnipersMark.java",
+  "consts": {
+   "OBJECT": {
+    "text": "object",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Terror",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/buffs/Terror.java",
+  "consts": {
+   "OBJECT": {
+    "text": "object",
+    "refs": []
+   }
+  }
+ }
+]

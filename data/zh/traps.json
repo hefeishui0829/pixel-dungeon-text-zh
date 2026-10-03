@@ -1,0 +1,55 @@
+[
+ {
+  "id": "AlchemyPot",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "TXT_SELECT_SEED": "选择一颗种子扔进去"
+  },
+  "enConsts": {
+   "TXT_SELECT_SEED": "Select a seed to throw"
+  }
+ },
+ {
+  "id": "Chasm",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "TXT_CHASM": "深渊",
+   "TXT_YES": "是的，我清楚自己在做什么",
+   "TXT_NO": "不，我改变主意了",
+   "TXT_JUMP": "你真的要跳进深渊吗？你很可能会死。"
+  },
+  "enConsts": {
+   "TXT_CHASM": "Chasm",
+   "TXT_YES": "Yes, I know what I'm doing",
+   "TXT_NO": "No, I changed my mind",
+   "TXT_JUMP": "Do you really want to jump into the chasm? You can probably die."
+  }
+ },
+ {
+  "id": "Sign",
+  "group": null,
+  "zh": null,
+  "en": null,
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": null,
+  "zhConsts": {
+   "TXT_DEAD_END": "你在这儿干什么？！",
+   "TXT_BURN": "你刚想读那块牌子，它就爆出了绿色的火焰。"
+  },
+  "enConsts": {
+   "TXT_DEAD_END": "What are you doing here?!",
+   "TXT_BURN": "As you try to read the sign it bursts into greenish flames."
+  }
+ }
+]

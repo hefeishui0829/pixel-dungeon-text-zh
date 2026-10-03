@@ -1,0 +1,67 @@
+{
+ "badges": {
+  "file": "badges.json",
+  "classes": 1,
+  "strings": 2
+ },
+ "buffs": {
+  "file": "buffs.json",
+  "classes": 10,
+  "strings": 15
+ },
+ "hero": {
+  "file": "hero.json",
+  "classes": 4,
+  "strings": 23
+ },
+ "items": {
+  "file": "items.json",
+  "classes": 147,
+  "strings": 396
+ },
+ "journal": {
+  "file": "journal.json",
+  "classes": 2,
+  "strings": 4
+ },
+ "levels": {
+  "file": "levels.json",
+  "classes": 8,
+  "strings": 27
+ },
+ "misc": {
+  "file": "misc.json",
+  "classes": 15,
+  "strings": 215
+ },
+ "mobs": {
+  "file": "mobs.json",
+  "classes": 34,
+  "strings": 81
+ },
+ "npcs": {
+  "file": "npcs.json",
+  "classes": 9,
+  "strings": 76
+ },
+ "plants": {
+  "file": "plants.json",
+  "classes": 9,
+  "strings": 22
+ },
+ "results": {
+  "file": "results.json",
+  "classes": 1,
+  "strings": 14
+ },
+ "traps": {
+  "file": "traps.json",
+  "classes": 3,
+  "strings": 7
+ },
+ "ui": {
+  "file": "ui.json",
+  "classes": 29,
+  "strings": 129
+ }
+}

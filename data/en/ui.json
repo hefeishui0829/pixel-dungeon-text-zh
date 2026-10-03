@@ -1,0 +1,852 @@
+[
+ {
+  "class": "AboutScene",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/scenes/AboutScene.java",
+  "literals": [
+   "Code & graphics: Watabou",
+   "Music: Cube_Code",
+   "This game is inspired by Brian Walker's Brogue.",
+   "Try it on Windows, Mac OS or Linux - it's awesome! ;)",
+   "Please visit official website for additional info:"
+  ],
+  "consts": {
+   "TXT": {
+    "text": "Code & graphics: Watabou\nMusic: Cube_Code\n\nThis game is inspired by Brian Walker's Brogue. {Try}{it}{on}{Windows}{Mac}{OS}{or}{Linux}{it}{s}{awesome}",
+    "refs": [
+     "Try",
+     "it",
+     "on",
+     "Windows",
+     "Mac",
+     "OS",
+     "or",
+     "Linux",
+     "it",
+     "s",
+     "awesome"
+    ]
+   },
+   "LNK": {
+    "text": "pixeldungeon.watabou.ru",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "AmuletScene",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/scenes/AmuletScene.java",
+  "literals": [
+   "Let's call it a day",
+   "I'm not done yet",
+   "You finally hold it in your hands, the Amulet of Yendor. Using its power",
+   "you can take over the world or bring peace and prosperity to people or whatever.",
+   "Anyway, your life will change forever and this game will end here.",
+   "Or you can stay a mere mortal a little longer."
+  ],
+  "consts": {
+   "TXT_EXIT": {
+    "text": "Let's call it a day",
+    "refs": []
+   },
+   "TXT_STAY": {
+    "text": "I'm not done yet",
+    "refs": []
+   },
+   "TXT": {
+    "text": "You finally hold it in your hands, the Amulet of Yendor. Using its power you can take over the world or bring peace and prosperity to people or whatever. Anyway, your life will change forever and this game will end here. Or you can stay a mere mortal a little longer.",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "BadgesScene",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/scenes/BadgesScene.java",
+  "consts": {
+   "TXT_TITLE": {
+    "text": "Your Badges",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "GameScene",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/scenes/GameScene.java",
+  "literals": [
+   "Welcome to the level %d of Pixel Dungeon!",
+   "Welcome back to the level %d of Pixel Dungeon!",
+   "Be cautious, since the dungeon is even more dangerous at night!",
+   "Your steps echo across the dungeon.",
+   "You hear the water splashing around you.",
+   "The smell of vegetation is thick in the air.",
+   "The atmosphere hints that this floor hides many secrets."
+  ],
+  "consts": {
+   "TXT_WELCOME": {
+    "text": "Welcome to the level %d of Pixel Dungeon!",
+    "refs": []
+   },
+   "TXT_WELCOME_BACK": {
+    "text": "Welcome back to the level %d of Pixel Dungeon!",
+    "refs": []
+   },
+   "TXT_NIGHT_MODE": {
+    "text": "Be cautious, since the dungeon is even more dangerous at night!",
+    "refs": []
+   },
+   "TXT_CHASM": {
+    "text": "Your steps echo across the dungeon.",
+    "refs": []
+   },
+   "TXT_WATER": {
+    "text": "You hear the water splashing around you.",
+    "refs": []
+   },
+   "TXT_GRASS": {
+    "text": "The smell of vegetation is thick in the air.",
+    "refs": []
+   },
+   "TXT_SECRETS": {
+    "text": "The atmosphere hints that this floor hides many secrets.",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "InterlevelScene",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/scenes/InterlevelScene.java",
+  "literals": [
+   "File not found. For some reason.",
+   "Something went wrong..."
+  ],
+  "consts": {
+   "TXT_DESCENDING": {
+    "text": "Descending...",
+    "refs": []
+   },
+   "TXT_ASCENDING": {
+    "text": "Ascending...",
+    "refs": []
+   },
+   "TXT_LOADING": {
+    "text": "Loading...",
+    "refs": []
+   },
+   "TXT_RESURRECTING": {
+    "text": "Resurrecting...",
+    "refs": []
+   },
+   "TXT_RETURNING": {
+    "text": "Returning...",
+    "refs": []
+   },
+   "TXT_FALLING": {
+    "text": "Falling...",
+    "refs": []
+   },
+   "ERR_FILE_NOT_FOUND": {
+    "text": "File not found. For some reason.",
+    "refs": []
+   },
+   "ERR_GENERIC": {
+    "text": "Something went wrong...",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "IntroScene",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/scenes/IntroScene.java",
+  "literals": [
+   "Many heroes of all kinds ventured into the Dungeon before you. Some of them have returned with treasures and magical",
+   "artifacts, most have never been heard of since. But none have succeeded in retrieving the Amulet of Yendor,",
+   "which is told to be hidden in the depths of the Dungeon.",
+   "You consider yourself ready for the challenge, but most importantly, you feel that fortune smiles on you.",
+   "It's time to start your own adventure!"
+  ],
+  "consts": {
+   "TEXT": {
+    "text": "Many heroes of all kinds ventured into the Dungeon before you. Some of them have returned with treasures and magical artifacts, most have never been heard of since. But none have succeeded in retrieving the Amulet of Yendor, which is told to be hidden in the depths of the Dungeon.\n\nYou consider yourself ready for the challenge, but most importantly, you feel that fortune smiles on you. It's time to start your own adventure!",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "ItemSlot",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/ui/ItemSlot.java",
+  "consts": {
+   "TXT_STRENGTH": {
+    "text": ":%d",
+    "refs": []
+   },
+   "TXT_TYPICAL_STR": {
+    "text": "%d?",
+    "refs": []
+   },
+   "TXT_LEVEL": {
+    "text": "%+d",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "QuickSlot",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/ui/QuickSlot.java",
+  "consts": {
+   "TXT_SELECT_ITEM": {
+    "text": "Select an item for the quickslot",
+    "refs": []
+   },
+   "QUICKSLOT1": {
+    "text": "quickslot",
+    "refs": []
+   },
+   "QUICKSLOT2": {
+    "text": "quickslot2",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "RankingsScene",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/scenes/RankingsScene.java",
+  "literals": [
+   "Top Rankings",
+   "Games played:",
+   "No games have been played yet.",
+   "No additional information"
+  ],
+  "consts": {
+   "TXT_TITLE": {
+    "text": "Top Rankings",
+    "refs": []
+   },
+   "TXT_TOTAL": {
+    "text": "Games played:",
+    "refs": []
+   },
+   "TXT_NO_GAMES": {
+    "text": "No games have been played yet.",
+    "refs": []
+   },
+   "TXT_NO_INFO": {
+    "text": "No additional information",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "StartScene",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/scenes/StartScene.java",
+  "literals": [
+   "Erase current game",
+   "Depth: %d, level: %d",
+   "Do you really want to start new game?",
+   "Your current game progress will be erased.",
+   "Yes, start new game",
+   "No, return to main menu",
+   "To unlock this character class, slay the 3rd boss with any other class",
+   "To unlock \"Challenges\", win the game with any character class."
+  ],
+  "consts": {
+   "TXT_LOAD": {
+    "text": "Load Game",
+    "refs": []
+   },
+   "TXT_NEW": {
+    "text": "New Game",
+    "refs": []
+   },
+   "TXT_ERASE": {
+    "text": "Erase current game",
+    "refs": []
+   },
+   "TXT_DPTH_LVL": {
+    "text": "Depth: %d, level: %d",
+    "refs": []
+   },
+   "TXT_REALLY": {
+    "text": "Do you really want to start new game?",
+    "refs": []
+   },
+   "TXT_WARNING": {
+    "text": "Your current game progress will be erased.",
+    "refs": []
+   },
+   "TXT_YES": {
+    "text": "Yes, start new game",
+    "refs": []
+   },
+   "TXT_NO": {
+    "text": "No, return to main menu",
+    "refs": []
+   },
+   "TXT_UNLOCK": {
+    "text": "To unlock this character class, slay the 3rd boss with any other class",
+    "refs": []
+   },
+   "TXT_WIN_THE_GAME": {
+    "text": "To unlock \"Challenges\", win the game with any character class.",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "TitleScene",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/scenes/TitleScene.java",
+  "consts": {
+   "TXT_PLAY": {
+    "text": "Play",
+    "refs": []
+   },
+   "TXT_HIGHSCORES": {
+    "text": "Rankings",
+    "refs": []
+   },
+   "TXT_BADGES": {
+    "text": "Badges",
+    "refs": []
+   },
+   "TXT_ABOUT": {
+    "text": "About",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndBlacksmith",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndBlacksmith.java",
+  "literals": [
+   "Ok, a deal is a deal, dat's what I can do for you: I can reforge",
+   "2 items and turn them into one of a better quality.",
+   "Select an item to reforge",
+   "Reforge them"
+  ],
+  "consts": {
+   "TXT_PROMPT": {
+    "text": "Ok, a deal is a deal, dat's what I can do for you: I can reforge 2 items and turn them into one of a better quality.",
+    "refs": []
+   },
+   "TXT_SELECT": {
+    "text": "Select an item to reforge",
+    "refs": []
+   },
+   "TXT_REFORGE": {
+    "text": "Reforge them",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndCatalogus",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndCatalogus.java",
+  "consts": {
+   "TXT_POTIONS": {
+    "text": "Potions",
+    "refs": []
+   },
+   "TXT_SCROLLS": {
+    "text": "Scrolls",
+    "refs": []
+   },
+   "TXT_TITLE": {
+    "text": "Catalogus",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndChallenges",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndChallenges.java",
+  "consts": {
+   "TITLE": {
+    "text": "Challenges",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndChooseWay",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndChooseWay.java",
+  "literals": [
+   "Which way will you follow?",
+   "I'll decide later",
+   "Do you want to respec into %s?",
+   "Yes, I want to respec"
+  ]
+ },
+ {
+  "class": "WndClass",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndClass.java",
+  "consts": {
+   "TXT_MASTERY": {
+    "text": "Mastery",
+    "refs": []
+   },
+   "DOT": {
+    "text": "\\u007F",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndError",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndError.java",
+  "consts": {
+   "TXT_TITLE": {
+    "text": "ERROR",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndGame",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndGame.java",
+  "literals": [
+   "Start New Game",
+   "Return to Game"
+  ],
+  "consts": {
+   "TXT_SETTINGS": {
+    "text": "Settings",
+    "refs": []
+   },
+   "TXT_CHALLEGES": {
+    "text": "Challenges",
+    "refs": []
+   },
+   "TXT_RANKINGS": {
+    "text": "Rankings",
+    "refs": []
+   },
+   "TXT_START": {
+    "text": "Start New Game",
+    "refs": []
+   },
+   "TXT_MENU": {
+    "text": "Main Menu",
+    "refs": []
+   },
+   "TXT_EXIT": {
+    "text": "Exit Game",
+    "refs": []
+   },
+   "TXT_RETURN": {
+    "text": "Return to Game",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndHero",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndHero.java",
+  "literals": [
+   "Gold Collected",
+   "Maximum Depth"
+  ],
+  "consts": {
+   "TXT_STATS": {
+    "text": "Stats",
+    "refs": []
+   },
+   "TXT_BUFFS": {
+    "text": "Buffs",
+    "refs": []
+   },
+   "TXT_EXP": {
+    "text": "Experience",
+    "refs": []
+   },
+   "TXT_STR": {
+    "text": "Strength",
+    "refs": []
+   },
+   "TXT_HEALTH": {
+    "text": "Health",
+    "refs": []
+   },
+   "TXT_GOLD": {
+    "text": "Gold Collected",
+    "refs": []
+   },
+   "TXT_DEPTH": {
+    "text": "Maximum Depth",
+    "refs": []
+   },
+   "TXT_TITLE": {
+    "text": "Level %d %s",
+    "refs": []
+   },
+   "TXT_CATALOGUS": {
+    "text": "Catalogus",
+    "refs": []
+   },
+   "TXT_JOURNAL": {
+    "text": "Journal",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndImp",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndImp.java",
+  "literals": [
+   "Oh yes! You are my hero!",
+   "Regarding your reward, I don't have cash with me right now, but I have something better for you.",
+   "This is my family heirloom ring: my granddad took it off a dead paladin's finger.",
+   "Take the ring"
+  ],
+  "consts": {
+   "TXT_MESSAGE": {
+    "text": "Oh yes! You are my hero!\nRegarding your reward, I don't have cash with me right now, but I have something better for you. This is my family heirloom ring: my granddad took it off a dead paladin's finger.",
+    "refs": []
+   },
+   "TXT_REWARD": {
+    "text": "Take the ring",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndInfoCell",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndInfoCell.java",
+  "literals": [
+   "There is nothing here."
+  ],
+  "consts": {
+   "TXT_NOTHING": {
+    "text": "There is nothing here.",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndInfoItem",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndInfoItem.java",
+  "literals": [
+   "Locked chest",
+   "Crystal chest",
+   "Skeletal remains",
+   "You won't know what's inside until you open it!",
+   "But to open it you need a golden key.",
+   "You can see %s inside, but to open the chest you need a golden key.",
+   "This ancient tomb may contain something useful,",
+   "but its owner will most certainly object to checking.",
+   "This is all that's left from one of your predecessors.",
+   "Maybe it's worth checking for any valuables."
+  ],
+  "consts": {
+   "TXT_CHEST": {
+    "text": "Chest",
+    "refs": []
+   },
+   "TXT_LOCKED_CHEST": {
+    "text": "Locked chest",
+    "refs": []
+   },
+   "TXT_CRYSTAL_CHEST": {
+    "text": "Crystal chest",
+    "refs": []
+   },
+   "TXT_TOMB": {
+    "text": "Tomb",
+    "refs": []
+   },
+   "TXT_SKELETON": {
+    "text": "Skeletal remains",
+    "refs": []
+   },
+   "TXT_WONT_KNOW": {
+    "text": "You won't know what's inside until you open it!",
+    "refs": []
+   },
+   "TXT_NEED_KEY": {
+    "text": "{TXT_WONT_KNOW} But to open it you need a golden key.",
+    "refs": [
+     "TXT_WONT_KNOW"
+    ]
+   },
+   "TXT_INSIDE": {
+    "text": "You can see %s inside, but to open the chest you need a golden key.",
+    "refs": []
+   },
+   "TXT_OWNER": {
+    "text": "This ancient tomb may contain something useful, but its owner will most certainly object to checking.",
+    "refs": []
+   },
+   "TXT_REMAINS": {
+    "text": "This is all that's left from one of your predecessors. Maybe it's worth checking for any valuables.",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndRanking",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndRanking.java",
+  "literals": [
+   "Unable to load additional information",
+   "Game Duration",
+   "Maximum Depth",
+   "Gold Collected",
+   "Potions Cooked"
+  ],
+  "consts": {
+   "TXT_ERROR": {
+    "text": "Unable to load additional information",
+    "refs": []
+   },
+   "TXT_STATS": {
+    "text": "Stats",
+    "refs": []
+   },
+   "TXT_ITEMS": {
+    "text": "Items",
+    "refs": []
+   },
+   "TXT_BADGES": {
+    "text": "Badges",
+    "refs": []
+   },
+   "TXT_TITLE": {
+    "text": "Level %d %s",
+    "refs": []
+   },
+   "TXT_CHALLENGES": {
+    "text": "Challenges",
+    "refs": []
+   },
+   "TXT_HEALTH": {
+    "text": "Health",
+    "refs": []
+   },
+   "TXT_STR": {
+    "text": "Strength",
+    "refs": []
+   },
+   "TXT_DURATION": {
+    "text": "Game Duration",
+    "refs": []
+   },
+   "TXT_DEPTH": {
+    "text": "Maximum Depth",
+    "refs": []
+   },
+   "TXT_ENEMIES": {
+    "text": "Mobs Killed",
+    "refs": []
+   },
+   "TXT_GOLD": {
+    "text": "Gold Collected",
+    "refs": []
+   },
+   "TXT_FOOD": {
+    "text": "Food Eaten",
+    "refs": []
+   },
+   "TXT_ALCHEMY": {
+    "text": "Potions Cooked",
+    "refs": []
+   },
+   "TXT_ANKHS": {
+    "text": "Ankhs Used",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndResurrect",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndResurrect.java",
+  "literals": [
+   "You died, but you were given another chance to win this dungeon. Will you take it?",
+   "Yes, I will fight!",
+   "No, I give up"
+  ],
+  "consts": {
+   "TXT_MESSAGE": {
+    "text": "You died, but you were given another chance to win this dungeon. Will you take it?",
+    "refs": []
+   },
+   "TXT_YES": {
+    "text": "Yes, I will fight!",
+    "refs": []
+   },
+   "TXT_NO": {
+    "text": "No, I give up",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndSadGhost",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndSadGhost.java",
+  "literals": [
+   "Ghost's weapon",
+   "Ghost's armor",
+   "Farewell, adventurer!"
+  ],
+  "consts": {
+   "TXT_WEAPON": {
+    "text": "Ghost's weapon",
+    "refs": []
+   },
+   "TXT_ARMOR": {
+    "text": "Ghost's armor",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndSettings",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndSettings.java",
+  "literals": [
+   "Default Zoom",
+   "Immersive mode",
+   "Second quickslot",
+   "Switch to portrait",
+   "Switch to landscape"
+  ],
+  "consts": {
+   "TXT_ZOOM_IN": {
+    "text": "+",
+    "refs": []
+   },
+   "TXT_ZOOM_OUT": {
+    "text": "-",
+    "refs": []
+   },
+   "TXT_ZOOM_DEFAULT": {
+    "text": "Default Zoom",
+    "refs": []
+   },
+   "TXT_SCALE_UP": {
+    "text": "Scale up UI",
+    "refs": []
+   },
+   "TXT_IMMERSIVE": {
+    "text": "Immersive mode",
+    "refs": []
+   },
+   "TXT_MUSIC": {
+    "text": "Music",
+    "refs": []
+   },
+   "TXT_SOUND": {
+    "text": "Sound FX",
+    "refs": []
+   },
+   "TXT_BRIGHTNESS": {
+    "text": "Brightness",
+    "refs": []
+   },
+   "TXT_QUICKSLOT": {
+    "text": "Second quickslot",
+    "refs": []
+   },
+   "TXT_SWITCH_PORT": {
+    "text": "Switch to portrait",
+    "refs": []
+   },
+   "TXT_SWITCH_LAND": {
+    "text": "Switch to landscape",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndStory",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndStory.java",
+  "literals": [
+   "The Dungeon lies right beneath the City, its upper levels actually constitute the City's sewer system.",
+   "Being nominally a part of the City, these levels are not that dangerous. No one will call it a safe place,",
+   "but at least you won't need to deal with evil magic here.",
+   "Many years ago an underground prison was built here for the most dangerous criminals. At the time it seemed",
+   "like a very clever idea, because this place indeed was very hard to escape. But soon dark miasma started to permeate",
+   "from below, driving prisoners and guards insane. In the end the prison was abandoned, though some convicts",
+   "were left locked up here.",
+   "The caves, which stretch down under the abandoned prison, are sparcely populated. They lie too deep to be exploited",
+   "by the City and they are too poor in minerals to interest the dwarves. In the past there was a trade outpost",
+   "somewhere here on the route between these two states, but it has perished since the decline of Dwarven Metropolis.",
+   "Only omnipresent gnolls and subterranean animals dwell here now.",
+   "Dwarven Metropolis was once the greatest of dwarven city-states. In its heyday the mechanized army of dwarves",
+   "has successfully repelled the invasion of the old god and his demon army. But it is said, that the returning warriors",
+   "have brought seeds of corruption with them, and that victory was the beginning of the end for the underground kingdom.",
+   "In the past these levels were the outskirts of Metropolis. After the costly victory in the war with the old god",
+   "dwarves were too weakened to clear them of remaining demons. Gradually demons have tightened their grip on this place",
+   "and now it's called Demon Halls.",
+   "Very few adventurers have ever descended this far..."
+  ]
+ },
+ {
+  "class": "WndTradeItem",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndTradeItem.java",
+  "literals": [
+   "FOR SALE: %s - %dg",
+   "Sell for %dg",
+   "Sell 1 for %dg",
+   "Sell all for %dg",
+   "You've sold your %s for %dg",
+   "You've bought %s for %dg"
+  ],
+  "consts": {
+   "TXT_SALE": {
+    "text": "FOR SALE: %s - %dg",
+    "refs": []
+   },
+   "TXT_BUY": {
+    "text": "Buy for %dg",
+    "refs": []
+   },
+   "TXT_SELL": {
+    "text": "Sell for %dg",
+    "refs": []
+   },
+   "TXT_SELL_1": {
+    "text": "Sell 1 for %dg",
+    "refs": []
+   },
+   "TXT_SELL_ALL": {
+    "text": "Sell all for %dg",
+    "refs": []
+   },
+   "TXT_CANCEL": {
+    "text": "Never mind",
+    "refs": []
+   },
+   "TXT_SOLD": {
+    "text": "You've sold your %s for %dg",
+    "refs": []
+   },
+   "TXT_BOUGHT": {
+    "text": "You've bought %s for %dg",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WndWandmaker",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/windows/WndWandmaker.java",
+  "literals": [
+   "Oh, I see you have succeeded! I do hope it hasn't troubled you too much.",
+   "As I promised, you can choose one of my high quality wands.",
+   "Non-battle wand",
+   "Good luck in your quest, %s!"
+  ],
+  "consts": {
+   "TXT_MESSAGE": {
+    "text": "Oh, I see you have succeeded! I do hope it hasn't troubled you too much. As I promised, you can choose one of my high quality wands.",
+    "refs": []
+   },
+   "TXT_BATTLE": {
+    "text": "Battle wand",
+    "refs": []
+   },
+   "TXT_NON_BATTLE": {
+    "text": "Non-battle wand",
+    "refs": []
+   },
+   "TXT_FARAWELL": {
+    "text": "Good luck in your quest, %s!",
+    "refs": []
+   }
+  }
+ }
+]

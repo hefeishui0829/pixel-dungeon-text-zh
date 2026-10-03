@@ -1,0 +1,958 @@
+[
+ {
+  "class": "Actor",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/Actor.java",
+  "consts": {
+   "TIME": {
+    "text": "time",
+    "refs": []
+   },
+   "ID": {
+    "text": "id",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Assets",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/Assets.java",
+  "consts": {
+   "ARCS_BG": {
+    "text": "arcs1.png",
+    "refs": []
+   },
+   "ARCS_FG": {
+    "text": "arcs2.png",
+    "refs": []
+   },
+   "DASHBOARD": {
+    "text": "dashboard.png",
+    "refs": []
+   },
+   "BANNERS": {
+    "text": "banners.png",
+    "refs": []
+   },
+   "BADGES": {
+    "text": "badges.png",
+    "refs": []
+   },
+   "LOCKED": {
+    "text": "locked_badge.png",
+    "refs": []
+   },
+   "AMULET": {
+    "text": "amulet.png",
+    "refs": []
+   },
+   "CHROME": {
+    "text": "chrome.png",
+    "refs": []
+   },
+   "ICONS": {
+    "text": "icons.png",
+    "refs": []
+   },
+   "STATUS": {
+    "text": "status_pane.png",
+    "refs": []
+   },
+   "HP_BAR": {
+    "text": "hp_bar.png",
+    "refs": []
+   },
+   "XP_BAR": {
+    "text": "exp_bar.png",
+    "refs": []
+   },
+   "TOOLBAR": {
+    "text": "toolbar.png",
+    "refs": []
+   },
+   "SHADOW": {
+    "text": "shadow.png",
+    "refs": []
+   },
+   "WARRIOR": {
+    "text": "warrior.png",
+    "refs": []
+   },
+   "MAGE": {
+    "text": "mage.png",
+    "refs": []
+   },
+   "ROGUE": {
+    "text": "rogue.png",
+    "refs": []
+   },
+   "HUNTRESS": {
+    "text": "ranger.png",
+    "refs": []
+   },
+   "AVATARS": {
+    "text": "avatars.png",
+    "refs": []
+   },
+   "PET": {
+    "text": "pet.png",
+    "refs": []
+   },
+   "SURFACE": {
+    "text": "surface.png",
+    "refs": []
+   },
+   "FIREBALL": {
+    "text": "fireball.png",
+    "refs": []
+   },
+   "SPECKS": {
+    "text": "specks.png",
+    "refs": []
+   },
+   "EFFECTS": {
+    "text": "effects.png",
+    "refs": []
+   },
+   "RAT": {
+    "text": "rat.png",
+    "refs": []
+   },
+   "GNOLL": {
+    "text": "gnoll.png",
+    "refs": []
+   },
+   "CRAB": {
+    "text": "crab.png",
+    "refs": []
+   },
+   "GOO": {
+    "text": "goo.png",
+    "refs": []
+   },
+   "SWARM": {
+    "text": "swarm.png",
+    "refs": []
+   },
+   "SKELETON": {
+    "text": "skeleton.png",
+    "refs": []
+   },
+   "SHAMAN": {
+    "text": "shaman.png",
+    "refs": []
+   },
+   "THIEF": {
+    "text": "thief.png",
+    "refs": []
+   },
+   "TENGU": {
+    "text": "tengu.png",
+    "refs": []
+   },
+   "SHEEP": {
+    "text": "sheep.png",
+    "refs": []
+   },
+   "KEEPER": {
+    "text": "shopkeeper.png",
+    "refs": []
+   },
+   "BAT": {
+    "text": "bat.png",
+    "refs": []
+   },
+   "BRUTE": {
+    "text": "brute.png",
+    "refs": []
+   },
+   "SPINNER": {
+    "text": "spinner.png",
+    "refs": []
+   },
+   "DM300": {
+    "text": "dm300.png",
+    "refs": []
+   },
+   "WRAITH": {
+    "text": "wraith.png",
+    "refs": []
+   },
+   "ELEMENTAL": {
+    "text": "elemental.png",
+    "refs": []
+   },
+   "MONK": {
+    "text": "monk.png",
+    "refs": []
+   },
+   "WARLOCK": {
+    "text": "warlock.png",
+    "refs": []
+   },
+   "GOLEM": {
+    "text": "golem.png",
+    "refs": []
+   },
+   "UNDEAD": {
+    "text": "undead.png",
+    "refs": []
+   },
+   "KING": {
+    "text": "king.png",
+    "refs": []
+   },
+   "STATUE": {
+    "text": "statue.png",
+    "refs": []
+   },
+   "PIRANHA": {
+    "text": "piranha.png",
+    "refs": []
+   },
+   "EYE": {
+    "text": "eye.png",
+    "refs": []
+   },
+   "SUCCUBUS": {
+    "text": "succubus.png",
+    "refs": []
+   },
+   "SCORPIO": {
+    "text": "scorpio.png",
+    "refs": []
+   },
+   "ROTTING": {
+    "text": "rotting_fist.png",
+    "refs": []
+   },
+   "BURNING": {
+    "text": "burning_fist.png",
+    "refs": []
+   },
+   "YOG": {
+    "text": "yog.png",
+    "refs": []
+   },
+   "LARVA": {
+    "text": "larva.png",
+    "refs": []
+   },
+   "GHOST": {
+    "text": "ghost.png",
+    "refs": []
+   },
+   "MAKER": {
+    "text": "wandmaker.png",
+    "refs": []
+   },
+   "TROLL": {
+    "text": "blacksmith.png",
+    "refs": []
+   },
+   "IMP": {
+    "text": "demon.png",
+    "refs": []
+   },
+   "RATKING": {
+    "text": "ratking.png",
+    "refs": []
+   },
+   "BEE": {
+    "text": "bee.png",
+    "refs": []
+   },
+   "MIMIC": {
+    "text": "mimic.png",
+    "refs": []
+   },
+   "ITEMS": {
+    "text": "items.png",
+    "refs": []
+   },
+   "PLANTS": {
+    "text": "plants.png",
+    "refs": []
+   },
+   "TILES_SEWERS": {
+    "text": "tiles0.png",
+    "refs": []
+   },
+   "TILES_PRISON": {
+    "text": "tiles1.png",
+    "refs": []
+   },
+   "TILES_CAVES": {
+    "text": "tiles2.png",
+    "refs": []
+   },
+   "TILES_CITY": {
+    "text": "tiles3.png",
+    "refs": []
+   },
+   "TILES_HALLS": {
+    "text": "tiles4.png",
+    "refs": []
+   },
+   "WATER_SEWERS": {
+    "text": "water0.png",
+    "refs": []
+   },
+   "WATER_PRISON": {
+    "text": "water1.png",
+    "refs": []
+   },
+   "WATER_CAVES": {
+    "text": "water2.png",
+    "refs": []
+   },
+   "WATER_CITY": {
+    "text": "water3.png",
+    "refs": []
+   },
+   "WATER_HALLS": {
+    "text": "water4.png",
+    "refs": []
+   },
+   "BUFFS_SMALL": {
+    "text": "buffs.png",
+    "refs": []
+   },
+   "BUFFS_LARGE": {
+    "text": "large_buffs.png",
+    "refs": []
+   },
+   "SPELL_ICONS": {
+    "text": "spell_icons.png",
+    "refs": []
+   },
+   "FONTS1X": {
+    "text": "font1x.png",
+    "refs": []
+   },
+   "FONTS15X": {
+    "text": "font15x.png",
+    "refs": []
+   },
+   "FONTS2X": {
+    "text": "font2x.png",
+    "refs": []
+   },
+   "FONTS25X": {
+    "text": "font25x.png",
+    "refs": []
+   },
+   "FONTS3X": {
+    "text": "font3x.png",
+    "refs": []
+   },
+   "THEME": {
+    "text": "theme.mp3",
+    "refs": []
+   },
+   "TUNE": {
+    "text": "game.mp3",
+    "refs": []
+   },
+   "HAPPY": {
+    "text": "surface.mp3",
+    "refs": []
+   },
+   "SND_CLICK": {
+    "text": "snd_click.mp3",
+    "refs": []
+   },
+   "SND_BADGE": {
+    "text": "snd_badge.mp3",
+    "refs": []
+   },
+   "SND_GOLD": {
+    "text": "snd_gold.mp3",
+    "refs": []
+   },
+   "SND_OPEN": {
+    "text": "snd_door_open.mp3",
+    "refs": []
+   },
+   "SND_UNLOCK": {
+    "text": "snd_unlock.mp3",
+    "refs": []
+   },
+   "SND_ITEM": {
+    "text": "snd_item.mp3",
+    "refs": []
+   },
+   "SND_DEWDROP": {
+    "text": "snd_dewdrop.mp3",
+    "refs": []
+   },
+   "SND_HIT": {
+    "text": "snd_hit.mp3",
+    "refs": []
+   },
+   "SND_MISS": {
+    "text": "snd_miss.mp3",
+    "refs": []
+   },
+   "SND_STEP": {
+    "text": "snd_step.mp3",
+    "refs": []
+   },
+   "SND_WATER": {
+    "text": "snd_water.mp3",
+    "refs": []
+   },
+   "SND_DESCEND": {
+    "text": "snd_descend.mp3",
+    "refs": []
+   },
+   "SND_EAT": {
+    "text": "snd_eat.mp3",
+    "refs": []
+   },
+   "SND_READ": {
+    "text": "snd_read.mp3",
+    "refs": []
+   },
+   "SND_LULLABY": {
+    "text": "snd_lullaby.mp3",
+    "refs": []
+   },
+   "SND_DRINK": {
+    "text": "snd_drink.mp3",
+    "refs": []
+   },
+   "SND_SHATTER": {
+    "text": "snd_shatter.mp3",
+    "refs": []
+   },
+   "SND_ZAP": {
+    "text": "snd_zap.mp3",
+    "refs": []
+   },
+   "SND_LIGHTNING": {
+    "text": "snd_lightning.mp3",
+    "refs": []
+   },
+   "SND_LEVELUP": {
+    "text": "snd_levelup.mp3",
+    "refs": []
+   },
+   "SND_DEATH": {
+    "text": "snd_death.mp3",
+    "refs": []
+   },
+   "SND_CHALLENGE": {
+    "text": "snd_challenge.mp3",
+    "refs": []
+   },
+   "SND_CURSED": {
+    "text": "snd_cursed.mp3",
+    "refs": []
+   },
+   "SND_TRAP": {
+    "text": "snd_trap.mp3",
+    "refs": []
+   },
+   "SND_EVOKE": {
+    "text": "snd_evoke.mp3",
+    "refs": []
+   },
+   "SND_TOMB": {
+    "text": "snd_tomb.mp3",
+    "refs": []
+   },
+   "SND_ALERT": {
+    "text": "snd_alert.mp3",
+    "refs": []
+   },
+   "SND_MELD": {
+    "text": "snd_meld.mp3",
+    "refs": []
+   },
+   "SND_BOSS": {
+    "text": "snd_boss.mp3",
+    "refs": []
+   },
+   "SND_BLAST": {
+    "text": "snd_blast.mp3",
+    "refs": []
+   },
+   "SND_PLANT": {
+    "text": "snd_plant.mp3",
+    "refs": []
+   },
+   "SND_RAY": {
+    "text": "snd_ray.mp3",
+    "refs": []
+   },
+   "SND_BEACON": {
+    "text": "snd_beacon.mp3",
+    "refs": []
+   },
+   "SND_TELEPORT": {
+    "text": "snd_teleport.mp3",
+    "refs": []
+   },
+   "SND_CHARMS": {
+    "text": "snd_charms.mp3",
+    "refs": []
+   },
+   "SND_MASTERY": {
+    "text": "snd_mastery.mp3",
+    "refs": []
+   },
+   "SND_PUFF": {
+    "text": "snd_puff.mp3",
+    "refs": []
+   },
+   "SND_ROCKS": {
+    "text": "snd_rocks.mp3",
+    "refs": []
+   },
+   "SND_BURNING": {
+    "text": "snd_burning.mp3",
+    "refs": []
+   },
+   "SND_FALLING": {
+    "text": "snd_falling.mp3",
+    "refs": []
+   },
+   "SND_GHOST": {
+    "text": "snd_ghost.mp3",
+    "refs": []
+   },
+   "SND_SECRET": {
+    "text": "snd_secret.mp3",
+    "refs": []
+   },
+   "SND_BONES": {
+    "text": "snd_bones.mp3",
+    "refs": []
+   },
+   "SND_BEE": {
+    "text": "snd_bee.mp3",
+    "refs": []
+   },
+   "SND_DEGRADE": {
+    "text": "snd_degrade.mp3",
+    "refs": []
+   },
+   "SND_MIMIC": {
+    "text": "snd_mimic.mp3",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Blob",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/blobs/Blob.java",
+  "consts": {
+   "CUR": {
+    "text": "cur",
+    "refs": []
+   },
+   "START": {
+    "text": "start",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Bones",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/Bones.java",
+  "consts": {
+   "BONES_FILE": {
+    "text": "bones.dat",
+    "refs": []
+   },
+   "LEVEL": {
+    "text": "level",
+    "refs": []
+   },
+   "ITEM": {
+    "text": "item",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Challenges",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/Challenges.java",
+  "arrays": {
+   "NAMES": [
+    "On diet",
+    "Faith is my armor",
+    "Pharmacophobia",
+    "Barren land",
+    "Swarm intelligence",
+    "Into darkness",
+    "Forbidden runes"
+   ]
+  }
+ },
+ {
+  "class": "Char",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/Char.java",
+  "name": "mob",
+  "consts": {
+   "TXT_HIT": {
+    "text": "%s hit %s",
+    "refs": []
+   },
+   "TXT_KILL": {
+    "text": "%s killed you...",
+    "refs": []
+   },
+   "TXT_DEFEAT": {
+    "text": "%s defeated %s",
+    "refs": []
+   },
+   "TXT_YOU_MISSED": {
+    "text": "%s %s your attack",
+    "refs": []
+   },
+   "TXT_SMB_MISSED": {
+    "text": "%s %s %s's attack",
+    "refs": []
+   },
+   "TXT_OUT_OF_PARALYSIS": {
+    "text": "The pain snapped %s out of paralysis",
+    "refs": []
+   },
+   "POS": {
+    "text": "pos",
+    "refs": []
+   },
+   "TAG_HP": {
+    "text": "HP",
+    "refs": []
+   },
+   "TAG_HT": {
+    "text": "HT",
+    "refs": []
+   },
+   "BUFFS": {
+    "text": "buffs",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Dungeon",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/Dungeon.java",
+  "consts": {
+   "RG_GAME_FILE": {
+    "text": "game.dat",
+    "refs": []
+   },
+   "RG_DEPTH_FILE": {
+    "text": "depth%d.dat",
+    "refs": []
+   },
+   "WR_GAME_FILE": {
+    "text": "warrior.dat",
+    "refs": []
+   },
+   "WR_DEPTH_FILE": {
+    "text": "warrior%d.dat",
+    "refs": []
+   },
+   "MG_GAME_FILE": {
+    "text": "mage.dat",
+    "refs": []
+   },
+   "MG_DEPTH_FILE": {
+    "text": "mage%d.dat",
+    "refs": []
+   },
+   "RN_GAME_FILE": {
+    "text": "ranger.dat",
+    "refs": []
+   },
+   "RN_DEPTH_FILE": {
+    "text": "ranger%d.dat",
+    "refs": []
+   },
+   "VERSION": {
+    "text": "version",
+    "refs": []
+   },
+   "CHALLENGES": {
+    "text": "challenges",
+    "refs": []
+   },
+   "HERO": {
+    "text": "hero",
+    "refs": []
+   },
+   "GOLD": {
+    "text": "gold",
+    "refs": []
+   },
+   "DEPTH": {
+    "text": "depth",
+    "refs": []
+   },
+   "LEVEL": {
+    "text": "level",
+    "refs": []
+   },
+   "DROPPED": {
+    "text": "dropped%d",
+    "refs": []
+   },
+   "POS": {
+    "text": "potionsOfStrength",
+    "refs": []
+   },
+   "SOU": {
+    "text": "scrollsOfEnhancement",
+    "refs": []
+   },
+   "SOE": {
+    "text": "scrollsOfEnchantment",
+    "refs": []
+   },
+   "DV": {
+    "text": "dewVial",
+    "refs": []
+   },
+   "CHAPTERS": {
+    "text": "chapters",
+    "refs": []
+   },
+   "QUESTS": {
+    "text": "quests",
+    "refs": []
+   },
+   "BADGES": {
+    "text": "badges",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "GLog",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/utils/GLog.java",
+  "consts": {
+   "TAG": {
+    "text": "GAME",
+    "refs": []
+   },
+   "POSITIVE": {
+    "text": "++",
+    "refs": []
+   },
+   "NEGATIVE": {
+    "text": "--",
+    "refs": []
+   },
+   "WARNING": {
+    "text": "**",
+    "refs": []
+   },
+   "HIGHLIGHT": {
+    "text": "@@",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Preferences",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/Preferences.java",
+  "consts": {
+   "KEY_LANDSCAPE": {
+    "text": "landscape",
+    "refs": []
+   },
+   "KEY_IMMERSIVE": {
+    "text": "immersive",
+    "refs": []
+   },
+   "KEY_GOOGLE_PLAY": {
+    "text": "google_play",
+    "refs": []
+   },
+   "KEY_SCALE_UP": {
+    "text": "scaleup",
+    "refs": []
+   },
+   "KEY_MUSIC": {
+    "text": "music",
+    "refs": []
+   },
+   "KEY_SOUND_FX": {
+    "text": "soundfx",
+    "refs": []
+   },
+   "KEY_ZOOM": {
+    "text": "zoom",
+    "refs": []
+   },
+   "KEY_LAST_CLASS": {
+    "text": "last_class",
+    "refs": []
+   },
+   "KEY_CHALLENGES": {
+    "text": "challenges",
+    "refs": []
+   },
+   "KEY_DONATED": {
+    "text": "donated",
+    "refs": []
+   },
+   "KEY_INTRO": {
+    "text": "intro",
+    "refs": []
+   },
+   "KEY_BRIGHTNESS": {
+    "text": "brightness",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Rankings",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/Rankings.java",
+  "consts": {
+   "RANKINGS_FILE": {
+    "text": "rankings.dat",
+    "refs": []
+   },
+   "DETAILS_FILE": {
+    "text": "game_%d.dat",
+    "refs": []
+   },
+   "RECORDS": {
+    "text": "records",
+    "refs": []
+   },
+   "LATEST": {
+    "text": "latest",
+    "refs": []
+   },
+   "TOTAL": {
+    "text": "total",
+    "refs": []
+   },
+   "WON": {
+    "text": "won",
+    "refs": []
+   },
+   "REASON": {
+    "text": "reason",
+    "refs": []
+   },
+   "WIN": {
+    "text": "win",
+    "refs": []
+   },
+   "SCORE": {
+    "text": "score",
+    "refs": []
+   },
+   "TIER": {
+    "text": "tier",
+    "refs": []
+   },
+   "GAME": {
+    "text": "gameFile",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "SacrificialFire",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/blobs/SacrificialFire.java",
+  "consts": {
+   "TXT_WORTHY": {
+    "text": "\"Your sacrifice is worthy...\"",
+    "refs": []
+   },
+   "TXT_UNWORTHY": {
+    "text": "\"Your sacrifice is unworthy...\"",
+    "refs": []
+   },
+   "TXT_REWARD": {
+    "text": "\"Your sacrifice is worthy and so you are!\"",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Statistics",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/Statistics.java",
+  "consts": {
+   "GOLD": {
+    "text": "score",
+    "refs": []
+   },
+   "DEEPEST": {
+    "text": "maxDepth",
+    "refs": []
+   },
+   "SLAIN": {
+    "text": "enemiesSlain",
+    "refs": []
+   },
+   "FOOD": {
+    "text": "foodEaten",
+    "refs": []
+   },
+   "ALCHEMY": {
+    "text": "potionsCooked",
+    "refs": []
+   },
+   "PIRANHAS": {
+    "text": "priranhas",
+    "refs": []
+   },
+   "NIGHT": {
+    "text": "nightHunt",
+    "refs": []
+   },
+   "ANKHS": {
+    "text": "ankhsUsed",
+    "refs": []
+   },
+   "DURATION": {
+    "text": "duration",
+    "refs": []
+   },
+   "AMULET": {
+    "text": "amuletObtained",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "Utils",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/utils/Utils.java",
+  "consts": {
+   "VOWELS": {
+    "text": "aoeiu",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WaterOfAwareness",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/blobs/WaterOfAwareness.java",
+  "consts": {
+   "TXT_PROCCED": {
+    "text": "As you take a sip, you feel the knowledge pours into your mind. Now you know everything about your equipped items. Also you sense all items on the level and know all its secrets.",
+    "refs": []
+   }
+  }
+ },
+ {
+  "class": "WaterOfHealth",
+  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/blobs/WaterOfHealth.java",
+  "consts": {
+   "TXT_PROCCED": {
+    "text": "As you take a sip, you feel your wounds heal completely.",
+    "refs": []
+   }
+  }
+ }
+]

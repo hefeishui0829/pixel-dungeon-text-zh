@@ -1,0 +1,57 @@
+{
+ "hero": {
+  "rows": 4,
+  "translatedStrings": 42
+ },
+ "items": {
+  "rows": 147,
+  "translatedStrings": 387
+ },
+ "mobs": {
+  "rows": 34,
+  "translatedStrings": 74
+ },
+ "npcs": {
+  "rows": 9,
+  "translatedStrings": 43
+ },
+ "plants": {
+  "rows": 9,
+  "translatedStrings": 19
+ },
+ "buffs": {
+  "rows": 10,
+  "translatedStrings": 8
+ },
+ "badges": {
+  "rows": 64,
+  "translatedStrings": 64
+ },
+ "levels": {
+  "rows": 8,
+  "translatedStrings": 12
+ },
+ "traps": {
+  "rows": 3,
+  "translatedStrings": 7
+ },
+ "journal": {
+  "rows": 2,
+  "translatedStrings": 12
+ },
+ "results": {
+  "rows": 1,
+  "translatedStrings": 14
+ },
+ "ui": {
+  "rows": 29,
+  "translatedStrings": 112
+ },
+ "misc": {
+  "rows": 15,
+  "translatedStrings": 50
+ },
+ "__total__": {
+  "translatedStrings": 844
+ }
+}

@@ -1,0 +1,5365 @@
+{
+ "MONSTERS_SLAIN_1": {
+  "sheet": "badges",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "击杀 10 个敌人"
+ },
+ "MONSTERS_SLAIN_2": {
+  "sheet": "badges",
+  "tile": 1,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 8,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 12,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 16,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "击杀 50 个敌人"
+ },
+ "MONSTERS_SLAIN_3": {
+  "sheet": "badges",
+  "tile": 2,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 16,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 24,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 32,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "击杀 150 个敌人"
+ },
+ "MONSTERS_SLAIN_4": {
+  "sheet": "badges",
+  "tile": 3,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 24,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 36,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 48,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "击杀 250 个敌人"
+ },
+ "GOLD_COLLECTED_1": {
+  "sheet": "badges",
+  "tile": 4,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 32,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 48,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 64,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "收集 100 金币"
+ },
+ "GOLD_COLLECTED_2": {
+  "sheet": "badges",
+  "tile": 5,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 40,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 60,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 80,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "收集 500 金币"
+ },
+ "GOLD_COLLECTED_3": {
+  "sheet": "badges",
+  "tile": 6,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 48,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 72,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 96,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "收集 2500 金币"
+ },
+ "GOLD_COLLECTED_4": {
+  "sheet": "badges",
+  "tile": 7,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 56,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 84,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 112,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "收集 7500 金币"
+ },
+ "LEVEL_REACHED_1": {
+  "sheet": "badges",
+  "tile": 8,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 64,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 96,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 128,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "达到 6 级"
+ },
+ "LEVEL_REACHED_2": {
+  "sheet": "badges",
+  "tile": 9,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 72,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 108,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 144,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "达到 12 级"
+ },
+ "LEVEL_REACHED_3": {
+  "sheet": "badges",
+  "tile": 10,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 80,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 120,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 160,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "达到 18 级"
+ },
+ "LEVEL_REACHED_4": {
+  "sheet": "badges",
+  "tile": 11,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 88,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 132,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 176,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "达到 24 级"
+ },
+ "BOSS_SLAIN_1": {
+  "sheet": "badges",
+  "tile": 12,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 96,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 144,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 192,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "击杀第 1 个 Boss"
+ },
+ "BOSS_SLAIN_2": {
+  "sheet": "badges",
+  "tile": 13,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 104,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 156,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 208,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "击杀第 2 个 Boss"
+ },
+ "BOSS_SLAIN_3": {
+  "sheet": "badges",
+  "tile": 14,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 112,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 168,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 224,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "击杀第 3 个 Boss"
+ },
+ "BOSS_SLAIN_4": {
+  "sheet": "badges",
+  "tile": 15,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 120,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 180,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 240,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "击杀第 4 个 Boss"
+ },
+ "ALL_POTIONS_IDENTIFIED": {
+  "sheet": "badges",
+  "tile": 16,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 128,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 192,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 0,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "鉴定全部药水"
+ },
+ "ALL_SCROLLS_IDENTIFIED": {
+  "sheet": "badges",
+  "tile": 17,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 136,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 204,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 16,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "鉴定全部卷轴"
+ },
+ "ALL_RINGS_IDENTIFIED": {
+  "sheet": "badges",
+  "tile": 18,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 144,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 216,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 32,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "鉴定全部戒指"
+ },
+ "ALL_WANDS_IDENTIFIED": {
+  "sheet": "badges",
+  "tile": 19,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 152,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 228,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 48,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "鉴定全部法杖"
+ },
+ "RING_OF_HAGGLER": {
+  "sheet": "badges",
+  "tile": 20,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 160,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 240,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 64,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "获得讲价之戒"
+ },
+ "RING_OF_THORNS": {
+  "sheet": "badges",
+  "tile": 21,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 168,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 0,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 80,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "获得荆棘之戒"
+ },
+ "VICTORY": {
+  "sheet": "badges",
+  "tile": 22,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 176,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 12,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 96,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "获得耶诺之护符"
+ },
+ "ALL_BAGS_BOUGHT": {
+  "sheet": "badges",
+  "tile": 23,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 184,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 24,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 112,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "买齐所有背包"
+ },
+ "DEATH_FROM_FIRE": {
+  "sheet": "badges",
+  "tile": 24,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 192,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 36,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 128,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "死于火焰"
+ },
+ "DEATH_FROM_POISON": {
+  "sheet": "badges",
+  "tile": 25,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 200,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 48,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 144,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "死于中毒"
+ },
+ "DEATH_FROM_GAS": {
+  "sheet": "badges",
+  "tile": 26,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 208,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 60,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 160,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "死于毒气"
+ },
+ "DEATH_FROM_HUNGER": {
+  "sheet": "badges",
+  "tile": 27,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 216,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 72,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 176,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "死于饥饿"
+ },
+ "NO_MONSTERS_SLAIN": {
+  "sheet": "badges",
+  "tile": 28,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 224,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 84,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 192,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "不杀任何怪物通关一层"
+ },
+ "GRIM_WEAPON": {
+  "sheet": "badges",
+  "tile": 29,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 232,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 96,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 208,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "用夺命武器杀死怪物"
+ },
+ "PIRANHAS": {
+  "sheet": "badges",
+  "tile": 30,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 240,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 108,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 224,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "杀死 6 只食人鱼"
+ },
+ "SUPPORTER": {
+  "sheet": "badges",
+  "tile": 31,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 248,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 120,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 240,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "感谢你的支持！"
+ },
+ "BOSS_SLAIN_1_ALL_CLASSES": {
+  "sheet": "badges",
+  "tile": 32,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 0,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 132,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 0,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "用勇士、法师、盗贼与女猎手各自击杀第 1 个 Boss"
+ },
+ "BOSS_SLAIN_3_ALL_SUBCLASSES": {
+  "sheet": "badges",
+  "tile": 33,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 8,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 144,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 16,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "用角斗士、狂战士、术士、战斗法师、疾行者、刺客、狙击手与守望者各自击杀第 3 个 Boss"
+ },
+ "YASD": {
+  "sheet": "badges",
+  "tile": 34,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 16,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 156,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 32,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "死于火焰、中毒、毒气与饥饿"
+ },
+ "ALL_ITEMS_IDENTIFIED": {
+  "sheet": "badges",
+  "tile": 35,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 24,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 168,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 48,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "鉴定全部药水、卷轴、戒指与法杖"
+ },
+ "VICTORY_ALL_CLASSES": {
+  "sheet": "badges",
+  "tile": 36,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 32,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 180,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 64,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "用勇士、法师、盗贼与女猎手各自获得耶诺之护符"
+ },
+ "RARE": {
+  "sheet": "badges",
+  "tile": 37,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 40,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 192,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 80,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "击杀所有稀有怪物"
+ },
+ "HAPPY_END": {
+  "sheet": "badges",
+  "tile": 38,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 48,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 204,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 96,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "圆满结局"
+ },
+ "CHAMPION": {
+  "sheet": "badges",
+  "tile": 39,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 56,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 216,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 112,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "挑战获胜"
+ },
+ "STRENGTH_ATTAINED_1": {
+  "sheet": "badges",
+  "tile": 40,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 64,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 228,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 128,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "力量达到 13 点"
+ },
+ "STRENGTH_ATTAINED_2": {
+  "sheet": "badges",
+  "tile": 41,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 72,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 240,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 144,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "力量达到 15 点"
+ },
+ "STRENGTH_ATTAINED_3": {
+  "sheet": "badges",
+  "tile": 42,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 80,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 0,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 160,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "力量达到 17 点"
+ },
+ "STRENGTH_ATTAINED_4": {
+  "sheet": "badges",
+  "tile": 43,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 88,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 12,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 176,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "力量达到 19 点"
+ },
+ "FOOD_EATEN_1": {
+  "sheet": "badges",
+  "tile": 44,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 96,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 24,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 192,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "吃掉 10 份食物"
+ },
+ "FOOD_EATEN_2": {
+  "sheet": "badges",
+  "tile": 45,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 104,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 36,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 208,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "吃掉 20 份食物"
+ },
+ "FOOD_EATEN_3": {
+  "sheet": "badges",
+  "tile": 46,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 112,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 48,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 224,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "吃掉 30 份食物"
+ },
+ "FOOD_EATEN_4": {
+  "sheet": "badges",
+  "tile": 47,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 120,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 60,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 240,
+    "y": 32,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "吃掉 40 份食物"
+ },
+ "ITEM_LEVEL_1": {
+  "sheet": "badges",
+  "tile": 48,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 128,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 72,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 0,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "获得 3 级物品"
+ },
+ "ITEM_LEVEL_2": {
+  "sheet": "badges",
+  "tile": 49,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 136,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 84,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 16,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "获得 6 级物品"
+ },
+ "ITEM_LEVEL_3": {
+  "sheet": "badges",
+  "tile": 50,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 144,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 96,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 32,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "获得 9 级物品"
+ },
+ "ITEM_LEVEL_4": {
+  "sheet": "badges",
+  "tile": 51,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 152,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 108,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 48,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "获得 12 级物品"
+ },
+ "POTIONS_COOKED_1": {
+  "sheet": "badges",
+  "tile": 52,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 160,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 120,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 64,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "调配 3 瓶药水"
+ },
+ "POTIONS_COOKED_2": {
+  "sheet": "badges",
+  "tile": 53,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 168,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 132,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 80,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "调配 6 瓶药水"
+ },
+ "POTIONS_COOKED_3": {
+  "sheet": "badges",
+  "tile": 54,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 176,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 144,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 96,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "调配 9 瓶药水"
+ },
+ "POTIONS_COOKED_4": {
+  "sheet": "badges",
+  "tile": 55,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 184,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 156,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 112,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "调配 12 瓶药水"
+ },
+ "MASTERY_COMBO": {
+  "sheet": "badges",
+  "tile": 56,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 192,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 168,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 128,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "打出 7 连击"
+ },
+ "DEATH_FROM_GLYPH": {
+  "sheet": "badges",
+  "tile": 57,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 200,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 180,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 144,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "死于附魔"
+ },
+ "NIGHT_HUNTER": {
+  "sheet": "badges",
+  "tile": 58,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 208,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 192,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 160,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "在夜间杀死 15 个怪物"
+ },
+ "DEATH_FROM_FALLING": {
+  "sheet": "badges",
+  "tile": 59,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 216,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 204,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 176,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "坠亡"
+ },
+ "GAMES_PLAYED_1": {
+  "sheet": "badges",
+  "tile": 60,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 224,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 216,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 192,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "游玩 10 局"
+ },
+ "GAMES_PLAYED_2": {
+  "sheet": "badges",
+  "tile": 61,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 232,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 228,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 208,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "游玩 100 局"
+ },
+ "GAMES_PLAYED_3": {
+  "sheet": "badges",
+  "tile": 62,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 240,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 240,
+    "y": 24,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 224,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "游玩 500 局"
+ },
+ "GAMES_PLAYED_4": {
+  "sheet": "badges",
+  "tile": 63,
+  "presets": {
+   "band-lite": {
+    "image": "badges.png",
+    "x": 248,
+    "y": 8,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "badges.png",
+    "x": 0,
+    "y": 36,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "badges.png",
+    "x": 240,
+    "y": 48,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "游玩 2000 局"
+ },
+ "Amulet": {
+  "sheet": "items",
+  "tile": 87,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 184,
+    "y": 16,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 36,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 112,
+    "y": 80,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "耶诺之护符"
+ },
+ "Ankh": {
+  "sheet": "items",
+  "tile": 1,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 8,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 12,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 16,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "安卡"
+ },
+ "ArmorKit": {
+  "sheet": "items",
+  "tile": 86,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 176,
+    "y": 16,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 24,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 96,
+    "y": 80,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "护甲改造套件"
+ },
+ "BattleAxe": {
+  "sheet": "items",
+  "tile": 22,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 176,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 12,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 96,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "战斧"
+ },
+ "Bomb": {
+  "sheet": "items",
+  "tile": 124,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 216,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 216,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 176,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "炸弹"
+ },
+ "Boomerang": {
+  "sheet": "items",
+  "tile": 106,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 80,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 12,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 160,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "回旋镖"
+ },
+ "ChargrilledMeat": {
+  "sheet": "items",
+  "tile": 114,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 144,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 108,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 32,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "炭烤肉排"
+ },
+ "ClothArmor": {
+  "sheet": "items",
+  "tile": 24,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 192,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 36,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 128,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "布甲"
+ },
+ "CorpseDust": {
+  "sheet": "items",
+  "tile": 121,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 192,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 180,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 128,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "尸尘"
+ },
+ "CurareDart": {
+  "sheet": "items",
+  "tile": 109,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 104,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 48,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 208,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "箭毒镖"
+ },
+ "Dagger": {
+  "sheet": "items",
+  "tile": 19,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 152,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 228,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 48,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "匕首"
+ },
+ "DarkGold": {
+  "sheet": "items",
+  "tile": 102,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 48,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 216,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 96,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "暗金矿石"
+ },
+ "Dart": {
+  "sheet": "items",
+  "tile": 31,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 248,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 120,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 240,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "飞镖"
+ },
+ "DewVial": {
+  "sheet": "items",
+  "tile": 120,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 184,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 168,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 112,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "露水瓶"
+ },
+ "Dewdrop": {
+  "sheet": "items",
+  "tile": 81,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 136,
+    "y": 16,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 216,
+    "y": 36,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 16,
+    "y": 80,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "露水"
+ },
+ "DriedRose": {
+  "sheet": "items",
+  "tile": 100,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 32,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 192,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 64,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "干枯的玫瑰"
+ },
+ "DwarfToken": {
+  "sheet": "items",
+  "tile": 122,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 200,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 192,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 144,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "矮人代币"
+ },
+ "Food": {
+  "sheet": "items",
+  "tile": 4,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 32,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 48,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 64,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "口粮"
+ },
+ "FrozenCarpaccio": {
+  "sheet": "items",
+  "tile": 116,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 160,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 132,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 64,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "冻生肉片"
+ },
+ "Glaive": {
+  "sheet": "items",
+  "tile": 30,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 240,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 108,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 224,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "长柄刀"
+ },
+ "Gold": {
+  "sheet": "items",
+  "tile": 14,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 112,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 168,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 224,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "金币"
+ },
+ "GoldenKey": {
+  "sheet": "items",
+  "tile": 10,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 80,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 120,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 160,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "金钥匙"
+ },
+ "Honeypot": {
+  "sheet": "items",
+  "tile": 125,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 224,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 228,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 192,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "蜜罐"
+ },
+ "HuntressArmor": {
+  "sheet": "items",
+  "tile": 99,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 24,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 180,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 48,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "女猎手斗篷"
+ },
+ "IncendiaryDart": {
+  "sheet": "items",
+  "tile": 108,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 96,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 36,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 192,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "燃烧镖"
+ },
+ "IronKey": {
+  "sheet": "items",
+  "tile": 9,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 72,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 108,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 144,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "铁钥匙"
+ },
+ "Javelin": {
+  "sheet": "items",
+  "tile": 110,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 112,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 60,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 224,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "标枪"
+ },
+ "Keyring": {
+  "sheet": "items",
+  "tile": 126,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 232,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 240,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 208,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "钥匙环"
+ },
+ "Knuckles": {
+  "sheet": "items",
+  "tile": 16,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 128,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 192,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 0,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "指虎"
+ },
+ "LeatherArmor": {
+  "sheet": "items",
+  "tile": 25,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 200,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 48,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 144,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "皮甲"
+ },
+ "LloydsBeacon": {
+  "sheet": "items",
+  "tile": 85,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 168,
+    "y": 16,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 12,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 80,
+    "y": 80,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "劳埃德信标"
+ },
+ "Longsword": {
+  "sheet": "items",
+  "tile": 21,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 168,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 0,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 80,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "长剑"
+ },
+ "Mace": {
+  "sheet": "items",
+  "tile": 18,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 144,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 216,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 32,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "钉头锤"
+ },
+ "MageArmor": {
+  "sheet": "items",
+  "tile": 98,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 16,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 168,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 32,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "法师长袍"
+ },
+ "MailArmor": {
+  "sheet": "items",
+  "tile": 26,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 208,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 60,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 160,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "锁甲"
+ },
+ "MysteryMeat": {
+  "sheet": "items",
+  "tile": 113,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 136,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 96,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 16,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "可疑的肉"
+ },
+ "OverpricedRation": {
+  "sheet": "items",
+  "tile": 115,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 152,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 120,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 48,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "高价口粮"
+ },
+ "Pasty": {
+  "sheet": "items",
+  "tile": 112,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 128,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 84,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 0,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "康沃尔馅饼"
+ },
+ "PhantomFish": {
+  "sheet": "items",
+  "tile": 118,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 176,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 156,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 96,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "幻影鱼"
+ },
+ "Pickaxe": {
+  "sheet": "items",
+  "tile": 101,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 40,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 204,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 80,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "鹤嘴锄"
+ },
+ "PlateArmor": {
+  "sheet": "items",
+  "tile": 28,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 224,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 84,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 192,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "板甲"
+ },
+ "Quarterstaff": {
+  "sheet": "items",
+  "tile": 17,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 136,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 204,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 16,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "铁头长杖"
+ },
+ "RatSkull": {
+  "sheet": "items",
+  "tile": 103,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 56,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 228,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 112,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "巨鼠头骨"
+ },
+ "RogueArmor": {
+  "sheet": "items",
+  "tile": 96,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 0,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 144,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 0,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "盗贼夜行衣"
+ },
+ "ScaleArmor": {
+  "sheet": "items",
+  "tile": 27,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 216,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 72,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 176,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "鳞甲"
+ },
+ "ScrollHolder": {
+  "sheet": "items",
+  "tile": 104,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 64,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 240,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 128,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "卷轴筒"
+ },
+ "ScrollOfWipeOut": {
+  "sheet": "items",
+  "tile": 117,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 168,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 144,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 80,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "清场卷轴"
+ },
+ "SeedPouch": {
+  "sheet": "items",
+  "tile": 83,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 152,
+    "y": 16,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 240,
+    "y": 36,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 48,
+    "y": 80,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "种子袋"
+ },
+ "ShortSword": {
+  "sheet": "items",
+  "tile": 2,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 16,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 24,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 32,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "短剑"
+ },
+ "Shuriken": {
+  "sheet": "items",
+  "tile": 15,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 120,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 180,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 240,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "手里剑"
+ },
+ "SkeletonKey": {
+  "sheet": "items",
+  "tile": 8,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 64,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 96,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 128,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "骷髅钥匙"
+ },
+ "Spear": {
+  "sheet": "items",
+  "tile": 29,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 232,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 96,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 208,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "长矛"
+ },
+ "Sword": {
+  "sheet": "items",
+  "tile": 20,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 160,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 240,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 64,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "剑"
+ },
+ "Tamahawk": {
+  "sheet": "items",
+  "tile": 107,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 88,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 24,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 176,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "投掷战斧"
+ },
+ "TomeOfMastery": {
+  "sheet": "items",
+  "tile": 82,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 144,
+    "y": 16,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 228,
+    "y": 36,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 32,
+    "y": 80,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "精通之书"
+ },
+ "Torch": {
+  "sheet": "items",
+  "tile": 84,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 160,
+    "y": 16,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 0,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 64,
+    "y": 80,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "火把"
+ },
+ "WandHolster": {
+  "sheet": "items",
+  "tile": 111,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 120,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 72,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 240,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "法杖皮套"
+ },
+ "WandOfFlock": {
+  "sheet": "sheep",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "sheep.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "sheep.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "sheep.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "羊群法杖"
+ },
+ "WandOfMagicMissile": {
+  "sheet": "items",
+  "tile": 3,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 24,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 36,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 48,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "魔法飞弹法杖"
+ },
+ "WarHammer": {
+  "sheet": "items",
+  "tile": 23,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 184,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 24,
+    "y": 12,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 112,
+    "y": 16,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "战锤"
+ },
+ "WarriorArmor": {
+  "sheet": "items",
+  "tile": 97,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 8,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 156,
+    "y": 48,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 16,
+    "y": 96,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "勇士战甲"
+ },
+ "Weightstone": {
+  "sheet": "items",
+  "tile": 123,
+  "presets": {
+   "band-lite": {
+    "image": "items.png",
+    "x": 208,
+    "y": 24,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "items.png",
+    "x": 204,
+    "y": 60,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "items.png",
+    "x": 160,
+    "y": 112,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "配重石"
+ },
+ "Acidic": {
+  "sheet": "scorpio",
+  "tile": 16,
+  "presets": {
+   "band-lite": {
+    "image": "scorpio.png",
+    "x": 104,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "scorpio.png",
+    "x": 156,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "scorpio.png",
+    "x": 208,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "酸液蝎蛛"
+ },
+ "Albino": {
+  "sheet": "rat",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "rat.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "rat.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "rat.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "白化巨鼠"
+ },
+ "Bandit": {
+  "sheet": "thief",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "thief.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "thief.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "thief.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "疯狂强盗"
+ },
+ "Bat": {
+  "sheet": "bat",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "bat.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "bat.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "bat.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "吸血蝙蝠"
+ },
+ "Brute": {
+  "sheet": "brute",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "brute.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "brute.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "brute.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "豺狼人蛮兵"
+ },
+ "Crab": {
+  "sheet": "crab",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "crab.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "crab.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "crab.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "下水道巨蟹"
+ },
+ "DM300": {
+  "sheet": "dm300",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "dm300.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "dm300.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "dm300.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "DM-300"
+ },
+ "Elemental": {
+  "sheet": "elemental",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "elemental.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "elemental.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "elemental.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "火元素"
+ },
+ "Eye": {
+  "sheet": "eye",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "eye.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "eye.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "eye.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "邪眼"
+ },
+ "Gnoll": {
+  "sheet": "gnoll",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "gnoll.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "gnoll.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "gnoll.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "豺狼人斥候"
+ },
+ "Golem": {
+  "sheet": "golem",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "golem.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "golem.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "golem.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "魔像"
+ },
+ "Goo": {
+  "sheet": "goo",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "goo.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "goo.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "goo.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "咕噜"
+ },
+ "King": {
+  "sheet": "king",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "king.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "king.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "king.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "亡灵矮人"
+ },
+ "Mimic": {
+  "sheet": "mimic",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "mimic.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "mimic.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "mimic.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "拟形怪"
+ },
+ "Monk": {
+  "sheet": "monk",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "monk.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "monk.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "monk.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "矮人武僧"
+ },
+ "Piranha": {
+  "sheet": "piranha",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "piranha.png",
+    "x": null,
+    "y": null,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": "该 tile 全透明, 已在压缩时剔除"
+   },
+   "band": {
+    "image": "piranha.png",
+    "x": null,
+    "y": null,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": "该 tile 全透明, 已在压缩时剔除"
+   },
+   "band-pro": {
+    "image": "piranha.png",
+    "x": null,
+    "y": null,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": "该 tile 全透明, 已在压缩时剔除"
+   }
+  },
+  "zh": "巨型食人鱼"
+ },
+ "Rat": {
+  "sheet": "rat",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "rat.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "rat.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "rat.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "有袋巨鼠"
+ },
+ "Scorpio": {
+  "sheet": "scorpio",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "scorpio.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "scorpio.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "scorpio.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "蝎蛛"
+ },
+ "Senior": {
+  "sheet": "monk",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "monk.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "monk.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "monk.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "资深武僧"
+ },
+ "Shaman": {
+  "sheet": "shaman",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "shaman.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "shaman.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "shaman.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "豺狼人萨满"
+ },
+ "Shielded": {
+  "sheet": "brute",
+  "tile": 16,
+  "presets": {
+   "band-lite": {
+    "image": "brute.png",
+    "x": 72,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "brute.png",
+    "x": 108,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "brute.png",
+    "x": 144,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "持盾蛮兵"
+ },
+ "Skeleton": {
+  "sheet": "skeleton",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "skeleton.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "skeleton.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "skeleton.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "骷髅"
+ },
+ "Spinner": {
+  "sheet": "spinner",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "spinner.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "spinner.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "spinner.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "洞窟纺蛛"
+ },
+ "Statue": {
+  "sheet": "statue",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "statue.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "statue.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "statue.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "活化石像"
+ },
+ "Succubus": {
+  "sheet": "succubus",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "succubus.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "succubus.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "succubus.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "魅魔"
+ },
+ "Swarm": {
+  "sheet": "swarm",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "swarm.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "swarm.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "swarm.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "蝇群"
+ },
+ "Tengu": {
+  "sheet": "tengu",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "tengu.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "tengu.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "tengu.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "天狗"
+ },
+ "Thief": {
+  "sheet": "thief",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "thief.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "thief.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "thief.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "疯狂盗贼"
+ },
+ "Warlock": {
+  "sheet": "warlock",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "warlock.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "warlock.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "warlock.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "矮人术士"
+ },
+ "Wraith": {
+  "sheet": "wraith",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "wraith.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "wraith.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "wraith.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "怨灵"
+ },
+ "Yog": {
+  "sheet": "yog",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "yog.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "yog.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "yog.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "Yog-Dzewa"
+ },
+ "Bee": {
+  "sheet": "bee",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "bee.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "bee.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "bee.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "金色蜜蜂"
+ },
+ "Blacksmith": {
+  "sheet": "blacksmith",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "blacksmith.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "blacksmith.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "blacksmith.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "巨魔铁匠"
+ },
+ "Ghost": {
+  "sheet": "ghost",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "ghost.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "ghost.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "ghost.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "悲伤幽灵"
+ },
+ "Imp": {
+  "sheet": "demon",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "demon.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "demon.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "demon.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "野心勃勃的小恶魔"
+ },
+ "ImpShopkeeper": {
+  "sheet": "demon",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "demon.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "demon.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "demon.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "野心勃勃的小恶魔"
+ },
+ "RatKing": {
+  "sheet": "ratking",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "ratking.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "ratking.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "ratking.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "鼠王"
+ },
+ "Shopkeeper": {
+  "sheet": "shopkeeper",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "shopkeeper.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "shopkeeper.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "shopkeeper.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "商店老板"
+ },
+ "Wandmaker": {
+  "sheet": "wandmaker",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "wandmaker.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "wandmaker.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "wandmaker.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "老法杖匠"
+ },
+ "Dreamweed": {
+  "sheet": "plants",
+  "tile": 3,
+  "presets": {
+   "band-lite": {
+    "image": "plants.png",
+    "x": 24,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "plants.png",
+    "x": 36,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "plants.png",
+    "x": 48,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "梦草"
+ },
+ "Earthroot": {
+  "sheet": "plants",
+  "tile": 5,
+  "presets": {
+   "band-lite": {
+    "image": "plants.png",
+    "x": 40,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "plants.png",
+    "x": 60,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "plants.png",
+    "x": 80,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "地根草"
+ },
+ "Fadeleaf": {
+  "sheet": "plants",
+  "tile": 6,
+  "presets": {
+   "band-lite": {
+    "image": "plants.png",
+    "x": 48,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "plants.png",
+    "x": 72,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "plants.png",
+    "x": 96,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "凋零叶"
+ },
+ "Firebloom": {
+  "sheet": "plants",
+  "tile": 0,
+  "presets": {
+   "band-lite": {
+    "image": "plants.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "plants.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "plants.png",
+    "x": 0,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "火焰花"
+ },
+ "Icecap": {
+  "sheet": "plants",
+  "tile": 1,
+  "presets": {
+   "band-lite": {
+    "image": "plants.png",
+    "x": 8,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "plants.png",
+    "x": 12,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "plants.png",
+    "x": 16,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "冰帽花"
+ },
+ "Rotberry": {
+  "sheet": "plants",
+  "tile": 7,
+  "presets": {
+   "band-lite": {
+    "image": "plants.png",
+    "x": 56,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "plants.png",
+    "x": 84,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "plants.png",
+    "x": 112,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "腐浆果"
+ },
+ "Sorrowmoss": {
+  "sheet": "plants",
+  "tile": 2,
+  "presets": {
+   "band-lite": {
+    "image": "plants.png",
+    "x": 16,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "plants.png",
+    "x": 24,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "plants.png",
+    "x": 32,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "悲伤苔"
+ },
+ "Sungrass": {
+  "sheet": "plants",
+  "tile": 4,
+  "presets": {
+   "band-lite": {
+    "image": "plants.png",
+    "x": 32,
+    "y": 0,
+    "tileWidth": 8,
+    "tileHeight": 8,
+    "note": null
+   },
+   "band": {
+    "image": "plants.png",
+    "x": 48,
+    "y": 0,
+    "tileWidth": 12,
+    "tileHeight": 12,
+    "note": null
+   },
+   "band-pro": {
+    "image": "plants.png",
+    "x": 64,
+    "y": 0,
+    "tileWidth": 16,
+    "tileHeight": 16,
+    "note": null
+   }
+  },
+  "zh": "太阳草"
+ }
+}
