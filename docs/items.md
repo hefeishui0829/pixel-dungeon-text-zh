@@ -126,7 +126,7 @@
 | 剑 | 这柄锋利的钢制长刃闪着令人安心的寒光。 | sword | The razor-sharp length of steel blade shines reassuringly. | `items` #20 |
 | 投掷战斧 | 这把投掷用的斧头不算太重，但要发挥威力仍需要相当的力量。 | tomahawk | This throwing axe is not that heavy, but it still requires significant strength to be used effectively. | `items` #107 |
 | （武器附魔） | `TXT_TEMPERED` 淬炼%s | — | — | — |
-| 精通之书 | 这本磨损的皮面书并不算厚，但你莫名觉得能从中学到很多。不过要记住，读完这本书可能需要一些时间。<br>`TXT_BLINDED` 失明时你无法阅读<br>`AC_READ` 阅读 | — | This worn leather book is not that thick, but you feel somehow, that you can gather a lot from it. Remember though that reading this tome may require some time. | `items` #82 |
+| 精通之书 | 这本磨损的皮面书并不算厚，但你莫名觉得能从中学到很多。不过要记住，读完这本书可能需要一些时间。<br>`TXT_BLINDED` 失明时你无法阅读<br>`AC_READ` 阅读 | Tome of Mastery | This worn leather book is not that thick, but you feel somehow, that you can gather a lot from it. Remember though that reading this tome may require some time. | `items` #82 |
 | 火把 | 在恶魔殿堂里这是不可或缺的道具，那地方以环境照明极差而臭名昭著。<br>`AC_LIGHT` 点燃 | torch | It's an indispensable item in The Demon Halls, which are notorious for their poor ambient lighting. | `items` #84 |
 | 粘稠%s | 这个刻印可以储存对使用者造成的伤害，让使用者缓慢受伤而不是一下子受到重击。<br>`TXT_VISCOSITY` 黏滞之%s<br>`DAMAGE` 伤害 | — | — | — |
 | （法杖） | `AC_ZAP` 施放<br>`TXT_WOOD` 这根纤细的%s法杖摸上去暖暖的。谁知道使用它会发生什么？<br>`TXT_DAMAGE` 把这支法杖当作近战武器时，它的平均伤害是每次 %d 点。<br>`TXT_WEAPON` 你可以把这支法杖当作近战武器使用。<br>`TXT_FIZZLES` {your}{wand}{fizzles}<br>`TXT_SELF_TARGET` 你不能以自己为目标<br>`TXT_IDENTIFY` 你对自己的%s已经足够熟悉了。<br>`UNFAMILIRIARITY` 不熟练<br>`MAX_CHARGES` 最大充能<br>`CUR_CHARGES` 当前充能<br>`CUR_CHARGE_KNOWN` 充能已知 | — | — | — |

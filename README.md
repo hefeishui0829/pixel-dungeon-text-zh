@@ -58,7 +58,7 @@ public String desc() { return "You can store excess dew ..."; }
 | hero | 4 | 4 个职业 × 特长说明 + 8 个副职业 |
 | ui | 29 | 界面文本 + **WndStory 五章剧情**（下水道/监狱/洞窟/矮人都城/恶魔殿堂） |
 | levels / traps / journal / results / misc | 29 | 楼层、陷阱、日志、14 条死因、战斗与世界交互 |
-| **合计** | **335 个类 / 908 条已译文本** | 其中 173 条带贴图坐标 |
+| **合计** | **338 个类 / 911 条已译文本** | 其中 178 条带贴图坐标 |
 
 文本量是否够、译名是否靠谱，跟社区主流中文分支做过交叉验证：[docs/zh-reference-comparison.md](docs/zh-reference-comparison.md)。结论：类别齐全无缺块，123 条可比名称中 **85% 与 Shattered 官方简体中文吻合**（44% 完全相同、41% 高度相似），差异集中在 SPD 重制改名过的条目。
 
@@ -70,7 +70,7 @@ data/zh/manual/     中文译文(人工维护)
 data/zh/*.json      合并后的双语数据(含贴图坐标), 机器生成
 data/zh/all.json    全量合并
 data/sprite-index.json   类名 -> (图集, tile) 索引
-data/sprite-map.json     全部 173 条的三档压缩图集坐标
+data/sprite-map.json     全部 178 条的三档压缩图集坐标
 docs/*.md           按类别的可读文档
 tools/              提取 / 合并 / 查表 / 校验脚本
 ```
@@ -94,7 +94,7 @@ python3 tools/lookup_sprite.py --band ../pixel-dungeon-band --id Amulet
 python3 tools/verify_mapping.py --preset band
 ```
 
-第 5 步当前结果：三档均为 **173 条有像素、0 空 tile、0 异常**。
+第 5 步当前结果：三档均为 **178 条有像素、0 空 tile、0 异常**。
 
 ## 与贴图项目的对应关系
 
@@ -118,7 +118,7 @@ python3 tools/verify_mapping.py --preset band
 3. **低 alpha 残影格**：`piranha.png` 第 0/1 格是食人鱼的水下半透明阴影
    （alpha 峰值仅 76），标准二值化阈值 128 下会被整格判空。
    贴图管线现改为"标准阈值变全空时退回低阈值 (32)"的双阈值策略，
-   这两格已找回（验证结果 173 条全部有像素）。代价是它们会被存成不透明实色，
+   这两格已找回（验证结果 178 条全部有像素）。代价是它们会被存成不透明实色，
    而非原来的半透明。
 
 ## 许可

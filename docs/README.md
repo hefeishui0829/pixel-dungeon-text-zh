@@ -38,8 +38,8 @@ python3 tools/lookup_sprite.py --band ../pixel-dungeon-band --id Amulet
 ```
 
 它会同时给出 `band-lite` / `band` / `band-pro` 三档的坐标。`data/sprite-map.json`
-是全部 173 个带贴图条目的坐标总表，可直接内联进快应用。
+是全部 178 个带贴图条目的坐标总表，可直接内联进快应用。
 
 ## 翻译状态
 
-844 条已译文本；存档字段名、文件名常量等技术字段不翻译（它们不是玩家可见文本）。
+911 条已译文本；存档字段名、文件名常量等技术字段不翻译（它们不是玩家可见文本）。

@@ -1,356 +1,380 @@
 [
- {
-  "class": "Acidic",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Acidic.java",
-  "name": "acidic scorpio",
-  "spriteClass": "AcidicSprite"
- },
- {
-  "class": "Albino",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Albino.java",
-  "name": "albino rat",
-  "spriteClass": "AlbinoSprite"
- },
- {
-  "class": "Bandit",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Bandit.java",
-  "name": "crazy bandit",
-  "spriteClass": "BanditSprite"
- },
- {
-  "class": "Bat",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Bat.java",
-  "name": "vampire bat",
-  "desc": "These brisk and tenacious inhabitants of cave domes may defeat much larger opponents by replenishing their health with each successful attack.",
-  "spriteClass": "BatSprite"
- },
- {
-  "class": "Brute",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Brute.java",
-  "name": "gnoll brute",
-  "desc": "Brutes are the largest, strongest and toughest of all gnolls. When severely wounded, they go berserk, inflicting even more damage to their enemies.",
-  "spriteClass": "BruteSprite",
-  "consts": {
-   "TXT_ENRAGED": {
-    "text": "%s becomes enraged!",
-    "refs": []
-   }
+  {
+    "class": "Acidic",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Acidic.java",
+    "name": "acidic scorpio",
+    "spriteClass": "AcidicSprite"
+  },
+  {
+    "class": "Albino",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Albino.java",
+    "name": "albino rat",
+    "spriteClass": "AlbinoSprite"
+  },
+  {
+    "class": "Bandit",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Bandit.java",
+    "name": "crazy bandit",
+    "spriteClass": "BanditSprite"
+  },
+  {
+    "class": "Bat",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Bat.java",
+    "name": "vampire bat",
+    "desc": "These brisk and tenacious inhabitants of cave domes may defeat much larger opponents by replenishing their health with each successful attack.",
+    "spriteClass": "BatSprite"
+  },
+  {
+    "class": "Brute",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Brute.java",
+    "name": "gnoll brute",
+    "desc": "Brutes are the largest, strongest and toughest of all gnolls. When severely wounded, they go berserk, inflicting even more damage to their enemies.",
+    "spriteClass": "BruteSprite",
+    "consts": {
+      "TXT_ENRAGED": {
+        "text": "%s becomes enraged!",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Crab",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Crab.java",
+    "name": "sewer crab",
+    "desc": "These huge crabs are at the top of the food chain in the sewers. They are extremely fast and their thick exoskeleton can withstand heavy blows.",
+    "spriteClass": "CrabSprite"
+  },
+  {
+    "class": "CursePersonification",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/CursePersonification.java",
+    "name": "curse personification",
+    "desc": "This creature resembles the sad ghost, but it swirls with darkness. Its face bears an expression of despair.",
+    "spriteClass": "CursePersonificationSprite"
+  },
+  {
+    "class": "DM300",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/DM300.java",
+    "desc": "This machine was created by the Dwarves several centuries ago. Later, Dwarves started to replace machines with golems, elementals and even demons. Eventually it led their civilization to the decline. The DM-300 and similar machines were typically used for construction and mining, and in some cases, for city defense.",
+    "spriteClass": "DM300Sprite",
+    "name": "DM-300"
+  },
+  {
+    "class": "Elemental",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Elemental.java",
+    "name": "fire elemental",
+    "desc": "Wandering fire elementals are a byproduct of summoning greater entities. They are too chaotic in their nature to be controlled by even the most powerful demonologist.",
+    "spriteClass": "ElementalSprite"
+  },
+  {
+    "class": "Eye",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Eye.java",
+    "name": "evil eye",
+    "desc": "One of this demon's other names is \"orb of hatred\", because when it sees an enemy, it uses its deathgaze recklessly, often ignoring its allies and wounding them.",
+    "spriteClass": "EyeSprite",
+    "consts": {
+      "TXT_DEATHGAZE_KILLED": {
+        "text": "%s's deathgaze killed you...",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "FetidRat",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/FetidRat.java",
+    "name": "fetid rat",
+    "desc": "This marsupial rat is much larger than a regular one. It is surrounded by a foul cloud.",
+    "spriteClass": "FetidRatSprite"
+  },
+  {
+    "class": "Gnoll",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Gnoll.java",
+    "name": "gnoll scout",
+    "desc": "Gnolls are hyena-like humanoids. They dwell in sewers and dungeons, venturing up to raid the surface from time to time. Gnoll scouts are regular members of their pack, they are not as strong as brutes and not as intelligent as shamans.",
+    "spriteClass": "GnollSprite"
+  },
+  {
+    "class": "Golem",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Golem.java",
+    "name": "golem",
+    "desc": "The Dwarves tried to combine their knowledge of mechanisms with their newfound power of elemental binding. They used spirits of earth as the \"soul\" for the mechanical bodies of golems, which were believed to be most controllable of all. Despite this, the tiniest mistake in the ritual could cause an outbreak.",
+    "spriteClass": "GolemSprite"
+  },
+  {
+    "class": "Goo",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Goo.java",
+    "desc": "Little known about The Goo. It's quite possible that it is not even a creature, but rather a conglomerate of substances from the sewers that gained rudiments of free will.",
+    "spriteClass": "GooSprite",
+    "name": "Goo"
+  },
+  {
+    "class": "King",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/King.java",
+    "name": "undead dwarf",
+    "desc": "The last king of dwarves was known for his deep understanding of processes of life and death. He has persuaded members of his court to participate in a ritual, that should have granted them eternal youthfulness. In the end he was the only one, who got it - and an army of undead as a bonus.",
+    "spriteClass": "KingSprite",
+    "consts": {
+      "PEDESTAL": {
+        "text": "pedestal",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Mimic",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Mimic.java",
+    "name": "mimic",
+    "desc": "Mimics are magical creatures which can take any shape they wish. In dungeons they almost always choose a shape of a treasure chest, because they know how to beckon an adventurer.",
+    "spriteClass": "MimicSprite",
+    "consts": {
+      "LEVEL": {
+        "text": "level",
+        "refs": []
+      },
+      "ITEMS": {
+        "text": "items",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Mob",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Mob.java",
+    "desc": "Real description is coming soon!",
+    "consts": {
+      "TXT_DIED": {
+        "text": "You hear something died in the distance",
+        "refs": []
+      },
+      "TXT_ECHO": {
+        "text": "echo of",
+        "refs": []
+      },
+      "TXT_NOTICE1": {
+        "text": "?!",
+        "refs": []
+      },
+      "TXT_RAGE": {
+        "text": "#$%^",
+        "refs": []
+      },
+      "TXT_EXP": {
+        "text": "%+dEXP",
+        "refs": []
+      },
+      "STATE": {
+        "text": "state",
+        "refs": []
+      },
+      "TARGET": {
+        "text": "target",
+        "refs": []
+      },
+      "TAG": {
+        "text": "PASSIVE",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Monk",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Monk.java",
+    "name": "dwarf monk",
+    "desc": "These monks are fanatics, who devoted themselves to protecting their city's secrets from all aliens. They don't use any armor or weapons, relying solely on the art of hand-to-hand combat.",
+    "spriteClass": "MonkSprite",
+    "consts": {
+      "TXT_DISARM": {
+        "text": "%s has knocked the %s from your hands!",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Piranha",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Piranha.java",
+    "name": "giant piranha",
+    "desc": "These carnivorous fish are not natural inhabitants of underground pools. They were bred specifically to protect flooded treasure vaults.",
+    "spriteClass": "PiranhaSprite"
+  },
+  {
+    "class": "Rat",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Rat.java",
+    "name": "marsupial rat",
+    "desc": "Marsupial rats are aggressive, but rather weak denizens of the sewers. They can be dangerous only in big numbers.",
+    "spriteClass": "RatSprite"
+  },
+  {
+    "class": "Scorpio",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Scorpio.java",
+    "name": "scorpio",
+    "desc": "These huge arachnid-like demonic creatures avoid close combat by all means, firing crippling serrated spikes from long distances.",
+    "spriteClass": "ScorpioSprite"
+  },
+  {
+    "class": "Senior",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Senior.java",
+    "name": "senior monk",
+    "spriteClass": "SeniorSprite"
+  },
+  {
+    "class": "Shaman",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Shaman.java",
+    "name": "gnoll shaman",
+    "desc": "The most intelligent gnolls can master shamanistic magic. Gnoll shamans prefer battle spells to compensate for lack of might, not hesitating to use them on those who question their status in a tribe.",
+    "spriteClass": "ShamanSprite",
+    "consts": {
+      "TXT_LIGHTNING_KILLED": {
+        "text": "%s's lightning bolt killed you...",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Shielded",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Shielded.java",
+    "name": "shielded brute",
+    "spriteClass": "ShieldedSprite"
+  },
+  {
+    "class": "Skeleton",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Skeleton.java",
+    "name": "skeleton",
+    "desc": "Skeletons are composed of corpses bones from unlucky adventurers and inhabitants of the dungeon, animated by emanations of evil magic from the depths below. After they have been damaged enough, they disintegrate in an explosion of bones.",
+    "spriteClass": "SkeletonSprite",
+    "consts": {
+      "TXT_HERO_KILLED": {
+        "text": "You were killed by the explosion of bones...",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Spinner",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Spinner.java",
+    "name": "cave spinner",
+    "desc": "These greenish furry cave spiders try to avoid direct combat, preferring to wait in the distance while their victim, entangled in the spinner's excreted cobweb, slowly dies from their poisonous bite.",
+    "spriteClass": "SpinnerSprite"
+  },
+  {
+    "class": "Statue",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Statue.java",
+    "name": "animated statue",
+    "desc": "You would think that it's just another ugly statue of this dungeon, but its red glowing eyes give itself away. While the statue itself is made of stone, the _{weapon.name}_, it's wielding, looks real.",
+    "spriteClass": "StatueSprite",
+    "consts": {
+      "WEAPON": {
+        "text": "weapon",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Succubus",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Succubus.java",
+    "name": "succubus",
+    "desc": "The succubi are demons that look like seductive (in a slightly gothic way) girls. Using its magic, the succubus can charm a hero, who will become unable to attack anything until the charm wears off.",
+    "spriteClass": "SuccubusSprite"
+  },
+  {
+    "class": "Swarm",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Swarm.java",
+    "name": "swarm of flies",
+    "desc": "The deadly swarm of flies buzzes angrily. Every non-magical attack will split it into two smaller but equally dangerous swarms.",
+    "spriteClass": "SwarmSprite",
+    "consts": {
+      "GENERATION": {
+        "text": "generation",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Tengu",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Tengu.java",
+    "desc": "Tengu are members of the ancient assassins clan, which is also called Tengu. These assassins are noted for extensive use of shuriken and traps.",
+    "spriteClass": "TenguSprite",
+    "name": "Tengu"
+  },
+  {
+    "class": "Thief",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Thief.java",
+    "name": "crazy thief",
+    "spriteClass": "ThiefSprite",
+    "consts": {
+      "TXT_STOLE": {
+        "text": "%s stole %s from you!",
+        "refs": []
+      },
+      "TXT_CARRIES": {
+        "text": "%s is carrying a _%s_. Stolen obviously.",
+        "refs": []
+      },
+      "ITEM": {
+        "text": "item",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Warlock",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Warlock.java",
+    "name": "dwarf warlock",
+    "desc": "When dwarves' interests have shifted from engineering to arcane arts, warlocks have come to power in the city. They started with elemental magic, but soon switched to demonology and necromancy.",
+    "spriteClass": "WarlockSprite",
+    "consts": {
+      "TXT_SHADOWBOLT_KILLED": {
+        "text": "%s's shadow bolt killed you...",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Wraith",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Wraith.java",
+    "name": "wraith",
+    "desc": "A wraith is a vengeful spirit of a sinner, whose grave or tomb was disturbed. Being an ethereal entity, it is very hard to hit with a regular weapon.",
+    "spriteClass": "WraithSprite",
+    "consts": {
+      "LEVEL": {
+        "text": "level",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Yog",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Yog.java",
+    "name": "Yog-Dzewa",
+    "altNames": [
+      "burning fist",
+      "god's larva"
+    ],
+    "spriteClass": "YogSprite",
+    "consts": {
+      "TXT_DESC": {
+        "text": "Yog-Dzewa is an Old God, a powerful entity from the realms of chaos. A century ago, the ancient dwarves barely won the war against its army of demons, but were unable to kill the god itself. Instead, they then imprisoned it in the halls below their city, believing it to be too weak to rise ever again.",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Larva",
+    "name": "god's larva",
+    "desc": null,
+    "spriteClass": "LarvaSprite",
+    "note": "Yog.java 内部类; description() 返回主类 Yog 的 TXT_DESC, 故 desc 置空不重复"
+  },
+  {
+    "class": "BurningFist",
+    "name": "burning fist",
+    "desc": null,
+    "spriteClass": "BurningFistSprite",
+    "note": "Yog.java 内部类; description() 返回主类 Yog 的 TXT_DESC, 故 desc 置空不重复"
+  },
+  {
+    "class": "RottingFist",
+    "name": "rotting fist",
+    "desc": null,
+    "spriteClass": "RottingFistSprite",
+    "note": "Yog.java 内部类; description() 返回主类 Yog 的 TXT_DESC, 故 desc 置空不重复"
   }
- },
- {
-  "class": "Crab",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Crab.java",
-  "name": "sewer crab",
-  "desc": "These huge crabs are at the top of the food chain in the sewers. They are extremely fast and their thick exoskeleton can withstand heavy blows.",
-  "spriteClass": "CrabSprite"
- },
- {
-  "class": "CursePersonification",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/CursePersonification.java",
-  "name": "curse personification",
-  "desc": "This creature resembles the sad ghost, but it swirls with darkness. Its face bears an expression of despair.",
-  "spriteClass": "CursePersonificationSprite"
- },
- {
-  "class": "DM300",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/DM300.java",
-  "desc": "This machine was created by the Dwarves several centuries ago. Later, Dwarves started to replace machines with golems, elementals and even demons. Eventually it led their civilization to the decline. The DM-300 and similar machines were typically used for construction and mining, and in some cases, for city defense.",
-  "spriteClass": "DM300Sprite"
- },
- {
-  "class": "Elemental",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Elemental.java",
-  "name": "fire elemental",
-  "desc": "Wandering fire elementals are a byproduct of summoning greater entities. They are too chaotic in their nature to be controlled by even the most powerful demonologist.",
-  "spriteClass": "ElementalSprite"
- },
- {
-  "class": "Eye",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Eye.java",
-  "name": "evil eye",
-  "desc": "One of this demon's other names is \"orb of hatred\", because when it sees an enemy, it uses its deathgaze recklessly, often ignoring its allies and wounding them.",
-  "spriteClass": "EyeSprite",
-  "consts": {
-   "TXT_DEATHGAZE_KILLED": {
-    "text": "%s's deathgaze killed you...",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "FetidRat",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/FetidRat.java",
-  "name": "fetid rat",
-  "desc": "This marsupial rat is much larger than a regular one. It is surrounded by a foul cloud.",
-  "spriteClass": "FetidRatSprite"
- },
- {
-  "class": "Gnoll",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Gnoll.java",
-  "name": "gnoll scout",
-  "desc": "Gnolls are hyena-like humanoids. They dwell in sewers and dungeons, venturing up to raid the surface from time to time. Gnoll scouts are regular members of their pack, they are not as strong as brutes and not as intelligent as shamans.",
-  "spriteClass": "GnollSprite"
- },
- {
-  "class": "Golem",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Golem.java",
-  "name": "golem",
-  "desc": "The Dwarves tried to combine their knowledge of mechanisms with their newfound power of elemental binding. They used spirits of earth as the \"soul\" for the mechanical bodies of golems, which were believed to be most controllable of all. Despite this, the tiniest mistake in the ritual could cause an outbreak.",
-  "spriteClass": "GolemSprite"
- },
- {
-  "class": "Goo",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Goo.java",
-  "desc": "Little known about The Goo. It's quite possible that it is not even a creature, but rather a conglomerate of substances from the sewers that gained rudiments of free will.",
-  "spriteClass": "GooSprite"
- },
- {
-  "class": "King",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/King.java",
-  "name": "undead dwarf",
-  "desc": "The last king of dwarves was known for his deep understanding of processes of life and death. He has persuaded members of his court to participate in a ritual, that should have granted them eternal youthfulness. In the end he was the only one, who got it - and an army of undead as a bonus.",
-  "spriteClass": "KingSprite",
-  "consts": {
-   "PEDESTAL": {
-    "text": "pedestal",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Mimic",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Mimic.java",
-  "name": "mimic",
-  "desc": "Mimics are magical creatures which can take any shape they wish. In dungeons they almost always choose a shape of a treasure chest, because they know how to beckon an adventurer.",
-  "spriteClass": "MimicSprite",
-  "consts": {
-   "LEVEL": {
-    "text": "level",
-    "refs": []
-   },
-   "ITEMS": {
-    "text": "items",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Mob",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Mob.java",
-  "desc": "Real description is coming soon!",
-  "consts": {
-   "TXT_DIED": {
-    "text": "You hear something died in the distance",
-    "refs": []
-   },
-   "TXT_ECHO": {
-    "text": "echo of",
-    "refs": []
-   },
-   "TXT_NOTICE1": {
-    "text": "?!",
-    "refs": []
-   },
-   "TXT_RAGE": {
-    "text": "#$%^",
-    "refs": []
-   },
-   "TXT_EXP": {
-    "text": "%+dEXP",
-    "refs": []
-   },
-   "STATE": {
-    "text": "state",
-    "refs": []
-   },
-   "TARGET": {
-    "text": "target",
-    "refs": []
-   },
-   "TAG": {
-    "text": "PASSIVE",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Monk",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Monk.java",
-  "name": "dwarf monk",
-  "desc": "These monks are fanatics, who devoted themselves to protecting their city's secrets from all aliens. They don't use any armor or weapons, relying solely on the art of hand-to-hand combat.",
-  "spriteClass": "MonkSprite",
-  "consts": {
-   "TXT_DISARM": {
-    "text": "%s has knocked the %s from your hands!",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Piranha",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Piranha.java",
-  "name": "giant piranha",
-  "desc": "These carnivorous fish are not natural inhabitants of underground pools. They were bred specifically to protect flooded treasure vaults.",
-  "spriteClass": "PiranhaSprite"
- },
- {
-  "class": "Rat",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Rat.java",
-  "name": "marsupial rat",
-  "desc": "Marsupial rats are aggressive, but rather weak denizens of the sewers. They can be dangerous only in big numbers.",
-  "spriteClass": "RatSprite"
- },
- {
-  "class": "Scorpio",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Scorpio.java",
-  "name": "scorpio",
-  "desc": "These huge arachnid-like demonic creatures avoid close combat by all means, firing crippling serrated spikes from long distances.",
-  "spriteClass": "ScorpioSprite"
- },
- {
-  "class": "Senior",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Senior.java",
-  "name": "senior monk",
-  "spriteClass": "SeniorSprite"
- },
- {
-  "class": "Shaman",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Shaman.java",
-  "name": "gnoll shaman",
-  "desc": "The most intelligent gnolls can master shamanistic magic. Gnoll shamans prefer battle spells to compensate for lack of might, not hesitating to use them on those who question their status in a tribe.",
-  "spriteClass": "ShamanSprite",
-  "consts": {
-   "TXT_LIGHTNING_KILLED": {
-    "text": "%s's lightning bolt killed you...",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Shielded",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Shielded.java",
-  "name": "shielded brute",
-  "spriteClass": "ShieldedSprite"
- },
- {
-  "class": "Skeleton",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Skeleton.java",
-  "name": "skeleton",
-  "desc": "Skeletons are composed of corpses bones from unlucky adventurers and inhabitants of the dungeon, animated by emanations of evil magic from the depths below. After they have been damaged enough, they disintegrate in an explosion of bones.",
-  "spriteClass": "SkeletonSprite",
-  "consts": {
-   "TXT_HERO_KILLED": {
-    "text": "You were killed by the explosion of bones...",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Spinner",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Spinner.java",
-  "name": "cave spinner",
-  "desc": "These greenish furry cave spiders try to avoid direct combat, preferring to wait in the distance while their victim, entangled in the spinner's excreted cobweb, slowly dies from their poisonous bite.",
-  "spriteClass": "SpinnerSprite"
- },
- {
-  "class": "Statue",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Statue.java",
-  "name": "animated statue",
-  "desc": "You would think that it's just another ugly statue of this dungeon, but its red glowing eyes give itself away. While the statue itself is made of stone, the _{weapon.name}_, it's wielding, looks real.",
-  "spriteClass": "StatueSprite",
-  "consts": {
-   "WEAPON": {
-    "text": "weapon",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Succubus",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Succubus.java",
-  "name": "succubus",
-  "desc": "The succubi are demons that look like seductive (in a slightly gothic way) girls. Using its magic, the succubus can charm a hero, who will become unable to attack anything until the charm wears off.",
-  "spriteClass": "SuccubusSprite"
- },
- {
-  "class": "Swarm",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Swarm.java",
-  "name": "swarm of flies",
-  "desc": "The deadly swarm of flies buzzes angrily. Every non-magical attack will split it into two smaller but equally dangerous swarms.",
-  "spriteClass": "SwarmSprite",
-  "consts": {
-   "GENERATION": {
-    "text": "generation",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Tengu",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Tengu.java",
-  "desc": "Tengu are members of the ancient assassins clan, which is also called Tengu. These assassins are noted for extensive use of shuriken and traps.",
-  "spriteClass": "TenguSprite"
- },
- {
-  "class": "Thief",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Thief.java",
-  "name": "crazy thief",
-  "spriteClass": "ThiefSprite",
-  "consts": {
-   "TXT_STOLE": {
-    "text": "%s stole %s from you!",
-    "refs": []
-   },
-   "TXT_CARRIES": {
-    "text": "%s is carrying a _%s_. Stolen obviously.",
-    "refs": []
-   },
-   "ITEM": {
-    "text": "item",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Warlock",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Warlock.java",
-  "name": "dwarf warlock",
-  "desc": "When dwarves' interests have shifted from engineering to arcane arts, warlocks have come to power in the city. They started with elemental magic, but soon switched to demonology and necromancy.",
-  "spriteClass": "WarlockSprite",
-  "consts": {
-   "TXT_SHADOWBOLT_KILLED": {
-    "text": "%s's shadow bolt killed you...",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Wraith",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Wraith.java",
-  "name": "wraith",
-  "desc": "A wraith is a vengeful spirit of a sinner, whose grave or tomb was disturbed. Being an ethereal entity, it is very hard to hit with a regular weapon.",
-  "spriteClass": "WraithSprite",
-  "consts": {
-   "LEVEL": {
-    "text": "level",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Yog",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/actors/mobs/Yog.java",
-  "name": "rotting fist",
-  "altNames": [
-   "burning fist",
-   "god's larva"
-  ],
-  "spriteClass": "YogSprite",
-  "consts": {
-   "TXT_DESC": {
-    "text": "Yog-Dzewa is an Old God, a powerful entity from the realms of chaos. A century ago, the ancient dwarves barely won the war against its army of demons, but were unable to kill the god itself. Instead, they then imprisoned it in the halls below their city, believing it to be too weak to rise ever again.",
-    "refs": []
-   }
-  }
- }
 ]

@@ -1,1797 +1,1798 @@
 [
- {
-  "class": "Affection",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Affection.java",
-  "consts": {
-   "TXT_AFFECTION": {
-    "text": "%s of affection",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Amulet",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Amulet.java",
-  "name": "Amulet of Yendor",
-  "desc": "The Amulet of Yendor is the most powerful known artifact of unknown origin. It is said that the amulet is able to fulfil any wish if its owner's will-power is strong enough to \"persuade\" it to do it.",
-  "image": "ItemSpriteSheet.AMULET",
-  "consts": {
-   "AC_END": {
-    "text": "END THE GAME",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Ankh",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Ankh.java",
-  "name": "Ankh",
-  "desc": "The ancient symbol of immortality grants an ability to return to life after death. Upon resurrection all non-equipped items are lost.",
-  "altDescs": [
-   "{to}{life}{after}{death.} +\n\t\t\t{Upon}{resurrection}{all}{non}{equipped}{items}{are}{lost.}"
-  ],
-  "image": "ItemSpriteSheet.ANKH"
- },
- {
-  "class": "AntiEntropy",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/AntiEntropy.java",
-  "consts": {
-   "TXT_ANTI_ENTROPY": {
-    "text": "%s of anti-entropy",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Armor",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/Armor.java",
-  "consts": {
-   "TXT_EQUIP_CURSED": {
-    "text": "your %s constricts around you painfully",
-    "refs": []
-   },
-   "TXT_IDENTIFY": {
-    "text": "you are now familiar enough with your %s to identify it. It is %s.",
-    "refs": []
-   },
-   "TXT_TO_STRING": {
-    "text": "%s :%d",
-    "refs": []
-   },
-   "TXT_BROKEN": {
-    "text": "broken %s :%d",
-    "refs": []
-   },
-   "TXT_INCOMPATIBLE": {
-    "text": "Interaction of different types of magic has erased the glyph on this armor!",
-    "refs": []
-   },
-   "UNFAMILIRIARITY": {
-    "text": "unfamiliarity",
-    "refs": []
-   },
-   "GLYPH": {
-    "text": "glyph",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "ArmorKit",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/ArmorKit.java",
-  "name": "armor kit",
-  "desc": "Using this kit of small tools and materials anybody can transform any armor into an \"epic armor\", which will keep all properties of the original armor, but will also provide its wearer a special ability depending on his class. No skills in tailoring, leatherworking or blacksmithing are required.",
-  "image": "ItemSpriteSheet.KIT",
-  "consts": {
-   "TXT_SELECT_ARMOR": {
-    "text": "Select an armor to upgrade",
-    "refs": []
-   },
-   "TXT_UPGRADED": {
-    "text": "you applied the armor kit to upgrade your %s",
-    "refs": []
-   },
-   "AC_APPLY": {
-    "text": "APPLY",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "AutoRepair",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/AutoRepair.java",
-  "consts": {
-   "TXT_AUTO_REPAIR": {
-    "text": "%s of auto-repair",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Bag",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/bags/Bag.java",
-  "consts": {
-   "AC_OPEN": {
-    "text": "OPEN",
-    "refs": []
-   },
-   "ITEMS": {
-    "text": "inventory",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "BattleAxe",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/BattleAxe.java",
-  "name": "battle axe",
-  "desc": "The enormous steel head of this battle axe puts considerable heft behind each stroke.",
-  "image": "ItemSpriteSheet.BATTLE_AXE"
- },
- {
-  "class": "Bomb",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Bomb.java",
-  "name": "bomb",
-  "desc": "This is a relatively small bomb, filled with black powder. Conveniently, its fuse is lit automatically when the bomb is thrown.",
-  "image": "ItemSpriteSheet.BOMB"
- },
- {
-  "class": "Boomerang",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/Boomerang.java",
-  "name": "boomerang",
-  "desc": "Thrown to the enemy this flat curved wooden missile will return to the hands of its thrower.",
-  "image": "ItemSpriteSheet.BOOMERANG"
- },
- {
-  "class": "Bounce",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Bounce.java",
-  "consts": {
-   "TXT_BOUNCE": {
-    "text": "%s of bounce",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "ChargrilledMeat",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/food/ChargrilledMeat.java",
-  "name": "chargrilled meat",
-  "desc": "It looks like a decent steak.",
-  "image": "ItemSpriteSheet.STEAK"
- },
- {
-  "class": "ClassArmor",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/ClassArmor.java",
-  "desc": "The thing looks awesome!",
-  "consts": {
-   "TXT_LOW_HEALTH": {
-    "text": "Your health is too low!",
-    "refs": []
-   },
-   "TXT_NOT_EQUIPPED": {
-    "text": "You need to be wearing this armor to use its special power!",
-    "refs": []
-   },
-   "ARMOR_STR": {
-    "text": "STR",
-    "refs": []
-   },
-   "ARMOR_DR": {
-    "text": "DR",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "ClothArmor",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/ClothArmor.java",
-  "name": "cloth armor",
-  "desc": "This lightweight armor offers basic protection.",
-  "image": "ItemSpriteSheet.ARMOR_CLOTH"
- },
- {
-  "class": "CorpseDust",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/CorpseDust.java",
-  "name": "corpse dust",
-  "desc": "The ball of corpse dust doesn't differ outwardly from a regular dust ball. However, you know somehow that it's better to get rid of it as soon as possible.",
-  "image": "ItemSpriteSheet.DUST"
- },
- {
-  "class": "CurareDart",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/CurareDart.java",
-  "name": "curare dart",
-  "desc": "These little evil darts don't do much damage but they can paralyze the target leaving it helpless and motionless for some time.",
-  "image": "ItemSpriteSheet.CURARE_DART"
- },
- {
-  "class": "Dagger",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Dagger.java",
-  "name": "dagger",
-  "desc": "A simple iron dagger with a well worn wooden handle.",
-  "image": "ItemSpriteSheet.DAGGER"
- },
- {
-  "class": "DarkGold",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/DarkGold.java",
-  "name": "dark gold ore",
-  "desc": "This metal is called dark not because of its color (it doesn't differ from the normal gold), but because it melts under the daylight, making it useless on the surface.",
-  "image": "ItemSpriteSheet.ORE"
- },
- {
-  "class": "Dart",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/Dart.java",
-  "name": "dart",
-  "desc": "These simple metal spikes are weighted to fly true and sting their prey with a flick of the wrist.",
-  "image": "ItemSpriteSheet.DART"
- },
- {
-  "class": "Death",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Death.java",
-  "consts": {
-   "TXT_GRIM": {
-    "text": "grim %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "DewVial",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/DewVial.java",
-  "name": "dew vial",
-  "desc": "You can store excess dew in this tiny vessel for drinking it later. If the vial is full, in a moment of deadly peril the dew will be consumed automatically.",
-  "image": "ItemSpriteSheet.VIAL",
-  "consts": {
-   "AC_DRINK": {
-    "text": "DRINK",
-    "refs": []
-   },
-   "TXT_VALUE": {
-    "text": "%+dHP",
-    "refs": []
-   },
-   "TXT_STATUS": {
-    "text": "%d/%d",
-    "refs": []
-   },
-   "TXT_AUTO_DRINK": {
-    "text": "The dew vial was emptied to heal your wounds.",
-    "refs": []
-   },
-   "TXT_COLLECTED": {
-    "text": "You collected a dewdrop into your dew vial.",
-    "refs": []
-   },
-   "TXT_FULL": {
-    "text": "Your dew vial is full!",
-    "refs": []
-   },
-   "TXT_EMPTY": {
-    "text": "Your dew vial is empty!",
-    "refs": []
-   },
-   "VOLUME": {
-    "text": "volume",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Dewdrop",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Dewdrop.java",
-  "name": "dewdrop",
-  "desc": "A crystal clear dewdrop.",
-  "image": "ItemSpriteSheet.DEWDROP",
-  "consts": {
-   "TXT_VALUE": {
-    "text": "%+dHP",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Displacement",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Displacement.java",
-  "consts": {
-   "TXT_DISPLACEMENT": {
-    "text": "%s of displacement",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "DriedRose",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/DriedRose.java",
-  "name": "dried rose",
-  "desc": "The rose has dried long ago, but it has kept all its petals somehow.",
-  "image": "ItemSpriteSheet.ROSE"
- },
- {
-  "class": "DwarfToken",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/DwarfToken.java",
-  "name": "dwarf token",
-  "desc": "Many dwarves and some of their larger creations carry these small pieces of metal of unknown purpose. Maybe they are jewelry or maybe some kind of ID. Dwarves are strange folk.",
-  "image": "ItemSpriteSheet.TOKEN"
- },
- {
-  "class": "Entanglement",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Entanglement.java",
-  "consts": {
-   "TXT_ENTANGLEMENT": {
-    "text": "%s of entanglement",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "EquipableItem",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/EquipableItem.java",
-  "consts": {
-   "TXT_UNEQUIP_CURSED": {
-    "text": "You can't remove cursed %s!",
-    "refs": []
-   },
-   "AC_EQUIP": {
-    "text": "EQUIP",
-    "refs": []
-   },
-   "AC_UNEQUIP": {
-    "text": "UNEQUIP",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Fire",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Fire.java",
-  "consts": {
-   "TXT_BLAZING": {
-    "text": "blazing %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Food",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/food/Food.java",
-  "name": "ration of food",
-  "desc": "Nothing fancy here: dried meat, some biscuits - things like that.",
-  "image": "ItemSpriteSheet.RATION",
-  "consts": {
-   "AC_EAT": {
-    "text": "EAT",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "FrozenCarpaccio",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/food/FrozenCarpaccio.java",
-  "name": "frozen carpaccio",
-  "desc": "It's a piece of frozen raw meat. The only way to eat it is by cutting thin slices of it. And this way it's suprisingly good.",
-  "image": "ItemSpriteSheet.CARPACCIO"
- },
- {
-  "class": "Glaive",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Glaive.java",
-  "name": "glaive",
-  "desc": "A polearm consisting of a sword blade on the end of a pole.",
-  "image": "ItemSpriteSheet.GLAIVE"
- },
- {
-  "class": "Gold",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Gold.java",
-  "name": "gold",
-  "image": "ItemSpriteSheet.GOLD",
-  "consts": {
-   "TXT_COLLECT": {
-    "text": "Collect gold coins to spend them later in a shop.",
-    "refs": []
-   },
-   "TXT_INFO": {
-    "text": "A pile of %d gold coins. {TXT_COLLECT}",
-    "refs": [
-     "TXT_COLLECT"
-    ]
-   },
-   "TXT_INFO_1": {
-    "text": "One gold coin. {TXT_COLLECT}",
-    "refs": [
-     "TXT_COLLECT"
-    ]
-   },
-   "TXT_VALUE": {
-    "text": "%+d",
-    "refs": []
-   },
-   "VALUE": {
-    "text": "value",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "GoldenKey",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/keys/GoldenKey.java",
-  "name": "golden key",
-  "desc": "The notches on this golden key are tiny and intricate. Maybe it can open some chest lock?",
-  "image": "ItemSpriteSheet.GOLDEN_KEY"
- },
- {
-  "class": "Heap",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Heap.java",
-  "consts": {
-   "TXT_MIMIC": {
-    "text": "This is a mimic!",
-    "refs": []
-   },
-   "POS": {
-    "text": "pos",
-    "refs": []
-   },
-   "TYPE": {
-    "text": "type",
-    "refs": []
-   },
-   "ITEMS": {
-    "text": "items",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Honeypot",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Honeypot.java",
-  "name": "honeypot",
-  "desc": "There is not much honey in this small honeypot, but there is a golden bee there and it doesn't want to leave it.",
-  "image": "ItemSpriteSheet.HONEYPOT",
-  "consts": {
-   "AC_SHATTER": {
-    "text": "SHATTER",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Horror",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Horror.java",
-  "consts": {
-   "TXT_ELDRITCH": {
-    "text": "eldritch %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "HuntressArmor",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/HuntressArmor.java",
-  "name": "huntress cloak",
-  "desc": "A huntress in such cloak can create a fan of spectral blades. Each of these blades will target a single enemy in the huntress's field of view, inflicting damage depending on her currently equipped melee weapon.",
-  "image": "ItemSpriteSheet.ARMOR_HUNTRESS",
-  "consts": {
-   "TXT_NO_ENEMIES": {
-    "text": "No enemies in sight",
-    "refs": []
-   },
-   "TXT_NOT_HUNTRESS": {
-    "text": "Only huntresses can use this armor!",
-    "refs": []
-   },
-   "AC_SPECIAL": {
-    "text": "SPECTRAL BLADES",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "IncendiaryDart",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/IncendiaryDart.java",
-  "name": "incendiary dart",
-  "desc": "The spike on each of these darts is designed to pin it to its target while the unstable compounds strapped to its length burst into brilliant flames.",
-  "image": "ItemSpriteSheet.INCENDIARY_DART"
- },
- {
-  "class": "Instability",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Instability.java",
-  "consts": {
-   "TXT_UNSTABLE": {
-    "text": "unstable %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "InventoryScroll",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/InventoryScroll.java",
-  "consts": {
-   "TXT_WARNING": {
-    "text": "Do you really want to cancel this scroll usage? It will be consumed anyway.",
-    "refs": []
-   },
-   "TXT_YES": {
-    "text": "Yes, I'm positive",
-    "refs": []
-   },
-   "TXT_NO": {
-    "text": "No, I changed my mind",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "IronKey",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/keys/IronKey.java",
-  "name": "iron key",
-  "image": "ItemSpriteSheet.IRON_KEY",
-  "consts": {
-   "TXT_FROM_DEPTH": {
-    "text": "iron key from depth %d",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Item",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Item.java",
-  "name": "smth",
-  "consts": {
-   "TXT_PACK_FULL": {
-    "text": "Your pack is too full for the %s",
-    "refs": []
-   },
-   "TXT_BROKEN": {
-    "text": "Because of frequent use, your %s has broken.",
-    "refs": []
-   },
-   "TXT_GONNA_BREAK": {
-    "text": "Because of frequent use, your %s is going to break soon.",
-    "refs": []
-   },
-   "TXT_TO_STRING": {
-    "text": "%s",
-    "refs": []
-   },
-   "TXT_TO_STRING_X": {
-    "text": "%s x%d",
-    "refs": []
-   },
-   "TXT_TO_STRING_LVL": {
-    "text": "%s%+d",
-    "refs": []
-   },
-   "TXT_TO_STRING_LVL_X": {
-    "text": "%s%+d x%d",
-    "refs": []
-   },
-   "AC_DROP": {
-    "text": "DROP",
-    "refs": []
-   },
-   "AC_THROW": {
-    "text": "THROW",
-    "refs": []
-   },
-   "QUANTITY": {
-    "text": "quantity",
-    "refs": []
-   },
-   "LEVEL": {
-    "text": "level",
-    "refs": []
-   },
-   "LEVEL_KNOWN": {
-    "text": "levelKnown",
-    "refs": []
-   },
-   "CURSED": {
-    "text": "cursed",
-    "refs": []
-   },
-   "CURSED_KNOWN": {
-    "text": "cursedKnown",
-    "refs": []
-   },
-   "DURABILITY": {
-    "text": "durability",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "ItemStatusHandler",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/ItemStatusHandler.java",
-  "consts": {
-   "PFX_IMAGE": {
-    "text": "_image",
-    "refs": []
-   },
-   "PFX_LABEL": {
-    "text": "_label",
-    "refs": []
-   },
-   "PFX_KNOWN": {
-    "text": "_known",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Javelin",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/Javelin.java",
-  "name": "javelin",
-  "desc": "This length of metal is weighted to keep the spike at its tip foremost as it sails through the air.",
-  "image": "ItemSpriteSheet.JAVELIN"
- },
- {
-  "class": "Key",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/keys/Key.java",
-  "consts": {
-   "DEPTH": {
-    "text": "depth",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Keyring",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/bags/Keyring.java",
-  "name": "key ring",
-  "desc": "This is a copper key ring, that lets you keep all your keys separately from the rest of your belongings.",
-  "image": "ItemSpriteSheet.KEYRING"
- },
- {
-  "class": "KindOfWeapon",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/KindOfWeapon.java",
-  "consts": {
-   "TXT_EQUIP_CURSED": {
-    "text": "you wince as your grip involuntarily tightens around your %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Knuckles",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Knuckles.java",
-  "name": "knuckleduster",
-  "desc": "A piece of iron shaped to fit around the knuckles.",
-  "image": "ItemSpriteSheet.KNUCKLEDUSTER"
- },
- {
-  "class": "LeatherArmor",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/LeatherArmor.java",
-  "name": "leather armor",
-  "desc": "Armor made from tanned monster hide. Not as light as cloth armor but provides better protection.",
-  "image": "ItemSpriteSheet.ARMOR_LEATHER"
- },
- {
-  "class": "Leech",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Leech.java",
-  "consts": {
-   "TXT_VAMPIRIC": {
-    "text": "vampiric %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "LloydsBeacon",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/LloydsBeacon.java",
-  "name": "lloyd's beacon",
-  "desc": "{TXT_INFO}{returnDepth}{Utils.format}{TXT_SET}{returnDepth}",
-  "image": "ItemSpriteSheet.BEACON",
-  "consts": {
-   "TXT_PREVENTING": {
-    "text": "Strong magic aura of this place prevents you from using the lloyd's beacon!",
-    "refs": []
-   },
-   "TXT_CREATURES": {
-    "text": "Psychic aura of neighbouring creatures doesn't allow you to use the lloyd's beacon at this moment.",
-    "refs": []
-   },
-   "TXT_RETURN": {
-    "text": "The lloyd's beacon is successfully set at your current location, now you can return here anytime.",
-    "refs": []
-   },
-   "TXT_INFO": {
-    "text": "Lloyd's beacon is an intricate magic device, that allows you to return to a place you have already been.",
-    "refs": []
-   },
-   "TXT_SET": {
-    "text": "This beacon was set somewhere on the level %d of Pixel Dungeon.",
-    "refs": []
-   },
-   "AC_SET": {
-    "text": "SET",
-    "refs": []
-   },
-   "AC_RETURN": {
-    "text": "RETURN",
-    "refs": []
-   },
-   "DEPTH": {
-    "text": "depth",
-    "refs": []
-   },
-   "POS": {
-    "text": "pos",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Longsword",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Longsword.java",
-  "name": "longsword",
-  "desc": "This towering blade inflicts heavy damage by investing its heft into every cut.",
-  "image": "ItemSpriteSheet.LONG_SWORD"
- },
- {
-  "class": "Luck",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Luck.java",
-  "consts": {
-   "TXT_LUCKY": {
-    "text": "lucky %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Mace",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Mace.java",
-  "name": "mace",
-  "desc": "The iron head of this weapon inflicts substantial damage.",
-  "image": "ItemSpriteSheet.MACE"
- },
- {
-  "class": "MageArmor",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/MageArmor.java",
-  "name": "mage robe",
-  "desc": "Wearing this gorgeous robe, a mage can cast a spell of molten earth: all the enemies in his field of view will be set on fire and unable to move at the same time.",
-  "image": "ItemSpriteSheet.ARMOR_MAGE",
-  "consts": {
-   "AC_SPECIAL": {
-    "text": "MOLTEN EARTH",
-    "refs": []
-   },
-   "TXT_NOT_MAGE": {
-    "text": "Only mages can use this armor!",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "MailArmor",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/MailArmor.java",
-  "name": "mail armor",
-  "desc": "Interlocking metal links make for a tough but flexible suit of armor.",
-  "image": "ItemSpriteSheet.ARMOR_MAIL"
- },
- {
-  "class": "Metabolism",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Metabolism.java",
-  "consts": {
-   "TXT_METABOLISM": {
-    "text": "%s of metabolism",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "MissileWeapon",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/MissileWeapon.java",
-  "consts": {
-   "TXT_MISSILES": {
-    "text": "Missile weapon",
-    "refs": []
-   },
-   "TXT_YES": {
-    "text": "Yes, I know what I'm doing",
-    "refs": []
-   },
-   "TXT_NO": {
-    "text": "No, I changed my mind",
-    "refs": []
-   },
-   "TXT_R_U_SURE": {
-    "text": "Do you really want to equip it as a melee weapon?",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Multiplicity",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Multiplicity.java",
-  "consts": {
-   "TXT_MULTIPLICITY": {
-    "text": "%s of multiplicity",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "MysteryMeat",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/food/MysteryMeat.java",
-  "name": "mystery meat",
-  "desc": "Eat at your own risk!",
-  "image": "ItemSpriteSheet.MEAT"
- },
- {
-  "class": "OverpricedRation",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/food/OverpricedRation.java",
-  "name": "overpriced food ration",
-  "desc": "It looks exactly like a standard ration of food but smaller.",
-  "image": "ItemSpriteSheet.OVERPRICED"
- },
- {
-  "class": "Paralysis",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Paralysis.java",
-  "consts": {
-   "TXT_STUNNING": {
-    "text": "stunning %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Pasty",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/food/Pasty.java",
-  "name": "pasty",
-  "desc": "This is authentic Cornish pasty with traditional filling of beef and potato.",
-  "image": "ItemSpriteSheet.PASTY"
- },
- {
-  "class": "PhantomFish",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/PhantomFish.java",
-  "name": "phantom fish",
-  "desc": "You can barely see this tiny translucent fish in the air. In the water it becomes effectively invisible.",
-  "image": "ItemSpriteSheet.PHANTOM",
-  "consts": {
-   "AC_EAT": {
-    "text": "EAT",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Pickaxe",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/Pickaxe.java",
-  "name": "pickaxe",
-  "desc": "This is a large and sturdy tool for breaking rocks. Probably it can be used as a weapon.",
-  "image": "ItemSpriteSheet.PICKAXE",
-  "consts": {
-   "AC_MINE": {
-    "text": "MINE",
-    "refs": []
-   },
-   "TXT_NO_VEIN": {
-    "text": "There is no dark gold vein near you to mine",
-    "refs": []
-   },
-   "BLOODSTAINED": {
-    "text": "bloodStained",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "PlateArmor",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/PlateArmor.java",
-  "name": "plate armor",
-  "desc": "Enormous plates of metal are joined together into a suit that provides unmatched protection to any adventurer strong enough to bear its staggering weight.",
-  "image": "ItemSpriteSheet.ARMOR_PLATE"
- },
- {
-  "class": "Poison",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Poison.java",
-  "consts": {
-   "TXT_VENOMOUS": {
-    "text": "venomous %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Potential",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Potential.java",
-  "consts": {
-   "TXT_POTENTIAL": {
-    "text": "%s of potential",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Potion",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/Potion.java",
-  "desc": "{isKnown}{desc}This flask contains a swirling {color} liquid. Who knows what it will do when drunk or thrown?",
-  "arrays": {
-   "colors": [
-    "turquoise",
-    "crimson",
-    "azure",
-    "jade",
-    "golden",
-    "magenta",
-    "charcoal",
-    "ivory",
-    "amber",
-    "bistre",
-    "indigo",
-    "silver"
-   ]
+  {
+    "class": "Affection",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Affection.java",
+    "consts": {
+      "TXT_AFFECTION": {
+        "text": "%s of affection",
+        "refs": []
+      }
+    }
   },
-  "consts": {
-   "AC_DRINK": {
-    "text": "DRINK",
-    "refs": []
-   },
-   "TXT_HARMFUL": {
-    "text": "Harmful potion!",
-    "refs": []
-   },
-   "TXT_BENEFICIAL": {
-    "text": "Beneficial potion",
-    "refs": []
-   },
-   "TXT_YES": {
-    "text": "Yes, I know what I'm doing",
-    "refs": []
-   },
-   "TXT_NO": {
-    "text": "No, I changed my mind",
-    "refs": []
-   },
-   "TXT_R_U_SURE_DRINK": {
-    "text": "Are you sure you want to drink it? In most cases you should throw such potions at your enemies.",
-    "refs": []
-   },
-   "TXT_R_U_SURE_THROW": {
-    "text": "Are you sure you want to throw it? In most cases it makes sense to drink it.",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "PotionOfExperience",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfExperience.java",
-  "name": "Potion of Experience",
-  "desc": "The storied experiences of multitudes of battles reduced to liquid form, this draught will instantly raise your experience level."
- },
- {
-  "class": "PotionOfFrost",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfFrost.java",
-  "name": "Potion of Frost",
-  "desc": "Upon exposure to open air, this chemical will evaporate into a freezing cloud, causing any creature that contacts it to be frozen in place, unable to act and move."
- },
- {
-  "class": "PotionOfHealing",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfHealing.java",
-  "name": "Potion of Healing",
-  "desc": "An elixir that will instantly return you to full health and cure poison."
- },
- {
-  "class": "PotionOfInvisibility",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfInvisibility.java",
-  "name": "Potion of Invisibility",
-  "desc": "Drinking this potion will render you temporarily invisible. While invisible, enemies will be unable to see you. Attacking an enemy, as well as using a wand or a scroll before enemy's eyes, will dispel the effect."
- },
- {
-  "class": "PotionOfLevitation",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfLevitation.java",
-  "name": "Potion of Levitation",
-  "desc": "Drinking this curious liquid will cause you to hover in the air, able to drift effortlessly over traps. Flames and gases fill the air, however, and cannot be bypassed while airborne."
- },
- {
-  "class": "PotionOfLiquidFlame",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfLiquidFlame.java",
-  "name": "Potion of Liquid Flame",
-  "desc": "This flask contains an unstable compound which will burst violently into flame upon exposure to open air."
- },
- {
-  "class": "PotionOfMight",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfMight.java",
-  "name": "Potion of Might",
-  "desc": "This powerful liquid will course through your muscles, permanently increasing your strength by one point and health by five points."
- },
- {
-  "class": "PotionOfMindVision",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfMindVision.java",
-  "name": "Potion of Mind Vision",
-  "desc": "After drinking this, your mind will become attuned to the psychic signature of distant creatures, enabling you to sense biological presences through walls. Also this potion will permit you to see through nearby walls and doors."
- },
- {
-  "class": "PotionOfParalyticGas",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfParalyticGas.java",
-  "name": "Potion of Paralytic Gas",
-  "desc": "Upon exposure to open air, the liquid in this flask will vaporize into a numbing yellow haze. Anyone who inhales the cloud will be paralyzed instantly, unable to move for some time after the cloud dissipates. This item can be thrown at distant enemies to catch them within the effect of the gas."
- },
- {
-  "class": "PotionOfPurity",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfPurity.java",
-  "name": "Potion of Purification",
-  "desc": "This reagent will quickly neutralize all harmful gases in the area of effect. Drinking it will give you a temporary immunity to such gases.",
-  "consts": {
-   "TXT_FRESHNESS": {
-    "text": "You feel uncommon freshness in the air.",
-    "refs": []
-   },
-   "TXT_NO_SMELL": {
-    "text": "You've stopped sensing any smells!",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "PotionOfStrength",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfStrength.java",
-  "name": "Potion of Strength",
-  "desc": "This powerful liquid will course through your muscles, permanently increasing your strength by one point."
- },
- {
-  "class": "PotionOfToxicGas",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfToxicGas.java",
-  "name": "Potion of Toxic Gas",
-  "desc": "Uncorking or shattering this pressurized glass will cause its contents to explode into a deadly cloud of toxic green gas. You might choose to fling this potion at distant enemies instead of uncorking it by hand."
- },
- {
-  "class": "Quarterstaff",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Quarterstaff.java",
-  "name": "quarterstaff",
-  "desc": "A staff of hardwood, its ends are shod with iron.",
-  "image": "ItemSpriteSheet.QUARTERSTAFF"
- },
- {
-  "class": "RatSkull",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/RatSkull.java",
-  "name": "giant rat skull",
-  "desc": "It could be a nice hunting trophy, but it smells too bad to place it on a wall.",
-  "image": "ItemSpriteSheet.SKULL"
- },
- {
-  "class": "Ring",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/Ring.java",
-  "desc": "{desc}\n\nThe {name} is on your finger{cursed}, and because it is cursed, you are powerless to remove it..",
-  "altDescs": [
-   "{desc}\n\nYou can feel a malevolent magic lurking within the {name}."
-  ],
-  "arrays": {
-   "gems": [
-    "diamond",
-    "opal",
-    "garnet",
-    "ruby",
-    "amethyst",
-    "topaz",
-    "onyx",
-    "tourmaline",
-    "emerald",
-    "sapphire",
-    "quartz",
-    "agate"
-   ]
+  {
+    "class": "Amulet",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Amulet.java",
+    "name": "Amulet of Yendor",
+    "desc": "The Amulet of Yendor is the most powerful known artifact of unknown origin. It is said that the amulet is able to fulfil any wish if its owner's will-power is strong enough to \"persuade\" it to do it.",
+    "image": "ItemSpriteSheet.AMULET",
+    "consts": {
+      "AC_END": {
+        "text": "END THE GAME",
+        "refs": []
+      }
+    }
   },
-  "consts": {
-   "TXT_IDENTIFY": {
-    "text": "you are now familiar enough with your %s to identify it. It is %s.",
-    "refs": []
-   },
-   "TXT_UNEQUIP_TITLE": {
-    "text": "Unequip one ring",
-    "refs": []
-   },
-   "TXT_UNEQUIP_MESSAGE": {
-    "text": "You can only wear two rings at a time. Unequip one of your equipped rings.",
-    "refs": []
-   },
-   "UNFAMILIRIARITY": {
-    "text": "unfamiliarity",
-    "refs": []
-   },
-   "TXT_KNOWN": {
-    "text": "This is a %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "RingOfAccuracy",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfAccuracy.java",
-  "name": "Ring of Accuracy",
-  "desc": "{isKnown}This ring increases your chance to hit the enemy.{super.desc}"
- },
- {
-  "class": "RingOfDetection",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfDetection.java",
-  "name": "Ring of Detection",
-  "desc": "{isKnown}Wearing this ring will allow the wearer to notice hidden secrets - traps and secret doors - without taking time to search. Degraded rings of detection will dull your senses, making it harder to notice secrets even when actively searching for them.{super.desc}"
- },
- {
-  "class": "RingOfElements",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfElements.java",
-  "name": "Ring of Elements",
-  "desc": "{isKnown}This ring provides resistance to different elements, such as fire, electricity, gases etc. Also it decreases duration of negative effects.{super.desc}"
- },
- {
-  "class": "RingOfEvasion",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfEvasion.java",
-  "name": "Ring of Evasion",
-  "desc": "{isKnown}This ring increases your chance to dodge enemy attack.{super.desc}"
- },
- {
-  "class": "RingOfHaggler",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfHaggler.java",
-  "name": "Ring of Haggler",
-  "desc": "{isKnown}In fact this ring doesn't provide any magic effect, but it demonstrates to shopkeepers and vendors, that the owner of the ring is a member of The Thieves' Guild. Usually they are glad to give a discount in exchange for temporary immunity guarantee. Upgrading this ring won't give any additional bonuses.{super.desc}"
- },
- {
-  "class": "RingOfHaste",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfHaste.java",
-  "name": "Ring of Haste",
-  "desc": "{isKnown}This ring accelerates the wearer's flow of time, allowing one to perform all actions a little faster.{super.desc}"
- },
- {
-  "class": "RingOfHerbalism",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfHerbalism.java",
-  "name": "Ring of Herbalism",
-  "desc": "{isKnown}This ring increases your chance to gather dew and seeds from trampled grass.{super.desc}"
- },
- {
-  "class": "RingOfMending",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfMending.java",
-  "name": "Ring of Mending",
-  "desc": "{isKnown}This ring increases the body's regenerative properties, allowing one to recover lost health at an accelerated rate. Degraded rings will decrease or even halt one's natural regeneration.{super.desc}"
- },
- {
-  "class": "RingOfPower",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfPower.java",
-  "name": "Ring of Power",
-  "desc": "{isKnown}Your wands will become more powerful in the energy field that radiates from this ring. Degraded rings of power will instead weaken your wands.{super.desc}"
- },
- {
-  "class": "RingOfSatiety",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfSatiety.java",
-  "name": "Ring of Satiety",
-  "desc": "{isKnown}Wearing this ring you can go without food longer. Degraded rings of satiety will cause the opposite effect.{super.desc}"
- },
- {
-  "class": "RingOfShadows",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfShadows.java",
-  "name": "Ring of Shadows",
-  "desc": "{isKnown}Enemies will be less likely to notice you if you wear this ring. Degraded rings of shadows will alert enemies who might otherwise not have noticed your presence.{super.desc}"
- },
- {
-  "class": "RingOfThorns",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfThorns.java",
-  "name": "Ring of Thorns",
-  "desc": "{isKnown}Though this ring doesn't provide real thorns, an enemy that attacks you will itself be wounded by a fraction of the damage that it inflicts. Upgrading this ring won't give any additional bonuses.{super.desc}"
- },
- {
-  "class": "RogueArmor",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/RogueArmor.java",
-  "name": "rogue garb",
-  "desc": "Wearing this dark garb, a rogue can perform a trick, that is called \"smoke bomb\" (though no real explosives are used): he blinds enemies who could see him and jumps aside.",
-  "image": "ItemSpriteSheet.ARMOR_ROGUE",
-  "consts": {
-   "TXT_FOV": {
-    "text": "You can only jump to an empty location in your field of view",
-    "refs": []
-   },
-   "TXT_NOT_ROGUE": {
-    "text": "Only rogues can use this armor!",
-    "refs": []
-   },
-   "AC_SPECIAL": {
-    "text": "SMOKE BOMB",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "ScaleArmor",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/ScaleArmor.java",
-  "name": "scale armor",
-  "desc": "The metal scales sewn onto a leather vest create a flexible, yet protective armor.",
-  "image": "ItemSpriteSheet.ARMOR_SCALE"
- },
- {
-  "class": "Scroll",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/Scroll.java",
-  "desc": "{isKnown}{desc}This parchment is covered with indecipherable writing, and bears a title of rune {rune}. Who knows what it will do when read aloud?",
-  "arrays": {
-   "runes": [
-    "KAUNAN",
-    "SOWILO",
-    "LAGUZ",
-    "YNGVI",
-    "GYFU",
-    "RAIDO",
-    "ISAZ",
-    "MANNAZ",
-    "NAUDIZ",
-    "BERKANAN",
-    "ODAL",
-    "TIWAZ"
-   ]
+  {
+    "class": "Ankh",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Ankh.java",
+    "name": "Ankh",
+    "desc": "The ancient symbol of immortality grants an ability to return to life after death. Upon resurrection all non-equipped items are lost.",
+    "altDescs": [
+      "{to}{life}{after}{death.} +\n\t\t\t{Upon}{resurrection}{all}{non}{equipped}{items}{are}{lost.}"
+    ],
+    "image": "ItemSpriteSheet.ANKH"
   },
-  "consts": {
-   "TXT_BLINDED": {
-    "text": "You can't read a scroll while blinded",
-    "refs": []
-   },
-   "AC_READ": {
-    "text": "READ",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "ScrollHolder",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/bags/ScrollHolder.java",
-  "name": "scroll holder",
-  "desc": "You can place any number of scrolls into this tubular container. It saves room in your backpack and protects scrolls from fire.",
-  "image": "ItemSpriteSheet.HOLDER"
- },
- {
-  "class": "ScrollOfChallenge",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfChallenge.java",
-  "name": "Scroll of Challenge",
-  "desc": "When read aloud, this scroll will unleash a challenging roar that will awaken all monsters and alert them to the reader's location."
- },
- {
-  "class": "ScrollOfEnchantment",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfEnchantment.java",
-  "name": "Scroll of Enchantment",
-  "desc": "This scroll is able to imbue a weapon or an armor with a random enchantment, granting it a special power.",
-  "consts": {
-   "TXT_GLOWS": {
-    "text": "your %s glows in the dark",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "ScrollOfIdentify",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfIdentify.java",
-  "name": "Scroll of Identify",
-  "desc": "Permanently reveals all of the secrets of a single item."
- },
- {
-  "class": "ScrollOfLullaby",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfLullaby.java",
-  "name": "Scroll of Lullaby",
-  "desc": "A soothing melody will put all creatures in your field of view into a deep sleep, giving you a chance to flee or make a surprise attack on them."
- },
- {
-  "class": "ScrollOfMagicMapping",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfMagicMapping.java",
-  "name": "Scroll of Magic Mapping",
-  "desc": "When this scroll is read, an image of crystal clarity will be etched into your memory, alerting you to the precise layout of the level and revealing all hidden secrets. The locations of items and creatures will remain unknown.",
-  "consts": {
-   "TXT_LAYOUT": {
-    "text": "You are now aware of the level layout.",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "ScrollOfMirrorImage",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfMirrorImage.java",
-  "name": "Scroll of Mirror Image",
-  "desc": "The incantation on this scroll will create illusionary twins of the reader, which will chase his enemies."
- },
- {
-  "class": "ScrollOfPsionicBlast",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfPsionicBlast.java",
-  "name": "Scroll of Psionic Blast",
-  "desc": "This scroll contains destructive energy, that can be psionically channeled to inflict a massive damage to all creatures within a field of view. An accompanying flash of light will temporarily blind everybody in the area of effect including the reader of the scroll."
- },
- {
-  "class": "ScrollOfRecharging",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfRecharging.java",
-  "name": "Scroll of Recharging",
-  "desc": "The raw magical power bound up in this parchment will, when released, recharge all of the reader's wands to full power."
- },
- {
-  "class": "ScrollOfRemoveCurse",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfRemoveCurse.java",
-  "name": "Scroll of Remove Curse",
-  "desc": "The incantation on this scroll will instantly strip from the reader's weapon, armor, rings and carried items any evil enchantments that might prevent the wearer from removing them.",
-  "consts": {
-   "TXT_PROCCED": {
-    "text": "Your pack glows with a cleansing light, and a malevolent energy disperses.",
-    "refs": []
-   },
-   "TXT_NOT_PROCCED": {
-    "text": "Your pack glows with a cleansing light, but nothing happens.",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "ScrollOfTeleportation",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfTeleportation.java",
-  "name": "Scroll of Teleportation",
-  "desc": "The spell on this parchment instantly transports the reader to a random location on the dungeon level. It can be used to escape a dangerous situation, but the unlucky reader might find himself in an even more dangerous place.",
-  "consts": {
-   "TXT_TELEPORTED": {
-    "text": "In a blink of an eye you were teleported to another location of the level.",
-    "refs": []
-   },
-   "TXT_NO_TELEPORT": {
-    "text": "Strong magic aura of this place prevents you from teleporting!",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "ScrollOfTerror",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfTerror.java",
-  "name": "Scroll of Terror",
-  "desc": "A flash of red light will overwhelm all creatures in your field of view with terror, and they will turn and flee. Attacking a fleeing enemy will dispel the effect."
- },
- {
-  "class": "ScrollOfUpgrade",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfUpgrade.java",
-  "name": "Scroll of Upgrade",
-  "desc": "This scroll will upgrade a single item, improving its quality. A wand will {increase}{in}{power}{and}{in}{number}{of}{charges}",
-  "consts": {
-   "TXT_LOOKS_BETTER": {
-    "text": "your %s certainly looks better now",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "ScrollOfWipeOut",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfWipeOut.java",
-  "name": "Scroll of Wipe Out",
-  "desc": "Read this scroll to unleash the wrath of the dungeon spirits, killing everything on the current level. Well, almost everything. Some of the more powerful creatures may be not affected.",
-  "image": "ItemSpriteSheet.SCROLL_WIPE_OUT",
-  "consts": {
-   "TXT_BLINDED": {
-    "text": "You can't read a scroll while blinded",
-    "refs": []
-   },
-   "AC_READ": {
-    "text": "READ",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "SeedPouch",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/bags/SeedPouch.java",
-  "name": "seed pouch",
-  "desc": "This small velvet pouch allows you to store any number of seeds in it. Very convenient.",
-  "image": "ItemSpriteSheet.POUCH"
- },
- {
-  "class": "Shock",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Shock.java",
-  "consts": {
-   "TXT_SHOCKING": {
-    "text": "shocking %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "ShortSword",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/ShortSword.java",
-  "name": "short sword",
-  "desc": "It is indeed quite short, just a few inches longer, than a dagger.",
-  "image": "ItemSpriteSheet.SHORT_SWORD",
-  "consts": {
-   "AC_REFORGE": {
-    "text": "REFORGE",
-    "refs": []
-   },
-   "TXT_SELECT_WEAPON": {
-    "text": "Select a weapon to upgrade",
-    "refs": []
-   },
-   "TXT_REFORGED": {
-    "text": "you reforged the short sword to upgrade your %s",
-    "refs": []
-   },
-   "TXT_NOT_BOOMERANG": {
-    "text": "you can't upgrade a boomerang this way",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Shuriken",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/Shuriken.java",
-  "name": "shuriken",
-  "desc": "Star-shaped pieces of metal with razor-sharp blades do significant damage when they hit a target. They can be thrown at very high rate.",
-  "image": "ItemSpriteSheet.SHURIKEN"
- },
- {
-  "class": "SkeletonKey",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/keys/SkeletonKey.java",
-  "name": "skeleton key",
-  "desc": "This key looks serious: its head is shaped like a skull. Probably it can open some serious door.",
-  "image": "ItemSpriteSheet.SKELETON_KEY"
- },
- {
-  "class": "Slow",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Slow.java",
-  "consts": {
-   "TXT_CHILLING": {
-    "text": "chilling %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Spear",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Spear.java",
-  "name": "spear",
-  "desc": "A slender wooden rod tipped with sharpened iron.",
-  "image": "ItemSpriteSheet.SPEAR"
- },
- {
-  "class": "Stench",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Stench.java",
-  "consts": {
-   "TXT_STENCH": {
-    "text": "%s of stench",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Sword",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Sword.java",
-  "name": "sword",
-  "desc": "The razor-sharp length of steel blade shines reassuringly.",
-  "image": "ItemSpriteSheet.SWORD"
- },
- {
-  "class": "Tamahawk",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/Tamahawk.java",
-  "name": "tomahawk",
-  "desc": "This throwing axe is not that heavy, but it still requires significant strength to be used effectively.",
-  "image": "ItemSpriteSheet.TOMAHAWK"
- },
- {
-  "class": "Tempering",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Tempering.java",
-  "consts": {
-   "TXT_TEMPERED": {
-    "text": "tempered %s",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "TomeOfMastery",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/TomeOfMastery.java",
-  "desc": "This worn leather book is not that thick, but you feel somehow, that you can gather a lot from it. Remember though that reading this tome may require some time.",
-  "image": "ItemSpriteSheet.MASTERY",
-  "consts": {
-   "TXT_BLINDED": {
-    "text": "You can't read while blinded",
-    "refs": []
-   },
-   "AC_READ": {
-    "text": "READ",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Torch",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Torch.java",
-  "name": "torch",
-  "desc": "It's an indispensable item in The Demon Halls, which are notorious for their poor ambient lighting.",
-  "image": "ItemSpriteSheet.TORCH",
-  "consts": {
-   "AC_LIGHT": {
-    "text": "LIGHT",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Viscosity",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Viscosity.java",
-  "consts": {
-   "TXT_VISCOSITY": {
-    "text": "%s of viscosity",
-    "refs": []
-   },
-   "DAMAGE": {
-    "text": "damage",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Wand",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/Wand.java",
-  "arrays": {
-   "woods": [
-    "holly",
-    "yew",
-    "ebony",
-    "cherry",
-    "teak",
-    "rowan",
-    "willow",
-    "mahogany",
-    "bamboo",
-    "purpleheart",
-    "oak",
-    "birch"
-   ]
+  {
+    "class": "AntiEntropy",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/AntiEntropy.java",
+    "consts": {
+      "TXT_ANTI_ENTROPY": {
+        "text": "%s of anti-entropy",
+        "refs": []
+      }
+    }
   },
-  "consts": {
-   "AC_ZAP": {
-    "text": "ZAP",
-    "refs": []
-   },
-   "TXT_WOOD": {
-    "text": "This thin %s wand is warm to the touch. Who knows what it will do when used?",
-    "refs": []
-   },
-   "TXT_DAMAGE": {
-    "text": "When this wand is used as a melee weapon, its average damage is %d points per hit.",
-    "refs": []
-   },
-   "TXT_WEAPON": {
-    "text": "You can use this wand as a melee weapon.",
-    "refs": []
-   },
-   "TXT_FIZZLES": {
-    "text": "{your}{wand}{fizzles}",
-    "refs": [
-     "your",
-     "wand",
-     "fizzles"
-    ]
-   },
-   "TXT_SELF_TARGET": {
-    "text": "You can't target yourself",
-    "refs": []
-   },
-   "TXT_IDENTIFY": {
-    "text": "You are now familiar enough with your %s.",
-    "refs": []
-   },
-   "UNFAMILIRIARITY": {
-    "text": "unfamiliarity",
-    "refs": []
-   },
-   "MAX_CHARGES": {
-    "text": "maxCharges",
-    "refs": []
-   },
-   "CUR_CHARGES": {
-    "text": "curCharges",
-    "refs": []
-   },
-   "CUR_CHARGE_KNOWN": {
-    "text": "curChargeKnown",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "WandHolster",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/bags/WandHolster.java",
-  "name": "wand holster",
-  "desc": "This slim holder is made of leather of some exotic animal. It allows to compactly carry up to {size} wands.",
-  "image": "ItemSpriteSheet.HOLSTER"
- },
- {
-  "class": "WandOfAmok",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfAmok.java",
-  "name": "Wand of Amok",
-  "desc": "The purple light from this wand will make the target run amok attacking random creatures in its vicinity."
- },
- {
-  "class": "WandOfAvalanche",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfAvalanche.java",
-  "name": "Wand of Avalanche",
-  "desc": "When a discharge of this wand hits a wall (or any other solid obstacle) it causes an avalanche of stones, damaging and stunning all creatures in the affected area."
- },
- {
-  "class": "WandOfBlink",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfBlink.java",
-  "name": "Wand of Blink",
-  "desc": "This wand will allow you to teleport in the chosen direction. Creatures and inanimate obstructions will block the teleportation."
- },
- {
-  "class": "WandOfDisintegration",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfDisintegration.java",
-  "name": "Wand of Disintegration",
-  "desc": "This wand emits a beam of destructive energy, which pierces all creatures in its way. The more targets it hits, the more damage it inflicts to each of them."
- },
- {
-  "class": "WandOfFirebolt",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfFirebolt.java",
-  "name": "Wand of Firebolt",
-  "desc": "This wand unleashes bursts of magical fire. It will ignite flammable terrain, and will damage and burn a creature it hits."
- },
- {
-  "class": "WandOfFlock",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfFlock.java",
-  "name": "Wand of Flock",
-  "altNames": [
-   "sheep"
-  ],
-  "desc": "This is a magic sheep. What's so magical about it? You can't kill it. It will stand there until it magcially fades away, all the while chewing cud with a blank stare.",
-  "arrays": {
-   "QUOTES": [
-    "Baa!",
-    "Baa?",
-    "Baa.",
-    "Baa..."
-   ]
+  {
+    "class": "Armor",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/Armor.java",
+    "consts": {
+      "TXT_EQUIP_CURSED": {
+        "text": "your %s constricts around you painfully",
+        "refs": []
+      },
+      "TXT_IDENTIFY": {
+        "text": "you are now familiar enough with your %s to identify it. It is %s.",
+        "refs": []
+      },
+      "TXT_TO_STRING": {
+        "text": "%s :%d",
+        "refs": []
+      },
+      "TXT_BROKEN": {
+        "text": "broken %s :%d",
+        "refs": []
+      },
+      "TXT_INCOMPATIBLE": {
+        "text": "Interaction of different types of magic has erased the glyph on this armor!",
+        "refs": []
+      },
+      "UNFAMILIRIARITY": {
+        "text": "unfamiliarity",
+        "refs": []
+      },
+      "GLYPH": {
+        "text": "glyph",
+        "refs": []
+      }
+    }
   },
-  "spriteClass": "SheepSprite"
- },
- {
-  "class": "WandOfLightning",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfLightning.java",
-  "name": "Wand of Lightning",
-  "desc": "This wand conjures forth deadly arcs of electricity, which deal damage to several creatures standing close to each other."
- },
- {
-  "class": "WandOfMagicMissile",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfMagicMissile.java",
-  "name": "Wand of Magic Missile",
-  "desc": "This wand launches missiles of pure magical energy, dealing moderate damage to a target creature.",
-  "image": "ItemSpriteSheet.WAND_MAGIC_MISSILE",
-  "consts": {
-   "AC_DISENCHANT": {
-    "text": "DISENCHANT",
-    "refs": []
-   },
-   "TXT_SELECT_WAND": {
-    "text": "Select a wand to upgrade",
-    "refs": []
-   },
-   "TXT_DISENCHANTED": {
-    "text": "you disenchanted the Wand of Magic Missile and used its essence to upgrade your %s",
-    "refs": []
-   }
+  {
+    "class": "ArmorKit",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/ArmorKit.java",
+    "name": "armor kit",
+    "desc": "Using this kit of small tools and materials anybody can transform any armor into an \"epic armor\", which will keep all properties of the original armor, but will also provide its wearer a special ability depending on his class. No skills in tailoring, leatherworking or blacksmithing are required.",
+    "image": "ItemSpriteSheet.KIT",
+    "consts": {
+      "TXT_SELECT_ARMOR": {
+        "text": "Select an armor to upgrade",
+        "refs": []
+      },
+      "TXT_UPGRADED": {
+        "text": "you applied the armor kit to upgrade your %s",
+        "refs": []
+      },
+      "AC_APPLY": {
+        "text": "APPLY",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "AutoRepair",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/AutoRepair.java",
+    "consts": {
+      "TXT_AUTO_REPAIR": {
+        "text": "%s of auto-repair",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Bag",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/bags/Bag.java",
+    "consts": {
+      "AC_OPEN": {
+        "text": "OPEN",
+        "refs": []
+      },
+      "ITEMS": {
+        "text": "inventory",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "BattleAxe",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/BattleAxe.java",
+    "name": "battle axe",
+    "desc": "The enormous steel head of this battle axe puts considerable heft behind each stroke.",
+    "image": "ItemSpriteSheet.BATTLE_AXE"
+  },
+  {
+    "class": "Bomb",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Bomb.java",
+    "name": "bomb",
+    "desc": "This is a relatively small bomb, filled with black powder. Conveniently, its fuse is lit automatically when the bomb is thrown.",
+    "image": "ItemSpriteSheet.BOMB"
+  },
+  {
+    "class": "Boomerang",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/Boomerang.java",
+    "name": "boomerang",
+    "desc": "Thrown to the enemy this flat curved wooden missile will return to the hands of its thrower.",
+    "image": "ItemSpriteSheet.BOOMERANG"
+  },
+  {
+    "class": "Bounce",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Bounce.java",
+    "consts": {
+      "TXT_BOUNCE": {
+        "text": "%s of bounce",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "ChargrilledMeat",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/food/ChargrilledMeat.java",
+    "name": "chargrilled meat",
+    "desc": "It looks like a decent steak.",
+    "image": "ItemSpriteSheet.STEAK"
+  },
+  {
+    "class": "ClassArmor",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/ClassArmor.java",
+    "desc": "The thing looks awesome!",
+    "consts": {
+      "TXT_LOW_HEALTH": {
+        "text": "Your health is too low!",
+        "refs": []
+      },
+      "TXT_NOT_EQUIPPED": {
+        "text": "You need to be wearing this armor to use its special power!",
+        "refs": []
+      },
+      "ARMOR_STR": {
+        "text": "STR",
+        "refs": []
+      },
+      "ARMOR_DR": {
+        "text": "DR",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "ClothArmor",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/ClothArmor.java",
+    "name": "cloth armor",
+    "desc": "This lightweight armor offers basic protection.",
+    "image": "ItemSpriteSheet.ARMOR_CLOTH"
+  },
+  {
+    "class": "CorpseDust",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/CorpseDust.java",
+    "name": "corpse dust",
+    "desc": "The ball of corpse dust doesn't differ outwardly from a regular dust ball. However, you know somehow that it's better to get rid of it as soon as possible.",
+    "image": "ItemSpriteSheet.DUST"
+  },
+  {
+    "class": "CurareDart",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/CurareDart.java",
+    "name": "curare dart",
+    "desc": "These little evil darts don't do much damage but they can paralyze the target leaving it helpless and motionless for some time.",
+    "image": "ItemSpriteSheet.CURARE_DART"
+  },
+  {
+    "class": "Dagger",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Dagger.java",
+    "name": "dagger",
+    "desc": "A simple iron dagger with a well worn wooden handle.",
+    "image": "ItemSpriteSheet.DAGGER"
+  },
+  {
+    "class": "DarkGold",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/DarkGold.java",
+    "name": "dark gold ore",
+    "desc": "This metal is called dark not because of its color (it doesn't differ from the normal gold), but because it melts under the daylight, making it useless on the surface.",
+    "image": "ItemSpriteSheet.ORE"
+  },
+  {
+    "class": "Dart",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/Dart.java",
+    "name": "dart",
+    "desc": "These simple metal spikes are weighted to fly true and sting their prey with a flick of the wrist.",
+    "image": "ItemSpriteSheet.DART"
+  },
+  {
+    "class": "Death",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Death.java",
+    "consts": {
+      "TXT_GRIM": {
+        "text": "grim %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "DewVial",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/DewVial.java",
+    "name": "dew vial",
+    "desc": "You can store excess dew in this tiny vessel for drinking it later. If the vial is full, in a moment of deadly peril the dew will be consumed automatically.",
+    "image": "ItemSpriteSheet.VIAL",
+    "consts": {
+      "AC_DRINK": {
+        "text": "DRINK",
+        "refs": []
+      },
+      "TXT_VALUE": {
+        "text": "%+dHP",
+        "refs": []
+      },
+      "TXT_STATUS": {
+        "text": "%d/%d",
+        "refs": []
+      },
+      "TXT_AUTO_DRINK": {
+        "text": "The dew vial was emptied to heal your wounds.",
+        "refs": []
+      },
+      "TXT_COLLECTED": {
+        "text": "You collected a dewdrop into your dew vial.",
+        "refs": []
+      },
+      "TXT_FULL": {
+        "text": "Your dew vial is full!",
+        "refs": []
+      },
+      "TXT_EMPTY": {
+        "text": "Your dew vial is empty!",
+        "refs": []
+      },
+      "VOLUME": {
+        "text": "volume",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Dewdrop",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Dewdrop.java",
+    "name": "dewdrop",
+    "desc": "A crystal clear dewdrop.",
+    "image": "ItemSpriteSheet.DEWDROP",
+    "consts": {
+      "TXT_VALUE": {
+        "text": "%+dHP",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Displacement",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Displacement.java",
+    "consts": {
+      "TXT_DISPLACEMENT": {
+        "text": "%s of displacement",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "DriedRose",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/DriedRose.java",
+    "name": "dried rose",
+    "desc": "The rose has dried long ago, but it has kept all its petals somehow.",
+    "image": "ItemSpriteSheet.ROSE"
+  },
+  {
+    "class": "DwarfToken",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/DwarfToken.java",
+    "name": "dwarf token",
+    "desc": "Many dwarves and some of their larger creations carry these small pieces of metal of unknown purpose. Maybe they are jewelry or maybe some kind of ID. Dwarves are strange folk.",
+    "image": "ItemSpriteSheet.TOKEN"
+  },
+  {
+    "class": "Entanglement",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Entanglement.java",
+    "consts": {
+      "TXT_ENTANGLEMENT": {
+        "text": "%s of entanglement",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "EquipableItem",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/EquipableItem.java",
+    "consts": {
+      "TXT_UNEQUIP_CURSED": {
+        "text": "You can't remove cursed %s!",
+        "refs": []
+      },
+      "AC_EQUIP": {
+        "text": "EQUIP",
+        "refs": []
+      },
+      "AC_UNEQUIP": {
+        "text": "UNEQUIP",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Fire",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Fire.java",
+    "consts": {
+      "TXT_BLAZING": {
+        "text": "blazing %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Food",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/food/Food.java",
+    "name": "ration of food",
+    "desc": "Nothing fancy here: dried meat, some biscuits - things like that.",
+    "image": "ItemSpriteSheet.RATION",
+    "consts": {
+      "AC_EAT": {
+        "text": "EAT",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "FrozenCarpaccio",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/food/FrozenCarpaccio.java",
+    "name": "frozen carpaccio",
+    "desc": "It's a piece of frozen raw meat. The only way to eat it is by cutting thin slices of it. And this way it's suprisingly good.",
+    "image": "ItemSpriteSheet.CARPACCIO"
+  },
+  {
+    "class": "Glaive",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Glaive.java",
+    "name": "glaive",
+    "desc": "A polearm consisting of a sword blade on the end of a pole.",
+    "image": "ItemSpriteSheet.GLAIVE"
+  },
+  {
+    "class": "Gold",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Gold.java",
+    "name": "gold",
+    "image": "ItemSpriteSheet.GOLD",
+    "consts": {
+      "TXT_COLLECT": {
+        "text": "Collect gold coins to spend them later in a shop.",
+        "refs": []
+      },
+      "TXT_INFO": {
+        "text": "A pile of %d gold coins. {TXT_COLLECT}",
+        "refs": [
+          "TXT_COLLECT"
+        ]
+      },
+      "TXT_INFO_1": {
+        "text": "One gold coin. {TXT_COLLECT}",
+        "refs": [
+          "TXT_COLLECT"
+        ]
+      },
+      "TXT_VALUE": {
+        "text": "%+d",
+        "refs": []
+      },
+      "VALUE": {
+        "text": "value",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "GoldenKey",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/keys/GoldenKey.java",
+    "name": "golden key",
+    "desc": "The notches on this golden key are tiny and intricate. Maybe it can open some chest lock?",
+    "image": "ItemSpriteSheet.GOLDEN_KEY"
+  },
+  {
+    "class": "Heap",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Heap.java",
+    "consts": {
+      "TXT_MIMIC": {
+        "text": "This is a mimic!",
+        "refs": []
+      },
+      "POS": {
+        "text": "pos",
+        "refs": []
+      },
+      "TYPE": {
+        "text": "type",
+        "refs": []
+      },
+      "ITEMS": {
+        "text": "items",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Honeypot",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Honeypot.java",
+    "name": "honeypot",
+    "desc": "There is not much honey in this small honeypot, but there is a golden bee there and it doesn't want to leave it.",
+    "image": "ItemSpriteSheet.HONEYPOT",
+    "consts": {
+      "AC_SHATTER": {
+        "text": "SHATTER",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Horror",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Horror.java",
+    "consts": {
+      "TXT_ELDRITCH": {
+        "text": "eldritch %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "HuntressArmor",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/HuntressArmor.java",
+    "name": "huntress cloak",
+    "desc": "A huntress in such cloak can create a fan of spectral blades. Each of these blades will target a single enemy in the huntress's field of view, inflicting damage depending on her currently equipped melee weapon.",
+    "image": "ItemSpriteSheet.ARMOR_HUNTRESS",
+    "consts": {
+      "TXT_NO_ENEMIES": {
+        "text": "No enemies in sight",
+        "refs": []
+      },
+      "TXT_NOT_HUNTRESS": {
+        "text": "Only huntresses can use this armor!",
+        "refs": []
+      },
+      "AC_SPECIAL": {
+        "text": "SPECTRAL BLADES",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "IncendiaryDart",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/IncendiaryDart.java",
+    "name": "incendiary dart",
+    "desc": "The spike on each of these darts is designed to pin it to its target while the unstable compounds strapped to its length burst into brilliant flames.",
+    "image": "ItemSpriteSheet.INCENDIARY_DART"
+  },
+  {
+    "class": "Instability",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Instability.java",
+    "consts": {
+      "TXT_UNSTABLE": {
+        "text": "unstable %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "InventoryScroll",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/InventoryScroll.java",
+    "consts": {
+      "TXT_WARNING": {
+        "text": "Do you really want to cancel this scroll usage? It will be consumed anyway.",
+        "refs": []
+      },
+      "TXT_YES": {
+        "text": "Yes, I'm positive",
+        "refs": []
+      },
+      "TXT_NO": {
+        "text": "No, I changed my mind",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "IronKey",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/keys/IronKey.java",
+    "name": "iron key",
+    "image": "ItemSpriteSheet.IRON_KEY",
+    "consts": {
+      "TXT_FROM_DEPTH": {
+        "text": "iron key from depth %d",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Item",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Item.java",
+    "name": "smth",
+    "consts": {
+      "TXT_PACK_FULL": {
+        "text": "Your pack is too full for the %s",
+        "refs": []
+      },
+      "TXT_BROKEN": {
+        "text": "Because of frequent use, your %s has broken.",
+        "refs": []
+      },
+      "TXT_GONNA_BREAK": {
+        "text": "Because of frequent use, your %s is going to break soon.",
+        "refs": []
+      },
+      "TXT_TO_STRING": {
+        "text": "%s",
+        "refs": []
+      },
+      "TXT_TO_STRING_X": {
+        "text": "%s x%d",
+        "refs": []
+      },
+      "TXT_TO_STRING_LVL": {
+        "text": "%s%+d",
+        "refs": []
+      },
+      "TXT_TO_STRING_LVL_X": {
+        "text": "%s%+d x%d",
+        "refs": []
+      },
+      "AC_DROP": {
+        "text": "DROP",
+        "refs": []
+      },
+      "AC_THROW": {
+        "text": "THROW",
+        "refs": []
+      },
+      "QUANTITY": {
+        "text": "quantity",
+        "refs": []
+      },
+      "LEVEL": {
+        "text": "level",
+        "refs": []
+      },
+      "LEVEL_KNOWN": {
+        "text": "levelKnown",
+        "refs": []
+      },
+      "CURSED": {
+        "text": "cursed",
+        "refs": []
+      },
+      "CURSED_KNOWN": {
+        "text": "cursedKnown",
+        "refs": []
+      },
+      "DURABILITY": {
+        "text": "durability",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "ItemStatusHandler",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/ItemStatusHandler.java",
+    "consts": {
+      "PFX_IMAGE": {
+        "text": "_image",
+        "refs": []
+      },
+      "PFX_LABEL": {
+        "text": "_label",
+        "refs": []
+      },
+      "PFX_KNOWN": {
+        "text": "_known",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Javelin",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/Javelin.java",
+    "name": "javelin",
+    "desc": "This length of metal is weighted to keep the spike at its tip foremost as it sails through the air.",
+    "image": "ItemSpriteSheet.JAVELIN"
+  },
+  {
+    "class": "Key",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/keys/Key.java",
+    "consts": {
+      "DEPTH": {
+        "text": "depth",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Keyring",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/bags/Keyring.java",
+    "name": "key ring",
+    "desc": "This is a copper key ring, that lets you keep all your keys separately from the rest of your belongings.",
+    "image": "ItemSpriteSheet.KEYRING"
+  },
+  {
+    "class": "KindOfWeapon",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/KindOfWeapon.java",
+    "consts": {
+      "TXT_EQUIP_CURSED": {
+        "text": "you wince as your grip involuntarily tightens around your %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Knuckles",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Knuckles.java",
+    "name": "knuckleduster",
+    "desc": "A piece of iron shaped to fit around the knuckles.",
+    "image": "ItemSpriteSheet.KNUCKLEDUSTER"
+  },
+  {
+    "class": "LeatherArmor",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/LeatherArmor.java",
+    "name": "leather armor",
+    "desc": "Armor made from tanned monster hide. Not as light as cloth armor but provides better protection.",
+    "image": "ItemSpriteSheet.ARMOR_LEATHER"
+  },
+  {
+    "class": "Leech",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Leech.java",
+    "consts": {
+      "TXT_VAMPIRIC": {
+        "text": "vampiric %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "LloydsBeacon",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/LloydsBeacon.java",
+    "name": "lloyd's beacon",
+    "desc": "{TXT_INFO}{returnDepth}{Utils.format}{TXT_SET}{returnDepth}",
+    "image": "ItemSpriteSheet.BEACON",
+    "consts": {
+      "TXT_PREVENTING": {
+        "text": "Strong magic aura of this place prevents you from using the lloyd's beacon!",
+        "refs": []
+      },
+      "TXT_CREATURES": {
+        "text": "Psychic aura of neighbouring creatures doesn't allow you to use the lloyd's beacon at this moment.",
+        "refs": []
+      },
+      "TXT_RETURN": {
+        "text": "The lloyd's beacon is successfully set at your current location, now you can return here anytime.",
+        "refs": []
+      },
+      "TXT_INFO": {
+        "text": "Lloyd's beacon is an intricate magic device, that allows you to return to a place you have already been.",
+        "refs": []
+      },
+      "TXT_SET": {
+        "text": "This beacon was set somewhere on the level %d of Pixel Dungeon.",
+        "refs": []
+      },
+      "AC_SET": {
+        "text": "SET",
+        "refs": []
+      },
+      "AC_RETURN": {
+        "text": "RETURN",
+        "refs": []
+      },
+      "DEPTH": {
+        "text": "depth",
+        "refs": []
+      },
+      "POS": {
+        "text": "pos",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Longsword",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Longsword.java",
+    "name": "longsword",
+    "desc": "This towering blade inflicts heavy damage by investing its heft into every cut.",
+    "image": "ItemSpriteSheet.LONG_SWORD"
+  },
+  {
+    "class": "Luck",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Luck.java",
+    "consts": {
+      "TXT_LUCKY": {
+        "text": "lucky %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Mace",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Mace.java",
+    "name": "mace",
+    "desc": "The iron head of this weapon inflicts substantial damage.",
+    "image": "ItemSpriteSheet.MACE"
+  },
+  {
+    "class": "MageArmor",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/MageArmor.java",
+    "name": "mage robe",
+    "desc": "Wearing this gorgeous robe, a mage can cast a spell of molten earth: all the enemies in his field of view will be set on fire and unable to move at the same time.",
+    "image": "ItemSpriteSheet.ARMOR_MAGE",
+    "consts": {
+      "AC_SPECIAL": {
+        "text": "MOLTEN EARTH",
+        "refs": []
+      },
+      "TXT_NOT_MAGE": {
+        "text": "Only mages can use this armor!",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "MailArmor",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/MailArmor.java",
+    "name": "mail armor",
+    "desc": "Interlocking metal links make for a tough but flexible suit of armor.",
+    "image": "ItemSpriteSheet.ARMOR_MAIL"
+  },
+  {
+    "class": "Metabolism",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Metabolism.java",
+    "consts": {
+      "TXT_METABOLISM": {
+        "text": "%s of metabolism",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "MissileWeapon",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/MissileWeapon.java",
+    "consts": {
+      "TXT_MISSILES": {
+        "text": "Missile weapon",
+        "refs": []
+      },
+      "TXT_YES": {
+        "text": "Yes, I know what I'm doing",
+        "refs": []
+      },
+      "TXT_NO": {
+        "text": "No, I changed my mind",
+        "refs": []
+      },
+      "TXT_R_U_SURE": {
+        "text": "Do you really want to equip it as a melee weapon?",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Multiplicity",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Multiplicity.java",
+    "consts": {
+      "TXT_MULTIPLICITY": {
+        "text": "%s of multiplicity",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "MysteryMeat",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/food/MysteryMeat.java",
+    "name": "mystery meat",
+    "desc": "Eat at your own risk!",
+    "image": "ItemSpriteSheet.MEAT"
+  },
+  {
+    "class": "OverpricedRation",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/food/OverpricedRation.java",
+    "name": "overpriced food ration",
+    "desc": "It looks exactly like a standard ration of food but smaller.",
+    "image": "ItemSpriteSheet.OVERPRICED"
+  },
+  {
+    "class": "Paralysis",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Paralysis.java",
+    "consts": {
+      "TXT_STUNNING": {
+        "text": "stunning %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Pasty",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/food/Pasty.java",
+    "name": "pasty",
+    "desc": "This is authentic Cornish pasty with traditional filling of beef and potato.",
+    "image": "ItemSpriteSheet.PASTY"
+  },
+  {
+    "class": "PhantomFish",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/PhantomFish.java",
+    "name": "phantom fish",
+    "desc": "You can barely see this tiny translucent fish in the air. In the water it becomes effectively invisible.",
+    "image": "ItemSpriteSheet.PHANTOM",
+    "consts": {
+      "AC_EAT": {
+        "text": "EAT",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Pickaxe",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/Pickaxe.java",
+    "name": "pickaxe",
+    "desc": "This is a large and sturdy tool for breaking rocks. Probably it can be used as a weapon.",
+    "image": "ItemSpriteSheet.PICKAXE",
+    "consts": {
+      "AC_MINE": {
+        "text": "MINE",
+        "refs": []
+      },
+      "TXT_NO_VEIN": {
+        "text": "There is no dark gold vein near you to mine",
+        "refs": []
+      },
+      "BLOODSTAINED": {
+        "text": "bloodStained",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "PlateArmor",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/PlateArmor.java",
+    "name": "plate armor",
+    "desc": "Enormous plates of metal are joined together into a suit that provides unmatched protection to any adventurer strong enough to bear its staggering weight.",
+    "image": "ItemSpriteSheet.ARMOR_PLATE"
+  },
+  {
+    "class": "Poison",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Poison.java",
+    "consts": {
+      "TXT_VENOMOUS": {
+        "text": "venomous %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Potential",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Potential.java",
+    "consts": {
+      "TXT_POTENTIAL": {
+        "text": "%s of potential",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Potion",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/Potion.java",
+    "desc": "{isKnown}{desc}This flask contains a swirling {color} liquid. Who knows what it will do when drunk or thrown?",
+    "arrays": {
+      "colors": [
+        "turquoise",
+        "crimson",
+        "azure",
+        "jade",
+        "golden",
+        "magenta",
+        "charcoal",
+        "ivory",
+        "amber",
+        "bistre",
+        "indigo",
+        "silver"
+      ]
+    },
+    "consts": {
+      "AC_DRINK": {
+        "text": "DRINK",
+        "refs": []
+      },
+      "TXT_HARMFUL": {
+        "text": "Harmful potion!",
+        "refs": []
+      },
+      "TXT_BENEFICIAL": {
+        "text": "Beneficial potion",
+        "refs": []
+      },
+      "TXT_YES": {
+        "text": "Yes, I know what I'm doing",
+        "refs": []
+      },
+      "TXT_NO": {
+        "text": "No, I changed my mind",
+        "refs": []
+      },
+      "TXT_R_U_SURE_DRINK": {
+        "text": "Are you sure you want to drink it? In most cases you should throw such potions at your enemies.",
+        "refs": []
+      },
+      "TXT_R_U_SURE_THROW": {
+        "text": "Are you sure you want to throw it? In most cases it makes sense to drink it.",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "PotionOfExperience",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfExperience.java",
+    "name": "Potion of Experience",
+    "desc": "The storied experiences of multitudes of battles reduced to liquid form, this draught will instantly raise your experience level."
+  },
+  {
+    "class": "PotionOfFrost",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfFrost.java",
+    "name": "Potion of Frost",
+    "desc": "Upon exposure to open air, this chemical will evaporate into a freezing cloud, causing any creature that contacts it to be frozen in place, unable to act and move."
+  },
+  {
+    "class": "PotionOfHealing",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfHealing.java",
+    "name": "Potion of Healing",
+    "desc": "An elixir that will instantly return you to full health and cure poison."
+  },
+  {
+    "class": "PotionOfInvisibility",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfInvisibility.java",
+    "name": "Potion of Invisibility",
+    "desc": "Drinking this potion will render you temporarily invisible. While invisible, enemies will be unable to see you. Attacking an enemy, as well as using a wand or a scroll before enemy's eyes, will dispel the effect."
+  },
+  {
+    "class": "PotionOfLevitation",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfLevitation.java",
+    "name": "Potion of Levitation",
+    "desc": "Drinking this curious liquid will cause you to hover in the air, able to drift effortlessly over traps. Flames and gases fill the air, however, and cannot be bypassed while airborne."
+  },
+  {
+    "class": "PotionOfLiquidFlame",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfLiquidFlame.java",
+    "name": "Potion of Liquid Flame",
+    "desc": "This flask contains an unstable compound which will burst violently into flame upon exposure to open air."
+  },
+  {
+    "class": "PotionOfMight",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfMight.java",
+    "name": "Potion of Might",
+    "desc": "This powerful liquid will course through your muscles, permanently increasing your strength by one point and health by five points."
+  },
+  {
+    "class": "PotionOfMindVision",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfMindVision.java",
+    "name": "Potion of Mind Vision",
+    "desc": "After drinking this, your mind will become attuned to the psychic signature of distant creatures, enabling you to sense biological presences through walls. Also this potion will permit you to see through nearby walls and doors."
+  },
+  {
+    "class": "PotionOfParalyticGas",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfParalyticGas.java",
+    "name": "Potion of Paralytic Gas",
+    "desc": "Upon exposure to open air, the liquid in this flask will vaporize into a numbing yellow haze. Anyone who inhales the cloud will be paralyzed instantly, unable to move for some time after the cloud dissipates. This item can be thrown at distant enemies to catch them within the effect of the gas."
+  },
+  {
+    "class": "PotionOfPurity",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfPurity.java",
+    "name": "Potion of Purification",
+    "desc": "This reagent will quickly neutralize all harmful gases in the area of effect. Drinking it will give you a temporary immunity to such gases.",
+    "consts": {
+      "TXT_FRESHNESS": {
+        "text": "You feel uncommon freshness in the air.",
+        "refs": []
+      },
+      "TXT_NO_SMELL": {
+        "text": "You've stopped sensing any smells!",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "PotionOfStrength",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfStrength.java",
+    "name": "Potion of Strength",
+    "desc": "This powerful liquid will course through your muscles, permanently increasing your strength by one point."
+  },
+  {
+    "class": "PotionOfToxicGas",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/potions/PotionOfToxicGas.java",
+    "name": "Potion of Toxic Gas",
+    "desc": "Uncorking or shattering this pressurized glass will cause its contents to explode into a deadly cloud of toxic green gas. You might choose to fling this potion at distant enemies instead of uncorking it by hand."
+  },
+  {
+    "class": "Quarterstaff",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Quarterstaff.java",
+    "name": "quarterstaff",
+    "desc": "A staff of hardwood, its ends are shod with iron.",
+    "image": "ItemSpriteSheet.QUARTERSTAFF"
+  },
+  {
+    "class": "RatSkull",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/quest/RatSkull.java",
+    "name": "giant rat skull",
+    "desc": "It could be a nice hunting trophy, but it smells too bad to place it on a wall.",
+    "image": "ItemSpriteSheet.SKULL"
+  },
+  {
+    "class": "Ring",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/Ring.java",
+    "desc": "{desc}\n\nThe {name} is on your finger{cursed}, and because it is cursed, you are powerless to remove it..",
+    "altDescs": [
+      "{desc}\n\nYou can feel a malevolent magic lurking within the {name}."
+    ],
+    "arrays": {
+      "gems": [
+        "diamond",
+        "opal",
+        "garnet",
+        "ruby",
+        "amethyst",
+        "topaz",
+        "onyx",
+        "tourmaline",
+        "emerald",
+        "sapphire",
+        "quartz",
+        "agate"
+      ]
+    },
+    "consts": {
+      "TXT_IDENTIFY": {
+        "text": "you are now familiar enough with your %s to identify it. It is %s.",
+        "refs": []
+      },
+      "TXT_UNEQUIP_TITLE": {
+        "text": "Unequip one ring",
+        "refs": []
+      },
+      "TXT_UNEQUIP_MESSAGE": {
+        "text": "You can only wear two rings at a time. Unequip one of your equipped rings.",
+        "refs": []
+      },
+      "UNFAMILIRIARITY": {
+        "text": "unfamiliarity",
+        "refs": []
+      },
+      "TXT_KNOWN": {
+        "text": "This is a %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "RingOfAccuracy",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfAccuracy.java",
+    "name": "Ring of Accuracy",
+    "desc": "{isKnown}This ring increases your chance to hit the enemy.{super.desc}"
+  },
+  {
+    "class": "RingOfDetection",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfDetection.java",
+    "name": "Ring of Detection",
+    "desc": "{isKnown}Wearing this ring will allow the wearer to notice hidden secrets - traps and secret doors - without taking time to search. Degraded rings of detection will dull your senses, making it harder to notice secrets even when actively searching for them.{super.desc}"
+  },
+  {
+    "class": "RingOfElements",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfElements.java",
+    "name": "Ring of Elements",
+    "desc": "{isKnown}This ring provides resistance to different elements, such as fire, electricity, gases etc. Also it decreases duration of negative effects.{super.desc}"
+  },
+  {
+    "class": "RingOfEvasion",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfEvasion.java",
+    "name": "Ring of Evasion",
+    "desc": "{isKnown}This ring increases your chance to dodge enemy attack.{super.desc}"
+  },
+  {
+    "class": "RingOfHaggler",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfHaggler.java",
+    "name": "Ring of Haggler",
+    "desc": "{isKnown}In fact this ring doesn't provide any magic effect, but it demonstrates to shopkeepers and vendors, that the owner of the ring is a member of The Thieves' Guild. Usually they are glad to give a discount in exchange for temporary immunity guarantee. Upgrading this ring won't give any additional bonuses.{super.desc}"
+  },
+  {
+    "class": "RingOfHaste",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfHaste.java",
+    "name": "Ring of Haste",
+    "desc": "{isKnown}This ring accelerates the wearer's flow of time, allowing one to perform all actions a little faster.{super.desc}"
+  },
+  {
+    "class": "RingOfHerbalism",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfHerbalism.java",
+    "name": "Ring of Herbalism",
+    "desc": "{isKnown}This ring increases your chance to gather dew and seeds from trampled grass.{super.desc}"
+  },
+  {
+    "class": "RingOfMending",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfMending.java",
+    "name": "Ring of Mending",
+    "desc": "{isKnown}This ring increases the body's regenerative properties, allowing one to recover lost health at an accelerated rate. Degraded rings will decrease or even halt one's natural regeneration.{super.desc}"
+  },
+  {
+    "class": "RingOfPower",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfPower.java",
+    "name": "Ring of Power",
+    "desc": "{isKnown}Your wands will become more powerful in the energy field that radiates from this ring. Degraded rings of power will instead weaken your wands.{super.desc}"
+  },
+  {
+    "class": "RingOfSatiety",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfSatiety.java",
+    "name": "Ring of Satiety",
+    "desc": "{isKnown}Wearing this ring you can go without food longer. Degraded rings of satiety will cause the opposite effect.{super.desc}"
+  },
+  {
+    "class": "RingOfShadows",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfShadows.java",
+    "name": "Ring of Shadows",
+    "desc": "{isKnown}Enemies will be less likely to notice you if you wear this ring. Degraded rings of shadows will alert enemies who might otherwise not have noticed your presence.{super.desc}"
+  },
+  {
+    "class": "RingOfThorns",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/rings/RingOfThorns.java",
+    "name": "Ring of Thorns",
+    "desc": "{isKnown}Though this ring doesn't provide real thorns, an enemy that attacks you will itself be wounded by a fraction of the damage that it inflicts. Upgrading this ring won't give any additional bonuses.{super.desc}"
+  },
+  {
+    "class": "RogueArmor",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/RogueArmor.java",
+    "name": "rogue garb",
+    "desc": "Wearing this dark garb, a rogue can perform a trick, that is called \"smoke bomb\" (though no real explosives are used): he blinds enemies who could see him and jumps aside.",
+    "image": "ItemSpriteSheet.ARMOR_ROGUE",
+    "consts": {
+      "TXT_FOV": {
+        "text": "You can only jump to an empty location in your field of view",
+        "refs": []
+      },
+      "TXT_NOT_ROGUE": {
+        "text": "Only rogues can use this armor!",
+        "refs": []
+      },
+      "AC_SPECIAL": {
+        "text": "SMOKE BOMB",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "ScaleArmor",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/ScaleArmor.java",
+    "name": "scale armor",
+    "desc": "The metal scales sewn onto a leather vest create a flexible, yet protective armor.",
+    "image": "ItemSpriteSheet.ARMOR_SCALE"
+  },
+  {
+    "class": "Scroll",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/Scroll.java",
+    "desc": "{isKnown}{desc}This parchment is covered with indecipherable writing, and bears a title of rune {rune}. Who knows what it will do when read aloud?",
+    "arrays": {
+      "runes": [
+        "KAUNAN",
+        "SOWILO",
+        "LAGUZ",
+        "YNGVI",
+        "GYFU",
+        "RAIDO",
+        "ISAZ",
+        "MANNAZ",
+        "NAUDIZ",
+        "BERKANAN",
+        "ODAL",
+        "TIWAZ"
+      ]
+    },
+    "consts": {
+      "TXT_BLINDED": {
+        "text": "You can't read a scroll while blinded",
+        "refs": []
+      },
+      "AC_READ": {
+        "text": "READ",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "ScrollHolder",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/bags/ScrollHolder.java",
+    "name": "scroll holder",
+    "desc": "You can place any number of scrolls into this tubular container. It saves room in your backpack and protects scrolls from fire.",
+    "image": "ItemSpriteSheet.HOLDER"
+  },
+  {
+    "class": "ScrollOfChallenge",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfChallenge.java",
+    "name": "Scroll of Challenge",
+    "desc": "When read aloud, this scroll will unleash a challenging roar that will awaken all monsters and alert them to the reader's location."
+  },
+  {
+    "class": "ScrollOfEnchantment",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfEnchantment.java",
+    "name": "Scroll of Enchantment",
+    "desc": "This scroll is able to imbue a weapon or an armor with a random enchantment, granting it a special power.",
+    "consts": {
+      "TXT_GLOWS": {
+        "text": "your %s glows in the dark",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "ScrollOfIdentify",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfIdentify.java",
+    "name": "Scroll of Identify",
+    "desc": "Permanently reveals all of the secrets of a single item."
+  },
+  {
+    "class": "ScrollOfLullaby",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfLullaby.java",
+    "name": "Scroll of Lullaby",
+    "desc": "A soothing melody will put all creatures in your field of view into a deep sleep, giving you a chance to flee or make a surprise attack on them."
+  },
+  {
+    "class": "ScrollOfMagicMapping",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfMagicMapping.java",
+    "name": "Scroll of Magic Mapping",
+    "desc": "When this scroll is read, an image of crystal clarity will be etched into your memory, alerting you to the precise layout of the level and revealing all hidden secrets. The locations of items and creatures will remain unknown.",
+    "consts": {
+      "TXT_LAYOUT": {
+        "text": "You are now aware of the level layout.",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "ScrollOfMirrorImage",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfMirrorImage.java",
+    "name": "Scroll of Mirror Image",
+    "desc": "The incantation on this scroll will create illusionary twins of the reader, which will chase his enemies."
+  },
+  {
+    "class": "ScrollOfPsionicBlast",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfPsionicBlast.java",
+    "name": "Scroll of Psionic Blast",
+    "desc": "This scroll contains destructive energy, that can be psionically channeled to inflict a massive damage to all creatures within a field of view. An accompanying flash of light will temporarily blind everybody in the area of effect including the reader of the scroll."
+  },
+  {
+    "class": "ScrollOfRecharging",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfRecharging.java",
+    "name": "Scroll of Recharging",
+    "desc": "The raw magical power bound up in this parchment will, when released, recharge all of the reader's wands to full power."
+  },
+  {
+    "class": "ScrollOfRemoveCurse",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfRemoveCurse.java",
+    "name": "Scroll of Remove Curse",
+    "desc": "The incantation on this scroll will instantly strip from the reader's weapon, armor, rings and carried items any evil enchantments that might prevent the wearer from removing them.",
+    "consts": {
+      "TXT_PROCCED": {
+        "text": "Your pack glows with a cleansing light, and a malevolent energy disperses.",
+        "refs": []
+      },
+      "TXT_NOT_PROCCED": {
+        "text": "Your pack glows with a cleansing light, but nothing happens.",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "ScrollOfTeleportation",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfTeleportation.java",
+    "name": "Scroll of Teleportation",
+    "desc": "The spell on this parchment instantly transports the reader to a random location on the dungeon level. It can be used to escape a dangerous situation, but the unlucky reader might find himself in an even more dangerous place.",
+    "consts": {
+      "TXT_TELEPORTED": {
+        "text": "In a blink of an eye you were teleported to another location of the level.",
+        "refs": []
+      },
+      "TXT_NO_TELEPORT": {
+        "text": "Strong magic aura of this place prevents you from teleporting!",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "ScrollOfTerror",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfTerror.java",
+    "name": "Scroll of Terror",
+    "desc": "A flash of red light will overwhelm all creatures in your field of view with terror, and they will turn and flee. Attacking a fleeing enemy will dispel the effect."
+  },
+  {
+    "class": "ScrollOfUpgrade",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfUpgrade.java",
+    "name": "Scroll of Upgrade",
+    "desc": "This scroll will upgrade a single item, improving its quality. A wand will {increase}{in}{power}{and}{in}{number}{of}{charges}",
+    "consts": {
+      "TXT_LOOKS_BETTER": {
+        "text": "your %s certainly looks better now",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "ScrollOfWipeOut",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/scrolls/ScrollOfWipeOut.java",
+    "name": "Scroll of Wipe Out",
+    "desc": "Read this scroll to unleash the wrath of the dungeon spirits, killing everything on the current level. Well, almost everything. Some of the more powerful creatures may be not affected.",
+    "image": "ItemSpriteSheet.SCROLL_WIPE_OUT",
+    "consts": {
+      "TXT_BLINDED": {
+        "text": "You can't read a scroll while blinded",
+        "refs": []
+      },
+      "AC_READ": {
+        "text": "READ",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "SeedPouch",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/bags/SeedPouch.java",
+    "name": "seed pouch",
+    "desc": "This small velvet pouch allows you to store any number of seeds in it. Very convenient.",
+    "image": "ItemSpriteSheet.POUCH"
+  },
+  {
+    "class": "Shock",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Shock.java",
+    "consts": {
+      "TXT_SHOCKING": {
+        "text": "shocking %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "ShortSword",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/ShortSword.java",
+    "name": "short sword",
+    "desc": "It is indeed quite short, just a few inches longer, than a dagger.",
+    "image": "ItemSpriteSheet.SHORT_SWORD",
+    "consts": {
+      "AC_REFORGE": {
+        "text": "REFORGE",
+        "refs": []
+      },
+      "TXT_SELECT_WEAPON": {
+        "text": "Select a weapon to upgrade",
+        "refs": []
+      },
+      "TXT_REFORGED": {
+        "text": "you reforged the short sword to upgrade your %s",
+        "refs": []
+      },
+      "TXT_NOT_BOOMERANG": {
+        "text": "you can't upgrade a boomerang this way",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Shuriken",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/Shuriken.java",
+    "name": "shuriken",
+    "desc": "Star-shaped pieces of metal with razor-sharp blades do significant damage when they hit a target. They can be thrown at very high rate.",
+    "image": "ItemSpriteSheet.SHURIKEN"
+  },
+  {
+    "class": "SkeletonKey",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/keys/SkeletonKey.java",
+    "name": "skeleton key",
+    "desc": "This key looks serious: its head is shaped like a skull. Probably it can open some serious door.",
+    "image": "ItemSpriteSheet.SKELETON_KEY"
+  },
+  {
+    "class": "Slow",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Slow.java",
+    "consts": {
+      "TXT_CHILLING": {
+        "text": "chilling %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Spear",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Spear.java",
+    "name": "spear",
+    "desc": "A slender wooden rod tipped with sharpened iron.",
+    "image": "ItemSpriteSheet.SPEAR"
+  },
+  {
+    "class": "Stench",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Stench.java",
+    "consts": {
+      "TXT_STENCH": {
+        "text": "%s of stench",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Sword",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/Sword.java",
+    "name": "sword",
+    "desc": "The razor-sharp length of steel blade shines reassuringly.",
+    "image": "ItemSpriteSheet.SWORD"
+  },
+  {
+    "class": "Tamahawk",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/missiles/Tamahawk.java",
+    "name": "tomahawk",
+    "desc": "This throwing axe is not that heavy, but it still requires significant strength to be used effectively.",
+    "image": "ItemSpriteSheet.TOMAHAWK"
+  },
+  {
+    "class": "Tempering",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/enchantments/Tempering.java",
+    "consts": {
+      "TXT_TEMPERED": {
+        "text": "tempered %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "TomeOfMastery",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/TomeOfMastery.java",
+    "desc": "This worn leather book is not that thick, but you feel somehow, that you can gather a lot from it. Remember though that reading this tome may require some time.",
+    "image": "ItemSpriteSheet.MASTERY",
+    "consts": {
+      "TXT_BLINDED": {
+        "text": "You can't read while blinded",
+        "refs": []
+      },
+      "AC_READ": {
+        "text": "READ",
+        "refs": []
+      }
+    },
+    "name": "Tome of Mastery"
+  },
+  {
+    "class": "Torch",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Torch.java",
+    "name": "torch",
+    "desc": "It's an indispensable item in The Demon Halls, which are notorious for their poor ambient lighting.",
+    "image": "ItemSpriteSheet.TORCH",
+    "consts": {
+      "AC_LIGHT": {
+        "text": "LIGHT",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Viscosity",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/glyphs/Viscosity.java",
+    "consts": {
+      "TXT_VISCOSITY": {
+        "text": "%s of viscosity",
+        "refs": []
+      },
+      "DAMAGE": {
+        "text": "damage",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Wand",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/Wand.java",
+    "arrays": {
+      "woods": [
+        "holly",
+        "yew",
+        "ebony",
+        "cherry",
+        "teak",
+        "rowan",
+        "willow",
+        "mahogany",
+        "bamboo",
+        "purpleheart",
+        "oak",
+        "birch"
+      ]
+    },
+    "consts": {
+      "AC_ZAP": {
+        "text": "ZAP",
+        "refs": []
+      },
+      "TXT_WOOD": {
+        "text": "This thin %s wand is warm to the touch. Who knows what it will do when used?",
+        "refs": []
+      },
+      "TXT_DAMAGE": {
+        "text": "When this wand is used as a melee weapon, its average damage is %d points per hit.",
+        "refs": []
+      },
+      "TXT_WEAPON": {
+        "text": "You can use this wand as a melee weapon.",
+        "refs": []
+      },
+      "TXT_FIZZLES": {
+        "text": "{your}{wand}{fizzles}",
+        "refs": [
+          "your",
+          "wand",
+          "fizzles"
+        ]
+      },
+      "TXT_SELF_TARGET": {
+        "text": "You can't target yourself",
+        "refs": []
+      },
+      "TXT_IDENTIFY": {
+        "text": "You are now familiar enough with your %s.",
+        "refs": []
+      },
+      "UNFAMILIRIARITY": {
+        "text": "unfamiliarity",
+        "refs": []
+      },
+      "MAX_CHARGES": {
+        "text": "maxCharges",
+        "refs": []
+      },
+      "CUR_CHARGES": {
+        "text": "curCharges",
+        "refs": []
+      },
+      "CUR_CHARGE_KNOWN": {
+        "text": "curChargeKnown",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "WandHolster",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/bags/WandHolster.java",
+    "name": "wand holster",
+    "desc": "This slim holder is made of leather of some exotic animal. It allows to compactly carry up to {size} wands.",
+    "image": "ItemSpriteSheet.HOLSTER"
+  },
+  {
+    "class": "WandOfAmok",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfAmok.java",
+    "name": "Wand of Amok",
+    "desc": "The purple light from this wand will make the target run amok attacking random creatures in its vicinity."
+  },
+  {
+    "class": "WandOfAvalanche",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfAvalanche.java",
+    "name": "Wand of Avalanche",
+    "desc": "When a discharge of this wand hits a wall (or any other solid obstacle) it causes an avalanche of stones, damaging and stunning all creatures in the affected area."
+  },
+  {
+    "class": "WandOfBlink",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfBlink.java",
+    "name": "Wand of Blink",
+    "desc": "This wand will allow you to teleport in the chosen direction. Creatures and inanimate obstructions will block the teleportation."
+  },
+  {
+    "class": "WandOfDisintegration",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfDisintegration.java",
+    "name": "Wand of Disintegration",
+    "desc": "This wand emits a beam of destructive energy, which pierces all creatures in its way. The more targets it hits, the more damage it inflicts to each of them."
+  },
+  {
+    "class": "WandOfFirebolt",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfFirebolt.java",
+    "name": "Wand of Firebolt",
+    "desc": "This wand unleashes bursts of magical fire. It will ignite flammable terrain, and will damage and burn a creature it hits."
+  },
+  {
+    "class": "WandOfFlock",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfFlock.java",
+    "name": "Wand of Flock",
+    "altNames": [
+      "sheep"
+    ],
+    "desc": "This is a magic sheep. What's so magical about it? You can't kill it. It will stand there until it magcially fades away, all the while chewing cud with a blank stare.",
+    "arrays": {
+      "QUOTES": [
+        "Baa!",
+        "Baa?",
+        "Baa.",
+        "Baa..."
+      ]
+    },
+    "spriteClass": "SheepSprite"
+  },
+  {
+    "class": "WandOfLightning",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfLightning.java",
+    "name": "Wand of Lightning",
+    "desc": "This wand conjures forth deadly arcs of electricity, which deal damage to several creatures standing close to each other."
+  },
+  {
+    "class": "WandOfMagicMissile",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfMagicMissile.java",
+    "name": "Wand of Magic Missile",
+    "desc": "This wand launches missiles of pure magical energy, dealing moderate damage to a target creature.",
+    "image": "ItemSpriteSheet.WAND_MAGIC_MISSILE",
+    "consts": {
+      "AC_DISENCHANT": {
+        "text": "DISENCHANT",
+        "refs": []
+      },
+      "TXT_SELECT_WAND": {
+        "text": "Select a wand to upgrade",
+        "refs": []
+      },
+      "TXT_DISENCHANTED": {
+        "text": "you disenchanted the Wand of Magic Missile and used its essence to upgrade your %s",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "WandOfPoison",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfPoison.java",
+    "name": "Wand of Poison",
+    "desc": "The vile blast of this twisted bit of wood will imbue its target with a deadly venom. A creature that is poisoned will suffer periodic damage until the effect ends. The duration of the effect increases with the level of the staff."
+  },
+  {
+    "class": "WandOfReach",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfReach.java",
+    "name": "Wand of Reach",
+    "desc": "This utility wand can be used to grab objects from a distance and to switch places with enemies. Waves of magic force radiated from it will affect all cells on their way triggering traps, trampling high vegetation, opening closed doors and closing open ones.",
+    "consts": {
+      "TXT_YOU_NOW_HAVE": {
+        "text": "You have magically transported %s into your backpack",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "WandOfRegrowth",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfRegrowth.java",
+    "name": "Wand of Regrowth",
+    "desc": "\"When life ceases new life always begins to grow... The eternal cycle always remains!\""
+  },
+  {
+    "class": "WandOfSlowness",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfSlowness.java",
+    "name": "Wand of Slowness",
+    "desc": "This wand will cause a creature to move and attack at half its ordinary speed until the effect ends"
+  },
+  {
+    "class": "WandOfTeleportation",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfTeleportation.java",
+    "name": "Wand of Teleportation",
+    "desc": "A blast from this wand will teleport a creature against its will to a random place on the current level."
+  },
+  {
+    "class": "WarHammer",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/WarHammer.java",
+    "name": "war hammer",
+    "desc": "Few creatures can withstand the crushing blow of this towering mass of lead and steel, but only the strongest of adventurers can use it effectively.",
+    "image": "ItemSpriteSheet.WAR_HAMMER"
+  },
+  {
+    "class": "WarriorArmor",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/WarriorArmor.java",
+    "name": "warrior suit of armor",
+    "desc": "While this armor looks heavy, it allows a warrior to perform heroic leap towards a targeted location, slamming down to stun all neighbouring enemies.",
+    "image": "ItemSpriteSheet.ARMOR_WARRIOR",
+    "consts": {
+      "AC_SPECIAL": {
+        "text": "HEROIC LEAP",
+        "refs": []
+      },
+      "TXT_NOT_WARRIOR": {
+        "text": "Only warriors can use this armor!",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Weapon",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/Weapon.java",
+    "consts": {
+      "TXT_IDENTIFY": {
+        "text": "You are now familiar enough with your %s to identify it. It is %s.",
+        "refs": []
+      },
+      "TXT_INCOMPATIBLE": {
+        "text": "Interaction of different types of magic has negated the enchantment on this weapon!",
+        "refs": []
+      },
+      "TXT_TO_STRING": {
+        "text": "%s :%d",
+        "refs": []
+      },
+      "TXT_BROKEN": {
+        "text": "broken %s :%d",
+        "refs": []
+      },
+      "UNFAMILIRIARITY": {
+        "text": "unfamiliarity",
+        "refs": []
+      },
+      "ENCHANTMENT": {
+        "text": "enchantment",
+        "refs": []
+      },
+      "IMBUE": {
+        "text": "imbue",
+        "refs": []
+      }
+    }
+  },
+  {
+    "class": "Weightstone",
+    "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Weightstone.java",
+    "name": "weightstone",
+    "desc": "Using a weightstone, you can balance your melee weapon to increase its speed or accuracy.",
+    "image": "ItemSpriteSheet.WEIGHT",
+    "consts": {
+      "TXT_SELECT_WEAPON": {
+        "text": "Select a weapon to balance",
+        "refs": []
+      },
+      "TXT_FAST": {
+        "text": "you balanced your %s to make it faster",
+        "refs": []
+      },
+      "TXT_ACCURATE": {
+        "text": "you balanced your %s to make it more accurate",
+        "refs": []
+      },
+      "AC_APPLY": {
+        "text": "APPLY",
+        "refs": []
+      },
+      "TXT_CHOICE": {
+        "text": "How would you like to balance your %s?",
+        "refs": []
+      },
+      "TXT_SPEED": {
+        "text": "For speed",
+        "refs": []
+      },
+      "TXT_ACCURACY": {
+        "text": "For accuracy",
+        "refs": []
+      },
+      "TXT_CANCEL": {
+        "text": "Never mind",
+        "refs": []
+      }
+    }
   }
- },
- {
-  "class": "WandOfPoison",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfPoison.java",
-  "name": "Wand of Poison",
-  "desc": "The vile blast of this twisted bit of wood will imbue its target with a deadly venom. A creature that is poisoned will suffer periodic damage until the effect ends. The duration of the effect increases with the level of the staff."
- },
- {
-  "class": "WandOfReach",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfReach.java",
-  "name": "Wand of Reach",
-  "desc": "This utility wand can be used to grab objects from a distance and to switch places with enemies. Waves of magic force radiated from it will affect all cells on their way triggering traps, trampling high vegetation, opening closed doors and closing open ones.",
-  "consts": {
-   "TXT_YOU_NOW_HAVE": {
-    "text": "You have magically transported %s into your backpack",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "WandOfRegrowth",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfRegrowth.java",
-  "name": "Wand of Regrowth",
-  "desc": "\"When life ceases new life always begins to grow... The eternal cycle always remains!\""
- },
- {
-  "class": "WandOfSlowness",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfSlowness.java",
-  "name": "Wand of Slowness",
-  "desc": "This wand will cause a creature to move and attack at half its ordinary speed until the effect ends"
- },
- {
-  "class": "WandOfTeleportation",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/wands/WandOfTeleportation.java",
-  "name": "Wand of Teleportation",
-  "desc": "A blast from this wand will teleport a creature against its will to a random place on the current level."
- },
- {
-  "class": "WarHammer",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/melee/WarHammer.java",
-  "name": "war hammer",
-  "desc": "Few creatures can withstand the crushing blow of this towering mass of lead and steel, but only the strongest of adventurers can use it effectively.",
-  "image": "ItemSpriteSheet.WAR_HAMMER"
- },
- {
-  "class": "WarriorArmor",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/armor/WarriorArmor.java",
-  "name": "warrior suit of armor",
-  "desc": "While this armor looks heavy, it allows a warrior to perform heroic leap towards a targeted location, slamming down to stun all neighbouring enemies.",
-  "image": "ItemSpriteSheet.ARMOR_WARRIOR",
-  "consts": {
-   "AC_SPECIAL": {
-    "text": "HEROIC LEAP",
-    "refs": []
-   },
-   "TXT_NOT_WARRIOR": {
-    "text": "Only warriors can use this armor!",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Weapon",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/weapon/Weapon.java",
-  "consts": {
-   "TXT_IDENTIFY": {
-    "text": "You are now familiar enough with your %s to identify it. It is %s.",
-    "refs": []
-   },
-   "TXT_INCOMPATIBLE": {
-    "text": "Interaction of different types of magic has negated the enchantment on this weapon!",
-    "refs": []
-   },
-   "TXT_TO_STRING": {
-    "text": "%s :%d",
-    "refs": []
-   },
-   "TXT_BROKEN": {
-    "text": "broken %s :%d",
-    "refs": []
-   },
-   "UNFAMILIRIARITY": {
-    "text": "unfamiliarity",
-    "refs": []
-   },
-   "ENCHANTMENT": {
-    "text": "enchantment",
-    "refs": []
-   },
-   "IMBUE": {
-    "text": "imbue",
-    "refs": []
-   }
-  }
- },
- {
-  "class": "Weightstone",
-  "file": "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d3a-5fc36b468000/pd/src/com/watabou/pixeldungeon/items/Weightstone.java",
-  "name": "weightstone",
-  "desc": "Using a weightstone, you can balance your melee weapon to increase its speed or accuracy.",
-  "image": "ItemSpriteSheet.WEIGHT",
-  "consts": {
-   "TXT_SELECT_WEAPON": {
-    "text": "Select a weapon to balance",
-    "refs": []
-   },
-   "TXT_FAST": {
-    "text": "you balanced your %s to make it faster",
-    "refs": []
-   },
-   "TXT_ACCURATE": {
-    "text": "you balanced your %s to make it more accurate",
-    "refs": []
-   },
-   "AC_APPLY": {
-    "text": "APPLY",
-    "refs": []
-   },
-   "TXT_CHOICE": {
-    "text": "How would you like to balance your %s?",
-    "refs": []
-   },
-   "TXT_SPEED": {
-    "text": "For speed",
-    "refs": []
-   },
-   "TXT_ACCURACY": {
-    "text": "For accuracy",
-    "refs": []
-   },
-   "TXT_CANCEL": {
-    "text": "Never mind",
-    "refs": []
-   }
-  }
- }
 ]

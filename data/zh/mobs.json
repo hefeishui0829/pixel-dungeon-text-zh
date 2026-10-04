@@ -94,7 +94,10 @@
   "en": "curse personification",
   "zhDesc": "这个生物外形酷似悲伤幽灵，却翻涌着黑暗。它的脸上挂着绝望的神情。",
   "enDesc": "This creature resembles the sad ghost, but it swirls with darkness. Its face bears an expression of despair.",
-  "sprite": null,
+  "sprite": {
+   "sheet": "wraith",
+   "tile": 0
+  },
   "zhConsts": null,
   "enConsts": null
  },
@@ -102,7 +105,7 @@
   "id": "DM300",
   "group": null,
   "zh": "DM-300",
-  "en": null,
+  "en": "DM-300",
   "zhDesc": "这台机器是矮人在几个世纪前造出来的。后来，矮人开始用魔像、元素、甚至恶魔来取代机器。这最终导致了他们文明的衰落。DM-300 之类的机器通常用于建筑和采矿，某些情况下也用于城防。",
   "enDesc": "This machine was created by the Dwarves several centuries ago. Later, Dwarves started to replace machines with golems, elementals and even demons. Eventually it led their civilization to the decline. The DM-300 and similar machines were typically used for construction and mining, and in some cases, for city defense.",
   "sprite": {
@@ -151,7 +154,10 @@
   "en": "fetid rat",
   "zhDesc": "这只巨鼠比普通的同类大得多，周身笼罩着一股恶臭的云雾。",
   "enDesc": "This marsupial rat is much larger than a regular one. It is surrounded by a foul cloud.",
-  "sprite": null,
+  "sprite": {
+   "sheet": "rat",
+   "tile": 0
+  },
   "zhConsts": null,
   "enConsts": null
  },
@@ -187,7 +193,7 @@
   "id": "Goo",
   "group": null,
   "zh": "咕噜",
-  "en": null,
+  "en": "Goo",
   "zhDesc": "关于咕噜，人们所知甚少。它很可能根本算不上生物，而只是下水道里的一团物质，偶然获得了些许自由意志。",
   "enDesc": "Little known about The Goo. It's quite possible that it is not even a creature, but rather a conglomerate of substances from the sewers that gained rudiments of free will.",
   "sprite": {
@@ -444,7 +450,7 @@
   "id": "Tengu",
   "group": null,
   "zh": "天狗",
-  "en": null,
+  "en": "Tengu",
   "zhDesc": "天狗是古代刺客组织「天狗」的成员。这些刺客以大量使用手里剑和陷阱而闻名。",
   "enDesc": "Tengu are members of the ancient assassins clan, which is also called Tengu. These assassins are noted for extensive use of shuriken and traps.",
   "sprite": {
@@ -513,7 +519,7 @@
   "id": "Yog",
   "group": null,
   "zh": "Yog-Dzewa",
-  "en": "rotting fist",
+  "en": "Yog-Dzewa",
   "zhDesc": null,
   "enDesc": null,
   "sprite": {
@@ -526,5 +532,47 @@
   "enConsts": {
    "TXT_DESC": "Yog-Dzewa is an Old God, a powerful entity from the realms of chaos. A century ago, the ancient dwarves barely won the war against its army of demons, but were unable to kill the god itself. Instead, they then imprisoned it in the halls below their city, believing it to be too weak to rise ever again."
   }
+ },
+ {
+  "id": "Larva",
+  "group": null,
+  "zh": "神之幼虫",
+  "en": "god's larva",
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": {
+   "sheet": "larva",
+   "tile": 4
+  },
+  "zhConsts": null,
+  "enConsts": null
+ },
+ {
+  "id": "BurningFist",
+  "group": null,
+  "zh": "燃烧之拳",
+  "en": "burning fist",
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": {
+   "sheet": "burning_fist",
+   "tile": 0
+  },
+  "zhConsts": null,
+  "enConsts": null
+ },
+ {
+  "id": "RottingFist",
+  "group": null,
+  "zh": "腐化之拳",
+  "en": "rotting fist",
+  "zhDesc": null,
+  "enDesc": null,
+  "sprite": {
+   "sheet": "rotting_fist",
+   "tile": 0
+  },
+  "zhConsts": null,
+  "enConsts": null
  }
 ]

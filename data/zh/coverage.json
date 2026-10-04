@@ -8,8 +8,8 @@
   "translatedStrings": 416
  },
  "mobs": {
-  "rows": 34,
-  "translatedStrings": 79
+  "rows": 37,
+  "translatedStrings": 82
  },
  "npcs": {
   "rows": 9,
@@ -52,6 +52,6 @@
   "translatedStrings": 54
  },
  "__total__": {
-  "translatedStrings": 908
+  "translatedStrings": 911
  }
 }
